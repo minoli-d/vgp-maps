@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Bufo bufo",40.9872343144884,53.6947087078192,3,9382579.60072263,-3.2765753,54.7023545,"results/species/Bufo_bufo/range_raster.tif","results/species/Bufo_bufo/range_raster_goode.tif"

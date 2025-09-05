@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Mobula birostris",-0.293674876799482,2.56904822727508,4,204030634.392307,-81.2134,29.6689,"results/species/Mobula_birostris/range_raster.tif","results/species/Mobula_birostris/range_raster_goode.tif"

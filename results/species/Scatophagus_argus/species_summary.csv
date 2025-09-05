@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Scatophagus argus",115.622371794675,1.78400554728338,2,4310587.27896481,103.8198,1.3521,"results/species/Scatophagus_argus/range_raster.tif","results/species/Scatophagus_argus/range_raster_goode.tif"

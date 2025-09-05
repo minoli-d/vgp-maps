@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Corvus hawaiiensis",-155.774268220144,19.4112951636263,1,2474.6367375722,-157.818261,21.297467,"results/species/Corvus_hawaiiensis/range_raster.tif","results/species/Corvus_hawaiiensis/range_raster_goode.tif"

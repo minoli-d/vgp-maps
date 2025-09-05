@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Myotis myotis",15.0268782176125,44.3654320401795,10,3878444.89951875,-2.35,47.6333,"results/species/Myotis_myotis/range_raster.tif","results/species/Myotis_myotis/range_raster_goode.tif"

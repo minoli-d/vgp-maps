@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Gouania willdenowi",6.48668168965522,40.7031510001212,1,289827.454421509,NA,NA,"results/species/Gouania_willdenowi/range_raster.tif","results/species/Gouania_willdenowi/range_raster_goode.tif"

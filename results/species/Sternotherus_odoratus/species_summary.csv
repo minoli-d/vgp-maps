@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Sternotherus odoratus",-86.3690235184714,35.8000305075015,1,2351760.35328759,-78.3199496,44.3048009,"results/species/Sternotherus_odoratus/range_raster.tif","results/species/Sternotherus_odoratus/range_raster_goode.tif"

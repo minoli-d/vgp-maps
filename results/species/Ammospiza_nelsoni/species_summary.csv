@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Ammospiza nelsoni",-97.3198041708633,45.2094698143022,3,2896640.95408562,-68.8591,44.5864,"results/species/Ammospiza_nelsoni/range_raster.tif","results/species/Ammospiza_nelsoni/range_raster_goode.tif"

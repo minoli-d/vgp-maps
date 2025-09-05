@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Microstomus kitt",-0.584753702383596,57.6309406679191,1,1806952.06652917,-3.2765753,54.7023545,"results/species/Microstomus_kitt/range_raster.tif","results/species/Microstomus_kitt/range_raster_goode.tif"

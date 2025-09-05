@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Stegostoma tigrinum",108.855551513701,1.82656081068625,2,5266405.36482107,149.55,-20.1667,"results/species/Stegostoma_tigrinum/range_raster.tif","results/species/Stegostoma_tigrinum/range_raster_goode.tif"

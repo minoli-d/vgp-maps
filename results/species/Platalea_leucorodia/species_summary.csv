@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Platalea leucorodia",81.7665908651937,33.8567706854174,3,9188919.30869615,-3.2765753,54.7023545,"results/species/Platalea_leucorodia/range_raster.tif","results/species/Platalea_leucorodia/range_raster_goode.tif"

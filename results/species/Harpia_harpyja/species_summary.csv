@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Harpia harpyja",-62.5997150011154,-4.45542815170417,1,7827751.63646416,-56.649722,-2.625833,"results/species/Harpia_harpyja/range_raster.tif","results/species/Harpia_harpyja/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Balaenoptera physalus",-10.4325610737697,-14.3168985898727,2,188203628.824825,-3.2765753,54.7023545,"results/species/Balaenoptera_physalus/range_raster.tif","results/species/Balaenoptera_physalus/range_raster_goode.tif"

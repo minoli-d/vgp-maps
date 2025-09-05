@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Heterodontus francisci",-114.150178091102,28.4689596675752,2,474436.922971884,-118.2303,33.7503,"results/species/Heterodontus_francisci/range_raster.tif","results/species/Heterodontus_francisci/range_raster_goode.tif"

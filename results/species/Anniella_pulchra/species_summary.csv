@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Anniella pulchra",-118.722347946562,34.5911711568452,1,104243.124616714,NA,NA,"results/species/Anniella_pulchra/range_raster.tif","results/species/Anniella_pulchra/range_raster_goode.tif"

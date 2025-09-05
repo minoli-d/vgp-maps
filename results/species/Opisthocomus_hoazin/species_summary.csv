@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Opisthocomus hoazin",-62.0643614252617,-3.84993287032583,1,7558695.27656093,-73.58152,4.07374,"results/species/Opisthocomus_hoazin/range_raster.tif","results/species/Opisthocomus_hoazin/range_raster_goode.tif"

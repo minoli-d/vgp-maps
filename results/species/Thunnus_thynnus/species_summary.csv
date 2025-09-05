@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Thunnus thynnus",-35.373344019505,28.8416427542244,2,34572793.7505322,12.674297,42.6384261,"results/species/Thunnus_thynnus/range_raster.tif","results/species/Thunnus_thynnus/range_raster_goode.tif"

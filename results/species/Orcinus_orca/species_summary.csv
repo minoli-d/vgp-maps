@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Orcinus orca",-8.92808451117759,-7.32216365303454,2,129607267.956036,5.6343227,52.2434979,"results/species/Orcinus_orca/range_raster.tif","results/species/Orcinus_orca/range_raster_goode.tif"

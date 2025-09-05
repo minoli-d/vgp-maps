@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Eudromia elegans",-65.7762589345136,-36.3613133618388,1,1493179.48344586,12.5755887,55.6770858,"results/species/Eudromia_elegans/range_raster.tif","results/species/Eudromia_elegans/range_raster_goode.tif"

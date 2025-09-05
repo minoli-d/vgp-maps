@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Castor canadensis",-101.128978279921,46.7147930090788,4,15701280.1558333,-93.9532,44.3204,"results/species/Castor_canadensis/range_raster.tif","results/species/Castor_canadensis/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pangasianodon hypophthalmus",103.584607777632,14.5986484615165,1,534235.365750629,8.6821,50.1109,"results/species/Pangasianodon_hypophthalmus/range_raster.tif","results/species/Pangasianodon_hypophthalmus/range_raster_goode.tif"

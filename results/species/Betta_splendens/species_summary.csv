@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Betta splendens",100.316962708861,14.3678184521868,1,139442.968611264,NA,NA,"results/species/Betta_splendens/range_raster.tif","results/species/Betta_splendens/range_raster_goode.tif"

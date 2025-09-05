@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Mustela lutreola",34.3816935209737,53.1927594231537,6,7369797.74361234,10.4515,51.1657,"results/species/Mustela_lutreola/range_raster.tif","results/species/Mustela_lutreola/range_raster_goode.tif"

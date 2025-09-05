@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Thunnus albacares",-9.73101669443001,-0.39114596241811,2,210389756.773468,134.755,-24.7761086,"results/species/Thunnus_albacares/range_raster.tif","results/species/Thunnus_albacares/range_raster_goode.tif"

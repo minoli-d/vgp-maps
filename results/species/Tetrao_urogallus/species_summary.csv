@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Tetrao urogallus",69.3130986381838,58.2624643282275,1,11318873.4216931,-3.2765753,54.7023545,"results/species/Tetrao_urogallus/range_raster.tif","results/species/Tetrao_urogallus/range_raster_goode.tif"

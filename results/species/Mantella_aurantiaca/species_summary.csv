@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Mantella aurantiaca",48.2859894313419,-18.7597436328132,2,3.3001147974546,48.4519,-18.8595,"results/species/Mantella_aurantiaca/range_raster.tif","results/species/Mantella_aurantiaca/range_raster_goode.tif"

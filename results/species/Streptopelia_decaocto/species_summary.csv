@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Streptopelia decaocto",57.2788746301547,37.3920386096844,2,19299064.2578473,-3.2765753,54.7023545,"results/species/Streptopelia_decaocto/range_raster.tif","results/species/Streptopelia_decaocto/range_raster_goode.tif"

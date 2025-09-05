@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Geotrypetes seraphini",4.94160317461332,3.43367317318413,2,1138201.63004851,NA,NA,"results/species/Geotrypetes_seraphini/range_raster.tif","results/species/Geotrypetes_seraphini/range_raster_goode.tif"

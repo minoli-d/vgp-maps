@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pelobates fuscus",23.8920375709706,51.4509540155615,1,2356763.80994271,19.283333,47.066667,"results/species/Pelobates_fuscus/range_raster.tif","results/species/Pelobates_fuscus/range_raster_goode.tif"

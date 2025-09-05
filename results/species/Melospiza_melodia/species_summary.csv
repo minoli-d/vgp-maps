@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Melospiza melodia",-100.991690607291,43.5610738791417,4,13271398.5003483,-69.9919,43.868,"results/species/Melospiza_melodia/range_raster.tif","results/species/Melospiza_melodia/range_raster_goode.tif"

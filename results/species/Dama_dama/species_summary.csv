@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Dama dama",11.5821272376081,48.0515974379804,8,4016377.31673187,10.3333283,55.670249,"results/species/Dama_dama/range_raster.tif","results/species/Dama_dama/range_raster_goode.tif"

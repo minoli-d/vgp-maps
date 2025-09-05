@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Dasypus novemcinctus",-66.9520113472788,-0.81846219172302,8,18210759.8901504,-92.4579,35.0781,"results/species/Dasypus_novemcinctus/range_raster.tif","results/species/Dasypus_novemcinctus/range_raster_goode.tif"

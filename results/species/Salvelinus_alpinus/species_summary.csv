@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Salvelinus alpinus",-21.9588959791131,63.8536874688571,9,10148379.9545532,-70.737823,47.697723,"results/species/Salvelinus_alpinus/range_raster.tif","results/species/Salvelinus_alpinus/range_raster_goode.tif"

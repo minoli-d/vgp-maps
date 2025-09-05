@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Gorilla gorilla",13.3832127722316,0.769339894873735,8,695894.151257844,NA,NA,"results/species/Gorilla_gorilla/range_raster.tif","results/species/Gorilla_gorilla/range_raster_goode.tif"

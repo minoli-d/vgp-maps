@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Gastrophryne carolinensis",-88.1479133602813,33.2821762444704,3,1575533.25218571,-84.298217,33.611291,"results/species/Gastrophryne_carolinensis/range_raster.tif","results/species/Gastrophryne_carolinensis/range_raster_goode.tif"

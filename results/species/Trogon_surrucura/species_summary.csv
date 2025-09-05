@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Trogon surrucura",-50.9598386694588,-22.889870691552,1,1366983.27199191,-55.087778,-26.955278,"results/species/Trogon_surrucura/range_raster.tif","results/species/Trogon_surrucura/range_raster_goode.tif"

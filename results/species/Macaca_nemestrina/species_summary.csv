@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Macaca nemestrina",108.496212309719,0.907867389897414,16,1346256.34146213,-122.3032,47.655548,"results/species/Macaca_nemestrina/range_raster.tif","results/species/Macaca_nemestrina/range_raster_goode.tif"

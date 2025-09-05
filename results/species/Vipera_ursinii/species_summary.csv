@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Vipera ursinii",18.6748188953631,44.2941172503926,1,76977.7261306406,19.5060937,47.1817585,"results/species/Vipera_ursinii/range_raster.tif","results/species/Vipera_ursinii/range_raster_goode.tif"

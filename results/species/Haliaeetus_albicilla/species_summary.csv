@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Haliaeetus albicilla",84.8532107419261,52.2424815239303,6,23252456.9768092,-18.1059013,64.9841821,"results/species/Haliaeetus_albicilla/range_raster.tif","results/species/Haliaeetus_albicilla/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Suncus etruscus",45.5617546657097,23.878472639163,18,3753974.88754188,-89.40755,43.07281,"results/species/Suncus_etruscus/range_raster.tif","results/species/Suncus_etruscus/range_raster_goode.tif"

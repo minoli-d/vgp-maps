@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Scomber japonicus",-12.5567492072013,10.2036632339456,2,9485225.38982385,128.39832655,34.77106278,"results/species/Scomber_japonicus/range_raster.tif","results/species/Scomber_japonicus/range_raster_goode.tif"

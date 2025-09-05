@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Carassius carassius",70.3338631206445,56.4513181884412,2,18347783.2375374,-3.2765753,54.7023545,"results/species/Carassius_carassius/range_raster.tif","results/species/Carassius_carassius/range_raster_goode.tif"

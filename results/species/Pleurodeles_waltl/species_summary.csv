@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pleurodeles waltl",-4.97428478675314,38.2940699075761,2,378320.98185596,NA,NA,"results/species/Pleurodeles_waltl/range_raster.tif","results/species/Pleurodeles_waltl/range_raster_goode.tif"

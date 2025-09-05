@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Bucorvus abyssinicus",13.4765536722776,9.51294245061505,1,4484043.01247979,12.52139,55.67278,"results/species/Bucorvus_abyssinicus/range_raster.tif","results/species/Bucorvus_abyssinicus/range_raster_goode.tif"

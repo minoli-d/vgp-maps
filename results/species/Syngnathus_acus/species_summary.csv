@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Syngnathus acus",9.01349859054894,35.4500789400928,2,4112130.71919426,NA,NA,"results/species/Syngnathus_acus/range_raster.tif","results/species/Syngnathus_acus/range_raster_goode.tif"

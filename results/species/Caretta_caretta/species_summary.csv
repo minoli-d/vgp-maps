@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Caretta caretta",-2.79393111087057,-0.580074394825303,11,298477511.621252,-117.2251,32.7668,"results/species/Caretta_caretta/range_raster.tif","results/species/Caretta_caretta/range_raster_goode.tif"

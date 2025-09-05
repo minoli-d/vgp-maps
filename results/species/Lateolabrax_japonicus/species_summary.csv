@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Lateolabrax japonicus",128.78187220077,33.1485786367062,4,508404.532595712,NA,NA,"results/species/Lateolabrax_japonicus/range_raster.tif","results/species/Lateolabrax_japonicus/range_raster_goode.tif"

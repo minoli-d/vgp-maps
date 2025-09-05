@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Vipera latastei",-4.12046089996421,39.7978128871297,1,442405.589356,0.183031,40.831619,"results/species/Vipera_latastei/range_raster.tif","results/species/Vipera_latastei/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Scophthalmus maximus",7.29264656050494,45.8791328242289,1,4607086.5008875,-3.2765753,54.7023545,"results/species/Scophthalmus_maximus/range_raster.tif","results/species/Scophthalmus_maximus/range_raster_goode.tif"

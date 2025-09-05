@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pygocentrus nattereri",-58.0734682661251,-9.81492574249728,1,13238999.3221355,4.4777325,51.9244201,"results/species/Pygocentrus_nattereri/range_raster.tif","results/species/Pygocentrus_nattereri/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Rousettus aegyptiacus",26.4344257783369,1.07112942569209,14,4068826.13748376,-122.260341,37.872404,"results/species/Rousettus_aegyptiacus/range_raster.tif","results/species/Rousettus_aegyptiacus/range_raster_goode.tif"

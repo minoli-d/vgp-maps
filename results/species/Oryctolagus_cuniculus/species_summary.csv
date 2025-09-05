@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Oryctolagus cuniculus",-3.82619955023695,40.4538389101783,2,633822.278988466,-3.2765753,54.7023545,"results/species/Oryctolagus_cuniculus/range_raster.tif","results/species/Oryctolagus_cuniculus/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Anomaloglossus baeobatrachus",-55.924433717431,0.739825990108354,2,488316.861759246,-52.1588,4.0777,"results/species/Anomaloglossus_baeobatrachus/range_raster.tif","results/species/Anomaloglossus_baeobatrachus/range_raster_goode.tif"

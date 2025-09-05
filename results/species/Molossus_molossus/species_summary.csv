@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Molossus molossus",-61.3972056992067,-7.10502190605335,56,15767704.5123721,-79.6965,9.1165,"results/species/Molossus_molossus/range_raster.tif","results/species/Molossus_molossus/range_raster_goode.tif"

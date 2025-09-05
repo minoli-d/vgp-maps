@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pelophylax lessonae",29.1469440117719,51.6495011560311,2,4070502.17826189,-3.2765753,54.7023545,"results/species/Pelophylax_lessonae/range_raster.tif","results/species/Pelophylax_lessonae/range_raster_goode.tif"

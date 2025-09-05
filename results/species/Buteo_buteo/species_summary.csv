@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Buteo buteo",34.5947542117242,21.9348822627495,3,21376932.7302961,-3.2765753,54.7023545,"results/species/Buteo_buteo/range_raster.tif","results/species/Buteo_buteo/range_raster_goode.tif"

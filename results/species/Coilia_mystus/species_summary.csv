@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Coilia mystus",119.838033752472,29.7867562944382,1,1025479.50664071,116.6775856,23.3563921,"results/species/Coilia_mystus/range_raster.tif","results/species/Coilia_mystus/range_raster_goode.tif"

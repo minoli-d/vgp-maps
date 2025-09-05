@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Larus michahellis",6.29557774807026,40.1170739000309,6,5695109.78652786,8.2319736,46.7985624,"results/species/Larus_michahellis/range_raster.tif","results/species/Larus_michahellis/range_raster_goode.tif"

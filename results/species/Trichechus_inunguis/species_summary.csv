@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Trichechus inunguis",-64.5519965888897,-3.55167674874852,2,603715.743371129,-52.274,-1.756,"results/species/Trichechus_inunguis/range_raster.tif","results/species/Trichechus_inunguis/range_raster_goode.tif"

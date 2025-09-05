@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Monodelphis domestica",-50.602815474026,-14.5679019306659,2,4114167.68459568,-121.740517,38.544907,"results/species/Monodelphis_domestica/range_raster.tif","results/species/Monodelphis_domestica/range_raster_goode.tif"

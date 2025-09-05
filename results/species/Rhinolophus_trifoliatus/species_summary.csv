@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Rhinolophus trifoliatus",108.356697849452,2.00673409899543,20,1344908.67113517,103.401344,2.529271,"results/species/Rhinolophus_trifoliatus/range_raster.tif","results/species/Rhinolophus_trifoliatus/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Marmota flaviventris",-112.666267355984,42.9718599388636,2,1717458.53594789,-107.1992,38.7181,"results/species/Marmota_flaviventris/range_raster.tif","results/species/Marmota_flaviventris/range_raster_goode.tif"

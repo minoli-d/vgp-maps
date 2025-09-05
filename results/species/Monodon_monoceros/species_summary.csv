@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Monodon monoceros",-8.59731772942975,72.9876310575835,2,3503855.90865652,NA,NA,"results/species/Monodon_monoceros/range_raster.tif","results/species/Monodon_monoceros/range_raster_goode.tif"

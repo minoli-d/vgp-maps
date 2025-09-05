@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Xenopus petersii",19.7446746558255,-10.4426594746513,1,2317212.99908515,-82.39,28.56,"results/species/Xenopus_petersii/range_raster.tif","results/species/Xenopus_petersii/range_raster_goode.tif"

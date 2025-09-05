@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pipistrellus kuhlii",35.6123375269116,34.5680435839978,28,10910024.1043078,9.5831,45.743,"results/species/Pipistrellus_kuhlii/range_raster.tif","results/species/Pipistrellus_kuhlii/range_raster_goode.tif"

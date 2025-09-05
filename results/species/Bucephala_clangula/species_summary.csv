@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Bucephala clangula",11.8511180849047,49.1799272970178,7,37048718.0083552,-3.2765753,54.7023545,"results/species/Bucephala_clangula/range_raster.tif","results/species/Bucephala_clangula/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Arvicanthis niloticus",21.6151152495276,8.79690089006537,4,6176547.89147332,-119.69905,34.41938,"results/species/Arvicanthis_niloticus/range_raster.tif","results/species/Arvicanthis_niloticus/range_raster_goode.tif"

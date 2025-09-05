@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Osmerus mordax",-97.9412412319241,52.8683367557499,10,2960538.94044308,-53.826133,47.431645,"results/species/Osmerus_mordax/range_raster.tif","results/species/Osmerus_mordax/range_raster_goode.tif"

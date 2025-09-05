@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Heterohyrax brucei",35.2112697491319,-3.13481491490852,6,5937921.81124699,8.486389,50.183333,"results/species/Heterohyrax_brucei/range_raster.tif","results/species/Heterohyrax_brucei/range_raster_goode.tif"

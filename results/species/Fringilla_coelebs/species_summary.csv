@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Fringilla coelebs",46.3391947751233,46.7123913967017,6,18746979.865118,-3.2765753,54.7023545,"results/species/Fringilla_coelebs/range_raster.tif","results/species/Fringilla_coelebs/range_raster_goode.tif"

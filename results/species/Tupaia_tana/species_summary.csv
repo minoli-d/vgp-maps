@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Tupaia tana",109.564466043313,0.7017702575874,28,1002372.72576091,NA,NA,"results/species/Tupaia_tana/range_raster.tif","results/species/Tupaia_tana/range_raster_goode.tif"

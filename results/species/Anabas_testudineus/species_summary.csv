@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Anabas testudineus",92.5917655217081,16.7997969197938,3,7730861.51158229,NA,NA,"results/species/Anabas_testudineus/range_raster.tif","results/species/Anabas_testudineus/range_raster_goode.tif"

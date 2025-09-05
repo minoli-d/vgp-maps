@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Taeniopygia guttata",121.922102680878,-8.98978640938329,1,82034.1957743915,-73.7508,41.7677,"results/species/Taeniopygia_guttata/range_raster.tif","results/species/Taeniopygia_guttata/range_raster_goode.tif"

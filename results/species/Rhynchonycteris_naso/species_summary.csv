@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Rhynchonycteris naso",-60.5755016957862,-3.86067606992968,4,11508602.4778656,-79.691729,9.124262,"results/species/Rhynchonycteris_naso/range_raster.tif","results/species/Rhynchonycteris_naso/range_raster_goode.tif"

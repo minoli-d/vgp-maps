@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Podarcis siculus",13.1718159177045,42.0554380330107,3,287384.036461846,12.674297,42.6384261,"results/species/Podarcis_siculus/range_raster.tif","results/species/Podarcis_siculus/range_raster_goode.tif"

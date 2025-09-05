@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Muntiacus reevesi",106.78253957413,28.9586467411447,8,2319869.56783539,-3.2765753,54.7023545,"results/species/Muntiacus_reevesi/range_raster.tif","results/species/Muntiacus_reevesi/range_raster_goode.tif"

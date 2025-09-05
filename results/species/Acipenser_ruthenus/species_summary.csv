@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Acipenser ruthenus",54.7117703941514,51.5174807727371,12,2201180.6158821,NA,NA,"results/species/Acipenser_ruthenus/range_raster.tif","results/species/Acipenser_ruthenus/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Hoplias malabaricus",-58.4463726529624,-8.79435899141684,2,13930800.9114412,-47.880722,-21.985889,"results/species/Hoplias_malabaricus/range_raster.tif","results/species/Hoplias_malabaricus/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Erethizon dorsatum",-106.814589125012,48.6056969386027,2,12057952.8695969,-94.6859,46.7296,"results/species/Erethizon_dorsatum/range_raster.tif","results/species/Erethizon_dorsatum/range_raster_goode.tif"

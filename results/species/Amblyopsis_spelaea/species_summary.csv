@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Amblyopsis spelaea",-86.2174826842175,37.9280804947716,3,38660.5111961605,-86.102,37.187,"results/species/Amblyopsis_spelaea/range_raster.tif","results/species/Amblyopsis_spelaea/range_raster_goode.tif"

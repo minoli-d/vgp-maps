@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Urocitellus parryii",-46.2625392578751,63.8570975950719,2,5340583.46907572,-149.353,68.42815,"results/species/Urocitellus_parryii/range_raster.tif","results/species/Urocitellus_parryii/range_raster_goode.tif"

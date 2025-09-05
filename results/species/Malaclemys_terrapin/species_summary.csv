@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Malaclemys terrapin",-81.4575820781563,33.3001384481481,2,116697.940850645,-88.13131,30.34379,"results/species/Malaclemys_terrapin/range_raster.tif","results/species/Malaclemys_terrapin/range_raster_goode.tif"

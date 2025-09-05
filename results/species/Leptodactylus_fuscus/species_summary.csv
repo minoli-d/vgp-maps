@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Leptodactylus fuscus",-56.7247113218658,-9.01542656055812,2,12050874.6406157,-74.06604,4.60064,"results/species/Leptodactylus_fuscus/range_raster.tif","results/species/Leptodactylus_fuscus/range_raster_goode.tif"

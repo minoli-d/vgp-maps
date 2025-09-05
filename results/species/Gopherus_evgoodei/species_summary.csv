@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Gopherus evgoodei",-109.180276856381,27.2259463222949,1,26903.8493960157,-110.6666671,29.3333331,"results/species/Gopherus_evgoodei/range_raster.tif","results/species/Gopherus_evgoodei/range_raster_goode.tif"

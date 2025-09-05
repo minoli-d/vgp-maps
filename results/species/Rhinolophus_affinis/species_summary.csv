@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Rhinolophus affinis",104.893801400397,17.168083737485,44,5508407.08747401,107.881297,21.882861,"results/species/Rhinolophus_affinis/range_raster.tif","results/species/Rhinolophus_affinis/range_raster_goode.tif"

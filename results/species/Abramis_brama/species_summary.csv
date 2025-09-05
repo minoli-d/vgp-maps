@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Abramis brama",44.0418702630552,50.5954172665955,2,12876652.7826204,-3.2765753,54.7023545,"results/species/Abramis_brama/range_raster.tif","results/species/Abramis_brama/range_raster_goode.tif"

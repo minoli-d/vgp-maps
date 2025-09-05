@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Rhineura floridana",-82.1527227923477,29.0644009174816,1,50173.3948320322,-82.3174,29.6595,"results/species/Rhineura_floridana/range_raster.tif","results/species/Rhineura_floridana/range_raster_goode.tif"

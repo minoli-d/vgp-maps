@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Cottoperca trigloides",-66.1519334319489,-48.8110241472707,1,1077897.15435642,NA,NA,"results/species/Cottoperca_trigloides/range_raster.tif","results/species/Cottoperca_trigloides/range_raster_goode.tif"

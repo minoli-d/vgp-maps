@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Tauraco erythrolophus",15.0601293686147,-9.24807742126223,1,188923.568460983,12.52139,55.67278,"results/species/Tauraco_erythrolophus/range_raster.tif","results/species/Tauraco_erythrolophus/range_raster_goode.tif"

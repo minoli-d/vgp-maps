@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Acanthopagrus latus",121.060614729643,26.4228049167532,3,1226008.76515435,NA,NA,"results/species/Acanthopagrus_latus/range_raster.tif","results/species/Acanthopagrus_latus/range_raster_goode.tif"

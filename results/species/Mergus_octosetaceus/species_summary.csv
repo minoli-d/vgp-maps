@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Mergus octosetaceus",-49.2321726260622,-20.976735700001,2,1309926.36052537,-46.61,-20.27,"results/species/Mergus_octosetaceus/range_raster.tif","results/species/Mergus_octosetaceus/range_raster_goode.tif"

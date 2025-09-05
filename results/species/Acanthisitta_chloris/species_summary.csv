@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Acanthisitta chloris",172.306700257239,-42.0883757330673,1,152285.05104088,171.791763,-43.464458,"results/species/Acanthisitta_chloris/range_raster.tif","results/species/Acanthisitta_chloris/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Electrophorus electricus",-56.2988166171485,4.25917675755361,1,324341.492286411,104.999955,35.0000663,"results/species/Electrophorus_electricus/range_raster.tif","results/species/Electrophorus_electricus/range_raster_goode.tif"

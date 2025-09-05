@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Amblyraja radiata",-28.9500503757782,56.3283312213458,2,4670307.89028971,-68.3266,43.1336,"results/species/Amblyraja_radiata/range_raster.tif","results/species/Amblyraja_radiata/range_raster_goode.tif"

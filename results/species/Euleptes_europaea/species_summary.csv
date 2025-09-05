@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Euleptes europaea",9.0586464120908,40.665401257017,2,33504.5324215503,8.660302,42.249549,"results/species/Euleptes_europaea/range_raster.tif","results/species/Euleptes_europaea/range_raster_goode.tif"

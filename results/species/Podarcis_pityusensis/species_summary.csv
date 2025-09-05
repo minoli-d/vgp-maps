@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Podarcis pityusensis",1.33703852605061,38.9966603590735,2,668.786426942932,-4.8379791,39.3260685,"results/species/Podarcis_pityusensis/range_raster.tif","results/species/Podarcis_pityusensis/range_raster_goode.tif"

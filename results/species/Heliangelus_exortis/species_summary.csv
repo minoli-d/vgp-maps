@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Heliangelus exortis",-76.076387468088,3.26053023721719,1,63863.8694521787,-74.33,4.35,"results/species/Heliangelus_exortis/range_raster.tif","results/species/Heliangelus_exortis/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Merops nubicus",17.8971847385685,9.60483688784711,3,8297921.56592922,12.52139,55.67278,"results/species/Merops_nubicus/range_raster.tif","results/species/Merops_nubicus/range_raster_goode.tif"

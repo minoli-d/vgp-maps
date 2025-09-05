@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Erythrolamprus reginae",-57.3922090619164,-7.34974446605549,1,11519271.283855,-69.95,-4.12,"results/species/Erythrolamprus_reginae/range_raster.tif","results/species/Erythrolamprus_reginae/range_raster_goode.tif"

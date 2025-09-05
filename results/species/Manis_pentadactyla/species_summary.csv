@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Manis pentadactyla",104.921523972262,25.0314326109706,2,2757934.01597356,121.581,24.9986,"results/species/Manis_pentadactyla/range_raster.tif","results/species/Manis_pentadactyla/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Bombina bombina",33.6279730550894,50.6319313115497,3,3054468.9078444,20.15,50.433333,"results/species/Bombina_bombina/range_raster.tif","results/species/Bombina_bombina/range_raster_goode.tif"

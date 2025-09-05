@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Scardinius erythrophthalmus",34.5702705006285,48.8797876528364,2,8825472.2098089,-3.2765753,54.7023545,"results/species/Scardinius_erythrophthalmus/range_raster.tif","results/species/Scardinius_erythrophthalmus/range_raster_goode.tif"

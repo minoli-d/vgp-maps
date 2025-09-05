@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Mustela nivalis",28.6998750152829,52.8763803783035,32,43223721.0728446,NA,NA,"results/species/Mustela_nivalis/range_raster.tif","results/species/Mustela_nivalis/range_raster_goode.tif"

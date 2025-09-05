@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Cetorhinus maximus",-41.6169102655175,-0.109610603170093,2,223667163.526988,-3.2765753,54.7023545,"results/species/Cetorhinus_maximus/range_raster.tif","results/species/Cetorhinus_maximus/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Megaderma spasma",104.80699413228,9.80713313426054,16,4057034.69902593,2.6856694,50.0505667,"results/species/Megaderma_spasma/range_raster.tif","results/species/Megaderma_spasma/range_raster_goode.tif"

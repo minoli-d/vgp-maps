@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Bombina variegata",15.7961181016707,45.3792188903688,3,1217219.61909997,19.134422,52.215933,"results/species/Bombina_variegata/range_raster.tif","results/species/Bombina_variegata/range_raster_goode.tif"

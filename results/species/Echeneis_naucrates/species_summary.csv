@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Echeneis naucrates",43.5496863411124,2.66596602988816,1,31534216.1976423,NA,NA,"results/species/Echeneis_naucrates/range_raster.tif","results/species/Echeneis_naucrates/range_raster_goode.tif"

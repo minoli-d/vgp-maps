@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Tiliqua scincoides",141.665576419118,-24.6217723753023,1,3462511.32252097,139.05331,-34.08575,"results/species/Tiliqua_scincoides/range_raster.tif","results/species/Tiliqua_scincoides/range_raster_goode.tif"

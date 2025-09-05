@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Rhynchocyon petersi",38.6946001339259,-6.08533753013729,6,30545.7513426682,-73.8755,40.8538,"results/species/Rhynchocyon_petersi/range_raster.tif","results/species/Rhynchocyon_petersi/range_raster_goode.tif"

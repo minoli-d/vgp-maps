@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Hyperoodon ampullatus",-31.2315392787832,41.72029925625,2,24462559.4575851,-107.991707,61.0666922,"results/species/Hyperoodon_ampullatus/range_raster.tif","results/species/Hyperoodon_ampullatus/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Molossus alvarezi",-89.2576335844589,20.9958325973291,2,15090.2955670915,-88.65225,17.76639,"results/species/Molossus_alvarezi/range_raster.tif","results/species/Molossus_alvarezi/range_raster_goode.tif"

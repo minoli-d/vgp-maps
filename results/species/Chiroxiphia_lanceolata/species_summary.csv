@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Chiroxiphia lanceolata",-71.2349165351485,9.37792261226065,1,420814.844907623,-82.2666656,8.2166658,"results/species/Chiroxiphia_lanceolata/range_raster.tif","results/species/Chiroxiphia_lanceolata/range_raster_goode.tif"

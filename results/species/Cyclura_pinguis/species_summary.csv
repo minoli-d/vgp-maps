@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Cyclura pinguis",-64.3705968957627,18.6792461703426,7,37.265603440785,-117.14936122,32.73555058,"results/species/Cyclura_pinguis/range_raster.tif","results/species/Cyclura_pinguis/range_raster_goode.tif"

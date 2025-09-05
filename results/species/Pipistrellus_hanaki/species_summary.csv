@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pipistrellus hanaki",22.0824463580935,32.6393236726435,2,47362.9426973159,21.9877132,38.9953683,"results/species/Pipistrellus_hanaki/range_raster.tif","results/species/Pipistrellus_hanaki/range_raster_goode.tif"

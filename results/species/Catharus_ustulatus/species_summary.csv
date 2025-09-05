@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Catharus ustulatus",-100.375668852721,35.3600317337938,3,11021586.2183868,-120.33787,50.67613,"results/species/Catharus_ustulatus/range_raster.tif","results/species/Catharus_ustulatus/range_raster_goode.tif"

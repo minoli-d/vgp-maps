@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Sus scrofa",72.5074393370638,35.99912071797,50,28037361.058908,109.5999999,19.2000001,"results/species/Sus_scrofa/range_raster.tif","results/species/Sus_scrofa/range_raster_goode.tif"

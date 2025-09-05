@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Erpetoichthys calabaricus",8.16711173125202,5.1594006041426,1,63760.3657767294,NA,NA,"results/species/Erpetoichthys_calabaricus/range_raster.tif","results/species/Erpetoichthys_calabaricus/range_raster_goode.tif"

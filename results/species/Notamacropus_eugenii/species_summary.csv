@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Notamacropus eugenii",123.653124385392,-34.163128993852,22,15571.4406196504,NA,NA,"results/species/Notamacropus_eugenii/range_raster.tif","results/species/Notamacropus_eugenii/range_raster_goode.tif"

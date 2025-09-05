@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Dibamus smithi",108.649332162381,12.1768942720833,1,5649.62110168344,108,11,"results/species/Dibamus_smithi/range_raster.tif","results/species/Dibamus_smithi/range_raster_goode.tif"

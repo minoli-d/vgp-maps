@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Cristiceps australis",135.448386506946,-34.4467376345752,1,1050679.86896797,121.0187246,-25.2303005,"results/species/Cristiceps_australis/range_raster.tif","results/species/Cristiceps_australis/range_raster_goode.tif"

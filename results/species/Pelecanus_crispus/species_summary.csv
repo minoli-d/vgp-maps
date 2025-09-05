@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pelecanus crispus",72.6298677774185,39.0276048476454,4,12281419.641734,12.5214,55.6724,"results/species/Pelecanus_crispus/range_raster.tif","results/species/Pelecanus_crispus/range_raster_goode.tif"

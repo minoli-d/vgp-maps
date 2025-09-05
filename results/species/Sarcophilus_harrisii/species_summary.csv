@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Sarcophilus harrisii",146.580377077741,-42.0073383243139,4,64209.4524580499,2.6856694,50.0505667,"results/species/Sarcophilus_harrisii/range_raster.tif","results/species/Sarcophilus_harrisii/range_raster_goode.tif"

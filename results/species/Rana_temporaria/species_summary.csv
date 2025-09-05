@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Rana temporaria",30.7551584209553,55.2722678728686,1,7775224.75243688,-3.2765753,54.7023545,"results/species/Rana_temporaria/range_raster.tif","results/species/Rana_temporaria/range_raster_goode.tif"

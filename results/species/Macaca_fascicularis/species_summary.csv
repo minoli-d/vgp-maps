@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Macaca fascicularis",109.280143847032,4.41947746983741,102,2431981.92970082,NA,NA,"results/species/Macaca_fascicularis/range_raster.tif","results/species/Macaca_fascicularis/range_raster_goode.tif"

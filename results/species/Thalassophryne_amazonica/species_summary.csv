@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Thalassophryne amazonica",-70.534408630748,-3.0961331023402,1,346236.916638045,NA,NA,"results/species/Thalassophryne_amazonica/range_raster.tif","results/species/Thalassophryne_amazonica/range_raster_goode.tif"

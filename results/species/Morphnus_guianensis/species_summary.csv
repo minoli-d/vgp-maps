@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Morphnus guianensis",-57.7055026592457,-7.40811073074374,1,11697706.4151064,-47.065,-1.745,"results/species/Morphnus_guianensis/range_raster.tif","results/species/Morphnus_guianensis/range_raster_goode.tif"

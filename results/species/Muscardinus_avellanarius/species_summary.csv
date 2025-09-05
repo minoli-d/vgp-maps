@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Muscardinus avellanarius",19.2680720720293,48.8258748889258,2,3611750.85466835,10.4478313,51.1638175,"results/species/Muscardinus_avellanarius/range_raster.tif","results/species/Muscardinus_avellanarius/range_raster_goode.tif"

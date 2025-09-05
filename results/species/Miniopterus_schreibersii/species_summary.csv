@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Miniopterus schreibersii",13.0284815154637,40.5608200411933,10,2901209.56841371,32.8899027,34.9174159,"results/species/Miniopterus_schreibersii/range_raster.tif","results/species/Miniopterus_schreibersii/range_raster_goode.tif"

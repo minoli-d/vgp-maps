@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Dugong dugon",108.162451223405,-0.0390515271647089,14,6405326.41602146,153.0415985,-27.15148032,"results/species/Dugong_dugon/range_raster.tif","results/species/Dugong_dugon/range_raster_goode.tif"

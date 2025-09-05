@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Chlamydotis macqueenii",59.7578883994941,32.138560333403,4,9086686.79276822,51.33107,25.82191,"results/species/Chlamydotis_macqueenii/range_raster.tif","results/species/Chlamydotis_macqueenii/range_raster_goode.tif"

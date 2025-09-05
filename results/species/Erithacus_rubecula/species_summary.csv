@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Erithacus rubecula",30.1047050279115,47.2550881384396,4,13251941.2388394,NA,NA,"results/species/Erithacus_rubecula/range_raster.tif","results/species/Erithacus_rubecula/range_raster_goode.tif"

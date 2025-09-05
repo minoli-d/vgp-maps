@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Dromiciops gliroides",-72.4357031150555,-39.5132740133981,2,139401.573224404,-73.196942,-39.647794,"results/species/Dromiciops_gliroides/range_raster.tif","results/species/Dromiciops_gliroides/range_raster_goode.tif"

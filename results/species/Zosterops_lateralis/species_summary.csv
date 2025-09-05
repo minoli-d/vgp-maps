@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Zosterops lateralis",144.126409299142,-30.8327414716792,3,2702667.32497927,134.755,-24.7761086,"results/species/Zosterops_lateralis/range_raster.tif","results/species/Zosterops_lateralis/range_raster_goode.tif"

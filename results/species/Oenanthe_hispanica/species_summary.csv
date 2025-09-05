@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Oenanthe hispanica",20.8852315703847,25.643555588297,3,18510567.4615815,NA,NA,"results/species/Oenanthe_hispanica/range_raster.tif","results/species/Oenanthe_hispanica/range_raster_goode.tif"

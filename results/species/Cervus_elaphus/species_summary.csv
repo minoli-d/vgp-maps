@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Cervus elaphus",16.5185938750033,47.9841166666996,8,4267494.92555187,-3.2765753,54.7023545,"results/species/Cervus_elaphus/range_raster.tif","results/species/Cervus_elaphus/range_raster_goode.tif"

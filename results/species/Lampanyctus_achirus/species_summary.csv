@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Lampanyctus achirus",-7.84585660848708,-43.1340633048026,1,84961833.2156274,NA,NA,"results/species/Lampanyctus_achirus/range_raster.tif","results/species/Lampanyctus_achirus/range_raster_goode.tif"

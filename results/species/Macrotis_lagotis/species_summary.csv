@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Macrotis lagotis",126.118939239502,-21.6261632352169,18,1079074.70140085,115.854629,-31.9770024,"results/species/Macrotis_lagotis/range_raster.tif","results/species/Macrotis_lagotis/range_raster_goode.tif"

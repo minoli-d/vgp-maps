@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Patagioenas fasciata",-109.34136543123,31.266455964927,3,2739482.0033175,-73.4698253,40.669501,"results/species/Patagioenas_fasciata/range_raster.tif","results/species/Patagioenas_fasciata/range_raster_goode.tif"

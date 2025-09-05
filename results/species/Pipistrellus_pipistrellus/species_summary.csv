@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pipistrellus pipistrellus",33.7235287615928,42.1674600581966,2,7535129.71202743,NA,NA,"results/species/Pipistrellus_pipistrellus/range_raster.tif","results/species/Pipistrellus_pipistrellus/range_raster_goode.tif"

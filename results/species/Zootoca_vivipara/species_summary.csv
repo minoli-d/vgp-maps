@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Zootoca vivipara",67.8997502849414,55.5436857541918,3,13843957.7368483,-3.2765753,54.7023545,"results/species/Zootoca_vivipara/range_raster.tif","results/species/Zootoca_vivipara/range_raster_goode.tif"

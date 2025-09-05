@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Sorex araneus",54.2824885675772,55.9083783463025,2,13225068.9919175,9.0157,47.7744,"results/species/Sorex_araneus/range_raster.tif","results/species/Sorex_araneus/range_raster_goode.tif"

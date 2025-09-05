@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Ranitomeya imitator",-76.1363048928546,-6.23480370021166,1,9738.25305280964,-122.17238,37.42993,"results/species/Ranitomeya_imitator/range_raster.tif","results/species/Ranitomeya_imitator/range_raster_goode.tif"

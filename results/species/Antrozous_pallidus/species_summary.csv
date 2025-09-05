@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Antrozous pallidus",-108.699046746067,32.7337751538965,2,4373854.21396055,-69.4261634,45.5158787,"results/species/Antrozous_pallidus/range_raster.tif","results/species/Antrozous_pallidus/range_raster_goode.tif"

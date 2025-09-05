@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Eublepharis macularius",72.1068752902205,29.45314239511,4,1105118.34830929,NA,NA,"results/species/Eublepharis_macularius/range_raster.tif","results/species/Eublepharis_macularius/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Callospermophilus lateralis",-114.404624023783,42.3467709418648,2,1701042.61810581,-105.5943,40.6956,"results/species/Callospermophilus_lateralis/range_raster.tif","results/species/Callospermophilus_lateralis/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Molossus rufus",-61.1223935158678,-6.57551953651716,2,14800169.0295753,NA,NA,"results/species/Molossus_rufus/range_raster.tif","results/species/Molossus_rufus/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Carettochelys insculpta",138.356864714153,-8.65577652085461,1,240256.651075195,116.0988254,38.9845054,"results/species/Carettochelys_insculpta/range_raster.tif","results/species/Carettochelys_insculpta/range_raster_goode.tif"

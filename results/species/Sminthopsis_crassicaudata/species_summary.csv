@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Sminthopsis crassicaudata",134.929860101541,-28.4903459545813,2,4138938.51273167,144.9631732,-37.8142454,"results/species/Sminthopsis_crassicaudata/range_raster.tif","results/species/Sminthopsis_crassicaudata/range_raster_goode.tif"

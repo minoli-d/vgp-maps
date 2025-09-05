@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Rhinolophus ferrumequinum",59.9048986902236,36.1062052698433,36,9752799.05817518,-2.2776,51.7108,"results/species/Rhinolophus_ferrumequinum/range_raster.tif","results/species/Rhinolophus_ferrumequinum/range_raster_goode.tif"

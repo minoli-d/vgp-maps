@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Sylvia atricapilla",15.3543888270031,30.1332070363451,5,21034287.998293,-5.60695,36.01393,"results/species/Sylvia_atricapilla/range_raster.tif","results/species/Sylvia_atricapilla/range_raster_goode.tif"

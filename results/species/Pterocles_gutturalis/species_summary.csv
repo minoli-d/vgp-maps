@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pterocles gutturalis",30.7028088631473,-9.87156853563501,1,809839.616679836,35,-6,"results/species/Pterocles_gutturalis/range_raster.tif","results/species/Pterocles_gutturalis/range_raster_goode.tif"

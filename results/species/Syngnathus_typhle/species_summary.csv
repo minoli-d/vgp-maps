@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Syngnathus typhle",11.4115379217588,44.4563073543771,3,3672271.3742595,12.1818964,55.4565009,"results/species/Syngnathus_typhle/range_raster.tif","results/species/Syngnathus_typhle/range_raster_goode.tif"

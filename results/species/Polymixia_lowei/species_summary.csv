@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Polymixia lowei",-74.6100412408429,20.0004576289369,1,3696441.45803962,-67.3343,39.558,"results/species/Polymixia_lowei/range_raster.tif","results/species/Polymixia_lowei/range_raster_goode.tif"

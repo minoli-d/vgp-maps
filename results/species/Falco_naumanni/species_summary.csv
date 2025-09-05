@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Falco naumanni",44.5941888930922,20.302246226126,4,43381875.3313772,16.6,40.67,"results/species/Falco_naumanni/range_raster.tif","results/species/Falco_naumanni/range_raster_goode.tif"

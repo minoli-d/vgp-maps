@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Eptesicus nilssonii",61.8343283496174,55.1894472493609,12,10452913.6184946,11.5280364,64.5731537,"results/species/Eptesicus_nilssonii/range_raster.tif","results/species/Eptesicus_nilssonii/range_raster_goode.tif"

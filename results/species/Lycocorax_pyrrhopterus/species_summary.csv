@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Lycocorax pyrrhopterus",128.018172919747,0.895530804106286,1,22964.1038801658,NA,NA,"results/species/Lycocorax_pyrrhopterus/range_raster.tif","results/species/Lycocorax_pyrrhopterus/range_raster_goode.tif"

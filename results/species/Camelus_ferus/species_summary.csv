@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Camelus ferus",92.7610589477885,41.4600392084454,4,201142.46678839,NA,NA,"results/species/Camelus_ferus/range_raster.tif","results/species/Camelus_ferus/range_raster_goode.tif"

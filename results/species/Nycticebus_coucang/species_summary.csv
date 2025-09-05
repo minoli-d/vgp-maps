@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Nycticebus coucang",102.511294110377,-0.289489674824381,18,441104.110074103,-117.149,32.7353,"results/species/Nycticebus_coucang/range_raster.tif","results/species/Nycticebus_coucang/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Acomys russatus",39.9012282696458,22.051001101539,2,701703.966911655,NA,NA,"results/species/Acomys_russatus/range_raster.tif","results/species/Acomys_russatus/range_raster_goode.tif"

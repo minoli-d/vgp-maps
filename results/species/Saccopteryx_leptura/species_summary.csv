@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Saccopteryx leptura",-59.157983264688,-5.70558214319956,8,12287087.5510238,-79.42076,9.07091,"results/species/Saccopteryx_leptura/range_raster.tif","results/species/Saccopteryx_leptura/range_raster_goode.tif"

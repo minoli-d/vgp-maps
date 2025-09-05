@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Vanellus vanellus",65.7013922696871,46.0660367591227,4,24010578.4228368,-3.2765753,54.7023545,"results/species/Vanellus_vanellus/range_raster.tif","results/species/Vanellus_vanellus/range_raster_goode.tif"

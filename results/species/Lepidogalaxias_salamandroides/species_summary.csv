@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Lepidogalaxias salamandroides",116.347993207792,-34.7299821177598,1,2574.3066923744,116.531926,-34.809718,"results/species/Lepidogalaxias_salamandroides/range_raster.tif","results/species/Lepidogalaxias_salamandroides/range_raster_goode.tif"

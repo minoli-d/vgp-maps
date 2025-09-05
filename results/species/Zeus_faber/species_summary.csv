@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Zeus faber",69.6390896260532,9.74782517583679,1,12513340.8650514,-3.2765753,54.7023545,"results/species/Zeus_faber/range_raster.tif","results/species/Zeus_faber/range_raster_goode.tif"

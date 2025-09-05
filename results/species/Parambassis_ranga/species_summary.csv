@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Parambassis ranga",80.3770048620467,23.5318352253039,2,1836459.75333836,NA,NA,"results/species/Parambassis_ranga/range_raster.tif","results/species/Parambassis_ranga/range_raster_goode.tif"

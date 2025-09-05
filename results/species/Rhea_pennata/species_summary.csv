@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Rhea pennata",-68.6341995410641,-35.8732633557599,2,1308706.52877829,-117.14903527,32.73547391,"results/species/Rhea_pennata/range_raster.tif","results/species/Rhea_pennata/range_raster_goode.tif"

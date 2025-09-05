@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Micromys minutus",75.5226678177634,45.7119251449406,32,18268709.0050368,-3.2765753,54.7023545,"results/species/Micromys_minutus/range_raster.tif","results/species/Micromys_minutus/range_raster_goode.tif"

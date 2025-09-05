@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Gavialis gangeticus",84.552212679249,26.0303336660923,1,22323.7687354188,-117.151,32.736,"results/species/Gavialis_gangeticus/range_raster.tif","results/species/Gavialis_gangeticus/range_raster_goode.tif"

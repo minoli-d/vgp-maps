@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Balaenoptera ricei",-86.0644906297914,28.670991837542,2,48119.6361595853,-86.35,30.37,"results/species/Balaenoptera_ricei/range_raster.tif","results/species/Balaenoptera_ricei/range_raster_goode.tif"

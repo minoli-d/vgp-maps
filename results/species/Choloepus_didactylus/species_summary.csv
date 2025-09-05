@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Choloepus didactylus",-63.624570976048,-0.774779747369411,2,4162992.36526965,13.404954,52.520008,"results/species/Choloepus_didactylus/range_raster.tif","results/species/Choloepus_didactylus/range_raster_goode.tif"

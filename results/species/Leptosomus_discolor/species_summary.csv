@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Leptosomus discolor",46.7102509379964,-19.2754112502943,1,593459.074205443,9.602908,52.880915,"results/species/Leptosomus_discolor/range_raster.tif","results/species/Leptosomus_discolor/range_raster_goode.tif"

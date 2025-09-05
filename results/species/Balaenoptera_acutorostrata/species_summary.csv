@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Balaenoptera acutorostrata",-8.24585821506242,-7.65247187169888,2,136162735.871477,-3.2765753,54.7023545,"results/species/Balaenoptera_acutorostrata/range_raster.tif","results/species/Balaenoptera_acutorostrata/range_raster_goode.tif"

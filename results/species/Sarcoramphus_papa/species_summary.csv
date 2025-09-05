@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Sarcoramphus papa",-60.5110394215589,-6.65890106077803,2,14223445.8990875,-49.8967,-6.07408,"results/species/Sarcoramphus_papa/range_raster.tif","results/species/Sarcoramphus_papa/range_raster_goode.tif"

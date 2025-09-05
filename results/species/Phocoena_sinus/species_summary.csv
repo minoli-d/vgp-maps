@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Phocoena sinus",-114.489963085745,31.0187639899781,2,8389.07713854113,-114.679383,31.103595,"results/species/Phocoena_sinus/range_raster.tif","results/species/Phocoena_sinus/range_raster_goode.tif"

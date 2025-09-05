@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Apodemus sylvaticus",11.5915719582438,46.946616056159,2,4995821.92464693,-3.2765753,54.7023545,"results/species/Apodemus_sylvaticus/range_raster.tif","results/species/Apodemus_sylvaticus/range_raster_goode.tif"

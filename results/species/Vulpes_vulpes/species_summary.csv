@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Vulpes vulpes",42.5987292269652,35.9094478828213,32,72384917.446541,-3.2765753,54.7023545,"results/species/Vulpes_vulpes/range_raster.tif","results/species/Vulpes_vulpes/range_raster_goode.tif"

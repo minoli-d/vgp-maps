@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Inia geoffrensis",-63.2778071692071,-2.84624900753385,2,627746.194655768,-66.40557,7.61889,"results/species/Inia_geoffrensis/range_raster.tif","results/species/Inia_geoffrensis/range_raster_goode.tif"

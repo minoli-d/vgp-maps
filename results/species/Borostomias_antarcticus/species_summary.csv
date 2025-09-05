@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Borostomias antarcticus",27.7562693437304,-22.7779941515125,1,56753840.4211184,89.9999999,-59.9999999,"results/species/Borostomias_antarcticus/range_raster.tif","results/species/Borostomias_antarcticus/range_raster_goode.tif"

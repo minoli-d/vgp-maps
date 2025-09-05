@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Sardina pilchardus",1.31340035471089,43.4324047461719,1,2936625.98456747,-3.2765753,54.7023545,"results/species/Sardina_pilchardus/range_raster.tif","results/species/Sardina_pilchardus/range_raster_goode.tif"

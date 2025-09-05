@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Caprimulgus europaeus",43.8802618136619,28.7035994413966,3,29397639.8382776,12.674297,42.6384261,"results/species/Caprimulgus_europaeus/range_raster.tif","results/species/Caprimulgus_europaeus/range_raster_goode.tif"

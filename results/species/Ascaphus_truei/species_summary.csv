@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Ascaphus truei",-123.687980038623,46.6464396348837,2,300647.262902495,-123.527922,44.796144,"results/species/Ascaphus_truei/range_raster.tif","results/species/Ascaphus_truei/range_raster_goode.tif"

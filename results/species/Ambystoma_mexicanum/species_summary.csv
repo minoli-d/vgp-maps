@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Ambystoma mexicanum",-99.0039518142295,19.32555518195,1,10.2081306764245,NA,NA,"results/species/Ambystoma_mexicanum/range_raster.tif","results/species/Ambystoma_mexicanum/range_raster_goode.tif"

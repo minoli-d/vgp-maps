@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Epinephelus rankini",122.641737713563,-14.9587395627947,2,684144.27519361,121.0187246,-25.2303005,"results/species/Epinephelus_rankini/range_raster.tif","results/species/Epinephelus_rankini/range_raster_goode.tif"

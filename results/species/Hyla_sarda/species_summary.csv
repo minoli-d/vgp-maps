@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Hyla sarda",9.05442802831933,40.572943392695,1,31850.3408907399,9.416667,42.05,"results/species/Hyla_sarda/range_raster.tif","results/species/Hyla_sarda/range_raster_goode.tif"

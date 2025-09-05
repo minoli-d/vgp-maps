@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Enoplosus armatus",137.046886085834,-35.0267096387833,1,757205.229395936,121.0187246,-25.2303005,"results/species/Enoplosus_armatus/range_raster.tif","results/species/Enoplosus_armatus/range_raster_goode.tif"

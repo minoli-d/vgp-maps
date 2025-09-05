@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pongo abelii",97.7286723022179,3.52659427849988,8,32238.3472287914,NA,NA,"results/species/Pongo_abelii/range_raster.tif","results/species/Pongo_abelii/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Caloenas nicobarica",127.379918127645,-0.28016790517599,1,464217.329034438,-73.8767,40.8501,"results/species/Caloenas_nicobarica/range_raster.tif","results/species/Caloenas_nicobarica/range_raster_goode.tif"

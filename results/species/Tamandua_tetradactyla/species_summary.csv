@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Tamandua tetradactyla",-57.4649608235108,-9.41543171768946,4,12973502.0134246,-58.943462,4.917311,"results/species/Tamandua_tetradactyla/range_raster.tif","results/species/Tamandua_tetradactyla/range_raster_goode.tif"

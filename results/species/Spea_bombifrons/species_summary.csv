@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Spea bombifrons",-103.576031804337,38.6896726417076,1,2524654.05340627,-103.19081,39.74511,"results/species/Spea_bombifrons/range_raster.tif","results/species/Spea_bombifrons/range_raster_goode.tif"

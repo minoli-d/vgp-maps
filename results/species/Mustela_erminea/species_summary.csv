@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Mustela erminea",18.6282764725035,54.3311103467514,60,41459001.3148564,175.755071,-37.304717,"results/species/Mustela_erminea/range_raster.tif","results/species/Mustela_erminea/range_raster_goode.tif"

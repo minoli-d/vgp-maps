@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Gypaetus barbatus",63.3454036338154,28.6319103599632,6,10873472.3679723,0.135667,42.428074,"results/species/Gypaetus_barbatus/range_raster.tif","results/species/Gypaetus_barbatus/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Rhinopoma microphyllum",29.6913171523515,19.8047923358347,4,7125249.88425586,-73.8836645,41.2211576,"results/species/Rhinopoma_microphyllum/range_raster.tif","results/species/Rhinopoma_microphyllum/range_raster_goode.tif"

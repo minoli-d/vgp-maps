@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Grus americana",-95.6237786560935,41.4500143739651,4,1546426.78367167,-89.7563,43.5477,"results/species/Grus_americana/range_raster.tif","results/species/Grus_americana/range_raster_goode.tif"

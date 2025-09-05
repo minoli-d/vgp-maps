@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Corynorhinus townsendii",-109.717323441986,36.5323731305613,2,4595282.84209666,-118.318325,37.466259,"results/species/Corynorhinus_townsendii/range_raster.tif","results/species/Corynorhinus_townsendii/range_raster_goode.tif"

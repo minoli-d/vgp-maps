@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Ochotona princeps",-115.54490925036,45.2419109804648,10,891456.980236739,-107.913514,39.087247,"results/species/Ochotona_princeps/range_raster.tif","results/species/Ochotona_princeps/range_raster_goode.tif"

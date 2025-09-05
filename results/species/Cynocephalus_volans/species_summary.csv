@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Cynocephalus volans",124.82226884623,8.38624512481976,20,120536.547794776,124.8,10.75,"results/species/Cynocephalus_volans/range_raster.tif","results/species/Cynocephalus_volans/range_raster_goode.tif"

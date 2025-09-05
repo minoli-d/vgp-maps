@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Porphyrio hochstetteri",167.526684009274,-45.218754028972,1,394.0826855457,172.6999972,-43.499998,"results/species/Porphyrio_hochstetteri/range_raster.tif","results/species/Porphyrio_hochstetteri/range_raster_goode.tif"

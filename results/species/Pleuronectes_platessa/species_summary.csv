@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pleuronectes platessa",11.3035713301281,54.0430513190045,6,1700496.41984198,-3.2765753,54.7023545,"results/species/Pleuronectes_platessa/range_raster.tif","results/species/Pleuronectes_platessa/range_raster_goode.tif"

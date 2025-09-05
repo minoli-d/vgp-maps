@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Nyctibius grandis",-62.2577099696933,-3.77588736852044,3,8474263.99205817,-58.13,6.18,"results/species/Nyctibius_grandis/range_raster.tif","results/species/Nyctibius_grandis/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Synchiropus ocellatus",68.7322925870717,-3.75116264399636,1,11409315.5593153,NA,NA,"results/species/Synchiropus_ocellatus/range_raster.tif","results/species/Synchiropus_ocellatus/range_raster_goode.tif"

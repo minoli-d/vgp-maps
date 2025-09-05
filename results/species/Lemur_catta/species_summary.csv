@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Lemur catta",44.7640246609324,-23.1351646282634,4,99838.1185803891,12.52139,55.67278,"results/species/Lemur_catta/range_raster.tif","results/species/Lemur_catta/range_raster_goode.tif"

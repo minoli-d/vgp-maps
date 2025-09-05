@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Saccopteryx bilineata",-61.4966218088219,-3.8090219875655,6,12632440.5952409,-55.2151905,5.7258672,"results/species/Saccopteryx_bilineata/range_raster.tif","results/species/Saccopteryx_bilineata/range_raster_goode.tif"

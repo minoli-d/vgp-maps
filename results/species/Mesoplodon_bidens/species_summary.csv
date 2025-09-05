@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Mesoplodon bidens",-27.8118469369807,45.939750402867,2,14491650.1846803,14.5208584,59.6749712,"results/species/Mesoplodon_bidens/range_raster.tif","results/species/Mesoplodon_bidens/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Salminus brasiliensis",-56.1298280431513,-23.5387986883251,2,2957758.9655747,-58.438033,-34.537336,"results/species/Salminus_brasiliensis/range_raster.tif","results/species/Salminus_brasiliensis/range_raster_goode.tif"

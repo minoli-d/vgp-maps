@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Rhynochetos jubatus",165.527237212171,-21.2769638997874,2,2845.00239541997,166.45781,-22.25637,"results/species/Rhynochetos_jubatus/range_raster.tif","results/species/Rhynochetos_jubatus/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Hemiscyllium ocellatum",136.877432090228,-12.2315175047893,2,2855694.2731083,145.1293,-37.9105,"results/species/Hemiscyllium_ocellatum/range_raster.tif","results/species/Hemiscyllium_ocellatum/range_raster_goode.tif"

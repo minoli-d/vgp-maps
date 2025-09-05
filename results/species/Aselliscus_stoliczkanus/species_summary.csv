@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Aselliscus stoliczkanus",101.886893576228,21.0093174888067,6,1217784.88054033,107.88167,25.483056,"results/species/Aselliscus_stoliczkanus/range_raster.tif","results/species/Aselliscus_stoliczkanus/range_raster_goode.tif"

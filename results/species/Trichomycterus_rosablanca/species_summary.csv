@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Trichomycterus rosablanca",-73.7663003211586,6.09321728759648,1,123.792789201316,-73,6,"results/species/Trichomycterus_rosablanca/range_raster.tif","results/species/Trichomycterus_rosablanca/range_raster_goode.tif"

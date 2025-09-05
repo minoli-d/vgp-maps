@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Scleropages formosus",106.382765017197,2.32948670162667,2,1132447.37370653,NA,NA,"results/species/Scleropages_formosus/range_raster.tif","results/species/Scleropages_formosus/range_raster_goode.tif"

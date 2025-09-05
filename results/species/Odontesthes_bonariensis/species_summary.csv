@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Odontesthes bonariensis",-63.5967042844071,-35.9223922526901,1,966033.140832012,-57.99417012,-35.62328713,"results/species/Odontesthes_bonariensis/range_raster.tif","results/species/Odontesthes_bonariensis/range_raster_goode.tif"

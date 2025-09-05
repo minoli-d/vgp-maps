@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Dasyurus maculatus",149.247593439585,-33.2933170557334,4,463782.348163052,2.6856694,50.0505667,"results/species/Dasyurus_maculatus/range_raster.tif","results/species/Dasyurus_maculatus/range_raster_goode.tif"

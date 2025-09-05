@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Podarcis raffonei",14.9528153393334,38.4082827939489,1,1.3065232674427,15.229709,38.788175,"results/species/Podarcis_raffonei/range_raster.tif","results/species/Podarcis_raffonei/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Strigops habroptilus",167.558686784791,-45.4576074847456,2,16993.7042458587,166.504927,-45.757406,"results/species/Strigops_habroptilus/range_raster.tif","results/species/Strigops_habroptilus/range_raster_goode.tif"

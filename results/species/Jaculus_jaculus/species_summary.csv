@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Jaculus jaculus",30.0211702155335,24.9763122682316,2,8109450.15631972,-117.17,32.72,"results/species/Jaculus_jaculus/range_raster.tif","results/species/Jaculus_jaculus/range_raster_goode.tif"

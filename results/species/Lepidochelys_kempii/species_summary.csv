@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Lepidochelys kempii",-46.6488524215631,36.6205698518984,2,12012706.3979854,-70.975,42.243,"results/species/Lepidochelys_kempii/range_raster.tif","results/species/Lepidochelys_kempii/range_raster_goode.tif"

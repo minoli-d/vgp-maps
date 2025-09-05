@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Podarcis bocagei",-7.34074155666167,42.5827268993736,1,58200.745291204,-8.1353519,39.6621648,"results/species/Podarcis_bocagei/range_raster.tif","results/species/Podarcis_bocagei/range_raster_goode.tif"

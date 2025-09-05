@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pelodytes ibericus",-5.60191417130154,37.7686802108109,1,102538.13195866,-6.271194,37.072028,"results/species/Pelodytes_ibericus/range_raster.tif","results/species/Pelodytes_ibericus/range_raster_goode.tif"

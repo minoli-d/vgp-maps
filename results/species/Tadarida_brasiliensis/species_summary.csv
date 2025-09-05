@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Tadarida brasiliensis",-79.0102598414365,2.05833448863887,44,13838591.9639654,-96.3365,30.6187,"results/species/Tadarida_brasiliensis/range_raster.tif","results/species/Tadarida_brasiliensis/range_raster_goode.tif"

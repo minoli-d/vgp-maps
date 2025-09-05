@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Hipposideros larvatus",103.001918623227,11.9763087260796,42,3289869.71034546,110.34114361,25.17717498,"results/species/Hipposideros_larvatus/range_raster.tif","results/species/Hipposideros_larvatus/range_raster_goode.tif"

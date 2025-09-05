@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Peromyscus maniculatus",-100.455185651754,43.4793927056844,6,13030261.0940832,-118.30937,35.09131,"results/species/Peromyscus_maniculatus/range_raster.tif","results/species/Peromyscus_maniculatus/range_raster_goode.tif"

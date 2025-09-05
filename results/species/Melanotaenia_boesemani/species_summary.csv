@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Melanotaenia boesemani",132.331486637808,-1.30728926148623,1,1384.82748169053,103.8198,1.3521,"results/species/Melanotaenia_boesemani/range_raster.tif","results/species/Melanotaenia_boesemani/range_raster_goode.tif"

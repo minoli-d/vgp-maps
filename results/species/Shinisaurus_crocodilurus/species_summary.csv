@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Shinisaurus crocodilurus",111.267296414563,24.0137566883221,1,1113.36275908576,111.809,24.0956,"results/species/Shinisaurus_crocodilurus/range_raster.tif","results/species/Shinisaurus_crocodilurus/range_raster_goode.tif"

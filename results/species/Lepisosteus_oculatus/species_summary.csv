@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Lepisosteus oculatus",-87.1706045484381,39.2973508137293,4,217815.520421851,-90.747444,29.929889,"results/species/Lepisosteus_oculatus/range_raster.tif","results/species/Lepisosteus_oculatus/range_raster_goode.tif"

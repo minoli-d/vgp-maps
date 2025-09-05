@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Archocentrus centrarchus",-84.9178252442616,11.3585703972792,2,60057.5256277132,-85.2072,12.8654,"results/species/Archocentrus_centrarchus/range_raster.tif","results/species/Archocentrus_centrarchus/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Aegotheles albertisi",142.061874467877,-5.41411902345103,2,168098.391427847,147.5054,-8.7797,"results/species/Aegotheles_albertisi/range_raster.tif","results/species/Aegotheles_albertisi/range_raster_goode.tif"

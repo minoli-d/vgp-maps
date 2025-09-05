@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Eretmochelys imbricata",-8.1580426534387,-2.60113078621399,1,343992368.732805,-155.826391,20.03345,"results/species/Eretmochelys_imbricata/range_raster.tif","results/species/Eretmochelys_imbricata/range_raster_goode.tif"

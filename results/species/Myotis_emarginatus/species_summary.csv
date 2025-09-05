@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Myotis emarginatus",24.6743911477532,40.7830709679997,14,4648486.09940349,1.8883335,46.603354,"results/species/Myotis_emarginatus/range_raster.tif","results/species/Myotis_emarginatus/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Rhinophrynus dorsalis",-91.1700116385979,17.7420359715515,1,342800.206579966,-89.91257,20.94142,"results/species/Rhinophrynus_dorsalis/range_raster.tif","results/species/Rhinophrynus_dorsalis/range_raster_goode.tif"

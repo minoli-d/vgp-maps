@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Aquila chrysaetos",22.567338796429,47.503487352625,6,43321420.2535392,NA,NA,"results/species/Aquila_chrysaetos/range_raster.tif","results/species/Aquila_chrysaetos/range_raster_goode.tif"

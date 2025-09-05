@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Dermochelys coriacea",-10.1298446188353,2.89898226322916,7,207909735.676509,-122.4293,37.46311,"results/species/Dermochelys_coriacea/range_raster.tif","results/species/Dermochelys_coriacea/range_raster_goode.tif"

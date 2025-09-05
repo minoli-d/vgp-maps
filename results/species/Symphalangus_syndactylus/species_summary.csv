@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Symphalangus syndactylus",101.073011762968,0.149700459810977,4,339956.223156196,NA,NA,"results/species/Symphalangus_syndactylus/range_raster.tif","results/species/Symphalangus_syndactylus/range_raster_goode.tif"

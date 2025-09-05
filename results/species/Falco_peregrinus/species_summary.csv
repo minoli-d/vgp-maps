@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Falco peregrinus",17.9646104832552,23.0074410005181,4,92226404.2162422,51.534817,25.286106,"results/species/Falco_peregrinus/range_raster.tif","results/species/Falco_peregrinus/range_raster_goode.tif"

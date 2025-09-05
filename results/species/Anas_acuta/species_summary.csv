@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Anas acuta",11.7183828949061,39.4202274212627,8,52862164.6308594,-3.2765753,54.7023545,"results/species/Anas_acuta/range_raster.tif","results/species/Anas_acuta/range_raster_goode.tif"

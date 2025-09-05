@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Electrona antarctica",-16.9365739166916,-54.9422949807598,1,65393658.1529942,89.9999999,-59.9999999,"results/species/Electrona_antarctica/range_raster.tif","results/species/Electrona_antarctica/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Glossophaga soricina",-62.5863271351742,-5.00915498558835,8,14860949.427059,NA,NA,"results/species/Glossophaga_soricina/range_raster.tif","results/species/Glossophaga_soricina/range_raster_goode.tif"

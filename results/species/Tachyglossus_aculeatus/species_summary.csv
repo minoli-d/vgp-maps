@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Tachyglossus aculeatus",134.489624838278,-25.0498379255367,24,7767751.75673094,151.500011,-31.647305,"results/species/Tachyglossus_aculeatus/range_raster.tif","results/species/Tachyglossus_aculeatus/range_raster_goode.tif"

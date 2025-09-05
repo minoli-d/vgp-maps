@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Trichosurus vulpecula",141.897594968646,-25.2151444150349,22,2702824.92522961,170.657015,-45.89134,"results/species/Trichosurus_vulpecula/range_raster.tif","results/species/Trichosurus_vulpecula/range_raster_goode.tif"

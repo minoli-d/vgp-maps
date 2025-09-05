@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Passerculus sandwichensis",-103.708724435461,45.0418671830654,4,19142815.406114,-70.9488,43.1461,"results/species/Passerculus_sandwichensis/range_raster.tif","results/species/Passerculus_sandwichensis/range_raster_goode.tif"

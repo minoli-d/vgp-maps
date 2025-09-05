@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Clangula hyemalis",-31.208773251194,59.92032668919,5,14131298.4009862,-3.2765753,54.7023545,"results/species/Clangula_hyemalis/range_raster.tif","results/species/Clangula_hyemalis/range_raster_goode.tif"

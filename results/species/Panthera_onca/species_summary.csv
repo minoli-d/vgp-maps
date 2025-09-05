@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Panthera onca",-63.7234547249981,-3.74094669535655,52,9019569.88216793,-51.069,-6.755,"results/species/Panthera_onca/range_raster.tif","results/species/Panthera_onca/range_raster_goode.tif"

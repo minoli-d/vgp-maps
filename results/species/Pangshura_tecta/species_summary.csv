@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pangshura tecta",80.1395712796209,26.6757720824244,1,970037.957960787,-73.8755,40.8538,"results/species/Pangshura_tecta/range_raster.tif","results/species/Pangshura_tecta/range_raster_goode.tif"

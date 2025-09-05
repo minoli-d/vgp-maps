@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Rhinatrema bivittatum",-54.492626822428,3.38225735982995,1,296754.248556155,NA,NA,"results/species/Rhinatrema_bivittatum/range_raster.tif","results/species/Rhinatrema_bivittatum/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Columba livia",58.4454911688488,30.7192391859393,2,27398348.1980835,-121.754494,38.51375,"results/species/Columba_livia/range_raster.tif","results/species/Columba_livia/range_raster_goode.tif"

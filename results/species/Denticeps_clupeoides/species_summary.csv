@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Denticeps clupeoides",6.41439670511579,5.72994464881557,1,7917.5902314806,NA,NA,"results/species/Denticeps_clupeoides/range_raster.tif","results/species/Denticeps_clupeoides/range_raster_goode.tif"

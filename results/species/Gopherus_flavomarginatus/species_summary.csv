@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Gopherus flavomarginatus",-103.785948397014,26.9642311773403,1,10112.4775824098,-104.97,36.88,"results/species/Gopherus_flavomarginatus/range_raster.tif","results/species/Gopherus_flavomarginatus/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Mops condylurus",20.9516590127919,-1.14292179974544,2,9108598.97484963,-3.821878,5.304061,"results/species/Mops_condylurus/range_raster.tif","results/species/Mops_condylurus/range_raster_goode.tif"

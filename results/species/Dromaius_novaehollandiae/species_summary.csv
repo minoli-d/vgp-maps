@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Dromaius novaehollandiae",134.707211405336,-25.5404942631722,3,6732633.74312672,-73.8767,40.8501,"results/species/Dromaius_novaehollandiae/range_raster.tif","results/species/Dromaius_novaehollandiae/range_raster_goode.tif"

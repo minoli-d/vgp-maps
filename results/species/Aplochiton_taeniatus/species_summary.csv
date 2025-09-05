@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Aplochiton taeniatus",-70.9450671859167,-47.3324902009267,2,17496.7744688534,-73.107197,-39.917592,"results/species/Aplochiton_taeniatus/range_raster.tif","results/species/Aplochiton_taeniatus/range_raster_goode.tif"

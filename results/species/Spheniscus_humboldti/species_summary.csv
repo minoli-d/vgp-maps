@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Spheniscus humboldti",-74.9895908936233,-20.1428028446485,3,884613.871426432,12.5214,55.6724,"results/species/Spheniscus_humboldti/range_raster.tif","results/species/Spheniscus_humboldti/range_raster_goode.tif"

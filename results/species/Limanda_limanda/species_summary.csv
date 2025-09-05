@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Limanda limanda",8.82818566149127,58.482986335735,1,2237578.37317979,-3.2765753,54.7023545,"results/species/Limanda_limanda/range_raster.tif","results/species/Limanda_limanda/range_raster_goode.tif"

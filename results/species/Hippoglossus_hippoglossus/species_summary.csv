@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Hippoglossus hippoglossus",-17.7738287958888,57.5967929340928,1,6156924.60065325,-63.59167,44.63694,"results/species/Hippoglossus_hippoglossus/range_raster.tif","results/species/Hippoglossus_hippoglossus/range_raster_goode.tif"

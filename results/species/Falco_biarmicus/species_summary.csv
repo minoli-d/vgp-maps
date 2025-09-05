@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Falco biarmicus",20.4342722667394,2.74117151588169,3,18089706.47191,51.534817,25.286106,"results/species/Falco_biarmicus/range_raster.tif","results/species/Falco_biarmicus/range_raster_goode.tif"

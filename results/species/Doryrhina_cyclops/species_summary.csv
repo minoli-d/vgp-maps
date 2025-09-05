@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Doryrhina cyclops",8.03499277018612,3.84916397592496,6,2329168.15387855,-7.1186991,5.6307034,"results/species/Doryrhina_cyclops/range_raster.tif","results/species/Doryrhina_cyclops/range_raster_goode.tif"

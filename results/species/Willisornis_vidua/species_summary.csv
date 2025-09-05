@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Willisornis vidua",-49.2774023611942,-4.67750728086612,1,639225.960329817,-48.298,-1.217,"results/species/Willisornis_vidua/range_raster.tif","results/species/Willisornis_vidua/range_raster_goode.tif"

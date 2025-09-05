@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Synchiropus picturatus",122.670665550317,3.67265447451848,1,2572221.39759299,12.6560998,55.6381433,"results/species/Synchiropus_picturatus/range_raster.tif","results/species/Synchiropus_picturatus/range_raster_goode.tif"

@@ -1,0 +1,210 @@
+---
+title: "Species Distribution Maps"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+knitr::opts_knit$set(root.dir = "/global/scratch/users/minoli/maps")
+library(ggplot2)
+library(sf)
+library(terra)
+library(dplyr)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(viridis)
+library(raster)
+library(sp)
+```
+
+```{r}
+df <- read.csv("results/summary/all_species_summary.csv", stringsAsFactors = FALSE)
+dir.create("results/summary/plots", recursive=TRUE, showWarnings=FALSE)
+
+```
+
+```{r}
+# Goode Homolosine outline
+lats <- c(90:-90, -90:0, 0:-90, -90:0, 0:-90, -90:0, 0:-90, -90:90, 90:0, 0:90, 90)
+longs <- c(rep(180, 181),
+           rep(c(80.01, 79.99), each = 91),
+           rep(c(-19.99, -20.01), each = 91),
+           rep(c(-99.99, -100.01), each = 91),
+           rep(-180, 181),
+           rep(c(-40.01, -39.99), each = 91),
+           180)
+
+goode_outline_ll <- st_polygon(list(cbind(longs, lats))) %>% st_sfc(crs = 4326)
+crs_goode <- "+proj=igh +datum=WGS84 +no_defs"
+goode_outline   <- st_transform(goode_outline_ll, crs_goode)
+bb   <- st_bbox(goode_outline)
+xlim <- bb[c("xmin","xmax")] * c(1.1,1.1)
+ylim <- bb[c("ymin","ymax")] * c(1.1,1.1)
+goode_encl_rect <- st_polygon(list(rbind(c(xlim[1], ylim[1]),
+                                         c(xlim[2], ylim[1]),
+                                         c(xlim[2], ylim[2]),
+                                         c(xlim[1], ylim[2]),
+                                         c(xlim[1], ylim[1])))) %>% st_sfc(crs = crs_goode)
+goode_without <- st_difference(goode_encl_rect, goode_outline)
+world_ll   <- ne_countries(scale="medium", returnclass="sf")
+world_goode<- st_transform(world_ll, crs_goode)
+ocean_goode<- st_difference(goode_encl_rect, st_union(world_goode))
+
+tmpl_goode <- terra::rast(extent = terra::ext(xlim[1], xlim[2], ylim[1], ylim[2]),
+                          resolution = 10000, crs = crs_goode)
+```
+
+##Sampling Map
+
+```{r}
+sampling_pts <- st_as_sf(df %>% filter(!is.na(sampling_lon))
+                         , coords = c("sampling_lon", "sampling_lat"), crs = 4326) %>%
+  st_transform(crs_goode)
+
+ggplot() +
+  geom_sf(data = ocean_goode, fill="white", color=NA) +
+  geom_sf(data = world_goode, fill="grey85", color="white", size=0.2) +
+  geom_sf(data = goode_without, fill="white", color=NA) +
+  geom_sf(data = sampling_pts, color="red3", size=1, shape=21, fill=NA) +
+  geom_sf(data = goode_outline, fill=NA, color="gray70", size=0.5) +
+  theme_minimal() +
+  labs(title="All Sampling Locations")
+```
+
+##Range Centroid Map
+
+```{r}
+centroids <- st_as_sf(df %>% filter(!is.na(centroid_lon)), 
+                      coords = c("centroid_lon", "centroid_lat"), crs = 4326) %>%
+  st_transform(crs_goode)
+
+ggplot() +
+  geom_sf(data = ocean_goode, fill="white", color=NA) +
+  geom_sf(data = world_goode, fill="grey85", color="white", size=0.2) +
+  geom_sf(data = goode_without, fill="white", color=NA) +
+  geom_sf(data = centroids, color="royalblue3", size=1, shape=21, fill=NA) +
+  geom_sf(data = goode_outline, fill=NA, color="gray70", size=0.5) +
+  theme_minimal() +
+  labs(title="All Range Centroids")
+```
+##Heatmap of Distributions
+
+```{r}
+goode_rasters <- as.character(df$raster_path_goode)
+goode_rasters <- goode_rasters[file.exists(goode_rasters)]
+
+# sum_raster_goode <- rast(goode_rasters[1])
+# 
+# for (rpath in goode_rasters[-1]) {
+#   r <- rast(rpath)
+#   sum_raster_goode <- sum_raster_goode + r
+# 
+#   sum_raster_goode <- writeRaster(
+#     sum_raster_goode,
+#     filename = "results/summary/plots/sum_goode_test.tif",
+#     overwrite = TRUE,
+#     wopt = list(datatype = "INT4U", gdal = c("COMPRESS=DEFLATE"))
+#   )
+# }
+
+r_df <- as.data.frame(sum_raster_goode, xy = TRUE, na.rm = FALSE)
+names(r_df)[3] <- "count"
+
+ggplot() +
+  geom_sf(data = ocean_goode, fill="white", color=NA) +
+  geom_sf(data = world_goode, fill="grey85", color="white", size=0.2) +
+  geom_raster(data = r_df, aes(x=x, y=y, fill=count)) +
+  scale_fill_viridis_c(name="Count", na.value="white") +
+  geom_sf(data = goode_without, fill="white", color=NA) +
+  geom_sf(data = goode_outline, fill=NA, color="gray70", size=0.5) +
+  theme_minimal() +
+  theme(panel.grid = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank()) +
+  labs(title="Species Range Density", x=NULL, y=NULL)
+```
+##Individual Species Maps
+
+```{r}
+for (i in seq_len(nrow(df))) {
+  sp <- df$species[i]
+  
+  # metadata row
+  cat("### ", sp, "\n")
+  cat("**Taxon:**", df$lineage[i], "<br>\n")
+  cat("**Geo Location:**", df$geo_location[i], "<br>\n")
+  
+  cat("**Flags:** ",
+      ifelse(isTRUE(df$outside_range_flag[i]) & !isTRUE(df$zoo_museum_flag[i]), "Outside Range; ", ""),
+      ifelse(isTRUE(df$vague_location_flag[i]), "Vague Location; ", ""),
+      ifelse(isTRUE(df$zoo_museum_flag[i]), "Zoo/Museum; ", ""),
+      ifelse(isTRUE(df$domesticated_flag[i]), "Domesticated; ", ""),
+      ifelse(is.na(df$sampling_lon[i]) | is.na(df$sampling_lat[i]), "Missing Location; ", ""),
+      ifelse(is.na(df$raster_path_goode[i]) || !file.exists(df$raster_path_goode[i]), "Missing Range; ", ""),
+      "<br>\n"
+  )
+  
+  # ---- Points (only if valid coords exist)
+  sp_pts <- data.frame(
+    name = c("Sampling", "Centroid"),
+    lon  = c(df$sampling_lon[i], df$centroid_lon[i]),
+    lat  = c(df$sampling_lat[i], df$centroid_lat[i])
+  )
+  sp_pts <- sp_pts[!is.na(sp_pts$lon) & !is.na(sp_pts$lat), ]  # drop NAs
+  
+  sp_sf <- NULL
+  if (nrow(sp_pts) > 0) {
+    sp_sf <- st_as_sf(sp_pts, coords = c("lon","lat"), crs = 4326) |> 
+      st_transform(crs_goode)
+  }
+  
+  # ---- Range raster
+  p_range <- NULL
+  if (!is.na(df$raster_path_goode[i]) && file.exists(df$raster_path_goode[i])) {
+    r <- rast(df$raster_path_goode[i])
+    r_df <- as.data.frame(r, xy = TRUE, na.rm = TRUE)
+    names(r_df)[3] <- "presence"
+    r_df <- r_df[r_df$presence > 0, , drop = FALSE]
+    
+    p_range <- ggplot() +
+      geom_sf(data = ocean_goode, fill="white", color=NA) +
+      geom_sf(data = world_goode, fill="grey85", color="white", size=0.2) +
+      geom_sf(data = goode_outline, fill=NA, color="gray70", size=0.5) +
+      geom_tile(data = r_df, aes(x=x, y=y), fill="chartreuse3", alpha=0.5) +
+      { if (!is.null(sp_sf)) geom_sf(data = sp_sf, aes(color=name), size=2, show.legend=FALSE) } +
+      scale_color_manual(values=c("Sampling"="red3", "Centroid"="royalblue3")) +
+      theme_minimal() +
+      labs(title = paste("Range Map:", sp))
+  }
+  
+  # ---- Print maps (only those that exist)
+  if (!is.null(sp_sf) && "Sampling" %in% sp_pts$name) {
+    p_sampling <- ggplot() +
+      geom_sf(data = ocean_goode, fill="white", color=NA) +
+      geom_sf(data = world_goode, fill="grey85", color="white", size=0.2) +
+      geom_sf(data = goode_outline, fill=NA, color="gray70", size=0.5) +
+      geom_sf(data = sp_sf[sp_sf$name == "Sampling", ], shape=21, fill="red3", size=2) +
+      theme_minimal() +
+      labs(title = paste("Sampling Location:", sp))
+    print(p_sampling)
+  }
+  
+  if (!is.null(sp_sf) && "Centroid" %in% sp_pts$name) {
+    p_centroid <- ggplot() +
+      geom_sf(data = ocean_goode, fill="white", color=NA) +
+      geom_sf(data = world_goode, fill="grey85", color="white", size=0.2) +
+      geom_sf(data = goode_outline, fill=NA, color="gray70", size=0.5) +
+      geom_sf(data = sp_sf[sp_sf$name == "Centroid", ], shape=21, fill="royalblue3", size=2) +
+      theme_minimal() +
+      labs(title = paste("Range Centroid:", sp))
+    print(p_centroid)
+  }
+  
+  if (!is.null(p_range)) print(p_range)
+  
+  cat("\n\n")
+}
+
+
+```
+

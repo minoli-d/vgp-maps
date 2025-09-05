@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Microcaecilia unicolor",-52.9895031577857,4.65376220706754,1,32061.3907861857,NA,NA,"results/species/Microcaecilia_unicolor/range_raster.tif","results/species/Microcaecilia_unicolor/range_raster_goode.tif"

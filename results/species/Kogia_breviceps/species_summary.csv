@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Kogia breviceps",-10.1795903414584,-0.462407450293155,2,254751727.236873,-117.25444,32.866232,"results/species/Kogia_breviceps/range_raster.tif","results/species/Kogia_breviceps/range_raster_goode.tif"

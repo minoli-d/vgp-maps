@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pholidichthys leucotaenia",135.883151171285,-2.19425729852653,1,4596011.52965442,103.8198,1.3521,"results/species/Pholidichthys_leucotaenia/range_raster.tif","results/species/Pholidichthys_leucotaenia/range_raster_goode.tif"

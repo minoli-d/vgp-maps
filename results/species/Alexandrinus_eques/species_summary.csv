@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Alexandrinus eques",57.5833487714056,-20.3445002874663,3,879.621082356857,NA,NA,"results/species/Alexandrinus_eques/range_raster.tif","results/species/Alexandrinus_eques/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pogoniulus pusillus",37.713447081859,0.116961774176596,1,2447568.24584862,31.3991317,-26.5624806,"results/species/Pogoniulus_pusillus/range_raster.tif","results/species/Pogoniulus_pusillus/range_raster_goode.tif"

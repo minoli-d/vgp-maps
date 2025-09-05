@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Melopsittacus undulatus",132.744616185964,-22.3790202767723,2,6192856.69661492,-106.74994,32.278282,"results/species/Melopsittacus_undulatus/range_raster.tif","results/species/Melopsittacus_undulatus/range_raster_goode.tif"

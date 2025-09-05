@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Theristicus caerulescens",-58.3293731970313,-25.0958081681425,1,1747813.18669678,-53.746111,-33.741944,"results/species/Theristicus_caerulescens/range_raster.tif","results/species/Theristicus_caerulescens/range_raster_goode.tif"

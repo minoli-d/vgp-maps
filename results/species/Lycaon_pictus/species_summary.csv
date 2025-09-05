@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Lycaon pictus",26.5182414868412,-9.0844431116332,4,1267005.3691752,10.736958,56.2613815,"results/species/Lycaon_pictus/range_raster.tif","results/species/Lycaon_pictus/range_raster_goode.tif"

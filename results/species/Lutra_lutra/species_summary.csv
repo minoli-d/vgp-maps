@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Lutra lutra",76.802965145237,45.1930633641243,14,27069433.620357,NA,NA,"results/species/Lutra_lutra/range_raster.tif","results/species/Lutra_lutra/range_raster_goode.tif"

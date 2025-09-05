@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Eschrichtius robustus",9.59732472643915,47.5088809196218,6,4144685.46765022,-124.2969,41.8349,"results/species/Eschrichtius_robustus/range_raster.tif","results/species/Eschrichtius_robustus/range_raster_goode.tif"

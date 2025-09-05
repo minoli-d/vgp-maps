@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Tapirus indicus",100.877042347919,4.6914407355788,4,83833.0348968877,-117.151,32.736,"results/species/Tapirus_indicus/range_raster.tif","results/species/Tapirus_indicus/range_raster_goode.tif"

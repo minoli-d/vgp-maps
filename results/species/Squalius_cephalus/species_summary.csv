@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Squalius cephalus",29.8807471318019,51.9375174838847,2,7018290.97570928,-3.2765753,54.7023545,"results/species/Squalius_cephalus/range_raster.tif","results/species/Squalius_cephalus/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Hydrolagus colliei",-116.282972729424,33.1761170932318,2,887441.512966204,-123.013778,48.564472,"results/species/Hydrolagus_colliei/range_raster.tif","results/species/Hydrolagus_colliei/range_raster_goode.tif"

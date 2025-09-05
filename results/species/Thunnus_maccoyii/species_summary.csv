@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Thunnus maccoyii",24.2362471938203,-37.6135102359982,2,66331865.3549888,134.755,-24.7761086,"results/species/Thunnus_maccoyii/range_raster.tif","results/species/Thunnus_maccoyii/range_raster_goode.tif"

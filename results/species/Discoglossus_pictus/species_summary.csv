@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Discoglossus pictus",4.36330292581102,35.6201436528831,2,356379.273420635,3.1863,42.004,"results/species/Discoglossus_pictus/range_raster.tif","results/species/Discoglossus_pictus/range_raster_goode.tif"

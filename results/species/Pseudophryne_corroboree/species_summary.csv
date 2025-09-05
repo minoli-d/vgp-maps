@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Pseudophryne corroboree",148.382348698156,-36.1695941133974,2,662.132809708767,144.959087,-37.801993,"results/species/Pseudophryne_corroboree/range_raster.tif","results/species/Pseudophryne_corroboree/range_raster_goode.tif"

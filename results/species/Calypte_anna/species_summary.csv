@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Calypte anna",-117.680191456297,38.718378123,2,1265398.06042098,-100.445882,39.7837304,"results/species/Calypte_anna/range_raster.tif","results/species/Calypte_anna/range_raster_goode.tif"

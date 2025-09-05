@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Thomomys bottae",-112.274287995642,34.1424915487667,2,1541107.98218239,-116.66389,34.9365976,"results/species/Thomomys_bottae/range_raster.tif","results/species/Thomomys_bottae/range_raster_goode.tif"

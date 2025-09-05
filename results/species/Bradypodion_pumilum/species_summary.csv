@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Bradypodion pumilum",18.9579832336328,-33.9713727165676,2,8599.01663654026,18.73,-34.03,"results/species/Bradypodion_pumilum/range_raster.tif","results/species/Bradypodion_pumilum/range_raster_goode.tif"

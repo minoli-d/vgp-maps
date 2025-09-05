@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Engystomops pustulosus",-74.454499599441,9.91645387605485,1,896074.252817067,-121.313,37.9795,"results/species/Engystomops_pustulosus/range_raster.tif","results/species/Engystomops_pustulosus/range_raster_goode.tif"

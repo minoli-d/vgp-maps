@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Ctenodactylus gundi",5.22294397897724,33.1547693934452,2,130340.6621083,10.083,33.133,"results/species/Ctenodactylus_gundi/range_raster.tif","results/species/Ctenodactylus_gundi/range_raster_goode.tif"

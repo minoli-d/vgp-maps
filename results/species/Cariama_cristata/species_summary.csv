@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Cariama cristata",-51.29752827813,-18.7170652031493,1,5935290.1802792,12.52139,55.67278,"results/species/Cariama_cristata/range_raster.tif","results/species/Cariama_cristata/range_raster_goode.tif"

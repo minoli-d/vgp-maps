@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Notolabrus celidotus",135.531481802236,-41.1376661250101,2,608965.596058269,176.09222,-37.39219,"results/species/Notolabrus_celidotus/range_raster.tif","results/species/Notolabrus_celidotus/range_raster_goode.tif"

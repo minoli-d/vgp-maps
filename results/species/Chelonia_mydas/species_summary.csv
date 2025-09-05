@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Chelonia mydas",-9.7925013408852,1.39644301895646,1,256099579.887508,34.753376,31.814194,"results/species/Chelonia_mydas/range_raster.tif","results/species/Chelonia_mydas/range_raster_goode.tif"

@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Falco cherrug",50.5411129272065,32.9359658759037,4,38034008.5651557,51.534817,25.286106,"results/species/Falco_cherrug/range_raster.tif","results/species/Falco_cherrug/range_raster_goode.tif"

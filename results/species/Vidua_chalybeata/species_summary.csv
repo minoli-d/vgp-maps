@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Vidua chalybeata",20.7115267249563,1.60700515149284,1,6965369.26516024,26.29,-28.04,"results/species/Vidua_chalybeata/range_raster.tif","results/species/Vidua_chalybeata/range_raster_goode.tif"

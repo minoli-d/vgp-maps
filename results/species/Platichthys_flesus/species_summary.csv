@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Platichthys flesus",22.3711961157058,49.4836332316447,4,1700265.67102184,-3.2765753,54.7023545,"results/species/Platichthys_flesus/range_raster.tif","results/species/Platichthys_flesus/range_raster_goode.tif"

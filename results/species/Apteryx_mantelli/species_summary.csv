@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Apteryx mantelli",175.491368231515,-37.7742954112632,1,36953.0913591038,-78.165167,38.887667,"results/species/Apteryx_mantelli/range_raster.tif","results/species/Apteryx_mantelli/range_raster_goode.tif"

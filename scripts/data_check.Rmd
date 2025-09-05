@@ -1,0 +1,29 @@
+```{r}
+
+r1 <- st_read("/global/scratch/users/minoli/maps/data/shapes/REPTILES_PART1.shp")
+r2 <- st_read("/global/scratch/users/minoli/maps/data/shapes/REPTILES_PART2.shp")
+
+nrow(r1)
+nrow(r2)
+length(unique(r1$sci_name))
+length(unique(r2$sci_name))
+
+```
+
+```{r}
+library(terra)
+library(sf)
+
+sp <- "Callospermophilus lateralis"
+lon <- -105.5943
+lat <- 40.6956
+rpath <- "/global/scratch/users/minoli/maps/results/species/Callospermophilus_lateralis/range_raster.tif"
+
+r <- terra::rast(rpath)
+pt <- sf::st_sfc(sf::st_point(c(lon, lat)), crs = 4326)
+pt_r <- sf::st_transform(pt, crs(r))
+coords <- sf::st_coordinates(pt_r)
+ex <- terra::extract(r, coords)
+outside_range_flag <- is.na(ex$pres) || ex$pres == 0
+```
+

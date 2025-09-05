@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Diretmus argenteus",8.46141654140213,-1.69209937141707,1,177926771.756808,-67.380675,39.954131,"results/species/Diretmus_argenteus/range_raster.tif","results/species/Diretmus_argenteus/range_raster_goode.tif"

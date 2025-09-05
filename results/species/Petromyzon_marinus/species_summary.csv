@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Petromyzon marinus",-14.9097314805428,49.7310561776914,10,9371629.56535802,-83.74847,42.2821,"results/species/Petromyzon_marinus/range_raster.tif","results/species/Petromyzon_marinus/range_raster_goode.tif"

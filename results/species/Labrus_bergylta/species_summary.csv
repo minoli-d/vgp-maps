@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Labrus bergylta",0.60580750400843,52.3464039690351,2,1676016.08465995,-3.2765753,54.7023545,"results/species/Labrus_bergylta/range_raster.tif","results/species/Labrus_bergylta/range_raster_goode.tif"

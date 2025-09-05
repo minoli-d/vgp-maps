@@ -1,0 +1,2 @@
+"species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
+"Astyanax mexicanus",-102.250170731553,30.7876449740935,3,144295.611495716,NA,NA,"results/species/Astyanax_mexicanus/range_raster.tif","results/species/Astyanax_mexicanus/range_raster_goode.tif"
