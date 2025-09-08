@@ -95,6 +95,7 @@ p2 <- ggplot() +
 ggsave("results/summary/plots/global_centroid_locations.png", p2)
 p2
 ```
+
 ## Heatmap of Distributions
 
 ```{r, error=TRUE}
@@ -136,6 +137,7 @@ p3 <- ggplot() +
 ggsave("results/summary/plots/global_range_heatmap.png", p3)
 p3
 ```
+
 ## Individual Species Maps
 
 ```{r, eval=FALSE}
@@ -201,20 +203,19 @@ for (i in seq_len(nrow(df_print))) {
   img_path <- file.path(sp_dir, paste0(sp_sane, "_distribution_map.png"))
 
   if (file.exists(img_path)) {
-    desc <- str_c(
+    desc <- paste0(
       "Species: ", sp,
       "; Taxon: ", df_print$lineage[i],
       "; Flags: ",
-      ifelse(isTRUE(df_print$outside_range_flag[i]) & !isTRUE(df_print$zoo_museum_flag[i]), "Outside Range; ", ""),
+      ifelse(isTRUE(df_print$outside_range_flag[i]) & !isTRUE(df_print$zoo_flag[i]), "Outside Range; ", ""),
       ifelse(isTRUE(df_print$vague_location_flag[i]), "Vague Location; ", ""),
-      ifelse(isTRUE(df_print$zoo_museum_flag[i]), "Zoo/Museum; ", ""),
+      ifelse(isTRUE(df_print$zoo_flag[i]), "Zoo Sample; ", ""),
       ifelse(isTRUE(df_print$domesticated_flag[i]), "Domesticated; ", ""),
       ifelse(df_print$missing_range_flag[i], "Missing Range; ", "")
     )
-    print(desc)
-    cat(str_c("![](", img_path, ")"), "\n\n")
+    cat(desc, "\n\n")
+    cat("![](../", img_path, ")\n\n", sep = "")
   }
 }
 
 ```
-
