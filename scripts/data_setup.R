@@ -12,11 +12,11 @@ df <- read.csv(
 )
 
 species_list <- df %>%
-  filter(lineage == "Birds") %>%
+  filter(lineage == "Invertebrates") %>%
   distinct(iucn_name) %>%
   pull(iucn_name)
 
-writeLines(species_list, "/global/scratch/users/minoli/maps/data/birds_list.txt")
+writeLines(species_list, "/global/scratch/users/minoli/maps/data/invertebrates_list.txt")
 # 
 # shape_dir <- "/global/scratch/users/minoli/maps/data/shapes"
 # gpkg_out  <- file.path(shape_dir, "fishes_combined.gpkg")

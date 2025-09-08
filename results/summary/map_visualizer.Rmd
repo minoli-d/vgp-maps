@@ -1,6 +1,6 @@
 ---
 title: "Species Distribution Maps"
-output: github_document
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
@@ -57,11 +57,11 @@ tmpl_goode <- terra::rast(extent = terra::ext(xlim[1], xlim[2], ylim[1], ylim[2]
 ##Sampling Map
 
 ```{r}
-sampling_pts <- st_as_sf(df %>% filter(!is.na(sampling_lon))
-                         , coords = c("sampling_lon", "sampling_lat"), crs = 4326) %>%
+sampling_pts <- st_as_sf(df %>% filter(!is.na(lon))
+                         , coords = c("lon", "lat"), crs = 4326) %>%
   st_transform(crs_goode)
 
-ggplot() +
+p1 <- ggplot() +
   geom_sf(data = ocean_goode, fill="white", color=NA) +
   geom_sf(data = world_goode, fill="grey85", color="white", size=0.2) +
   geom_sf(data = goode_without, fill="white", color=NA) +
@@ -69,6 +69,10 @@ ggplot() +
   geom_sf(data = goode_outline, fill=NA, color="gray70", size=0.5) +
   theme_minimal() +
   labs(title="All Sampling Locations")
+
+ggsave("results/summary/plots/global_sampling_locations.png", p1)
+
+p1
 ```
 
 ##Range Centroid Map
@@ -78,7 +82,7 @@ centroids <- st_as_sf(df %>% filter(!is.na(centroid_lon)),
                       coords = c("centroid_lon", "centroid_lat"), crs = 4326) %>%
   st_transform(crs_goode)
 
-ggplot() +
+p2 <- ggplot() +
   geom_sf(data = ocean_goode, fill="white", color=NA) +
   geom_sf(data = world_goode, fill="grey85", color="white", size=0.2) +
   geom_sf(data = goode_without, fill="white", color=NA) +
@@ -86,10 +90,13 @@ ggplot() +
   geom_sf(data = goode_outline, fill=NA, color="gray70", size=0.5) +
   theme_minimal() +
   labs(title="All Range Centroids")
+
+ggsave("results/summary/plots/global_centroid_locations.png", p2)
+p2
 ```
 ##Heatmap of Distributions
 
-```{r}
+```{r, error=TRUE}
 goode_rasters <- as.character(df$raster_path_goode)
 goode_rasters <- goode_rasters[file.exists(goode_rasters)]
 
@@ -107,10 +114,12 @@ goode_rasters <- goode_rasters[file.exists(goode_rasters)]
 #   )
 # }
 
+sum_raster_goode <- rast("results/summary/plots/sum_goode_test.tif")
+
 r_df <- as.data.frame(sum_raster_goode, xy = TRUE, na.rm = FALSE)
 names(r_df)[3] <- "count"
 
-ggplot() +
+p3 <- ggplot() +
   geom_sf(data = ocean_goode, fill="white", color=NA) +
   geom_sf(data = world_goode, fill="grey85", color="white", size=0.2) +
   geom_raster(data = r_df, aes(x=x, y=y, fill=count)) +
@@ -122,89 +131,88 @@ ggplot() +
         axis.text = element_blank(),
         axis.ticks = element_blank()) +
   labs(title="Species Range Density", x=NULL, y=NULL)
+
+ggsave("results/summary/plots/global_range_heatmap.png", p3)
+p3
 ```
 ##Individual Species Maps
 
-```{r}
+```{r, eval=FALSE}
 for (i in seq_len(nrow(df))) {
-  sp <- df$species[i]
-  
-  # metadata row
-  cat("### ", sp, "\n")
-  cat("**Taxon:**", df$lineage[i], "<br>\n")
-  cat("**Geo Location:**", df$geo_location[i], "<br>\n")
-  
-  cat("**Flags:** ",
-      ifelse(isTRUE(df$outside_range_flag[i]) & !isTRUE(df$zoo_museum_flag[i]), "Outside Range; ", ""),
-      ifelse(isTRUE(df$vague_location_flag[i]), "Vague Location; ", ""),
-      ifelse(isTRUE(df$zoo_museum_flag[i]), "Zoo/Museum; ", ""),
-      ifelse(isTRUE(df$domesticated_flag[i]), "Domesticated; ", ""),
-      ifelse(is.na(df$sampling_lon[i]) | is.na(df$sampling_lat[i]), "Missing Location; ", ""),
-      ifelse(is.na(df$raster_path_goode[i]) || !file.exists(df$raster_path_goode[i]), "Missing Range; ", ""),
-      "<br>\n"
-  )
-  
-  # ---- Points (only if valid coords exist)
-  sp_pts <- data.frame(
+  sp      <- df$scientific_name[i]
+  print(sp)
+  sp_sane <- gsub(" ", "_", sp) 
+  sp_dir  <- file.path("results/species", sp_sane)
+  dir.create(sp_dir, recursive = TRUE, showWarnings = FALSE)
+
+  sp_pts <- tibble(
     name = c("Sampling", "Centroid"),
-    lon  = c(df$sampling_lon[i], df$centroid_lon[i]),
-    lat  = c(df$sampling_lat[i], df$centroid_lat[i])
-  )
-  sp_pts <- sp_pts[!is.na(sp_pts$lon) & !is.na(sp_pts$lat), ]  # drop NAs
-  
-  sp_sf <- NULL
-  if (nrow(sp_pts) > 0) {
-    sp_sf <- st_as_sf(sp_pts, coords = c("lon","lat"), crs = 4326) |> 
+    lon  = c(df$lon[i], df$centroid_lon[i]),
+    lat  = c(df$lat[i], df$centroid_lat[i])
+  ) %>% filter(!is.na(lon) & !is.na(lat))
+
+  sp_sf <- if (nrow(sp_pts) > 0) {
+    st_as_sf(sp_pts, coords = c("lon", "lat"), crs = 4326) %>%
       st_transform(crs_goode)
-  }
-  
-  # ---- Range raster
-  p_range <- NULL
+  } else NULL
+
+  r_df <- NULL
   if (!is.na(df$raster_path_goode[i]) && file.exists(df$raster_path_goode[i])) {
-    r <- rast(df$raster_path_goode[i])
+    r    <- rast(df$raster_path_goode[i])
     r_df <- as.data.frame(r, xy = TRUE, na.rm = TRUE)
     names(r_df)[3] <- "presence"
-    r_df <- r_df[r_df$presence > 0, , drop = FALSE]
-    
-    p_range <- ggplot() +
-      geom_sf(data = ocean_goode, fill="white", color=NA) +
-      geom_sf(data = world_goode, fill="grey85", color="white", size=0.2) +
-      geom_sf(data = goode_outline, fill=NA, color="gray70", size=0.5) +
-      geom_tile(data = r_df, aes(x=x, y=y), fill="chartreuse3", alpha=0.5) +
-      { if (!is.null(sp_sf)) geom_sf(data = sp_sf, aes(color=name), size=2, show.legend=FALSE) } +
-      scale_color_manual(values=c("Sampling"="red3", "Centroid"="royalblue3")) +
-      theme_minimal() +
-      labs(title = paste("Range Map:", sp))
+    r_df <- filter(r_df, presence > 0)
   }
-  
-  # ---- Print maps (only those that exist)
-  if (!is.null(sp_sf) && "Sampling" %in% sp_pts$name) {
-    p_sampling <- ggplot() +
-      geom_sf(data = ocean_goode, fill="white", color=NA) +
-      geom_sf(data = world_goode, fill="grey85", color="white", size=0.2) +
-      geom_sf(data = goode_outline, fill=NA, color="gray70", size=0.5) +
-      geom_sf(data = sp_sf[sp_sf$name == "Sampling", ], shape=21, fill="red3", size=2) +
-      theme_minimal() +
-      labs(title = paste("Sampling Location:", sp))
-    print(p_sampling)
-  }
-  
-  if (!is.null(sp_sf) && "Centroid" %in% sp_pts$name) {
-    p_centroid <- ggplot() +
-      geom_sf(data = ocean_goode, fill="white", color=NA) +
-      geom_sf(data = world_goode, fill="grey85", color="white", size=0.2) +
-      geom_sf(data = goode_outline, fill=NA, color="gray70", size=0.5) +
-      geom_sf(data = sp_sf[sp_sf$name == "Centroid", ], shape=21, fill="royalblue3", size=2) +
-      theme_minimal() +
-      labs(title = paste("Range Centroid:", sp))
-    print(p_centroid)
-  }
-  
-  if (!is.null(p_range)) print(p_range)
-  
-  cat("\n\n")
+
+  p <- ggplot() +
+    geom_sf(data = ocean_goode, fill = "white", color = NA) +
+    geom_sf(data = world_goode, fill = "grey85", color = "white", size = 0.2) +
+    geom_sf(data = goode_without, fill="white", color=NA) +
+    geom_sf(data = goode_outline, fill = NA, color = "gray70", size = 0.5) +
+    { if (!is.null(r_df)) geom_tile(data = r_df, aes(x = x, y = y), fill = "chartreuse3", alpha = 0.5) } +
+    { if (!is.null(sp_sf)) geom_sf(data = sp_sf, aes(color = name), size = 1.5, shape = 20, fill = NA) } +
+    scale_color_manual(values = c("Sampling" = "red3", "Centroid" = "royalblue3")) +
+    theme_minimal() +
+    labs(title = paste(sp, "Location Data:"), x=NULL, y=NULL, color=NULL)
+
+  ggsave(file.path(sp_dir, paste0(sp_sane, "_distribution_map.png")),
+         p, width = 7, height = 4, dpi = 300)
 }
+```
 
+```{r}
+df_print <- df %>%
+  mutate(
+    flag_count = rowSums(cbind(
+      as.integer(outside_range_flag & !zoo_flag),
+      as.integer(vague_location_flag),
+      as.integer(zoo_flag),
+      as.integer(domesticated_flag),
+      as.integer(missing_range_flag)
+    ), na.rm = TRUE)
+  ) %>%
+  arrange(desc(flag_count))
 
+for (i in seq_len(nrow(df_print))) {
+  sp      <- df_print$scientific_name[i]
+  sp_sane <- gsub("[^A-Za-z0-9_]", "_", sp) 
+  sp_dir  <- file.path("results/species", sp_sane)
+  img_path <- file.path(sp_dir, paste0(sp_sane, "_distribution_map.png"))
+
+  if (file.exists(img_path)) {
+    cat("### ", sp, "\n")
+    cat("**Taxon:**", df_print$lineage[i], "<br>\n")
+    cat("**Geo Location:**", df_print$geo_location[i], "<br>\n")
+    cat("**Flags:** ",
+        ifelse(isTRUE(df_print$outside_range_flag[i]) & !isTRUE(df_print$zoo_flag[i]), "Outside Range; ", ""),
+        ifelse(isTRUE(df_print$vague_location_flag[i]), "Vague Location; ", ""),
+        ifelse(isTRUE(df_print$zoo_flag[i]), "Zoo/Museum; ", ""),
+        ifelse(isTRUE(df_print$domesticated_flag[i]), "Domesticated; ", ""),
+        ifelse(isTRUE(df$missing_range_flag[i]), "Missing Range; ", ""),
+        "<br>\n\n"
+    )
+    cat("![](", img_path, ")\n\n")
+  }
+}
 ```
 

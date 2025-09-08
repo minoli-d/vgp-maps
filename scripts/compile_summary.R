@@ -58,7 +58,13 @@ domesticated_species <- c(
 )
 
 all_species <- df %>%
-  left_join(all_summaries, by = c("iucn_name" = "species")) %>%
+  left_join(
+    all_summaries %>%
+      dplyr::select(species, raster_path_ea, raster_path_goode,
+                    centroid_lon, centroid_lat, 
+                    outside_range_flag),
+    by = c("iucn_name" = "species")
+  ) %>%
   mutate(
     missing_range_flag = is.na(raster_path_ea),
     zoo_flag = !is.na(geo_location) &
@@ -76,4 +82,4 @@ review <- all_species %>%
       missing_range_flag
   )
 
-# write_csv(review, "results/summary/species_to_review.csv")
+write_csv(review, "results/summary/species_to_review.csv")
