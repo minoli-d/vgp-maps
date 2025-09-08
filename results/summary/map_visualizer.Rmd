@@ -213,7 +213,7 @@ for (i in seq_len(nrow(df_print))) {
       ifelse(isTRUE(df_print$domesticated_flag[i]), "Domesticated; ", ""),
       ifelse(df_print$missing_range_flag[i], "Missing Range; ", "")
     )
-    cat(desc, "\n\n")
+    cat(desc, "\n")
     cat("![](../species/", sp_sane, "/", sp_sane, "_distribution_map.png)\n\n", sep = "")
   }
 }
