@@ -214,7 +214,7 @@ for (i in seq_len(nrow(df_print))) {
       ifelse(df_print$missing_range_flag[i], "Missing Range; ", "")
     )
     cat(desc, "\n\n")
-    cat("![](../", img_path, ")\n\n", sep = "")
+    cat("![](../species/", sp_sane, "/", sp_sane, "_distribution_map.png)\n\n", sep = "")
   }
 }
 
