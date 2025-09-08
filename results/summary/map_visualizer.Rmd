@@ -15,6 +15,7 @@ library(rnaturalearthdata)
 library(viridis)
 library(raster)
 library(sp)
+library(stringr)
 ```
 
 ```{r}
@@ -180,7 +181,7 @@ for (i in seq_len(nrow(df))) {
 }
 ```
 
-```{r}
+```{r  results='asis'}
 df_print <- df %>%
   mutate(
     flag_count = rowSums(cbind(
@@ -195,24 +196,25 @@ df_print <- df %>%
 
 for (i in seq_len(nrow(df_print))) {
   sp      <- df_print$scientific_name[i]
-  sp_sane <- gsub(" ", "_", sp) 
+  sp_sane <- gsub(" ", "_", sp)
   sp_dir  <- file.path("results/species", sp_sane)
   img_path <- file.path(sp_dir, paste0(sp_sane, "_distribution_map.png"))
 
   if (file.exists(img_path)) {
-    cat("#### ", sp, "\n")
-    cat("**Taxon:**", df_print$lineage[i], "<br>\n")
-    cat("**Geo Location:**", df_print$geo_location[i], "<br>\n")
-    cat("**Flags:** ",
-        ifelse(isTRUE(df_print$outside_range_flag[i]) & !isTRUE(df_print$zoo_flag[i]), "Outside Range; ", ""),
-        ifelse(isTRUE(df_print$vague_location_flag[i]), "Vague Location; ", ""),
-        ifelse(isTRUE(df_print$zoo_flag[i]), "Zoo/Museum; ", ""),
-        ifelse(isTRUE(df_print$domesticated_flag[i]), "Domesticated; ", ""),
-        ifelse(isTRUE(df$missing_range_flag[i]), "Missing Range; ", ""),
-        "<br>\n\n"
+    desc <- str_c(
+      "Species: ", sp,
+      "; Taxon: ", df_print$lineage[i],
+      "; Flags: ",
+      ifelse(isTRUE(df_print$outside_range_flag[i]) & !isTRUE(df_print$zoo_museum_flag[i]), "Outside Range; ", ""),
+      ifelse(isTRUE(df_print$vague_location_flag[i]), "Vague Location; ", ""),
+      ifelse(isTRUE(df_print$zoo_museum_flag[i]), "Zoo/Museum; ", ""),
+      ifelse(isTRUE(df_print$domesticated_flag[i]), "Domesticated; ", ""),
+      ifelse(df_print$missing_range_flag[i], "Missing Range; ", "")
     )
-    cat("![](", img_path, ")\n\n")
+    print(desc)
+    cat(str_c("![](", img_path, ")"), "\n\n")
   }
 }
+
 ```
 
