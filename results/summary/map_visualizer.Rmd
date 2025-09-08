@@ -4,7 +4,7 @@ output: md_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, results = 'asis')
 knitr::opts_knit$set(root.dir = "/global/scratch/users/minoli/maps")
 library(ggplot2)
 library(sf)
@@ -54,7 +54,7 @@ tmpl_goode <- terra::rast(extent = terra::ext(xlim[1], xlim[2], ylim[1], ylim[2]
                           resolution = 10000, crs = crs_goode)
 ```
 
-##Sampling Map
+## Sampling Map
 
 ```{r}
 sampling_pts <- st_as_sf(df %>% filter(!is.na(lon))
@@ -75,7 +75,7 @@ ggsave("results/summary/plots/global_sampling_locations.png", p1)
 p1
 ```
 
-##Range Centroid Map
+## Range Centroid Map
 
 ```{r}
 centroids <- st_as_sf(df %>% filter(!is.na(centroid_lon)), 
@@ -94,7 +94,7 @@ p2 <- ggplot() +
 ggsave("results/summary/plots/global_centroid_locations.png", p2)
 p2
 ```
-##Heatmap of Distributions
+## Heatmap of Distributions
 
 ```{r, error=TRUE}
 goode_rasters <- as.character(df$raster_path_goode)
@@ -135,7 +135,7 @@ p3 <- ggplot() +
 ggsave("results/summary/plots/global_range_heatmap.png", p3)
 p3
 ```
-##Individual Species Maps
+## Individual Species Maps
 
 ```{r, eval=FALSE}
 for (i in seq_len(nrow(df))) {
@@ -195,12 +195,12 @@ df_print <- df %>%
 
 for (i in seq_len(nrow(df_print))) {
   sp      <- df_print$scientific_name[i]
-  sp_sane <- gsub("[^A-Za-z0-9_]", "_", sp) 
+  sp_sane <- gsub(" ", "_", sp) 
   sp_dir  <- file.path("results/species", sp_sane)
   img_path <- file.path(sp_dir, paste0(sp_sane, "_distribution_map.png"))
 
   if (file.exists(img_path)) {
-    cat("### ", sp, "\n")
+    cat("#### ", sp, "\n")
     cat("**Taxon:**", df_print$lineage[i], "<br>\n")
     cat("**Geo Location:**", df_print$geo_location[i], "<br>\n")
     cat("**Flags:** ",
