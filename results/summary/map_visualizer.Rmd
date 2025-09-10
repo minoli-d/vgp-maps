@@ -5,7 +5,8 @@ output: md_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, results = 'asis')
-knitr::opts_knit$set(root.dir = "/global/scratch/users/minoli/maps")
+# knitr::opts_knit$set(root.dir = "/global/scratch/users/minoli/maps")
+knitr::opts_knit$set(root.dir = "~/Desktop/vgp-maps")
 library(ggplot2)
 library(sf)
 library(terra)
@@ -173,48 +174,64 @@ for (i in seq_len(nrow(df))) {
     geom_sf(data = goode_without, fill="white", color=NA) +
     geom_sf(data = goode_outline, fill = NA, color = "gray70", size = 0.5) +
     { if (!is.null(r_df)) geom_tile(data = r_df, aes(x = x, y = y), fill = "chartreuse3", alpha = 0.5) } +
-    { if (!is.null(sp_sf)) geom_sf(data = sp_sf, aes(color = name), size = 1.5, shape = 20, fill = NA) } +
+    { if (!is.null(sp_sf)) geom_sf(data = sp_sf, aes(color = name), size = .75, shape = 21, fill = NA) } +
     scale_color_manual(values = c("Sampling" = "red3", "Centroid" = "royalblue3")) +
     theme_minimal() +
-    labs(title = paste(sp, "Location Data:"), x=NULL, y=NULL, color=NULL)
+    theme(plot.title = element_text(size = 10)) +
+    labs(title = paste(sp, ":"), x=NULL, y=NULL, color=NULL)
 
   ggsave(file.path(sp_dir, paste0(sp_sane, "_distribution_map.png")),
-         p, width = 7, height = 4, dpi = 300)
+         p, width = 5, height = 3, dpi = 300)
 }
 ```
 
-```{r  results='asis'}
-df_print <- df %>%
-  mutate(
-    flag_count = rowSums(cbind(
-      as.integer(outside_range_flag & !zoo_flag),
-      as.integer(vague_location_flag),
-      as.integer(zoo_flag),
-      as.integer(domesticated_flag),
-      as.integer(missing_range_flag)
-    ), na.rm = TRUE)
-  ) %>%
-  arrange(desc(flag_count))
+```{r,  results='asis'}
 
-for (i in seq_len(nrow(df_print))) {
-  sp      <- df_print$scientific_name[i]
+df_prioritized <- df %>%
+  mutate(
+    priority = case_when(
+      # 1. both sampling and centroid missing
+      missing_sampling_location_flag & missing_range_flag ~ 1L,
+      
+      # 2. sampling unusable + centroid available
+      (missing_sampling_location_flag | vague_location_flag | outside_range_flag |
+         zoo_flag | domesticated_flag) & !missing_range_flag ~ 2L,
+      
+      # 3. sampling exists but invalid
+      (!missing_sampling_location_flag) & 
+        (outside_range_flag | vague_location_flag | zoo_flag | domesticated_flag) ~ 3L,
+      
+      # 4. missing range but has usable sampling
+      missing_range_flag & !missing_sampling_location_flag ~ 4L,
+      
+      # 5.
+      TRUE ~ 5L
+    )
+  ) %>%
+  arrange(priority, scientific_name)
+
+for (i in seq_len(nrow(df_prioritized))) {
+  sp      <- df_prioritized$scientific_name[i]
   sp_sane <- gsub(" ", "_", sp)
   sp_dir  <- file.path("results/species", sp_sane)
   img_path <- file.path(sp_dir, paste0(sp_sane, "_distribution_map.png"))
 
   if (file.exists(img_path)) {
     desc <- paste0(
-      "Species: ", sp,
-      "; Taxon: ", df_print$lineage[i],
-      "; Flags: ",
-      ifelse(isTRUE(df_print$outside_range_flag[i]) & !isTRUE(df_print$zoo_flag[i]), "Outside Range; ", ""),
-      ifelse(isTRUE(df_print$vague_location_flag[i]), "Vague Location; ", ""),
-      ifelse(isTRUE(df_print$zoo_flag[i]), "Zoo Sample; ", ""),
-      ifelse(isTRUE(df_print$domesticated_flag[i]), "Domesticated; ", ""),
-      ifelse(df_print$missing_range_flag[i], "Missing Range; ", "")
-    )
+      "\n\n### Species: ", sp, "\n\n",
+      "**Biosample:** ", df_prioritized$assemblyInfo_biosample_accession[i], "  \n",
+      "**Taxon:** ", df_prioritized$lineage[i], "  \n",
+      "**Priority:** ", df_prioritized$priority[i],"  \n",
+      "**Flags:** ",
+  ifelse(isTRUE(df_prioritized$outside_range_flag[i]) & !isTRUE(df_prioritized$zoo_flag[i]), "Outside Range; ", ""),
+  ifelse(isTRUE(df_prioritized$vague_location_flag[i]), "Vague Location; ", ""),
+  ifelse(isTRUE(df_prioritized$zoo_flag[i]), "Zoo Sample; ", ""),
+  ifelse(isTRUE(df_prioritized$domesticated_flag[i]), "Domesticated; ", ""),
+  ifelse(df_prioritized$missing_range_flag[i], "Missing Range; ", ""),
+  ifelse(isTRUE(df_prioritized$missing_sampling_location_flag[i]), "Missing Sampling Location; ", "")
+)
     cat(desc, "\n")
-    cat("![](../species/", sp_sane, "/", sp_sane, "_distribution_map.png)\n\n", sep = "")
+    cat("![](../species/", sp_sane, "/", sp_sane, "_distribution_map.png)", sep = "")
   }
 }
 

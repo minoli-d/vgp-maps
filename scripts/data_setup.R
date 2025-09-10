@@ -7,16 +7,16 @@ library(stringr)
 # set.seed(0)
 
 df <- read.csv(
-  "/global/scratch/users/minoli/maps/data/vgp_iucn_loc_metadata.csv",
+  "~/desktop/vgp-maps/data/vgp_iucn_loc_metadata.csv",
   stringsAsFactors = FALSE
 )
 
-species_list <- df %>%
-  filter(lineage == "Invertebrates") %>%
-  distinct(iucn_name) %>%
-  pull(iucn_name)
-
-writeLines(species_list, "/global/scratch/users/minoli/maps/data/invertebrates_list.txt")
+# species_list <- df %>%
+#   filter(lineage == "Invertebrates") %>%
+#   distinct(iucn_name) %>%
+#   pull(iucn_name)
+# 
+# writeLines(species_list, "/global/scratch/users/minoli/maps/data/invertebrates_list.txt")
 # 
 # shape_dir <- "/global/scratch/users/minoli/maps/data/shapes"
 # gpkg_out  <- file.path(shape_dir, "fishes_combined.gpkg")
@@ -59,9 +59,13 @@ df <- df %>%
       
       # geolocation is specific names but no coords
       TRUE ~ FALSE
+    ),
+    missing_sampling_location_flag = ifelse(
+      is.na(latlon) & (is.na(geo_location) | geo_location == ""),
+      TRUE, FALSE
     )
   )
 
-write_csv(df, "/global/scratch/users/minoli/maps/data/vgp_iucn_loc_metadata.csv")
+write.csv(df, "~/Desktop/vgp-maps/data/vgp_iucn_loc_metadata.csv")
 
 
