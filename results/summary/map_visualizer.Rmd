@@ -193,13 +193,13 @@ df_prioritized <- df %>%
       # 1. both sampling and centroid missing
       missing_sampling_location_flag & missing_range_flag ~ 1L,
       
-      # 2. sampling unusable + centroid available
-      (missing_sampling_location_flag | vague_location_flag | outside_range_flag |
-         zoo_flag | domesticated_flag) & !missing_range_flag ~ 2L,
-      
-      # 3. sampling exists but invalid
+      # 2. sampling exists but invalid
       (!missing_sampling_location_flag) & 
-        (outside_range_flag | vague_location_flag | zoo_flag | domesticated_flag) ~ 3L,
+        (outside_range_flag | vague_location_flag | zoo_flag | domesticated_flag) ~ 2L,
+      
+      # 3. sampling unusable + centroid available
+      (missing_sampling_location_flag | vague_location_flag | outside_range_flag |
+         zoo_flag | domesticated_flag) & !missing_range_flag ~ 3L,
       
       # 4. missing range but has usable sampling
       missing_range_flag & !missing_sampling_location_flag ~ 4L,
@@ -208,7 +208,7 @@ df_prioritized <- df %>%
       TRUE ~ 5L
     )
   ) %>%
-  select(scientific_name, iucn_name, assessment_id, category, criteria,
+  dplyr::select(scientific_name, iucn_name, assessment_id, category, criteria,
          pop_trend, locations, year_published, latest, gbif_synonyms,
          iucn_synonyms, lineage, english_name,
          accession_number_for_main_haplotype, assemblyInfo_biosample_accession,
@@ -220,9 +220,7 @@ df_prioritized <- df %>%
          domesticated_flag, priority) %>%
   arrange(priority, scientific_name) 
 
-
-
-write.csv(df_prioritized, "results/summary/all_species_prioritized.csv", sep=",")
+write.csv(df_prioritized, "results/summary/all_species_prioritized.csv", row.names = FALSE)
 
 for (i in seq_len(nrow(df_prioritized))) {
   sp      <- df_prioritized$scientific_name[i]
