@@ -188,24 +188,29 @@ for (i in seq_len(nrow(df))) {
 ```{r,  results='asis'}
 
 df_prioritized <- df %>%
+  filter(!domesticated_flag,
+         !grepl("Homo sapiens", scientific_name, ignore.case = TRUE)) %>%
   mutate(
     priority = case_when(
       # 1. both sampling and centroid missing
       missing_sampling_location_flag & missing_range_flag ~ 1L,
       
-      # 2. sampling exists but invalid
-      (!missing_sampling_location_flag) & 
-        (outside_range_flag | vague_location_flag | zoo_flag | domesticated_flag) ~ 2L,
+      # 2. sampling missing, excluding zoo/aquarium
+      missing_sampling_location_flag & !zoo_flag ~ 2L,
       
-      # 3. sampling unusable + centroid available
-      (missing_sampling_location_flag | vague_location_flag | outside_range_flag |
-         zoo_flag | domesticated_flag) & !missing_range_flag ~ 3L,
+      # 3. vague sampling that doesn’t overlap range OR no range
+      (vague_location_flag & outside_range_flag) | (vague_location_flag & missing_range_flag) ~ 3L,
       
-      # 4. missing range but has usable sampling
-      missing_range_flag & !missing_sampling_location_flag ~ 4L,
+      # 4. precise sampling that doesn’t overlap range
+      (!vague_location_flag & outside_range_flag) ~ 4L,
       
-      # 5.
-      TRUE ~ 5L
+      # 5. vague sampling inside range
+      (vague_location_flag & !outside_range_flag) ~ 5L,
+      
+      # 6. precise sampling with no range OR precise inside range
+       (!vague_location_flag & missing_range_flag) | (!vague_location_flag & !outside_range_flag) ~ 6L,
+      
+      TRUE ~ 6L
     )
   ) %>%
   dplyr::select(scientific_name, iucn_name, assessment_id, category, criteria,
@@ -232,6 +237,7 @@ for (i in seq_len(nrow(df_prioritized))) {
     desc <- paste0(
       "\n\n### Species: ", sp, "\n\n",
       "**Biosample:** ", df_prioritized$assemblyInfo_biosample_accession[i], "  \n",
+      "**Assembly Accession:** ", df_prioritized$accession_number_for_main_haplotype[i], "  \n",
       "**Taxon:** ", df_prioritized$lineage[i], "  \n",
       "**Priority:** ", df_prioritized$priority[i],"  \n",
       "**Flags:** ",
