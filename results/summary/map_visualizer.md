@@ -14,7 +14,7 @@
 
 ### Species: Asterias rubens
 
-**Biosample:**  
+**Biosample:** SAMEA994741  
 **Assembly Accession:** GCA\_902459465.3  
 **Taxon:** Invertebrates  
 **Priority:** 1  
@@ -23,7 +23,7 @@
 
 ### Species: Branchiostoma belcheri
 
-**Biosample:**  
+**Biosample:** SAMN13907882  
 **Assembly Accession:** GCA\_019207075.1  
 **Taxon:** Invertebrates  
 **Priority:** 1  
@@ -32,7 +32,7 @@
 
 ### Species: Branchiostoma floridae
 
-**Biosample:**  
+**Biosample:** SAMN13896449  
 **Assembly Accession:** GCA\_015852565.1  
 **Taxon:** Invertebrates  
 **Priority:** 1  
@@ -41,7 +41,7 @@
 
 ### Species: Gadus morhua
 
-**Biosample:**  
+**Biosample:** SAMEA5574046  
 **Assembly Accession:** GCA\_902167405.1  
 **Taxon:** Fishes  
 **Priority:** 1  
@@ -50,7 +50,7 @@
 
 ### Species: Acanthopagrus latus
 
-**Biosample:**  
+**Biosample:** SAMN16236878  
 **Assembly Accession:** GCA\_904848185.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -59,7 +59,7 @@
 
 ### Species: Acipenser ruthenus
 
-**Biosample:**  
+**Biosample:** SAMEA5572864  
 **Assembly Accession:** GCA\_902713425.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -68,7 +68,7 @@
 
 ### Species: Acomys russatus
 
-**Biosample:**  
+**Biosample:** SAMEA104026431  
 **Assembly Accession:** GCA\_903995435.1  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -77,7 +77,7 @@
 
 ### Species: Anabas testudineus
 
-**Biosample:**  
+**Biosample:** SAMEA104026376  
 **Assembly Accession:** GCA\_900324465.3  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -86,7 +86,7 @@
 
 ### Species: Aquila chrysaetos
 
-**Biosample:**  
+**Biosample:** SAMEA994725  
 **Assembly Accession:** GCA\_900496995.4  
 **Taxon:** Birds  
 **Priority:** 2  
@@ -95,7 +95,7 @@
 
 ### Species: Arvicola amphibius
 
-**Biosample:**  
+**Biosample:** SAMEA994740  
 **Assembly Accession:** GCA\_903992535.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -104,7 +104,7 @@
 
 ### Species: Astyanax mexicanus
 
-**Biosample:**  
+**Biosample:** SAMN25965548  
 **Assembly Accession:** GCA\_023375975.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -113,7 +113,7 @@
 
 ### Species: Betta splendens
 
-**Biosample:**  
+**Biosample:** SAMEA104381735  
 **Assembly Accession:** GCA\_900634795.4  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -122,7 +122,7 @@
 
 ### Species: Chanos chanos
 
-**Biosample:**  
+**Biosample:** SAMEA5159473  
 **Assembly Accession:** GCA\_902362185.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -131,7 +131,7 @@
 
 ### Species: Cottoperca gobio
 
-**Biosample:**  
+**Biosample:** SAMEA104242975  
 **Assembly Accession:** GCA\_900634415.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -140,7 +140,7 @@
 
 ### Species: Denticeps clupeoides
 
-**Biosample:**  
+**Biosample:** SAMEA104129917  
 **Assembly Accession:** GCA\_900700375.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -149,7 +149,7 @@
 
 ### Species: Echeneis naucrates
 
-**Biosample:**  
+**Biosample:** SAMEA4966390  
 **Assembly Accession:** GCA\_900963305.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -158,7 +158,7 @@
 
 ### Species: Erithacus rubecula
 
-**Biosample:**  
+**Biosample:** SAMEA4760689  
 **Assembly Accession:** GCA\_903797595.2  
 **Taxon:** Birds  
 **Priority:** 2  
@@ -167,7 +167,7 @@
 
 ### Species: Erpetoichthys calabaricus
 
-**Biosample:**  
+**Biosample:** SAMEA104026374  
 **Assembly Accession:** GCA\_900747795.4  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -176,7 +176,7 @@
 
 ### Species: Eubalaena glacialis
 
-**Biosample:**  
+**Biosample:** NA  
 **Assembly Accession:** GCA\_028564815.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -185,7 +185,7 @@
 
 ### Species: Eublepharis macularius
 
-**Biosample:**  
+**Biosample:** SAMN31016422  
 **Assembly Accession:** GCA\_028583425.1  
 **Taxon:** Reptiles  
 **Priority:** 2  
@@ -194,7 +194,7 @@
 
 ### Species: Geotrypetes seraphini
 
-**Biosample:**  
+**Biosample:** SAMEA104387963  
 **Assembly Accession:** GCA\_902459505.2  
 **Taxon:** Amphibians  
 **Priority:** 2  
@@ -203,7 +203,7 @@
 
 ### Species: Girardinichthys multiradiatus
 
-**Biosample:**  
+**Biosample:** SAMN22242658  
 **Assembly Accession:** GCA\_021462225.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -212,7 +212,7 @@
 
 ### Species: Gorilla gorilla
 
-**Biosample:**  
+**Biosample:** SAMN04003007  
 **Assembly Accession:** GCA\_029281585.3  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -221,7 +221,7 @@
 
 ### Species: Gouania willdenowi
 
-**Biosample:**  
+**Biosample:** SAMEA104026382  
 **Assembly Accession:** GCA\_900634775.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -230,7 +230,7 @@
 
 ### Species: Lutra lutra
 
-**Biosample:**  
+**Biosample:** SAMEA994731  
 **Assembly Accession:** GCA\_902655055.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -239,7 +239,7 @@
 
 ### Species: Lycocorax pyrrhopterus
 
-**Biosample:**  
+**Biosample:** SAMN15881065  
 **Assembly Accession:** GCA\_014706295.1  
 **Taxon:** Birds  
 **Priority:** 2  
@@ -248,7 +248,7 @@
 
 ### Species: Mastacembelus armatus
 
-**Biosample:**  
+**Biosample:** SAMEA104026378  
 **Assembly Accession:** GCA\_900324485.3  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -257,7 +257,7 @@
 
 ### Species: Microcaecilia unicolor
 
-**Biosample:**  
+**Biosample:** SAMEA104387962  
 **Assembly Accession:** GCA\_901765095.2  
 **Taxon:** Amphibians  
 **Priority:** 2  
@@ -266,7 +266,7 @@
 
 ### Species: Micropterus salmoides
 
-**Biosample:**  
+**Biosample:** SAMN15783178  
 **Assembly Accession:** GCA\_019677235.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -275,7 +275,7 @@
 
 ### Species: Myripristis murdjan
 
-**Biosample:**  
+**Biosample:** SAMEA4872133  
 **Assembly Accession:** GCA\_902150065.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -284,7 +284,7 @@
 
 ### Species: Oenanthe melanoleuca
 
-**Biosample:**  
+**Biosample:** SAMN33408179  
 **Assembly Accession:** GCA\_029582105.1  
 **Taxon:** Birds  
 **Priority:** 2  
@@ -293,7 +293,7 @@
 
 ### Species: Onychomys torridus
 
-**Biosample:**  
+**Biosample:** SAMEA104026389  
 **Assembly Accession:** GCA\_903995425.1  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -302,7 +302,7 @@
 
 ### Species: Ornithorhynchus anatinus
 
-**Biosample:**  
+**Biosample:** SAMN08537700  
 **Assembly Accession:** GCA\_004115215.4  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -311,7 +311,7 @@
 
 ### Species: Ovis canadensis
 
-**Biosample:**  
+**Biosample:** NA  
 **Assembly Accession:** GCA\_042477335.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -320,7 +320,7 @@
 
 ### Species: Pan paniscus
 
-**Biosample:**  
+**Biosample:** SAMN13935689  
 **Assembly Accession:** GCA\_029289425.3  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -329,7 +329,7 @@
 
 ### Species: Pan troglodytes
 
-**Biosample:**  
+**Biosample:** SAMN30216104  
 **Assembly Accession:** GCA\_028858775.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -338,7 +338,7 @@
 
 ### Species: Parambassis ranga
 
-**Biosample:**  
+**Biosample:** SAMEA4675621  
 **Assembly Accession:** GCA\_900634625.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -347,7 +347,7 @@
 
 ### Species: Patagioenas fasciata
 
-**Biosample:**  
+**Biosample:** NA  
 **Assembly Accession:** GCA\_037038585.2  
 **Taxon:** Birds  
 **Priority:** 2  
@@ -356,7 +356,7 @@
 
 ### Species: Petromyzon marinus
 
-**Biosample:**  
+**Biosample:** NA  
 **Assembly Accession:** GCA\_048934315.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -365,7 +365,7 @@
 
 ### Species: Pipistrellus pipistrellus
 
-**Biosample:**  
+**Biosample:** SAMEA994724  
 **Assembly Accession:** GCA\_903992545.1  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -374,7 +374,7 @@
 
 ### Species: Pleurodeles waltl
 
-**Biosample:**  
+**Biosample:** SAMN28911188  
 **Assembly Accession:** GCA\_026652325.1  
 **Taxon:** Amphibians  
 **Priority:** 2  
@@ -383,7 +383,7 @@
 
 ### Species: Pongo abelii
 
-**Biosample:**  
+**Biosample:** SAMN10521808  
 **Assembly Accession:** GCA\_028885655.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -392,7 +392,7 @@
 
 ### Species: Pongo pygmaeus
 
-**Biosample:**  
+**Biosample:** SAMN10521809  
 **Assembly Accession:** GCA\_028885625.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -401,7 +401,7 @@
 
 ### Species: Protopterus annectens
 
-**Biosample:**  
+**Biosample:** SAMN26533844  
 **Assembly Accession:** GCA\_040939525.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -410,7 +410,7 @@
 
 ### Species: Rhinatrema bivittatum
 
-**Biosample:**  
+**Biosample:** SAMEA104387956  
 **Assembly Accession:** GCA\_901001135.2  
 **Taxon:** Amphibians  
 **Priority:** 2  
@@ -419,7 +419,7 @@
 
 ### Species: Salarias fasciatus
 
-**Biosample:**  
+**Biosample:** SAMEA4966329  
 **Assembly Accession:** GCA\_902148845.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -428,7 +428,7 @@
 
 ### Species: Salmo trutta
 
-**Biosample:**  
+**Biosample:** SAMEA994732  
 **Assembly Accession:** GCA\_901001165.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -437,7 +437,7 @@
 
 ### Species: Sciurus carolinensis
 
-**Biosample:**  
+**Biosample:** SAMEA994726  
 **Assembly Accession:** GCA\_902686445.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -446,7 +446,7 @@
 
 ### Species: Sciurus vulgaris
 
-**Biosample:**  
+**Biosample:** SAMEA994733  
 **Assembly Accession:** GCA\_902686455.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -455,7 +455,7 @@
 
 ### Species: Scleropages formosus
 
-**Biosample:**  
+**Biosample:** SAMEA4872123  
 **Assembly Accession:** GCA\_900964775.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -464,7 +464,7 @@
 
 ### Species: Scyliorhinus canicula
 
-**Biosample:**  
+**Biosample:** SAMEA994730  
 **Assembly Accession:** GCA\_902713615.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -473,7 +473,7 @@
 
 ### Species: Sparus aurata
 
-**Biosample:**  
+**Biosample:** SAMEA104384835  
 **Assembly Accession:** GCA\_900880675.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -482,7 +482,7 @@
 
 ### Species: Sphaeramia orbicularis
 
-**Biosample:**  
+**Biosample:** SAMEA4966328  
 **Assembly Accession:** GCA\_902148855.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -491,7 +491,7 @@
 
 ### Species: Streptopelia turtur
 
-**Biosample:**  
+**Biosample:** SAMEA994735  
 **Assembly Accession:** GCA\_901699155.2  
 **Taxon:** Birds  
 **Priority:** 2  
@@ -500,7 +500,7 @@
 
 ### Species: Symphalangus syndactylus
 
-**Biosample:**  
+**Biosample:** SAMN30216103  
 **Assembly Accession:** GCA\_028878055.3  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -509,7 +509,7 @@
 
 ### Species: Syngnathus acus
 
-**Biosample:**  
+**Biosample:** SAMEA104381750  
 **Assembly Accession:** GCA\_901709675.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -518,7 +518,7 @@
 
 ### Species: Takifugu rubripes
 
-**Biosample:**  
+**Biosample:** SAMEA104384834  
 **Assembly Accession:** GCA\_901000725.3  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -527,7 +527,7 @@
 
 ### Species: Thalassophryne amazonica
 
-**Biosample:**  
+**Biosample:** SAMEA104129913  
 **Assembly Accession:** GCA\_902500255.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -536,7 +536,7 @@
 
 ### Species: Tupaia tana
 
-**Biosample:**  
+**Biosample:** SAMN07678117  
 **Assembly Accession:** GCA\_026018925.1  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -545,7 +545,7 @@
 
 ### Species: Carettochelys insculpta
 
-**Biosample:**  
+**Biosample:** SAMN38222597  
 **Assembly Accession:** GCA\_033958435.1  
 **Taxon:** Reptiles  
 **Priority:** 3  
@@ -554,7 +554,7 @@
 
 ### Species: Electrophorus electricus
 
-**Biosample:**  
+**Biosample:** SAMN42883346  
 **Assembly Accession:** GCA\_041902795.1  
 **Taxon:** Fishes  
 **Priority:** 3  
@@ -563,7 +563,7 @@
 
 ### Species: Epinephelus lanceolatus
 
-**Biosample:**  
+**Biosample:** SAMN41784231  
 **Assembly Accession:** GCA\_041903045.1  
 **Taxon:** Fishes  
 **Priority:** 3  
@@ -572,7 +572,7 @@
 
 ### Species: Phascolarctos cinereus
 
-**Biosample:**  
+**Biosample:** SAMN06198159  
 **Assembly Accession:** GCA\_003287225.2  
 **Taxon:** Mammals  
 **Priority:** 3  
@@ -581,7 +581,7 @@
 
 ### Species: Polymixia cf. hollisterae
 
-**Biosample:**  
+**Biosample:** SAMN42899157  
 **Assembly Accession:** GCA\_048537225.1  
 **Taxon:** Fishes  
 **Priority:** 3  
@@ -590,7 +590,7 @@
 
 ### Species: Acomys minous
 
-**Biosample:**  
+**Biosample:** SAMEA112751364  
 **Assembly Accession:** GCA\_964271855.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -599,7 +599,7 @@
 
 ### Species: Acridotheres tristis
 
-**Biosample:**  
+**Biosample:** SAMN28454388  
 **Assembly Accession:** GCA\_027559615.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -608,7 +608,7 @@
 
 ### Species: Antennarius maculatus
 
-**Biosample:**  
+**Biosample:** SAMN12623626  
 **Assembly Accession:** GCA\_013358685.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -617,7 +617,7 @@
 
 ### Species: Antrozous pallidus
 
-**Biosample:**  
+**Biosample:** SAMN30225125  
 **Assembly Accession:** GCA\_027563665.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -626,7 +626,7 @@
 
 ### Species: Ara ararauna
 
-**Biosample:**  
+**Biosample:** SAMN33059336  
 **Assembly Accession:** GCA\_028858755.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -635,7 +635,7 @@
 
 ### Species: Archocentrus centrarchus
 
-**Biosample:**  
+**Biosample:** SAMN09948522  
 **Assembly Accession:** GCA\_007364275.2  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -644,7 +644,7 @@
 
 ### Species: Arvicanthis niloticus
 
-**Biosample:**  
+**Biosample:** SAMN12611849  
 **Assembly Accession:** GCA\_011762505.3  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -653,7 +653,7 @@
 
 ### Species: Astatotilapia calliptera
 
-**Biosample:**  
+**Biosample:** SAMEA112818850  
 **Assembly Accession:** GCA\_964374335.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -662,7 +662,7 @@
 
 ### Species: Aulonocara stuartgranti
 
-**Biosample:**  
+**Biosample:** SAMEA112818851  
 **Assembly Accession:** GCA\_965226115.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -671,7 +671,7 @@
 
 ### Species: Balaenoptera ricei
 
-**Biosample:**  
+**Biosample:** SAMN32629060  
 **Assembly Accession:** GCA\_028023285.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -680,7 +680,7 @@
 
 ### Species: Blennius ocellaris
 
-**Biosample:**  
+**Biosample:** SAMEA112788961  
 **Assembly Accession:** GCA\_963422515.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -689,7 +689,7 @@
 
 ### Species: Bombina variegata
 
-**Biosample:**  
+**Biosample:** SAMEA112651403  
 **Assembly Accession:** GCA\_964205295.1  
 **Taxon:** Amphibians  
 **Priority:** 4  
@@ -698,7 +698,7 @@
 
 ### Species: Borostomias antarcticus
 
-**Biosample:**  
+**Biosample:** SAMEA8748812  
 **Assembly Accession:** GCA\_949987555.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -707,7 +707,7 @@
 
 ### Species: Callithrix jacchus
 
-**Biosample:**  
+**Biosample:** SAMN47004743  
 **Assembly Accession:** GCA\_049354715.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -716,7 +716,7 @@
 
 ### Species: Calonectris borealis
 
-**Biosample:**  
+**Biosample:** SAMEA114294356  
 **Assembly Accession:** GCA\_964195595.2  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -725,7 +725,7 @@
 
 ### Species: Calypte anna
 
-**Biosample:**  
+**Biosample:** SAMN02265252  
 **Assembly Accession:** GCA\_003957555.2  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -734,7 +734,7 @@
 
 ### Species: Candoia aspera
 
-**Biosample:**  
+**Biosample:** SAMN37159891  
 **Assembly Accession:** GCA\_035149785.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -743,7 +743,7 @@
 
 ### Species: Choloepus didactylus
 
-**Biosample:**  
+**Biosample:** SAMN12612024  
 **Assembly Accession:** GCA\_015220235.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -752,7 +752,7 @@
 
 ### Species: Clarias gariepinus
 
-**Biosample:**  
+**Biosample:** SAMN27021044  
 **Assembly Accession:** GCA\_024256435.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -761,7 +761,7 @@
 
 ### Species: Columba livia
 
-**Biosample:**  
+**Biosample:** SAMN38891892  
 **Assembly Accession:** GCA\_036013475.2  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -770,7 +770,7 @@
 
 ### Species: Corvus hawaiiensis
 
-**Biosample:**  
+**Biosample:** SAMN22550278  
 **Assembly Accession:** GCA\_020740725.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -779,7 +779,7 @@
 
 ### Species: Cristiceps australis
 
-**Biosample:**  
+**Biosample:** SAMN40589650  
 **Assembly Accession:** GCA\_049082185.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -788,7 +788,7 @@
 
 ### Species: Dasyurus maculatus
 
-**Biosample:**  
+**Biosample:** SAMN47326980  
 **Assembly Accession:** GCA\_048593285.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -797,7 +797,7 @@
 
 ### Species: Dendropsophus ebraccatus
 
-**Biosample:**  
+**Biosample:** SAMN32145295  
 **Assembly Accession:** GCA\_027789765.1  
 **Taxon:** Amphibians  
 **Priority:** 4  
@@ -806,7 +806,7 @@
 
 ### Species: Dibamus smithi
 
-**Biosample:**  
+**Biosample:** SAMN44704469  
 **Assembly Accession:** GCA\_046126795.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -815,7 +815,7 @@
 
 ### Species: Engystomops pustulosus
 
-**Biosample:**  
+**Biosample:** SAMN42463661  
 **Assembly Accession:** GCA\_040894005.1  
 **Taxon:** Amphibians  
 **Priority:** 4  
@@ -824,7 +824,7 @@
 
 ### Species: Enoplosus armatus
 
-**Biosample:**  
+**Biosample:** SAMN40589647  
 **Assembly Accession:** GCA\_043641665.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -833,7 +833,7 @@
 
 ### Species: Epinephelus rankini
 
-**Biosample:**  
+**Biosample:** SAMN41769322  
 **Assembly Accession:** GCA\_048129235.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -842,7 +842,7 @@
 
 ### Species: Falco biarmicus
 
-**Biosample:**  
+**Biosample:** SAMN28688289  
 **Assembly Accession:** GCA\_023638135.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -851,7 +851,7 @@
 
 ### Species: Falco rusticolus
 
-**Biosample:**  
+**Biosample:** SAMN12629496  
 **Assembly Accession:** GCA\_015220075.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -860,7 +860,7 @@
 
 ### Species: Furcifer pardalis
 
-**Biosample:**  
+**Biosample:** SAMN35298317  
 **Assembly Accession:** GCA\_030440675.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -869,7 +869,7 @@
 
 ### Species: Gavia stellata
 
-**Biosample:**  
+**Biosample:** SAMN37096312  
 **Assembly Accession:** GCA\_030936135.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -878,7 +878,7 @@
 
 ### Species: Gopherus evgoodei
 
-**Biosample:**  
+**Biosample:** SAMN03496275  
 **Assembly Accession:** GCA\_007399415.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -887,7 +887,7 @@
 
 ### Species: Gopherus flavomarginatus
 
-**Biosample:**  
+**Biosample:** SAMN24199108  
 **Assembly Accession:** GCA\_025201925.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -896,7 +896,7 @@
 
 ### Species: Grus grus
 
-**Biosample:**  
+**Biosample:** SAMEA113398837  
 **Assembly Accession:** GCA\_964106855.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -905,7 +905,7 @@
 
 ### Species: Gymnoscopelus microlampas
 
-**Biosample:**  
+**Biosample:** SAMEA12815435  
 **Assembly Accession:** GCA\_963454915.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -914,7 +914,7 @@
 
 ### Species: Haliaeetus albicilla
 
-**Biosample:**  
+**Biosample:** SAMEA12857288  
 **Assembly Accession:** GCA\_947461875.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -923,7 +923,7 @@
 
 ### Species: Hemiscyllium ocellatum
 
-**Biosample:**  
+**Biosample:** SAMN22550098  
 **Assembly Accession:** GCA\_020745735.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -932,7 +932,7 @@
 
 ### Species: Heptranchias perlo
 
-**Biosample:**  
+**Biosample:** SAMN38891902  
 **Assembly Accession:** GCA\_035084215.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -941,7 +941,7 @@
 
 ### Species: Hyperolius riggenbachi
 
-**Biosample:**  
+**Biosample:** SAMN42123895  
 **Assembly Accession:** GCA\_040937935.1  
 **Taxon:** Amphibians  
 **Priority:** 4  
@@ -950,7 +950,7 @@
 
 ### Species: Hyperoodon ampullatus
 
-**Biosample:**  
+**Biosample:** SAMEA10839125  
 **Assembly Accession:** GCA\_949752795.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -959,7 +959,7 @@
 
 ### Species: Jaculus jaculus
 
-**Biosample:**  
+**Biosample:** SAMN20391724  
 **Assembly Accession:** GCA\_020740685.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -968,7 +968,7 @@
 
 ### Species: Lathamus discolor
 
-**Biosample:**  
+**Biosample:** SAMN40289871  
 **Assembly Accession:** GCA\_037157495.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -977,7 +977,7 @@
 
 ### Species: Lepidogalaxias salamandroides
 
-**Biosample:**  
+**Biosample:** SAMN47481373  
 **Assembly Accession:** GCA\_049190665.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -986,7 +986,7 @@
 
 ### Species: Leptosomus discolor
 
-**Biosample:**  
+**Biosample:** SAMN37284216  
 **Assembly Accession:** GCA\_034619465.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -995,7 +995,7 @@
 
 ### Species: Lethrinus nebulosus
 
-**Biosample:**  
+**Biosample:** SAMN40589648  
 **Assembly Accession:** GCA\_045362495.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1004,7 +1004,7 @@
 
 ### Species: Lycaon pictus
 
-**Biosample:**  
+**Biosample:** SAMN36939365  
 **Assembly Accession:** GCA\_040955705.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1013,7 +1013,7 @@
 
 ### Species: Lynx canadensis
 
-**Biosample:**  
+**Biosample:** SAMN09948483  
 **Assembly Accession:** GCA\_007474595.2  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1022,7 +1022,7 @@
 
 ### Species: Macaca nemestrina
 
-**Biosample:**  
+**Biosample:** SAMN41827875  
 **Assembly Accession:** GCA\_043159975.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1031,7 +1031,7 @@
 
 ### Species: Megaderma spasma
 
-**Biosample:**  
+**Biosample:** SAMN33550865  
 **Assembly Accession:** GCA\_043880595.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1040,7 +1040,7 @@
 
 ### Species: Melopsittacus undulatus
 
-**Biosample:**  
+**Biosample:** SAMN12623090  
 **Assembly Accession:** GCA\_012275295.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1049,7 +1049,7 @@
 
 ### Species: Mesoplodon bidens
 
-**Biosample:**  
+**Biosample:** SAMEA112165298  
 **Assembly Accession:** GCA\_964165515.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1058,7 +1058,7 @@
 
 ### Species: Mesoplodon mirus
 
-**Biosample:**  
+**Biosample:** SAMEA115358965  
 **Assembly Accession:** GCA\_964341445.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1067,7 +1067,7 @@
 
 ### Species: Mixophyes fleayi
 
-**Biosample:**  
+**Biosample:** SAMN39657083  
 **Assembly Accession:** GCA\_038048845.1  
 **Taxon:** Amphibians  
 **Priority:** 4  
@@ -1076,7 +1076,7 @@
 
 ### Species: Molossus alvarezi
 
-**Biosample:**  
+**Biosample:** SAMN40002245  
 **Assembly Accession:** GCA\_037157525.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1085,7 +1085,7 @@
 
 ### Species: Monodelphis domestica
 
-**Biosample:**  
+**Biosample:** SAMN31801966  
 **Assembly Accession:** GCA\_027887165.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1094,7 +1094,7 @@
 
 ### Species: Mops condylurus
 
-**Biosample:**  
+**Biosample:** SAMN33550911  
 **Assembly Accession:** GCA\_043748645.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1103,7 +1103,7 @@
 
 ### Species: Myxine glutinosa
 
-**Biosample:**  
+**Biosample:** SAMEA12790223  
 **Assembly Accession:** GCA\_964187855.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1112,7 +1112,7 @@
 
 ### Species: Neogale vison
 
-**Biosample:**  
+**Biosample:** SAMEA112468126  
 **Assembly Accession:** GCA\_964106545.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1121,7 +1121,7 @@
 
 ### Species: Netta rufina
 
-**Biosample:**  
+**Biosample:** SAMEA112468124  
 **Assembly Accession:** GCA\_964035555.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1130,7 +1130,7 @@
 
 ### Species: Oryctolagus cuniculus
 
-**Biosample:**  
+**Biosample:** SAMEA112468037  
 **Assembly Accession:** GCA\_964237555.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1139,7 +1139,7 @@
 
 ### Species: Pagrus pagrus
 
-**Biosample:**  
+**Biosample:** SAMEA110450108  
 **Assembly Accession:** GCA\_965226575.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1148,7 +1148,7 @@
 
 ### Species: Pangasianodon hypophthalmus
 
-**Biosample:**  
+**Biosample:** SAMN32348883  
 **Assembly Accession:** GCA\_027358585.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1157,7 +1157,7 @@
 
 ### Species: Pangshura tecta
 
-**Biosample:**  
+**Biosample:** SAMN43277916  
 **Assembly Accession:** GCA\_045781085.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -1166,7 +1166,7 @@
 
 ### Species: Pelophylax lessonae
 
-**Biosample:**  
+**Biosample:** SAMEA112468029  
 **Assembly Accession:** GCA\_965119305.1  
 **Taxon:** Amphibians  
 **Priority:** 4  
@@ -1175,7 +1175,7 @@
 
 ### Species: Periophthalmus magnuspinnatus
 
-**Biosample:**  
+**Biosample:** SAMN12629500  
 **Assembly Accession:** GCA\_009829125.3  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1184,7 +1184,7 @@
 
 ### Species: Phalacrocorax carbo
 
-**Biosample:**  
+**Biosample:** SAMEA8228692  
 **Assembly Accession:** GCA\_963921805.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1193,7 +1193,7 @@
 
 ### Species: Phocoena sinus
 
-**Biosample:**  
+**Biosample:** SAMN12325353  
 **Assembly Accession:** GCA\_008692025.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1202,7 +1202,7 @@
 
 ### Species: Pholidichthys leucotaenia
 
-**Biosample:**  
+**Biosample:** SAMN12623617  
 **Assembly Accession:** GCA\_020510985.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1211,7 +1211,7 @@
 
 ### Species: Phyllostomus discolor
 
-**Biosample:**  
+**Biosample:** SAMN09948786  
 **Assembly Accession:** GCA\_004126475.3  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1220,7 +1220,7 @@
 
 ### Species: Pipistrellus hanaki
 
-**Biosample:**  
+**Biosample:** SAMEA115799862  
 **Assembly Accession:** GCA\_964339955.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1229,7 +1229,7 @@
 
 ### Species: Platalea leucorodia
 
-**Biosample:**  
+**Biosample:** SAMEA112468120  
 **Assembly Accession:** GCA\_965183815.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1238,7 +1238,7 @@
 
 ### Species: Podarcis bocagei
 
-**Biosample:**  
+**Biosample:** SAMEA115336769  
 **Assembly Accession:** GCA\_964188305.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -1247,7 +1247,7 @@
 
 ### Species: Podarcis cretensis
 
-**Biosample:**  
+**Biosample:** SAMEA12110019  
 **Assembly Accession:** GCA\_951804945.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -1256,7 +1256,7 @@
 
 ### Species: Podarcis filfolensis
 
-**Biosample:**  
+**Biosample:** SAMEA113403362  
 **Assembly Accession:** GCA\_964270895.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -1265,7 +1265,7 @@
 
 ### Species: Podarcis liolepis
 
-**Biosample:**  
+**Biosample:** SAMEA114217798  
 **Assembly Accession:** GCA\_965112155.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -1274,7 +1274,7 @@
 
 ### Species: Podarcis pityusensis
 
-**Biosample:**  
+**Biosample:** SAMEA114217797  
 **Assembly Accession:** GCA\_964106645.2  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -1283,7 +1283,7 @@
 
 ### Species: Podarcis tiliguerta
 
-**Biosample:**  
+**Biosample:** SAMEA114217799  
 **Assembly Accession:** GCA\_965153285.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -1292,7 +1292,7 @@
 
 ### Species: Podarcis vaucheri
 
-**Biosample:**  
+**Biosample:** SAMEA115336770  
 **Assembly Accession:** GCA\_965113315.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -1301,7 +1301,7 @@
 
 ### Species: Polymixia lowei
 
-**Biosample:**  
+**Biosample:** SAMN45134564  
 **Assembly Accession:** GCA\_047511565.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1310,7 +1310,7 @@
 
 ### Species: Poromitra crassiceps
 
-**Biosample:**  
+**Biosample:** SAMEA8748810  
 **Assembly Accession:** GCA\_964638095.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1319,7 +1319,7 @@
 
 ### Species: Pristipomoides typus
 
-**Biosample:**  
+**Biosample:** SAMN40589651  
 **Assembly Accession:** GCA\_045363895.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1328,7 +1328,7 @@
 
 ### Species: Protomyctophum parallelum
 
-**Biosample:**  
+**Biosample:** SAMEA12815440  
 **Assembly Accession:** GCA\_964188405.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1337,7 +1337,7 @@
 
 ### Species: Pygocentrus nattereri
 
-**Biosample:**  
+**Biosample:** SAMN12623623  
 **Assembly Accession:** GCA\_015220715.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1346,7 +1346,7 @@
 
 ### Species: Ranitomeya imitator
 
-**Biosample:**  
+**Biosample:** SAMN32907850  
 **Assembly Accession:** GCA\_032444005.1  
 **Taxon:** Amphibians  
 **Priority:** 4  
@@ -1355,7 +1355,7 @@
 
 ### Species: Rattus norvegicus
 
-**Biosample:**  
+**Biosample:** SAMN16261960  
 **Assembly Accession:** GCA\_015227675.2  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1364,7 +1364,7 @@
 
 ### Species: Rhinopoma microphyllum
 
-**Biosample:**  
+**Biosample:** SAMN33421188  
 **Assembly Accession:** GCA\_043880545.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1373,7 +1373,7 @@
 
 ### Species: Rhynchocyon petersi
 
-**Biosample:**  
+**Biosample:** SAMN43274963  
 **Assembly Accession:** GCA\_043290085.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1382,7 +1382,7 @@
 
 ### Species: Rousettus aegyptiacus
 
-**Biosample:**  
+**Biosample:** SAMN14734550  
 **Assembly Accession:** GCA\_014176215.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1391,7 +1391,7 @@
 
 ### Species: Saimiri boliviensis
 
-**Biosample:**  
+**Biosample:** SAMN46760316  
 **Assembly Accession:** GCA\_048565385.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1400,7 +1400,7 @@
 
 ### Species: Sarcophilus harrisii
 
-**Biosample:**  
+**Biosample:** SAMN47327921  
 **Assembly Accession:** GCA\_048593225.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1409,7 +1409,7 @@
 
 ### Species: Solea solea
 
-**Biosample:**  
+**Biosample:** SAMEA10984647  
 **Assembly Accession:** GCA\_958295425.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1418,7 +1418,7 @@
 
 ### Species: Spermophilus citellus
 
-**Biosample:**  
+**Biosample:** SAMEA10332752  
 **Assembly Accession:** GCA\_964194105.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1427,7 +1427,7 @@
 
 ### Species: Spheniscus humboldti
 
-**Biosample:**  
+**Biosample:** SAMN28408465  
 **Assembly Accession:** GCA\_027474245.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1436,7 +1436,7 @@
 
 ### Species: Stenella coeruleoalba
 
-**Biosample:**  
+**Biosample:** SAMEA111380539  
 **Assembly Accession:** GCA\_951394435.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1445,7 +1445,7 @@
 
 ### Species: Strigops habroptilus
 
-**Biosample:**  
+**Biosample:** SAMN09948751  
 **Assembly Accession:** GCA\_004027225.2  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1454,7 +1454,7 @@
 
 ### Species: Suncus etruscus
 
-**Biosample:**  
+**Biosample:** SAMN28420931  
 **Assembly Accession:** GCA\_024139225.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1463,7 +1463,7 @@
 
 ### Species: Symphorus nematophorus
 
-**Biosample:**  
+**Biosample:** SAMN41179601  
 **Assembly Accession:** GCA\_048128725.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1472,7 +1472,7 @@
 
 ### Species: Taeniopygia guttata
 
-**Biosample:**  
+**Biosample:** SAMN47142318  
 **Assembly Accession:** GCA\_048771995.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1481,7 +1481,7 @@
 
 ### Species: Tetrao urogallus
 
-**Biosample:**  
+**Biosample:** SAMEA9654429  
 **Assembly Accession:** GCA\_951394365.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1490,7 +1490,7 @@
 
 ### Species: Thamnophis elegans
 
-**Biosample:**  
+**Biosample:** SAMN12629499  
 **Assembly Accession:** GCA\_009769535.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -1499,7 +1499,7 @@
 
 ### Species: Thunnus albacares
 
-**Biosample:**  
+**Biosample:** SAMEA8654749  
 **Assembly Accession:** GCA\_914725855.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1508,7 +1508,7 @@
 
 ### Species: Thunnus maccoyii
 
-**Biosample:**  
+**Biosample:** SAMEA8654747  
 **Assembly Accession:** GCA\_910596095.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1517,7 +1517,7 @@
 
 ### Species: Thunnus thynnus
 
-**Biosample:**  
+**Biosample:** SAMEA111406335  
 **Assembly Accession:** GCA\_963924715.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1526,7 +1526,7 @@
 
 ### Species: Toxotes jaculatrix
 
-**Biosample:**  
+**Biosample:** SAMN18445299  
 **Assembly Accession:** GCA\_017976425.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1535,7 +1535,7 @@
 
 ### Species: Trichosurus vulpecula
 
-**Biosample:**  
+**Biosample:** SAMN12629507  
 **Assembly Accession:** GCA\_011100635.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1544,7 +1544,7 @@
 
 ### Species: Xenentodon cancila
 
-**Biosample:**  
+**Biosample:** SAMN12623622  
 **Assembly Accession:** GCA\_014839995.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1553,7 +1553,7 @@
 
 ### Species: Xenopus petersii
 
-**Biosample:**  
+**Biosample:** SAMN39187339  
 **Assembly Accession:** GCA\_038501925.1  
 **Taxon:** Amphibians  
 **Priority:** 4  
@@ -1562,7 +1562,7 @@
 
 ### Species: Zosterops lateralis
 
-**Biosample:**  
+**Biosample:** SAMEA112953925  
 **Assembly Accession:** GCA\_965231275.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1571,7 +1571,7 @@
 
 ### Species: Caesio teres
 
-**Biosample:**  
+**Biosample:** SAMN41769331  
 **Assembly Accession:** GCA\_048129055.1  
 **Taxon:** Fishes  
 **Priority:** 5  
@@ -1580,7 +1580,7 @@
 
 ### Species: Dama dama
 
-**Biosample:**  
+**Biosample:** SAMN36735489  
 **Assembly Accession:** GCA\_048126745.1  
 **Taxon:** Mammals  
 **Priority:** 5  
@@ -1589,7 +1589,7 @@
 
 ### Species: Hirundo rustica
 
-**Biosample:**  
+**Biosample:** SAMN14675488  
 **Assembly Accession:** GCA\_015227805.3  
 **Taxon:** Birds  
 **Priority:** 5  
@@ -1598,7 +1598,7 @@
 
 ### Species: Notoryctes typhlops
 
-**Biosample:**  
+**Biosample:** SAMN45131536  
 **Assembly Accession:** GCA\_048126345.1  
 **Taxon:** Mammals  
 **Priority:** 5  
@@ -1607,7 +1607,7 @@
 
 ### Species: Abramis brama
 
-**Biosample:**  
+**Biosample:** SAMEA11296536  
 **Assembly Accession:** GCA\_963993115.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -1616,7 +1616,7 @@
 
 ### Species: Acanthisitta chloris
 
-**Biosample:**  
+**Biosample:** SAMN16442762  
 **Assembly Accession:** GCA\_016904835.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1625,7 +1625,7 @@
 
 ### Species: Acanthopagrus schlegelii
 
-**Biosample:**  
+**Biosample:** SAMN43087228  
 **Assembly Accession:** GCA\_041753875.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -1634,7 +1634,7 @@
 
 ### Species: Accipiter gentilis
 
-**Biosample:**  
+**Biosample:** SAMEA8235650  
 **Assembly Accession:** GCA\_929443795.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1643,7 +1643,7 @@
 
 ### Species: Aegotheles albertisi
 
-**Biosample:**  
+**Biosample:** SAMN41085506  
 **Assembly Accession:** GCA\_039906565.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1652,7 +1652,7 @@
 
 ### Species: Agelaius phoeniceus
 
-**Biosample:**  
+**Biosample:** SAMN19590559  
 **Assembly Accession:** GCA\_020745825.3  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1661,7 +1661,7 @@
 
 ### Species: Alligator mississippiensis
 
-**Biosample:**  
+**Biosample:** SAMN37045233  
 **Assembly Accession:** GCA\_030867095.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -1670,7 +1670,7 @@
 
 ### Species: Alosa sapidissima
 
-**Biosample:**  
+**Biosample:** SAMN18857608  
 **Assembly Accession:** GCA\_018492685.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -1679,7 +1679,7 @@
 
 ### Species: Amazona ochrocephala
 
-**Biosample:**  
+**Biosample:** SAMN41018448  
 **Assembly Accession:** GCA\_039720435.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1688,7 +1688,7 @@
 
 ### Species: Amblyopsis spelaea
 
-**Biosample:**  
+**Biosample:** SAMN45063415  
 **Assembly Accession:** GCA\_046255685.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -1697,7 +1697,7 @@
 
 ### Species: Amblyraja radiata
 
-**Biosample:**  
+**Biosample:** SAMN09948523  
 **Assembly Accession:** GCA\_010909765.2  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -1706,7 +1706,7 @@
 
 ### Species: Amia calva
 
-**Biosample:**  
+**Biosample:** SAMN39643085  
 **Assembly Accession:** GCA\_036373705.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -1715,7 +1715,7 @@
 
 ### Species: Ammodytes marinus
 
-**Biosample:**  
+**Biosample:** SAMEA110137622  
 **Assembly Accession:** GCA\_949987685.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -1724,7 +1724,7 @@
 
 ### Species: Ammospiza maritima
 
-**Biosample:**  
+**Biosample:** SAMN39181024  
 **Assembly Accession:** GCA\_036010785.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1733,7 +1733,7 @@
 
 ### Species: Ammospiza nelsoni
 
-**Biosample:**  
+**Biosample:** SAMN28421656  
 **Assembly Accession:** GCA\_027579445.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1742,7 +1742,7 @@
 
 ### Species: Anableps anableps
 
-**Biosample:**  
+**Biosample:** SAMN12623628  
 **Assembly Accession:** GCA\_014839685.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -1751,7 +1751,7 @@
 
 ### Species: Anas acuta
 
-**Biosample:**  
+**Biosample:** SAMEA112468036  
 **Assembly Accession:** GCA\_963932015.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1760,7 +1760,7 @@
 
 ### Species: Anas platyrhynchos
 
-**Biosample:**  
+**Biosample:** SAMEA113398833  
 **Assembly Accession:** GCA\_964188345.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1769,7 +1769,7 @@
 
 ### Species: Anguilla anguilla
 
-**Biosample:**  
+**Biosample:** SAMN12623627  
 **Assembly Accession:** GCA\_013347855.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -1778,7 +1778,7 @@
 
 ### Species: Anolis sagrei
 
-**Biosample:**  
+**Biosample:** SAMN40144551  
 **Assembly Accession:** GCA\_037176765.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -1787,7 +1787,7 @@
 
 ### Species: Anomaloglossus baeobatrachus
 
-**Biosample:**  
+**Biosample:** SAMN46966667  
 **Assembly Accession:** GCA\_048569485.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -1796,7 +1796,7 @@
 
 ### Species: Anser anser
 
-**Biosample:**  
+**Biosample:** SAMEA113398854  
 **Assembly Accession:** GCA\_964211835.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1805,7 +1805,7 @@
 
 ### Species: Anser brachyrhynchus
 
-**Biosample:**  
+**Biosample:** SAMEA112468040  
 **Assembly Accession:** GCA\_964034855.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1814,7 +1814,7 @@
 
 ### Species: Aplidium turbinatum
 
-**Biosample:**  
+**Biosample:** SAMEA7536566  
 **Assembly Accession:** GCA\_918807975.1  
 **Taxon:** Invertebrates  
 **Priority:** 6  
@@ -1823,7 +1823,7 @@
 
 ### Species: Aplochiton taeniatus
 
-**Biosample:**  
+**Biosample:** SAMN12623621  
 **Assembly Accession:** GCA\_017639675.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -1832,7 +1832,7 @@
 
 ### Species: Apodemus sylvaticus
 
-**Biosample:**  
+**Biosample:** SAMEA7702024  
 **Assembly Accession:** GCA\_947179515.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -1841,7 +1841,7 @@
 
 ### Species: Apteryx mantelli
 
-**Biosample:**  
+**Biosample:** SAMN39257886  
 **Assembly Accession:** GCA\_036417845.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1850,7 +1850,7 @@
 
 ### Species: Apus apus
 
-**Biosample:**  
+**Biosample:** SAMN22785356  
 **Assembly Accession:** GCA\_020740795.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1859,7 +1859,7 @@
 
 ### Species: Argentina silus
 
-**Biosample:**  
+**Biosample:** SAMEA110137623  
 **Assembly Accession:** GCA\_951799395.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -1868,7 +1868,7 @@
 
 ### Species: Arripis georgiana
 
-**Biosample:**  
+**Biosample:** SAMN40589644  
 **Assembly Accession:** GCA\_042242135.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -1877,7 +1877,7 @@
 
 ### Species: Artibeus intermedius
 
-**Biosample:**  
+**Biosample:** SAMN40002248  
 **Assembly Accession:** GCA\_038363145.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -1886,7 +1886,7 @@
 
 ### Species: Artibeus lituratus
 
-**Biosample:**  
+**Biosample:** SAMN40002247  
 **Assembly Accession:** GCA\_038363095.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -1895,7 +1895,7 @@
 
 ### Species: Ascaphus truei
 
-**Biosample:**  
+**Biosample:** SAMN41155128  
 **Assembly Accession:** GCA\_040206685.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -1904,7 +1904,7 @@
 
 ### Species: Ascidia mentula
 
-**Biosample:**  
+**Biosample:** SAMEA8724667  
 **Assembly Accession:** GCA\_947561715.1  
 **Taxon:** Invertebrates  
 **Priority:** 6  
@@ -1913,7 +1913,7 @@
 
 ### Species: Ascidiella aspersa
 
-**Biosample:**  
+**Biosample:** SAMEA110449820  
 **Assembly Accession:** GCA\_963924565.1  
 **Taxon:** Invertebrates  
 **Priority:** 6  
@@ -1922,7 +1922,7 @@
 
 ### Species: Aselliscus stoliczkanus
 
-**Biosample:**  
+**Biosample:** SAMN33370315  
 **Assembly Accession:** GCA\_043727835.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -1931,7 +1931,7 @@
 
 ### Species: Athene noctua
 
-**Biosample:**  
+**Biosample:** SAMEA114594456  
 **Assembly Accession:** GCA\_965140245.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1940,7 +1940,7 @@
 
 ### Species: Aulostomus maculatus
 
-**Biosample:**  
+**Biosample:** SAMN43082348  
 **Assembly Accession:** GCA\_048301465.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -1949,7 +1949,7 @@
 
 ### Species: Aythya ferina
 
-**Biosample:**  
+**Biosample:** SAMEA112468034  
 **Assembly Accession:** GCA\_964211825.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1958,7 +1958,7 @@
 
 ### Species: Aythya fuligula
 
-**Biosample:**  
+**Biosample:** SAMN12621346  
 **Assembly Accession:** GCA\_009819795.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1967,7 +1967,7 @@
 
 ### Species: Aythya marila
 
-**Biosample:**  
+**Biosample:** SAMEA115433010  
 **Assembly Accession:** GCA\_965140915.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -1976,7 +1976,7 @@
 
 ### Species: Balaenoptera acutorostrata
 
-**Biosample:**  
+**Biosample:** SAMEA111380540  
 **Assembly Accession:** GCA\_949987535.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -1985,7 +1985,7 @@
 
 ### Species: Balaenoptera borealis
 
-**Biosample:**  
+**Biosample:** SAMEA114493134  
 **Assembly Accession:** GCA\_965194805.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -1994,7 +1994,7 @@
 
 ### Species: Balaenoptera musculus
 
-**Biosample:**  
+**Biosample:** SAMN12287136  
 **Assembly Accession:** GCA\_009873245.3  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2003,7 +2003,7 @@
 
 ### Species: Balaenoptera physalus
 
-**Biosample:**  
+**Biosample:** SAMEA114493136  
 **Assembly Accession:** GCA\_965194825.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2012,7 +2012,7 @@
 
 ### Species: Balanoglossus misakiensis
 
-**Biosample:**  
+**Biosample:** SAMN40579982  
 **Assembly Accession:** GCA\_040954625.2  
 **Taxon:** Invertebrates  
 **Priority:** 6  
@@ -2021,7 +2021,7 @@
 
 ### Species: Balearica regulorum gibbericeps
 
-**Biosample:**  
+**Biosample:** SAMN12615749  
 **Assembly Accession:** GCA\_011004875.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2030,7 +2030,7 @@
 
 ### Species: Barbatula barbatula
 
-**Biosample:**  
+**Biosample:** SAMEA11296540  
 **Assembly Accession:** GCA\_947034865.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2039,7 +2039,7 @@
 
 ### Species: Barbus barbus
 
-**Biosample:**  
+**Biosample:** SAMEA13335783  
 **Assembly Accession:** GCA\_936440315.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2048,7 +2048,7 @@
 
 ### Species: Bombina bombina
 
-**Biosample:**  
+**Biosample:** SAMN32378350  
 **Assembly Accession:** GCA\_027579735.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -2057,7 +2057,7 @@
 
 ### Species: Bradypodion pumilum
 
-**Biosample:**  
+**Biosample:** SAMN35825189  
 **Assembly Accession:** GCA\_047715975.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -2066,7 +2066,7 @@
 
 ### Species: Branchiostoma lanceolatum
 
-**Biosample:**  
+**Biosample:** SAMN38372375  
 **Assembly Accession:** GCA\_035083965.1  
 **Taxon:** Invertebrates  
 **Priority:** 6  
@@ -2075,7 +2075,7 @@
 
 ### Species: Branta canadensis
 
-**Biosample:**  
+**Biosample:** SAMEA113398965  
 **Assembly Accession:** GCA\_965231335.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2084,7 +2084,7 @@
 
 ### Species: Bucephala clangula
 
-**Biosample:**  
+**Biosample:** SAMEA112468123  
 **Assembly Accession:** GCA\_964059595.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2093,7 +2093,7 @@
 
 ### Species: Bucorvus abyssinicus
 
-**Biosample:**  
+**Biosample:** SAMN12614799  
 **Assembly Accession:** GCA\_009769605.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2102,7 +2102,7 @@
 
 ### Species: Bufo bufo
 
-**Biosample:**  
+**Biosample:** SAMEA7521636  
 **Assembly Accession:** GCA\_905171765.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -2111,7 +2111,7 @@
 
 ### Species: Buteo buteo
 
-**Biosample:**  
+**Biosample:** SAMEA114594453  
 **Assembly Accession:** GCA\_964188355.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2120,7 +2120,7 @@
 
 ### Species: Callospermophilus lateralis
 
-**Biosample:**  
+**Biosample:** SAMN47326584  
 **Assembly Accession:** GCA\_048772815.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2129,7 +2129,7 @@
 
 ### Species: Caloenas nicobarica
 
-**Biosample:**  
+**Biosample:** SAMN39256628  
 **Assembly Accession:** GCA\_036013445.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2138,7 +2138,7 @@
 
 ### Species: Caprimulgus europaeus
 
-**Biosample:**  
+**Biosample:** SAMEA7524394  
 **Assembly Accession:** GCA\_907165065.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2147,7 +2147,7 @@
 
 ### Species: Carassius carassius
 
-**Biosample:**  
+**Biosample:** SAMEA11296534  
 **Assembly Accession:** GCA\_963082965.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2156,7 +2156,7 @@
 
 ### Species: Carcharodon carcharias
 
-**Biosample:**  
+**Biosample:** SAMN12629504  
 **Assembly Accession:** GCA\_017639515.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2165,7 +2165,7 @@
 
 ### Species: Caretta caretta
 
-**Biosample:**  
+**Biosample:** SAMN46282778  
 **Assembly Accession:** GCA\_965140235.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -2174,7 +2174,7 @@
 
 ### Species: Cariama cristata
 
-**Biosample:**  
+**Biosample:** SAMN12614807  
 **Assembly Accession:** GCA\_009819825.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2183,7 +2183,7 @@
 
 ### Species: Castor canadensis
 
-**Biosample:**  
+**Biosample:** SAMN45812786  
 **Assembly Accession:** GCA\_047511655.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2192,7 +2192,7 @@
 
 ### Species: Catharus ustulatus
 
-**Biosample:**  
+**Biosample:** SAMN12618602  
 **Assembly Accession:** GCA\_009819885.2  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2201,7 +2201,7 @@
 
 ### Species: Centroberyx gerrardi
 
-**Biosample:**  
+**Biosample:** SAMN41769328  
 **Assembly Accession:** GCA\_048128805.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2210,7 +2210,7 @@
 
 ### Species: Cervus elaphus
 
-**Biosample:**  
+**Biosample:** SAMEA7523520  
 **Assembly Accession:** GCA\_910594005.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2219,7 +2219,7 @@
 
 ### Species: Cetorhinus maximus
 
-**Biosample:**  
+**Biosample:** SAMEA113902670  
 **Assembly Accession:** GCA\_964194155.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2228,7 +2228,7 @@
 
 ### Species: Chaetodon trifascialis
 
-**Biosample:**  
+**Biosample:** SAMN41253346  
 **Assembly Accession:** GCA\_039877785.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2237,7 +2237,7 @@
 
 ### Species: Chelmon rostratus
 
-**Biosample:**  
+**Biosample:** SAMN12623620  
 **Assembly Accession:** GCA\_017976325.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2246,7 +2246,7 @@
 
 ### Species: Chelon labrosus
 
-**Biosample:**  
+**Biosample:** SAMEA111562027  
 **Assembly Accession:** GCA\_963514085.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2255,7 +2255,7 @@
 
 ### Species: Chelonia mydas
 
-**Biosample:**  
+**Biosample:** SAMN12612360  
 **Assembly Accession:** GCA\_015237465.2  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -2264,7 +2264,7 @@
 
 ### Species: Chiroxiphia lanceolata
 
-**Biosample:**  
+**Biosample:** SAMN12620979  
 **Assembly Accession:** GCA\_009829145.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2273,7 +2273,7 @@
 
 ### Species: Chlamydotis macqueenii
 
-**Biosample:**  
+**Biosample:** SAMN39296383  
 **Assembly Accession:** GCA\_036417535.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2282,7 +2282,7 @@
 
 ### Species: Choerodon schoenleinii
 
-**Biosample:**  
+**Biosample:** SAMN46014618  
 **Assembly Accession:** GCA\_047301625.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2291,7 +2291,7 @@
 
 ### Species: Ciconia maguari
 
-**Biosample:**  
+**Biosample:** SAMN18353822  
 **Assembly Accession:** GCA\_017639555.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2300,7 +2300,7 @@
 
 ### Species: Cinclus cinclus
 
-**Biosample:**  
+**Biosample:** SAMEA9679959  
 **Assembly Accession:** GCA\_963662255.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2309,7 +2309,7 @@
 
 ### Species: Clangula hyemalis
 
-**Biosample:**  
+**Biosample:** SAMEA112468035  
 **Assembly Accession:** GCA\_963989345.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2318,7 +2318,7 @@
 
 ### Species: Clavelina lepadiformis
 
-**Biosample:**  
+**Biosample:** SAMEA7536527  
 **Assembly Accession:** GCA\_947623445.1  
 **Taxon:** Invertebrates  
 **Priority:** 6  
@@ -2327,7 +2327,7 @@
 
 ### Species: Coilia mystus
 
-**Biosample:**  
+**Biosample:** SAMN46980313  
 **Assembly Accession:** GCA\_048544225.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2336,7 +2336,7 @@
 
 ### Species: Colius striatus
 
-**Biosample:**  
+**Biosample:** SAMN33339572  
 **Assembly Accession:** GCA\_028858725.2  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2345,7 +2345,7 @@
 
 ### Species: Conger conger
 
-**Biosample:**  
+**Biosample:** SAMEA12219431  
 **Assembly Accession:** GCA\_963514075.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2354,7 +2354,7 @@
 
 ### Species: Corella eumyota
 
-**Biosample:**  
+**Biosample:** SAMEA7536466  
 **Assembly Accession:** GCA\_963082875.1  
 **Taxon:** Invertebrates  
 **Priority:** 6  
@@ -2363,7 +2363,7 @@
 
 ### Species: Corvus moneduloides
 
-**Biosample:**  
+**Biosample:** SAMN12368441  
 **Assembly Accession:** GCA\_009650955.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2372,7 +2372,7 @@
 
 ### Species: Corynorhinus townsendii
 
-**Biosample:**  
+**Biosample:** SAMN31536067  
 **Assembly Accession:** GCA\_026230055.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2381,7 +2381,7 @@
 
 ### Species: Ctenodactylus gundi
 
-**Biosample:**  
+**Biosample:** SAMN47326412  
 **Assembly Accession:** GCA\_048771875.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2390,7 +2390,7 @@
 
 ### Species: Cuculus canorus
 
-**Biosample:**  
+**Biosample:** SAMN12629508  
 **Assembly Accession:** GCA\_017976375.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2399,7 +2399,7 @@
 
 ### Species: Cyanocitta cristata
 
-**Biosample:**  
+**Biosample:** SAMN44574712  
 **Assembly Accession:** GCA\_046129655.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2408,7 +2408,7 @@
 
 ### Species: Cyclopterus lumpus
 
-**Biosample:**  
+**Biosample:** SAMN12629502  
 **Assembly Accession:** GCA\_009769545.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2417,7 +2417,7 @@
 
 ### Species: Cyclura pinguis
 
-**Biosample:**  
+**Biosample:** SAMN35151422  
 **Assembly Accession:** GCA\_030412105.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -2426,7 +2426,7 @@
 
 ### Species: Cygnus columbianus
 
-**Biosample:**  
+**Biosample:** SAMEA112468031  
 **Assembly Accession:** GCA\_965151615.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2435,7 +2435,7 @@
 
 ### Species: Cygnus olor
 
-**Biosample:**  
+**Biosample:** SAMN12621369  
 **Assembly Accession:** GCA\_009769625.2  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2444,7 +2444,7 @@
 
 ### Species: Cynocephalus volans
 
-**Biosample:**  
+**Biosample:** SAMN32206947  
 **Assembly Accession:** GCA\_027409185.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2453,7 +2453,7 @@
 
 ### Species: Cyprinella venusta
 
-**Biosample:**  
+**Biosample:** SAMN40647018  
 **Assembly Accession:** GCA\_038024135.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2462,7 +2462,7 @@
 
 ### Species: Danio rerio
 
-**Biosample:**  
+**Biosample:** SAMEA14088276  
 **Assembly Accession:** GCA\_944039275.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2471,7 +2471,7 @@
 
 ### Species: Dasypus novemcinctus
 
-**Biosample:**  
+**Biosample:** SAMN32738980  
 **Assembly Accession:** GCA\_030445035.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2480,7 +2480,7 @@
 
 ### Species: Delphinus delphis
 
-**Biosample:**  
+**Biosample:** SAMEA111380534  
 **Assembly Accession:** GCA\_949987515.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2489,7 +2489,7 @@
 
 ### Species: Dermochelys coriacea
 
-**Biosample:**  
+**Biosample:** SAMN12629498  
 **Assembly Accession:** GCA\_009764565.4  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -2498,7 +2498,7 @@
 
 ### Species: Desmodus rotundus
 
-**Biosample:**  
+**Biosample:** SAMN24116476  
 **Assembly Accession:** GCA\_022682495.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2507,7 +2507,7 @@
 
 ### Species: Diretmus argenteus
 
-**Biosample:**  
+**Biosample:** SAMN47248252  
 **Assembly Accession:** GCA\_048569125.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2516,7 +2516,7 @@
 
 ### Species: Discoglossus pictus
 
-**Biosample:**  
+**Biosample:** SAMN32227109  
 **Assembly Accession:** GCA\_027410445.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -2525,7 +2525,7 @@
 
 ### Species: Doryrhina cyclops
 
-**Biosample:**  
+**Biosample:** SAMN33372470  
 **Assembly Accession:** GCA\_043880285.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2534,7 +2534,7 @@
 
 ### Species: Dromaius novaehollandiae
 
-**Biosample:**  
+**Biosample:** SAMN39262816  
 **Assembly Accession:** GCA\_036370855.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2543,7 +2543,7 @@
 
 ### Species: Dromiciops gliroides
 
-**Biosample:**  
+**Biosample:** SAMN18857598  
 **Assembly Accession:** GCA\_019393635.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2552,7 +2552,7 @@
 
 ### Species: Dryobates pubescens
 
-**Biosample:**  
+**Biosample:** SAMN12629497  
 **Assembly Accession:** GCA\_014839835.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2561,7 +2561,7 @@
 
 ### Species: Dugong dugon
 
-**Biosample:**  
+**Biosample:** SAMN33212336  
 **Assembly Accession:** GCA\_030035585.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2570,7 +2570,7 @@
 
 ### Species: Echiichthys vipera
 
-**Biosample:**  
+**Biosample:** SAMEA112765695  
 **Assembly Accession:** GCA\_963691815.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2579,7 +2579,7 @@
 
 ### Species: Electrona antarctica
 
-**Biosample:**  
+**Biosample:** SAMEA8748807  
 **Assembly Accession:** GCA\_951216825.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2588,7 +2588,7 @@
 
 ### Species: Elephas maximus indicus
 
-**Biosample:**  
+**Biosample:** SAMN29174328  
 **Assembly Accession:** GCA\_024166365.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2597,7 +2597,7 @@
 
 ### Species: Eleutherodactylus coqui
 
-**Biosample:**  
+**Biosample:** SAMN39150572  
 **Assembly Accession:** GCA\_035609145.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -2606,7 +2606,7 @@
 
 ### Species: Emys orbicularis
 
-**Biosample:**  
+**Biosample:** SAMN31805221  
 **Assembly Accession:** GCA\_028017835.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -2615,7 +2615,7 @@
 
 ### Species: Eptesicus fuscus
 
-**Biosample:**  
+**Biosample:** SAMN30608903  
 **Assembly Accession:** GCA\_027574615.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2624,7 +2624,7 @@
 
 ### Species: Eptesicus nilssonii
 
-**Biosample:**  
+**Biosample:** SAMEA14098186  
 **Assembly Accession:** GCA\_951640355.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2633,7 +2633,7 @@
 
 ### Species: Erethizon dorsatum
 
-**Biosample:**  
+**Biosample:** SAMN32359106  
 **Assembly Accession:** GCA\_028451465.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2642,7 +2642,7 @@
 
 ### Species: Eretmochelys imbricata
 
-**Biosample:**  
+**Biosample:** SAMN46283036  
 **Assembly Accession:** GCA\_965152235.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -2651,7 +2651,7 @@
 
 ### Species: Erinaceus europaeus
 
-**Biosample:**  
+**Biosample:** SAMEA13207416  
 **Assembly Accession:** GCA\_950295315.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2660,7 +2660,7 @@
 
 ### Species: Erythrolamprus reginae
 
-**Biosample:**  
+**Biosample:** SAMN32631248  
 **Assembly Accession:** GCA\_031021105.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -2669,7 +2669,7 @@
 
 ### Species: Eschrichtius robustus
 
-**Biosample:**  
+**Biosample:** SAMN32629250  
 **Assembly Accession:** GCA\_028021215.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2678,7 +2678,7 @@
 
 ### Species: Esox lucius
 
-**Biosample:**  
+**Biosample:** SAMN12623624  
 **Assembly Accession:** GCA\_011004845.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2687,7 +2687,7 @@
 
 ### Species: Eudromia elegans
 
-**Biosample:**  
+**Biosample:** SAMN46865137  
 **Assembly Accession:** GCA\_047922985.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2696,7 +2696,7 @@
 
 ### Species: Euleptes europaea
 
-**Biosample:**  
+**Biosample:** SAMN32622440  
 **Assembly Accession:** GCA\_029931775.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -2705,7 +2705,7 @@
 
 ### Species: Eutrigla gurnardus
 
-**Biosample:**  
+**Biosample:** SAMEA111562159  
 **Assembly Accession:** GCA\_963514095.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2714,7 +2714,7 @@
 
 ### Species: Falco cherrug
 
-**Biosample:**  
+**Biosample:** SAMN28688204  
 **Assembly Accession:** GCA\_023634085.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2723,7 +2723,7 @@
 
 ### Species: Falco naumanni
 
-**Biosample:**  
+**Biosample:** SAMN16870685  
 **Assembly Accession:** GCA\_017639655.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2732,7 +2732,7 @@
 
 ### Species: Falco peregrinus
 
-**Biosample:**  
+**Biosample:** SAMN28688290  
 **Assembly Accession:** GCA\_023634155.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2741,7 +2741,7 @@
 
 ### Species: Fringilla coelebs
 
-**Biosample:**  
+**Biosample:** SAMEA9359753  
 **Assembly Accession:** GCA\_963513975.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2750,7 +2750,7 @@
 
 ### Species: Fundulus diaphanus
 
-**Biosample:**  
+**Biosample:** SAMN39736529  
 **Assembly Accession:** GCA\_037039145.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2759,7 +2759,7 @@
 
 ### Species: Gallinula chloropus
 
-**Biosample:**  
+**Biosample:** SAMEA113398958  
 **Assembly Accession:** GCA\_964237585.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2768,7 +2768,7 @@
 
 ### Species: Gasterosteus aculeatus
 
-**Biosample:**  
+**Biosample:** SAMEA11296546  
 **Assembly Accession:** GCA\_964276395.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2777,7 +2777,7 @@
 
 ### Species: Gastrophryne carolinensis
 
-**Biosample:**  
+**Biosample:** SAMN31805274  
 **Assembly Accession:** GCA\_027917425.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -2786,7 +2786,7 @@
 
 ### Species: Gavialis gangeticus
 
-**Biosample:**  
+**Biosample:** SAMN34116453  
 **Assembly Accession:** GCA\_030020295.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -2795,7 +2795,7 @@
 
 ### Species: Geothlypis trichas
 
-**Biosample:**  
+**Biosample:** SAMN12631222  
 **Assembly Accession:** GCA\_009764595.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2804,7 +2804,7 @@
 
 ### Species: Globicephala melas
 
-**Biosample:**  
+**Biosample:** SAMEA111380538  
 **Assembly Accession:** GCA\_963455315.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2813,7 +2813,7 @@
 
 ### Species: Gobio gobio
 
-**Biosample:**  
+**Biosample:** SAMEA11296538  
 **Assembly Accession:** GCA\_949357685.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2822,7 +2822,7 @@
 
 ### Species: Gobius niger
 
-**Biosample:**  
+**Biosample:** SAMEA13854149  
 **Assembly Accession:** GCA\_951799975.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2831,7 +2831,7 @@
 
 ### Species: Grampus griseus
 
-**Biosample:**  
+**Biosample:** SAMEA111380541  
 **Assembly Accession:** GCA\_964374135.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2840,7 +2840,7 @@
 
 ### Species: Grus americana
 
-**Biosample:**  
+**Biosample:** SAMN32775697  
 **Assembly Accession:** GCA\_028858705.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2849,7 +2849,7 @@
 
 ### Species: Gulosus aristotelis
 
-**Biosample:**  
+**Biosample:** SAMEA10059652  
 **Assembly Accession:** GCA\_949628215.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2858,7 +2858,7 @@
 
 ### Species: Gymnoscopelus braueri
 
-**Biosample:**  
+**Biosample:** SAMEA12815494  
 **Assembly Accession:** GCA\_963280865.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2867,7 +2867,7 @@
 
 ### Species: Gypaetus barbatus
 
-**Biosample:**  
+**Biosample:** SAMN32256411  
 **Assembly Accession:** GCA\_028022735.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2876,7 +2876,7 @@
 
 ### Species: Haemorhous mexicanus
 
-**Biosample:**  
+**Biosample:** SAMN28453576  
 **Assembly Accession:** GCA\_027477595.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2885,7 +2885,7 @@
 
 ### Species: Halichoerus grypus
 
-**Biosample:**  
+**Biosample:** SAMEA115427674  
 **Assembly Accession:** GCA\_964656455.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2894,7 +2894,7 @@
 
 ### Species: Harpia harpyja
 
-**Biosample:**  
+**Biosample:** SAMN31530492  
 **Assembly Accession:** GCA\_026419915.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2903,7 +2903,7 @@
 
 ### Species: Heliangelus exortis
 
-**Biosample:**  
+**Biosample:** SAMN37253778  
 **Assembly Accession:** GCA\_036169615.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2912,7 +2912,7 @@
 
 ### Species: Hemiprocne comata
 
-**Biosample:**  
+**Biosample:** SAMN22588383  
 **Assembly Accession:** GCA\_020745705.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2921,7 +2921,7 @@
 
 ### Species: Heterodontus francisci
 
-**Biosample:**  
+**Biosample:** SAMN39432692  
 **Assembly Accession:** GCA\_036365525.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2930,7 +2930,7 @@
 
 ### Species: Heterohyrax brucei
 
-**Biosample:**  
+**Biosample:** SAMN33092455  
 **Assembly Accession:** GCA\_028571685.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2939,7 +2939,7 @@
 
 ### Species: Hippoglossus hippoglossus
 
-**Biosample:**  
+**Biosample:** SAMN12629501  
 **Assembly Accession:** GCA\_009819705.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2948,7 +2948,7 @@
 
 ### Species: Hippopotamus amphibius
 
-**Biosample:**  
+**Biosample:** SAMN33342074  
 **Assembly Accession:** GCA\_030028045.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2957,7 +2957,7 @@
 
 ### Species: Hipposideros larvatus
 
-**Biosample:**  
+**Biosample:** SAMN36277597  
 **Assembly Accession:** GCA\_031876335.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2966,7 +2966,7 @@
 
 ### Species: Hoplias malabaricus
 
-**Biosample:**  
+**Biosample:** SAMN32740525  
 **Assembly Accession:** GCA\_029633855.2  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2975,7 +2975,7 @@
 
 ### Species: Hydrolagus colliei
 
-**Biosample:**  
+**Biosample:** SAMN39156054  
 **Assembly Accession:** GCA\_035084275.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2984,7 +2984,7 @@
 
 ### Species: Hyla sarda
 
-**Biosample:**  
+**Biosample:** SAMN32629340  
 **Assembly Accession:** GCA\_029499605.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -2993,7 +2993,7 @@
 
 ### Species: Hypanus sabinus
 
-**Biosample:**  
+**Biosample:** SAMN32745077  
 **Assembly Accession:** GCA\_030144855.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3002,7 +3002,7 @@
 
 ### Species: Hyperoplus immaculatus
 
-**Biosample:**  
+**Biosample:** SAMEA13854416  
 **Assembly Accession:** GCA\_949357725.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3011,7 +3011,7 @@
 
 ### Species: Inia geoffrensis
 
-**Biosample:**  
+**Biosample:** SAMN32797734  
 **Assembly Accession:** GCA\_036417435.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3020,7 +3020,7 @@
 
 ### Species: Kogia breviceps
 
-**Biosample:**  
+**Biosample:** SAMN31719513  
 **Assembly Accession:** GCA\_026419965.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3029,7 +3029,7 @@
 
 ### Species: Labrus bergylta
 
-**Biosample:**  
+**Biosample:** SAMEA111562158  
 **Assembly Accession:** GCA\_963930695.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3038,7 +3038,7 @@
 
 ### Species: Labrus mixtus
 
-**Biosample:**  
+**Biosample:** SAMEA111562155  
 **Assembly Accession:** GCA\_963584025.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3047,7 +3047,7 @@
 
 ### Species: Lacerta agilis
 
-**Biosample:**  
+**Biosample:** SAMN12629509  
 **Assembly Accession:** GCA\_009819535.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3056,7 +3056,7 @@
 
 ### Species: Lagenorhynchus acutus
 
-**Biosample:**  
+**Biosample:** SAMEA114493133  
 **Assembly Accession:** GCA\_964270905.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3065,7 +3065,7 @@
 
 ### Species: Lagenorhynchus albirostris
 
-**Biosample:**  
+**Biosample:** SAMEA111380537  
 **Assembly Accession:** GCA\_949774975.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3074,7 +3074,7 @@
 
 ### Species: Lagopus muta
 
-**Biosample:**  
+**Biosample:** SAMN25144835  
 **Assembly Accession:** GCA\_023343835.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3083,7 +3083,7 @@
 
 ### Species: Lampetra fluviatilis
 
-**Biosample:**  
+**Biosample:** SAMEA111528664  
 **Assembly Accession:** GCA\_964198595.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3092,7 +3092,7 @@
 
 ### Species: Lampris incognitus
 
-**Biosample:**  
+**Biosample:** SAMN34060140  
 **Assembly Accession:** GCA\_029633865.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3101,7 +3101,7 @@
 
 ### Species: Larus argentatus
 
-**Biosample:**  
+**Biosample:** SAMEA115168456  
 **Assembly Accession:** GCA\_964417175.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3110,7 +3110,7 @@
 
 ### Species: Larus fuscus
 
-**Biosample:**  
+**Biosample:** SAMEA112468039  
 **Assembly Accession:** GCA\_963932225.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3119,7 +3119,7 @@
 
 ### Species: Larus michahellis
 
-**Biosample:**  
+**Biosample:** SAMEA114211328  
 **Assembly Accession:** GCA\_964199755.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3128,7 +3128,7 @@
 
 ### Species: Latimeria chalumnae
 
-**Biosample:**  
+**Biosample:** SAMN39710040  
 **Assembly Accession:** GCA\_037176945.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3137,7 +3137,7 @@
 
 ### Species: Lemur catta
 
-**Biosample:**  
+**Biosample:** SAMN12621102  
 **Assembly Accession:** GCA\_020740605.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3146,7 +3146,7 @@
 
 ### Species: Lepidochelys kempii
 
-**Biosample:**  
+**Biosample:** SAMN46282779  
 **Assembly Accession:** GCA\_965140285.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3155,7 +3155,7 @@
 
 ### Species: Lepidochelys olivacea
 
-**Biosample:**  
+**Biosample:** SAMN46283035  
 **Assembly Accession:** GCA\_965140295.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3164,7 +3164,7 @@
 
 ### Species: Lepisosteus oculatus
 
-**Biosample:**  
+**Biosample:** SAMN41155427  
 **Assembly Accession:** GCA\_040954835.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3173,7 +3173,7 @@
 
 ### Species: Leptodactylus fuscus
 
-**Biosample:**  
+**Biosample:** SAMN37055805  
 **Assembly Accession:** GCA\_031893055.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -3182,7 +3182,7 @@
 
 ### Species: Leuciscus leuciscus
 
-**Biosample:**  
+**Biosample:** SAMEA11296544  
 **Assembly Accession:** GCA\_965113295.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3191,7 +3191,7 @@
 
 ### Species: Liasis olivaceus
 
-**Biosample:**  
+**Biosample:** SAMN32739907  
 **Assembly Accession:** GCA\_030867105.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3200,7 +3200,7 @@
 
 ### Species: Limanda limanda
 
-**Biosample:**  
+**Biosample:** SAMEA112765706  
 **Assembly Accession:** GCA\_963576545.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3209,7 +3209,7 @@
 
 ### Species: Lipophrys pholis
 
-**Biosample:**  
+**Biosample:** SAMEA7522844  
 **Assembly Accession:** GCA\_963383615.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3218,7 +3218,7 @@
 
 ### Species: Lissotriton helveticus
 
-**Biosample:**  
+**Biosample:** SAMEA110240860  
 **Assembly Accession:** GCA\_964261635.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -3227,7 +3227,7 @@
 
 ### Species: Lissotriton vulgaris
 
-**Biosample:**  
+**Biosample:** SAMEA110240861  
 **Assembly Accession:** GCA\_964263255.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -3236,7 +3236,7 @@
 
 ### Species: Loxodonta africana
 
-**Biosample:**  
+**Biosample:** SAMN32756554  
 **Assembly Accession:** GCA\_030014295.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3245,7 +3245,7 @@
 
 ### Species: Lycodopsis pacificus
 
-**Biosample:**  
+**Biosample:** SAMN32629383  
 **Assembly Accession:** GCA\_028022725.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3254,7 +3254,7 @@
 
 ### Species: Macrochelys suwanniensis
 
-**Biosample:**  
+**Biosample:** SAMN37052244  
 **Assembly Accession:** GCA\_033349115.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3263,7 +3263,7 @@
 
 ### Species: Macrotis lagotis
 
-**Biosample:**  
+**Biosample:** SAMN39300766  
 **Assembly Accession:** GCA\_037893015.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3272,7 +3272,7 @@
 
 ### Species: Malaclemys terrapin
 
-**Biosample:**  
+**Biosample:** SAMN31394215  
 **Assembly Accession:** GCA\_027887155.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3281,7 +3281,7 @@
 
 ### Species: Manis pentadactyla
 
-**Biosample:**  
+**Biosample:** SAMN32757332  
 **Assembly Accession:** GCA\_030020395.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3290,7 +3290,7 @@
 
 ### Species: Marmota flaviventris
 
-**Biosample:**  
+**Biosample:** SAMN45932315  
 **Assembly Accession:** GCA\_047511675.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3299,7 +3299,7 @@
 
 ### Species: Martes martes
 
-**Biosample:**  
+**Biosample:** SAMEA14268932  
 **Assembly Accession:** GCA\_963455335.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3308,7 +3308,7 @@
 
 ### Species: Megalops cyprinoides
 
-**Biosample:**  
+**Biosample:** SAMN12623619  
 **Assembly Accession:** GCA\_013368585.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3317,7 +3317,7 @@
 
 ### Species: Megaptera novaeangliae
 
-**Biosample:**  
+**Biosample:** SAMN41059645  
 **Assembly Accession:** GCA\_041834305.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3326,7 +3326,7 @@
 
 ### Species: Melanostigma gelatinosum
 
-**Biosample:**  
+**Biosample:** SAMEA12815492  
 **Assembly Accession:** GCA\_949748355.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3335,7 +3335,7 @@
 
 ### Species: Meles meles
 
-**Biosample:**  
+**Biosample:** SAMEA7524400  
 **Assembly Accession:** GCA\_922984935.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3344,7 +3344,7 @@
 
 ### Species: Melospiza georgiana
 
-**Biosample:**  
+**Biosample:** SAMN22787412  
 **Assembly Accession:** GCA\_028018845.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3353,7 +3353,7 @@
 
 ### Species: Melospiza melodia
 
-**Biosample:**  
+**Biosample:** SAMN35847297  
 **Assembly Accession:** GCA\_035770615.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3362,7 +3362,7 @@
 
 ### Species: Menidia menidia
 
-**Biosample:**  
+**Biosample:** SAMN46987722  
 **Assembly Accession:** GCA\_048628825.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3371,7 +3371,7 @@
 
 ### Species: Mergus octosetaceus
 
-**Biosample:**  
+**Biosample:** SAMN39710078  
 **Assembly Accession:** GCA\_036873955.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3380,7 +3380,7 @@
 
 ### Species: Merops nubicus
 
-**Biosample:**  
+**Biosample:** SAMN12621035  
 **Assembly Accession:** GCA\_009819595.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3389,7 +3389,7 @@
 
 ### Species: Mesoplodon densirostris
 
-**Biosample:**  
+**Biosample:** SAMN29828597  
 **Assembly Accession:** GCA\_025265405.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3398,7 +3398,7 @@
 
 ### Species: Microchirus variegatus
 
-**Biosample:**  
+**Biosample:** SAMEA12219470  
 **Assembly Accession:** GCA\_963457635.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3407,7 +3407,7 @@
 
 ### Species: Micromesistius poutassou
 
-**Biosample:**  
+**Biosample:** SAMEA111457552  
 **Assembly Accession:** GCA\_964030765.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3416,7 +3416,7 @@
 
 ### Species: Micromys minutus
 
-**Biosample:**  
+**Biosample:** SAMEA112468042  
 **Assembly Accession:** GCA\_963924665.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3425,7 +3425,7 @@
 
 ### Species: Microstomus kitt
 
-**Biosample:**  
+**Biosample:** SAMEA114298639  
 **Assembly Accession:** GCA\_964266715.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3434,7 +3434,7 @@
 
 ### Species: Microtus pennsylvanicus
 
-**Biosample:**  
+**Biosample:** SAMN39894136  
 **Assembly Accession:** GCA\_037038515.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3443,7 +3443,7 @@
 
 ### Species: Miniopterus schreibersii
 
-**Biosample:**  
+**Biosample:** SAMEA113980738  
 **Assembly Accession:** GCA\_964146895.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3452,7 +3452,7 @@
 
 ### Species: Mobula birostris
 
-**Biosample:**  
+**Biosample:** SAMN32746370  
 **Assembly Accession:** GCA\_030028105.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3461,7 +3461,7 @@
 
 ### Species: Molossus molossus
 
-**Biosample:**  
+**Biosample:** SAMN14734448  
 **Assembly Accession:** GCA\_014108415.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3470,7 +3470,7 @@
 
 ### Species: Morphnus guianensis
 
-**Biosample:**  
+**Biosample:** SAMN44513986  
 **Assembly Accession:** GCA\_045345515.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3479,7 +3479,7 @@
 
 ### Species: Morus bassanus
 
-**Biosample:**  
+**Biosample:** SAMN37096299  
 **Assembly Accession:** GCA\_031468815.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3488,7 +3488,7 @@
 
 ### Species: Muntiacus reevesi
 
-**Biosample:**  
+**Biosample:** SAMEA110690972  
 **Assembly Accession:** GCA\_963930625.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3497,7 +3497,7 @@
 
 ### Species: Mus musculus
 
-**Biosample:**  
+**Biosample:** SAMEA112251260  
 **Assembly Accession:** GCA\_949316315.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3506,7 +3506,7 @@
 
 ### Species: Muscardinus avellanarius
 
-**Biosample:**  
+**Biosample:** SAMEA110180654  
 **Assembly Accession:** GCA\_963383645.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3515,7 +3515,7 @@
 
 ### Species: Mustela erminea
 
-**Biosample:**  
+**Biosample:** SAMN12611999  
 **Assembly Accession:** GCA\_009829155.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3524,7 +3524,7 @@
 
 ### Species: Mustela lutreola
 
-**Biosample:**  
+**Biosample:** SAMN35784236  
 **Assembly Accession:** GCA\_030435805.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3533,7 +3533,7 @@
 
 ### Species: Mustelus asterias
 
-**Biosample:**  
+**Biosample:** SAMEA114298637  
 **Assembly Accession:** GCA\_964213995.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3542,7 +3542,7 @@
 
 ### Species: Myotis daubentonii
 
-**Biosample:**  
+**Biosample:** SAMEA9921455  
 **Assembly Accession:** GCA\_963259705.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3551,7 +3551,7 @@
 
 ### Species: Myotis emarginatus
 
-**Biosample:**  
+**Biosample:** SAMEA115534660  
 **Assembly Accession:** GCA\_965115925.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3560,7 +3560,7 @@
 
 ### Species: Myotis myotis
 
-**Biosample:**  
+**Biosample:** SAMN14734277  
 **Assembly Accession:** GCA\_014108235.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3569,7 +3569,7 @@
 
 ### Species: Myotis mystacinus
 
-**Biosample:**  
+**Biosample:** SAMEA114250307  
 **Assembly Accession:** GCA\_964094495.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3578,7 +3578,7 @@
 
 ### Species: Myotis nattereri
 
-**Biosample:**  
+**Biosample:** SAMEA114614248  
 **Assembly Accession:** GCA\_964212035.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3587,7 +3587,7 @@
 
 ### Species: Myuchelys georgesi
 
-**Biosample:**  
+**Biosample:** SAMN36918804  
 **Assembly Accession:** GCA\_040894355.2  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3596,7 +3596,7 @@
 
 ### Species: Nansenia antarctica
 
-**Biosample:**  
+**Biosample:** SAMEA8748805  
 **Assembly Accession:** GCA\_963989245.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3605,7 +3605,7 @@
 
 ### Species: Narcine bancroftii
 
-**Biosample:**  
+**Biosample:** SAMN39325148  
 **Assembly Accession:** GCA\_036971445.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3614,7 +3614,7 @@
 
 ### Species: Natator depressus
 
-**Biosample:**  
+**Biosample:** SAMN46282745  
 **Assembly Accession:** GCA\_965152275.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3623,7 +3623,7 @@
 
 ### Species: Natrix helvetica
 
-**Biosample:**  
+**Biosample:** SAMEA114598156  
 **Assembly Accession:** GCA\_964273705.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3632,7 +3632,7 @@
 
 ### Species: Neoarius graeffei
 
-**Biosample:**  
+**Biosample:** SAMN28453209  
 **Assembly Accession:** GCA\_027579695.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3641,7 +3641,7 @@
 
 ### Species: Neofelis nebulosa
 
-**Biosample:**  
+**Biosample:** SAMN31801981  
 **Assembly Accession:** GCA\_028018385.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3650,7 +3650,7 @@
 
 ### Species: Neosynchiropus ocellatus
 
-**Biosample:**  
+**Biosample:** SAMN43082349  
 **Assembly Accession:** GCA\_044231665.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3659,7 +3659,7 @@
 
 ### Species: Notolabrus celidotus
 
-**Biosample:**  
+**Biosample:** SAMN12623201  
 **Assembly Accession:** GCA\_009762535.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3668,7 +3668,7 @@
 
 ### Species: Notolepis coatsi
 
-**Biosample:**  
+**Biosample:** SAMEA8748806  
 **Assembly Accession:** GCA\_963971535.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3677,7 +3677,7 @@
 
 ### Species: Notothenia rossii
 
-**Biosample:**  
+**Biosample:** SAMEA12815441  
 **Assembly Accession:** GCA\_949606895.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3686,7 +3686,7 @@
 
 ### Species: Numenius arquata
 
-**Biosample:**  
+**Biosample:** SAMEA112693994  
 **Assembly Accession:** GCA\_964106895.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3695,7 +3695,7 @@
 
 ### Species: Nyctalus leisleri
 
-**Biosample:**  
+**Biosample:** SAMEA114250308  
 **Assembly Accession:** GCA\_964264875.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3704,7 +3704,7 @@
 
 ### Species: Nyctibius grandis
 
-**Biosample:**  
+**Biosample:** SAMN12622411  
 **Assembly Accession:** GCA\_013368605.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3713,7 +3713,7 @@
 
 ### Species: Nycticebus coucang
 
-**Biosample:**  
+**Biosample:** SAMN28408555  
 **Assembly Accession:** GCA\_027406575.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3722,7 +3722,7 @@
 
 ### Species: Ochotona princeps
 
-**Biosample:**  
+**Biosample:** SAMN35822658  
 **Assembly Accession:** GCA\_030435755.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3731,7 +3731,7 @@
 
 ### Species: Odontesthes bonariensis
 
-**Biosample:**  
+**Biosample:** SAMN31802211  
 **Assembly Accession:** GCA\_027942865.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3740,7 +3740,7 @@
 
 ### Species: Opisthocomus hoazin
 
-**Biosample:**  
+**Biosample:** SAMN37055462  
 **Assembly Accession:** GCA\_030867145.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3749,7 +3749,7 @@
 
 ### Species: Orcinus orca
 
-**Biosample:**  
+**Biosample:** SAMEA8800229  
 **Assembly Accession:** GCA\_937001465.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3758,7 +3758,7 @@
 
 ### Species: Osmerus eperlanus
 
-**Biosample:**  
+**Biosample:** SAMEA14448128  
 **Assembly Accession:** GCA\_963692335.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3767,7 +3767,7 @@
 
 ### Species: Osmerus mordax
 
-**Biosample:**  
+**Biosample:** SAMN40867348  
 **Assembly Accession:** GCA\_038355195.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3776,7 +3776,7 @@
 
 ### Species: Panthera onca
 
-**Biosample:**  
+**Biosample:** SAMN44524170  
 **Assembly Accession:** GCA\_046562885.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3785,7 +3785,7 @@
 
 ### Species: Passer domesticus
 
-**Biosample:**  
+**Biosample:** SAMN39255856  
 **Assembly Accession:** GCA\_036417665.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3794,7 +3794,7 @@
 
 ### Species: Passerculus sandwichensis
 
-**Biosample:**  
+**Biosample:** SAMN35784765  
 **Assembly Accession:** GCA\_031885435.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3803,7 +3803,7 @@
 
 ### Species: Pelecanus crispus
 
-**Biosample:**  
+**Biosample:** SAMN35784560  
 **Assembly Accession:** GCA\_030463565.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3812,7 +3812,7 @@
 
 ### Species: Pelobates fuscus
 
-**Biosample:**  
+**Biosample:** SAMN39244120  
 **Assembly Accession:** GCA\_036172605.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -3821,7 +3821,7 @@
 
 ### Species: Pelodytes ibericus
 
-**Biosample:**  
+**Biosample:** SAMN37110875  
 **Assembly Accession:** GCA\_036172795.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -3830,7 +3830,7 @@
 
 ### Species: Pempheris klunzingeri
 
-**Biosample:**  
+**Biosample:** SAMN40589649  
 **Assembly Accession:** GCA\_042242105.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3839,7 +3839,7 @@
 
 ### Species: Peromyscus maniculatus
 
-**Biosample:**  
+**Biosample:** SAMN29044276  
 **Assembly Accession:** GCA\_026229955.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3848,7 +3848,7 @@
 
 ### Species: Phaethon aethereus
 
-**Biosample:**  
+**Biosample:** SAMEA8228673  
 **Assembly Accession:** GCA\_964289735.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3857,7 +3857,7 @@
 
 ### Species: Phaethornis superciliosus
 
-**Biosample:**  
+**Biosample:** SAMN23532249  
 **Assembly Accession:** GCA\_023637945.2  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3866,7 +3866,7 @@
 
 ### Species: Phocoena phocoena
 
-**Biosample:**  
+**Biosample:** SAMEA111380536  
 **Assembly Accession:** GCA\_963924675.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3875,7 +3875,7 @@
 
 ### Species: Phoenicopterus ruber
 
-**Biosample:**  
+**Biosample:** SAMN12614931  
 **Assembly Accession:** GCA\_009819775.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3884,7 +3884,7 @@
 
 ### Species: Pholis gunnellus
 
-**Biosample:**  
+**Biosample:** SAMEA7522838  
 **Assembly Accession:** GCA\_910591455.2  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3893,7 +3893,7 @@
 
 ### Species: Phoxinus phoxinus
 
-**Biosample:**  
+**Biosample:** SAMEA11296539  
 **Assembly Accession:** GCA\_949152265.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3902,7 +3902,7 @@
 
 ### Species: Pipistrellus kuhlii
 
-**Biosample:**  
+**Biosample:** SAMN14734388  
 **Assembly Accession:** GCA\_014108245.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3911,7 +3911,7 @@
 
 ### Species: Pipistrellus nathusii
 
-**Biosample:**  
+**Biosample:** SAMEA115534661  
 **Assembly Accession:** GCA\_964656225.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3920,7 +3920,7 @@
 
 ### Species: Pipistrellus pygmaeus
 
-**Biosample:**  
+**Biosample:** SAMEA9921456  
 **Assembly Accession:** GCA\_949987585.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3929,7 +3929,7 @@
 
 ### Species: Platichthys flesus
 
-**Biosample:**  
+**Biosample:** SAMEA110026475  
 **Assembly Accession:** GCA\_949316205.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3938,7 +3938,7 @@
 
 ### Species: Plecotus auritus
 
-**Biosample:**  
+**Biosample:** SAMEA110056142  
 **Assembly Accession:** GCA\_963455305.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3947,7 +3947,7 @@
 
 ### Species: Pleuronectes platessa
 
-**Biosample:**  
+**Biosample:** SAMEA13853390  
 **Assembly Accession:** GCA\_947347685.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3956,7 +3956,7 @@
 
 ### Species: Pluvialis apricaria
 
-**Biosample:**  
+**Biosample:** SAMN18353970  
 **Assembly Accession:** GCA\_017639485.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3965,7 +3965,7 @@
 
 ### Species: Podarcis erhardii
 
-**Biosample:**  
+**Biosample:** SAMEA115336771  
 **Assembly Accession:** GCA\_964252035.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3974,7 +3974,7 @@
 
 ### Species: Podarcis melisellensis
 
-**Biosample:**  
+**Biosample:** SAMEA115336775  
 **Assembly Accession:** GCA\_964234715.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3983,7 +3983,7 @@
 
 ### Species: Podarcis muralis
 
-**Biosample:**  
+**Biosample:** SAMEA115336776  
 **Assembly Accession:** GCA\_964188315.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3992,7 +3992,7 @@
 
 ### Species: Podarcis siculus
 
-**Biosample:**  
+**Biosample:** SAMEA115336774  
 **Assembly Accession:** GCA\_964188175.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -4001,7 +4001,7 @@
 
 ### Species: Podargus strigoides
 
-**Biosample:**  
+**Biosample:** SAMN31801959  
 **Assembly Accession:** GCA\_028020825.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4010,7 +4010,7 @@
 
 ### Species: Podocnemis expansa
 
-**Biosample:**  
+**Biosample:** SAMN44516642  
 **Assembly Accession:** GCA\_045364815.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -4019,7 +4019,7 @@
 
 ### Species: Poecile atricapillus
 
-**Biosample:**  
+**Biosample:** SAMN35074507  
 **Assembly Accession:** GCA\_030490865.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4028,7 +4028,7 @@
 
 ### Species: Pogoniulus pusillus
 
-**Biosample:**  
+**Biosample:** SAMN15098508  
 **Assembly Accession:** GCA\_015220805.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4037,7 +4037,7 @@
 
 ### Species: Pollachius pollachius
 
-**Biosample:**  
+**Biosample:** SAMEA111562038  
 **Assembly Accession:** GCA\_949987615.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4046,7 +4046,7 @@
 
 ### Species: Pristiophorus japonicus
 
-**Biosample:**  
+**Biosample:** SAMN44116980  
 **Assembly Accession:** GCA\_044704955.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4055,7 +4055,7 @@
 
 ### Species: Pristis pectinata
 
-**Biosample:**  
+**Biosample:** SAMN12629505  
 **Assembly Accession:** GCA\_009764475.2  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4064,7 +4064,7 @@
 
 ### Species: Protomyctophum bolini
 
-**Biosample:**  
+**Biosample:** SAMEA12815434  
 **Assembly Accession:** GCA\_963924005.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4073,7 +4073,7 @@
 
 ### Species: Pseudorca crassidens
 
-**Biosample:**  
+**Biosample:** SAMN41253811  
 **Assembly Accession:** GCA\_039906515.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4082,7 +4082,7 @@
 
 ### Species: Pterocles gutturalis
 
-**Biosample:**  
+**Biosample:** SAMN12623217  
 **Assembly Accession:** GCA\_009769525.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4091,7 +4091,7 @@
 
 ### Species: Pungitius pungitius
 
-**Biosample:**  
+**Biosample:** SAMEA11296545  
 **Assembly Accession:** GCA\_949316345.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4100,7 +4100,7 @@
 
 ### Species: Raja brachyura
 
-**Biosample:**  
+**Biosample:** SAMEA110450105  
 **Assembly Accession:** GCA\_963514005.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4109,7 +4109,7 @@
 
 ### Species: Rana temporaria
 
-**Biosample:**  
+**Biosample:** SAMEA7521635  
 **Assembly Accession:** GCA\_905171775.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -4118,7 +4118,7 @@
 
 ### Species: Rhamphochromis chilingali
 
-**Biosample:**  
+**Biosample:** SAMEA112818853  
 **Assembly Accession:** GCA\_963969265.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4127,7 +4127,7 @@
 
 ### Species: Rhea pennata
 
-**Biosample:**  
+**Biosample:** SAMN32606345  
 **Assembly Accession:** GCA\_028389875.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4136,7 +4136,7 @@
 
 ### Species: Rhineura floridana
 
-**Biosample:**  
+**Biosample:** SAMN34105704  
 **Assembly Accession:** GCA\_030035675.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -4145,7 +4145,7 @@
 
 ### Species: Rhinogobio nasutus
 
-**Biosample:**  
+**Biosample:** SAMN45903276  
 **Assembly Accession:** GCA\_048301585.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4154,7 +4154,7 @@
 
 ### Species: Rhinolophus affinis
 
-**Biosample:**  
+**Biosample:** SAMN33388345  
 **Assembly Accession:** GCA\_043728065.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4163,7 +4163,7 @@
 
 ### Species: Rhinolophus ferrumequinum
 
-**Biosample:**  
+**Biosample:** SAMN09948510  
 **Assembly Accession:** GCA\_004115265.3  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4172,7 +4172,7 @@
 
 ### Species: Rhinolophus hipposideros
 
-**Biosample:**  
+**Biosample:** SAMEA113980802  
 **Assembly Accession:** GCA\_964194185.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4181,7 +4181,7 @@
 
 ### Species: Rhinolophus trifoliatus
 
-**Biosample:**  
+**Biosample:** SAMN33421007  
 **Assembly Accession:** GCA\_043728145.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4190,7 +4190,7 @@
 
 ### Species: Rhinolophus yonghoiseni
 
-**Biosample:**  
+**Biosample:** SAMN33413875  
 **Assembly Accession:** GCA\_043880425.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4199,7 +4199,7 @@
 
 ### Species: Rhinophrynus dorsalis
 
-**Biosample:**  
+**Biosample:** SAMN40302865  
 **Assembly Accession:** GCA\_037306005.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -4208,7 +4208,7 @@
 
 ### Species: Rhynchonycteris naso
 
-**Biosample:**  
+**Biosample:** SAMN39947078  
 **Assembly Accession:** GCA\_037038545.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4217,7 +4217,7 @@
 
 ### Species: Rhynochetos jubatus
 
-**Biosample:**  
+**Biosample:** SAMN31802033  
 **Assembly Accession:** GCA\_027574665.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4226,7 +4226,7 @@
 
 ### Species: Rissa tridactyla
 
-**Biosample:**  
+**Biosample:** SAMN32104255  
 **Assembly Accession:** GCA\_028500815.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4235,7 +4235,7 @@
 
 ### Species: Rutilus rutilus
 
-**Biosample:**  
+**Biosample:** SAMEA11296543  
 **Assembly Accession:** GCA\_951802725.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4244,7 +4244,7 @@
 
 ### Species: Saccopteryx bilineata
 
-**Biosample:**  
+**Biosample:** SAMN37288508  
 **Assembly Accession:** GCA\_036850765.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4253,7 +4253,7 @@
 
 ### Species: Saccopteryx leptura
 
-**Biosample:**  
+**Biosample:** SAMN37390139  
 **Assembly Accession:** GCA\_036850995.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4262,7 +4262,7 @@
 
 ### Species: Salminus brasiliensis
 
-**Biosample:**  
+**Biosample:** SAMN35075251  
 **Assembly Accession:** GCA\_030463535.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4271,7 +4271,7 @@
 
 ### Species: Salvelinus alpinus
 
-**Biosample:**  
+**Biosample:** SAMN36900063  
 **Assembly Accession:** GCA\_036784965.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4280,7 +4280,7 @@
 
 ### Species: Sarcoramphus papa
 
-**Biosample:**  
+**Biosample:** SAMN40647026  
 **Assembly Accession:** GCA\_037962945.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4289,7 +4289,7 @@
 
 ### Species: Sardina pilchardus
 
-**Biosample:**  
+**Biosample:** SAMEA111562172  
 **Assembly Accession:** GCA\_963854185.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4298,7 +4298,7 @@
 
 ### Species: Scardinius erythrophthalmus
 
-**Biosample:**  
+**Biosample:** SAMEA11296541  
 **Assembly Accession:** GCA\_964197995.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4307,7 +4307,7 @@
 
 ### Species: Scatophagus argus
 
-**Biosample:**  
+**Biosample:** SAMN12623616  
 **Assembly Accession:** GCA\_020382885.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4316,7 +4316,7 @@
 
 ### Species: Scomber japonicus
 
-**Biosample:**  
+**Biosample:** SAMN32224830  
 **Assembly Accession:** GCA\_027409825.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4325,7 +4325,7 @@
 
 ### Species: Scomber scombrus
 
-**Biosample:**  
+**Biosample:** SAMEA110450232  
 **Assembly Accession:** GCA\_963691925.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4334,7 +4334,7 @@
 
 ### Species: Scophthalmus maximus
 
-**Biosample:**  
+**Biosample:** SAMEA110450106  
 **Assembly Accession:** GCA\_963854745.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4343,7 +4343,7 @@
 
 ### Species: Sebastes fasciatus
 
-**Biosample:**  
+**Biosample:** SAMN43039489  
 **Assembly Accession:** GCA\_043250625.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4352,7 +4352,7 @@
 
 ### Species: Sebastes umbrosus
 
-**Biosample:**  
+**Biosample:** SAMN12629503  
 **Assembly Accession:** GCA\_015220745.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4361,7 +4361,7 @@
 
 ### Species: Shinisaurus crocodilurus
 
-**Biosample:**  
+**Biosample:** SAMN19072228  
 **Assembly Accession:** GCA\_021292165.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -4370,7 +4370,7 @@
 
 ### Species: Silurus aristotelis
 
-**Biosample:**  
+**Biosample:** SAMEA12595289  
 **Assembly Accession:** GCA\_946808225.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4379,7 +4379,7 @@
 
 ### Species: Sminthopsis crassicaudata
 
-**Biosample:**  
+**Biosample:** SAMN47327922  
 **Assembly Accession:** GCA\_048593235.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4388,7 +4388,7 @@
 
 ### Species: Sorex araneus
 
-**Biosample:**  
+**Biosample:** SAMN32477717  
 **Assembly Accession:** GCA\_027595985.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4397,7 +4397,7 @@
 
 ### Species: Spea bombifrons
 
-**Biosample:**  
+**Biosample:** SAMN28408467  
 **Assembly Accession:** GCA\_027358695.2  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -4406,7 +4406,7 @@
 
 ### Species: Spinachia spinachia
 
-**Biosample:**  
+**Biosample:** SAMN36735485  
 **Assembly Accession:** GCA\_048126635.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4415,7 +4415,7 @@
 
 ### Species: Sprattus sprattus
 
-**Biosample:**  
+**Biosample:** SAMEA111562173  
 **Assembly Accession:** GCA\_963457725.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4424,7 +4424,7 @@
 
 ### Species: Squalius cephalus
 
-**Biosample:**  
+**Biosample:** SAMEA11296547  
 **Assembly Accession:** GCA\_949319135.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4433,7 +4433,7 @@
 
 ### Species: Stegostoma tigrinum
 
-**Biosample:**  
+**Biosample:** SAMN35823397  
 **Assembly Accession:** GCA\_030684315.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4442,7 +4442,7 @@
 
 ### Species: Sterna hirundo
 
-**Biosample:**  
+**Biosample:** SAMN12369541  
 **Assembly Accession:** GCA\_009819605.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4451,7 +4451,7 @@
 
 ### Species: Sternotherus odoratus
 
-**Biosample:**  
+**Biosample:** SAMN36942441  
 **Assembly Accession:** GCA\_032164245.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -4460,7 +4460,7 @@
 
 ### Species: Streptopelia decaocto
 
-**Biosample:**  
+**Biosample:** SAMEA113398962  
 **Assembly Accession:** GCA\_964273445.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4469,7 +4469,7 @@
 
 ### Species: Strix aluco
 
-**Biosample:**  
+**Biosample:** SAMN37055808  
 **Assembly Accession:** GCA\_031877795.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4478,7 +4478,7 @@
 
 ### Species: Styela clava
 
-**Biosample:**  
+**Biosample:** SAMEA7536473  
 **Assembly Accession:** GCA\_964204865.1  
 **Taxon:** Invertebrates  
 **Priority:** 6  
@@ -4487,7 +4487,7 @@
 
 ### Species: Sylvia atricapilla
 
-**Biosample:**  
+**Biosample:** SAMN12369542  
 **Assembly Accession:** GCA\_009819655.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4496,7 +4496,7 @@
 
 ### Species: Sylvia borin
 
-**Biosample:**  
+**Biosample:** SAMN12618613  
 **Assembly Accession:** GCA\_014839755.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4505,7 +4505,7 @@
 
 ### Species: Symphodus melops
 
-**Biosample:**  
+**Biosample:** SAMEA12219485  
 **Assembly Accession:** GCA\_947650265.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4514,7 +4514,7 @@
 
 ### Species: Synchiropus picturatus
 
-**Biosample:**  
+**Biosample:** SAMN43082350  
 **Assembly Accession:** GCA\_044231675.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4523,7 +4523,7 @@
 
 ### Species: Syngnathus typhle
 
-**Biosample:**  
+**Biosample:** SAMN36735486  
 **Assembly Accession:** GCA\_048301445.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4532,7 +4532,7 @@
 
 ### Species: Tachyglossus aculeatus
 
-**Biosample:**  
+**Biosample:** SAMN12634963  
 **Assembly Accession:** GCA\_015852505.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4541,7 +4541,7 @@
 
 ### Species: Tadarida brasiliensis
 
-**Biosample:**  
+**Biosample:** SAMN35075070  
 **Assembly Accession:** GCA\_030848825.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4550,7 +4550,7 @@
 
 ### Species: Talpa europaea
 
-**Biosample:**  
+**Biosample:** SAMEA112468127  
 **Assembly Accession:** GCA\_964194135.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4559,7 +4559,7 @@
 
 ### Species: Tamandua tetradactyla
 
-**Biosample:**  
+**Biosample:** SAMN12612337  
 **Assembly Accession:** GCA\_023851605.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4568,7 +4568,7 @@
 
 ### Species: Tapirus indicus
 
-**Biosample:**  
+**Biosample:** SAMN37096863  
 **Assembly Accession:** GCA\_031878705.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4577,7 +4577,7 @@
 
 ### Species: Tauraco erythrolophus
 
-**Biosample:**  
+**Biosample:** SAMN12621036  
 **Assembly Accession:** GCA\_009769465.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4586,7 +4586,7 @@
 
 ### Species: Taurulus bubalis
 
-**Biosample:**  
+**Biosample:** SAMEA7522994  
 **Assembly Accession:** GCA\_910589615.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4595,7 +4595,7 @@
 
 ### Species: Tautogolabrus adspersus
 
-**Biosample:**  
+**Biosample:** SAMN22589422  
 **Assembly Accession:** GCA\_020745685.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4604,7 +4604,7 @@
 
 ### Species: Telmatherina bonti
 
-**Biosample:**  
+**Biosample:** SAMEA8592627  
 **Assembly Accession:** GCA\_933228915.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4613,7 +4613,7 @@
 
 ### Species: Thalia democratica
 
-**Biosample:**  
+**Biosample:** SAMEA111439782  
 **Assembly Accession:** GCA\_965202585.1  
 **Taxon:** Invertebrates  
 **Priority:** 6  
@@ -4622,7 +4622,7 @@
 
 ### Species: Theristicus caerulescens
 
-**Biosample:**  
+**Biosample:** SAMN22550094  
 **Assembly Accession:** GCA\_020745775.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4631,7 +4631,7 @@
 
 ### Species: Thomomys bottae
 
-**Biosample:**  
+**Biosample:** SAMN37300244  
 **Assembly Accession:** GCA\_031878675.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4640,7 +4640,7 @@
 
 ### Species: Tiliqua scincoides
 
-**Biosample:**  
+**Biosample:** SAMN37319749  
 **Assembly Accession:** GCA\_035046505.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -4649,7 +4649,7 @@
 
 ### Species: Trachurus trachurus
 
-**Biosample:**  
+**Biosample:** SAMEA7524396  
 **Assembly Accession:** GCA\_905171665.2  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4658,7 +4658,7 @@
 
 ### Species: Trichechus inunguis
 
-**Biosample:**  
+**Biosample:** SAMN44524440  
 **Assembly Accession:** GCA\_046562895.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4667,7 +4667,7 @@
 
 ### Species: Trididemnum clinides
 
-**Biosample:**  
+**Biosample:** SAMEA9873882  
 **Assembly Accession:** GCA\_963675345.1  
 **Taxon:** Invertebrates  
 **Priority:** 6  
@@ -4676,7 +4676,7 @@
 
 ### Species: Triturus cristatus
 
-**Biosample:**  
+**Biosample:** SAMEA112468129  
 **Assembly Accession:** GCA\_964204655.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -4685,7 +4685,7 @@
 
 ### Species: Trogon surrucura
 
-**Biosample:**  
+**Biosample:** SAMN22550082  
 **Assembly Accession:** GCA\_020746105.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4694,7 +4694,7 @@
 
 ### Species: Tursiops truncatus
 
-**Biosample:**  
+**Biosample:** SAMN12326775  
 **Assembly Accession:** GCA\_011762595.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4703,7 +4703,7 @@
 
 ### Species: Urocitellus parryii
 
-**Biosample:**  
+**Biosample:** SAMN44461866  
 **Assembly Accession:** GCA\_045843805.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4712,7 +4712,7 @@
 
 ### Species: Vanellus vanellus
 
-**Biosample:**  
+**Biosample:** SAMEA113398832  
 **Assembly Accession:** GCA\_965231255.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4721,7 +4721,7 @@
 
 ### Species: Vespertilio murinus
 
-**Biosample:**  
+**Biosample:** SAMEA112247422  
 **Assembly Accession:** GCA\_963924515.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4730,7 +4730,7 @@
 
 ### Species: Vidua chalybeata
 
-**Biosample:**  
+**Biosample:** SAMN12254000  
 **Assembly Accession:** GCA\_026979565.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4739,7 +4739,7 @@
 
 ### Species: Vipera berus
 
-**Biosample:**  
+**Biosample:** SAMEA114293681  
 **Assembly Accession:** GCA\_964194415.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -4748,7 +4748,7 @@
 
 ### Species: Vipera latastei
 
-**Biosample:**  
+**Biosample:** SAMN28408464  
 **Assembly Accession:** GCA\_024294585.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -4757,7 +4757,7 @@
 
 ### Species: Vipera ursinii
 
-**Biosample:**  
+**Biosample:** SAMEA12832258  
 **Assembly Accession:** GCA\_947247035.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -4766,7 +4766,7 @@
 
 ### Species: Vulpes vulpes
 
-**Biosample:**  
+**Biosample:** SAMEA113398840  
 **Assembly Accession:** GCA\_964106825.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4775,7 +4775,7 @@
 
 ### Species: Willisornis vidua
 
-**Biosample:**  
+**Biosample:** SAMN44516465  
 **Assembly Accession:** GCA\_045364795.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4784,7 +4784,7 @@
 
 ### Species: Zalophus californianus
 
-**Biosample:**  
+**Biosample:** SAMN12368149  
 **Assembly Accession:** GCA\_009762305.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4793,7 +4793,7 @@
 
 ### Species: Zeus faber
 
-**Biosample:**  
+**Biosample:** SAMEA111562156  
 **Assembly Accession:** GCA\_960531495.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4802,7 +4802,7 @@
 
 ### Species: Zonotrichia albicollis
 
-**Biosample:**  
+**Biosample:** SAMN46390924  
 **Assembly Accession:** GCA\_047830755.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4811,7 +4811,7 @@
 
 ### Species: Zootoca vivipara
 
-**Biosample:**  
+**Biosample:** SAMEA111528662  
 **Assembly Accession:** GCA\_963506605.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -4820,7 +4820,7 @@
 
 ### Species: Alca Torda
 
-**Biosample:**  
+**Biosample:** SAMN12292087  
 **Assembly Accession:** GCA\_008658365.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4829,7 +4829,7 @@
 
 ### Species: Ambystoma mexicanum x Ambystoma tigrinum
 
-**Biosample:**  
+**Biosample:** SAMN43142723  
 **Assembly Accession:** GCA\_040938575.1  
 **Taxon:** Amphibians  
 **Priority:** 7  
@@ -4838,7 +4838,7 @@
 
 ### Species: Ammodramus caudacutus
 
-**Biosample:**  
+**Biosample:** SAMN28421630  
 **Assembly Accession:** GCA\_027887145.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4847,7 +4847,7 @@
 
 ### Species: Anniella stebbinsi
 
-**Biosample:**  
+**Biosample:** SAMN33386066  
 **Assembly Accession:** GCA\_029215775.1  
 **Taxon:** Reptiles  
 **Priority:** 7  
@@ -4856,7 +4856,7 @@
 
 ### Species: Anser cygnoides
 
-**Biosample:**  
+**Biosample:** SAMN41386743  
 **Assembly Accession:** GCA\_040182565.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4865,7 +4865,7 @@
 
 ### Species: Aspidoscelis tigris stejnegeri
 
-**Biosample:**  
+**Biosample:** SAMN25872408  
 **Assembly Accession:** GCA\_023333525.2  
 **Taxon:** Reptiles  
 **Priority:** 7  
@@ -4874,7 +4874,7 @@
 
 ### Species: Camelus dromedarius
 
-**Biosample:**  
+**Biosample:** SAMN39296380  
 **Assembly Accession:** GCA\_036321535.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -4883,7 +4883,7 @@
 
 ### Species: Chionomys nivalis
 
-**Biosample:**  
+**Biosample:** SAMEA13217622  
 **Assembly Accession:** GCA\_950005125.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -4892,7 +4892,7 @@
 
 ### Species: Chroicocephalus ridibundus
 
-**Biosample:**  
+**Biosample:** SAMEA112468038  
 **Assembly Accession:** GCA\_963924245.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4901,7 +4901,7 @@
 
 ### Species: Coloeus monedula
 
-**Biosample:**  
+**Biosample:** SAMEA115433023  
 **Assembly Accession:** GCA\_965178545.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4910,7 +4910,7 @@
 
 ### Species: Coregonus lavaretus
 
-**Biosample:**  
+**Biosample:** SAMEA111528661  
 **Assembly Accession:** GCA\_964263955.1  
 **Taxon:** Fishes  
 **Priority:** 7  
@@ -4919,7 +4919,7 @@
 
 ### Species: Coturnix chinensis
 
-**Biosample:**  
+**Biosample:** SAMN41253798  
 **Assembly Accession:** GCA\_039878825.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4928,7 +4928,7 @@
 
 ### Species: Diceros bicornis minor
 
-**Biosample:**  
+**Biosample:** SAMN22047685  
 **Assembly Accession:** GCA\_020826845.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -4937,7 +4937,7 @@
 
 ### Species: Dixiphia pipra
 
-**Biosample:**  
+**Biosample:** SAMN32739894  
 **Assembly Accession:** GCA\_036250125.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4946,7 +4946,7 @@
 
 ### Species: Elgaria multicarinata webbii
 
-**Biosample:**  
+**Biosample:** SAMN25872353  
 **Assembly Accession:** GCA\_023053635.2  
 **Taxon:** Reptiles  
 **Priority:** 7  
@@ -4955,7 +4955,7 @@
 
 ### Species: Equus caballus
 
-**Biosample:**  
+**Biosample:** SAMN39296386  
 **Assembly Accession:** GCA\_036426135.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -4964,7 +4964,7 @@
 
 ### Species: Falco punctatus
 
-**Biosample:**  
+**Biosample:** SAMEA14356472  
 **Assembly Accession:** GCA\_963210335.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4973,7 +4973,7 @@
 
 ### Species: Glossophaga mutica
 
-**Biosample:**  
+**Biosample:** SAMN40946060  
 **Assembly Accession:** GCA\_039655065.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -4982,7 +4982,7 @@
 
 ### Species: Guaruba guaruba
 
-**Biosample:**  
+**Biosample:** SAMN44514542  
 **Assembly Accession:** GCA\_045345405.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4991,7 +4991,7 @@
 
 ### Species: Lateolabrax maculatus
 
-**Biosample:**  
+**Biosample:** SAMN36708487  
 **Assembly Accession:** GCA\_031216445.1  
 **Taxon:** Fishes  
 **Priority:** 7  
@@ -5000,7 +5000,7 @@
 
 ### Species: Lonchura striata domestica
 
-**Biosample:**  
+**Biosample:** SAMN44779081  
 **Assembly Accession:** GCA\_046129695.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -5009,7 +5009,7 @@
 
 ### Species: Macaca fascicularis
 
-**Biosample:**  
+**Biosample:** SAMN38317298  
 **Assembly Accession:** GCA\_037993035.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -5018,7 +5018,7 @@
 
 ### Species: Macropus eugenii
 
-**Biosample:**  
+**Biosample:** SAMN28408687  
 **Assembly Accession:** GCA\_028372415.2  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -5027,7 +5027,7 @@
 
 ### Species: Mantella aurantiaca
 
-**Biosample:**  
+**Biosample:** SAMN46714743  
 **Assembly Accession:** GCA\_048565345.1  
 **Taxon:** Amphibians  
 **Priority:** 7  
@@ -5036,7 +5036,7 @@
 
 ### Species: Melanotaenia boesemani
 
-**Biosample:**  
+**Biosample:** SAMN12623618  
 **Assembly Accession:** GCA\_017639745.1  
 **Taxon:** Fishes  
 **Priority:** 7  
@@ -5045,7 +5045,7 @@
 
 ### Species: Molossus nigricans
 
-**Biosample:**  
+**Biosample:** SAMN40002246  
 **Assembly Accession:** GCA\_039880945.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -5054,7 +5054,7 @@
 
 ### Species: Monodon monocero
 
-**Biosample:**  
+**Biosample:** SAMN10872456  
 **Assembly Accession:** GCA\_005190385.3  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -5063,7 +5063,7 @@
 
 ### Species: Mustela nivalis vulgaris
 
-**Biosample:**  
+**Biosample:** SAMEA113398841  
 **Assembly Accession:** GCA\_964662115.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -5072,7 +5072,7 @@
 
 ### Species: Nannobrachium achirus
 
-**Biosample:**  
+**Biosample:** SAMEA12815432  
 **Assembly Accession:** GCA\_963921795.1  
 **Taxon:** Fishes  
 **Priority:** 7  
@@ -5081,7 +5081,7 @@
 
 ### Species: Nesoenas mayeri
 
-**Biosample:**  
+**Biosample:** SAMEA12922160  
 **Assembly Accession:** GCA\_963082525.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -5090,7 +5090,7 @@
 
 ### Species: Podarcis gaigeae
 
-**Biosample:**  
+**Biosample:** SAMEA114217796  
 **Assembly Accession:** GCA\_964106915.2  
 **Taxon:** Reptiles  
 **Priority:** 7  
@@ -5099,7 +5099,7 @@
 
 ### Species: Podarcis raffonei
 
-**Biosample:**  
+**Biosample:** SAMN28455423  
 **Assembly Accession:** GCA\_027172205.1  
 **Taxon:** Reptiles  
 **Priority:** 7  
@@ -5108,7 +5108,7 @@
 
 ### Species: Porphyrio hochstetteri
 
-**Biosample:**  
+**Biosample:** SAMN22550412  
 **Assembly Accession:** GCA\_020800305.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -5117,7 +5117,7 @@
 
 ### Species: Pseudophryne corroboree
 
-**Biosample:**  
+**Biosample:** SAMN32631236  
 **Assembly Accession:** GCA\_028390025.1  
 **Taxon:** Amphibians  
 **Priority:** 7  
@@ -5126,7 +5126,7 @@
 
 ### Species: Psittacula echo
 
-**Biosample:**  
+**Biosample:** SAMEA12361725  
 **Assembly Accession:** GCA\_963264785.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -5135,7 +5135,7 @@
 
 ### Species: Rhinolophus perniger lanosus
 
-**Biosample:**  
+**Biosample:** SAMN33438666  
 **Assembly Accession:** GCA\_043748575.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -5144,7 +5144,7 @@
 
 ### Species: Struthio camelus australis
 
-**Biosample:**  
+**Biosample:** SAMN42123890  
 **Assembly Accession:** GCA\_040807025.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -5153,26 +5153,10 @@
 
 ### Species: Trichomycterus rosablanca
 
-**Biosample:**  
+**Biosample:** SAMN32755940  
 **Assembly Accession:** GCA\_030014385.1  
 **Taxon:** Fishes  
 **Priority:** 7  
 **Flags:**  
 ![](../species/Trichomycterus_rosablanca/Trichomycterus_rosablanca_distribution_map.png)
-1 2 3 4 5 6 7 4 55 5 109 4 357 38 \[1\] “…1” “X.1”  
-\[3\] “scientific\_name” “iucn\_name”  
-\[5\] “assessment\_id” “category”  
-\[7\] “criteria” “pop\_trend”  
-\[9\] “locations” “year\_published”  
-\[11\] “latest” “gbif\_synonyms”  
-\[13\] “iucn\_synonyms” “X”  
-\[15\] “lineage” “extended\_lineage”  
-\[17\] “english\_name” “accession\_number\_for\_main\_haplotype” \[19\]
-“biosample\_accession” “geo\_location”  
-\[21\] “latlon” “comments”  
-\[23\] “lat” “lon”  
-\[25\] “vague\_location\_flag” “missing\_sampling\_location\_flag”  
-\[27\] “raster\_path\_ea” “raster\_path\_goode”  
-\[29\] “centroid\_lon” “centroid\_lat”  
-\[31\] “outside\_range\_flag” “missing\_range\_flag”  
-\[33\] “zoo\_flag” “domesticated\_flag”
+1 2 3 4 5 6 7 4 55 5 109 4 357 38

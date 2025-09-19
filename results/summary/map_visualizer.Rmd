@@ -224,9 +224,8 @@ for (i in seq_len(nrow(df))) {
 #   dplyr::select(scientific_name, iucn_name, assessment_id, category, criteria,
 #          pop_trend, locations, year_published, latest, gbif_synonyms,
 #          iucn_synonyms, lineage, english_name,
-#          accession_number_for_main_haplotype, assemblyInfo_biosample_accession,
-#          assemblyInfo_biosample_geoLocName, assemblyInfo_biosample_latLon,
-#          assemblyInfo_comments, geo_location, latlon, lat, lon,
+#          accession_number_for_main_haplotype, biosample_accession,
+#          comments, geo_location, latlon, lat, lon,
 #          vague_location_flag, missing_sampling_location_flag,
 #          raster_path_ea, raster_path_goode, centroid_lon, centroid_lat,
 #          outside_range_flag, missing_range_flag, zoo_flag,
@@ -287,7 +286,7 @@ for (i in seq_len(nrow(df_prioritized))) {
   if (file.exists(img_path)) {
     desc <- paste0(
       "\n\n### Species: ", sp, "\n\n",
-      "**Biosample:** ", df_prioritized$assemblyInfo_biosample_accession[i], "  \n",
+      "**Biosample:** ", df_prioritized$biosample_accession[i], "  \n",
       "**Assembly Accession:** ", df_prioritized$accession_number_for_main_haplotype[i], "  \n",
       "**Taxon:** ", df_prioritized$lineage[i], "  \n",
       "**Priority:** ", df_prioritized$priority[i],"  \n",
@@ -305,6 +304,4 @@ for (i in seq_len(nrow(df_prioritized))) {
 }
 
 table(df_prioritized$priority)
-
-colnames(df)
 ```
