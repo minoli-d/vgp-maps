@@ -14,7 +14,7 @@
 
 ### Species: Asterias rubens
 
-**Biosample:** SAMEA994741  
+**Biosample:**  
 **Assembly Accession:** GCA\_902459465.3  
 **Taxon:** Invertebrates  
 **Priority:** 1  
@@ -23,7 +23,7 @@
 
 ### Species: Branchiostoma belcheri
 
-**Biosample:** SAMN13907882  
+**Biosample:**  
 **Assembly Accession:** GCA\_019207075.1  
 **Taxon:** Invertebrates  
 **Priority:** 1  
@@ -32,7 +32,7 @@
 
 ### Species: Branchiostoma floridae
 
-**Biosample:** SAMN13896449  
+**Biosample:**  
 **Assembly Accession:** GCA\_015852565.1  
 **Taxon:** Invertebrates  
 **Priority:** 1  
@@ -41,7 +41,7 @@
 
 ### Species: Gadus morhua
 
-**Biosample:** SAMEA5574046  
+**Biosample:**  
 **Assembly Accession:** GCA\_902167405.1  
 **Taxon:** Fishes  
 **Priority:** 1  
@@ -50,7 +50,7 @@
 
 ### Species: Acanthopagrus latus
 
-**Biosample:** SAMN16236878  
+**Biosample:**  
 **Assembly Accession:** GCA\_904848185.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -59,7 +59,7 @@
 
 ### Species: Acipenser ruthenus
 
-**Biosample:** SAMEA5572864  
+**Biosample:**  
 **Assembly Accession:** GCA\_902713425.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -68,7 +68,7 @@
 
 ### Species: Acomys russatus
 
-**Biosample:** SAMEA104026431  
+**Biosample:**  
 **Assembly Accession:** GCA\_903995435.1  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -77,7 +77,7 @@
 
 ### Species: Anabas testudineus
 
-**Biosample:** SAMEA104026376  
+**Biosample:**  
 **Assembly Accession:** GCA\_900324465.3  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -86,7 +86,7 @@
 
 ### Species: Aquila chrysaetos
 
-**Biosample:** SAMEA994725  
+**Biosample:**  
 **Assembly Accession:** GCA\_900496995.4  
 **Taxon:** Birds  
 **Priority:** 2  
@@ -95,7 +95,7 @@
 
 ### Species: Arvicola amphibius
 
-**Biosample:** SAMEA994740  
+**Biosample:**  
 **Assembly Accession:** GCA\_903992535.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -104,7 +104,7 @@
 
 ### Species: Astyanax mexicanus
 
-**Biosample:** SAMN25965548  
+**Biosample:**  
 **Assembly Accession:** GCA\_023375975.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -113,7 +113,7 @@
 
 ### Species: Betta splendens
 
-**Biosample:** SAMEA104381735  
+**Biosample:**  
 **Assembly Accession:** GCA\_900634795.4  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -122,7 +122,7 @@
 
 ### Species: Chanos chanos
 
-**Biosample:** SAMEA5159473  
+**Biosample:**  
 **Assembly Accession:** GCA\_902362185.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -131,7 +131,7 @@
 
 ### Species: Cottoperca gobio
 
-**Biosample:** SAMEA104242975  
+**Biosample:**  
 **Assembly Accession:** GCA\_900634415.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -140,7 +140,7 @@
 
 ### Species: Denticeps clupeoides
 
-**Biosample:** SAMEA104129917  
+**Biosample:**  
 **Assembly Accession:** GCA\_900700375.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -149,7 +149,7 @@
 
 ### Species: Echeneis naucrates
 
-**Biosample:** SAMEA4966390  
+**Biosample:**  
 **Assembly Accession:** GCA\_900963305.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -158,7 +158,7 @@
 
 ### Species: Erithacus rubecula
 
-**Biosample:** SAMEA4760689  
+**Biosample:**  
 **Assembly Accession:** GCA\_903797595.2  
 **Taxon:** Birds  
 **Priority:** 2  
@@ -167,16 +167,25 @@
 
 ### Species: Erpetoichthys calabaricus
 
-**Biosample:** SAMEA104026374  
+**Biosample:**  
 **Assembly Accession:** GCA\_900747795.4  
 **Taxon:** Fishes  
 **Priority:** 2  
 **Flags:** Missing Sampling Location;  
 ![](../species/Erpetoichthys_calabaricus/Erpetoichthys_calabaricus_distribution_map.png)
 
+### Species: Eubalaena glacialis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_028564815.2  
+**Taxon:** Mammals  
+**Priority:** 2  
+**Flags:** Missing Sampling Location;  
+![](../species/Eubalaena_glacialis/Eubalaena_glacialis_distribution_map.png)
+
 ### Species: Eublepharis macularius
 
-**Biosample:** SAMN31016422  
+**Biosample:**  
 **Assembly Accession:** GCA\_028583425.1  
 **Taxon:** Reptiles  
 **Priority:** 2  
@@ -185,7 +194,7 @@
 
 ### Species: Geotrypetes seraphini
 
-**Biosample:** SAMEA104387963  
+**Biosample:**  
 **Assembly Accession:** GCA\_902459505.2  
 **Taxon:** Amphibians  
 **Priority:** 2  
@@ -194,7 +203,7 @@
 
 ### Species: Girardinichthys multiradiatus
 
-**Biosample:** SAMN22242658  
+**Biosample:**  
 **Assembly Accession:** GCA\_021462225.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -203,7 +212,7 @@
 
 ### Species: Gorilla gorilla
 
-**Biosample:** SAMN04003007  
+**Biosample:**  
 **Assembly Accession:** GCA\_029281585.3  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -212,7 +221,7 @@
 
 ### Species: Gouania willdenowi
 
-**Biosample:** SAMEA104026382  
+**Biosample:**  
 **Assembly Accession:** GCA\_900634775.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -221,7 +230,7 @@
 
 ### Species: Lutra lutra
 
-**Biosample:** SAMEA994731  
+**Biosample:**  
 **Assembly Accession:** GCA\_902655055.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -230,7 +239,7 @@
 
 ### Species: Lycocorax pyrrhopterus
 
-**Biosample:** SAMN15881065  
+**Biosample:**  
 **Assembly Accession:** GCA\_014706295.1  
 **Taxon:** Birds  
 **Priority:** 2  
@@ -239,7 +248,7 @@
 
 ### Species: Mastacembelus armatus
 
-**Biosample:** SAMEA104026378  
+**Biosample:**  
 **Assembly Accession:** GCA\_900324485.3  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -248,7 +257,7 @@
 
 ### Species: Microcaecilia unicolor
 
-**Biosample:** SAMEA104387962  
+**Biosample:**  
 **Assembly Accession:** GCA\_901765095.2  
 **Taxon:** Amphibians  
 **Priority:** 2  
@@ -257,7 +266,7 @@
 
 ### Species: Micropterus salmoides
 
-**Biosample:** SAMN15783178  
+**Biosample:**  
 **Assembly Accession:** GCA\_019677235.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -266,7 +275,7 @@
 
 ### Species: Myripristis murdjan
 
-**Biosample:** SAMEA4872133  
+**Biosample:**  
 **Assembly Accession:** GCA\_902150065.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -275,7 +284,7 @@
 
 ### Species: Oenanthe melanoleuca
 
-**Biosample:** SAMN33408179  
+**Biosample:**  
 **Assembly Accession:** GCA\_029582105.1  
 **Taxon:** Birds  
 **Priority:** 2  
@@ -284,7 +293,7 @@
 
 ### Species: Onychomys torridus
 
-**Biosample:** SAMEA104026389  
+**Biosample:**  
 **Assembly Accession:** GCA\_903995425.1  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -293,7 +302,7 @@
 
 ### Species: Ornithorhynchus anatinus
 
-**Biosample:** SAMN08537700  
+**Biosample:**  
 **Assembly Accession:** GCA\_004115215.4  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -302,7 +311,7 @@
 
 ### Species: Ovis canadensis
 
-**Biosample:** NA  
+**Biosample:**  
 **Assembly Accession:** GCA\_042477335.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -311,7 +320,7 @@
 
 ### Species: Pan paniscus
 
-**Biosample:** SAMN13935689  
+**Biosample:**  
 **Assembly Accession:** GCA\_029289425.3  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -320,7 +329,7 @@
 
 ### Species: Pan troglodytes
 
-**Biosample:** SAMN30216104  
+**Biosample:**  
 **Assembly Accession:** GCA\_028858775.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -329,16 +338,34 @@
 
 ### Species: Parambassis ranga
 
-**Biosample:** SAMEA4675621  
+**Biosample:**  
 **Assembly Accession:** GCA\_900634625.2  
 **Taxon:** Fishes  
 **Priority:** 2  
 **Flags:** Missing Sampling Location;  
 ![](../species/Parambassis_ranga/Parambassis_ranga_distribution_map.png)
 
+### Species: Patagioenas fasciata
+
+**Biosample:**  
+**Assembly Accession:** GCA\_037038585.2  
+**Taxon:** Birds  
+**Priority:** 2  
+**Flags:** Outside Range; Missing Sampling Location;  
+![](../species/Patagioenas_fasciata/Patagioenas_fasciata_distribution_map.png)
+
+### Species: Petromyzon marinus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_048934315.1  
+**Taxon:** Fishes  
+**Priority:** 2  
+**Flags:** Missing Sampling Location;  
+![](../species/Petromyzon_marinus/Petromyzon_marinus_distribution_map.png)
+
 ### Species: Pipistrellus pipistrellus
 
-**Biosample:** SAMEA994724  
+**Biosample:**  
 **Assembly Accession:** GCA\_903992545.1  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -347,7 +374,7 @@
 
 ### Species: Pleurodeles waltl
 
-**Biosample:** SAMN28911188  
+**Biosample:**  
 **Assembly Accession:** GCA\_026652325.1  
 **Taxon:** Amphibians  
 **Priority:** 2  
@@ -356,7 +383,7 @@
 
 ### Species: Pongo abelii
 
-**Biosample:** SAMN10521808  
+**Biosample:**  
 **Assembly Accession:** GCA\_028885655.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -365,7 +392,7 @@
 
 ### Species: Pongo pygmaeus
 
-**Biosample:** SAMN10521809  
+**Biosample:**  
 **Assembly Accession:** GCA\_028885625.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -374,7 +401,7 @@
 
 ### Species: Protopterus annectens
 
-**Biosample:** SAMN26533844  
+**Biosample:**  
 **Assembly Accession:** GCA\_040939525.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -383,7 +410,7 @@
 
 ### Species: Rhinatrema bivittatum
 
-**Biosample:** SAMEA104387956  
+**Biosample:**  
 **Assembly Accession:** GCA\_901001135.2  
 **Taxon:** Amphibians  
 **Priority:** 2  
@@ -392,7 +419,7 @@
 
 ### Species: Salarias fasciatus
 
-**Biosample:** SAMEA4966329  
+**Biosample:**  
 **Assembly Accession:** GCA\_902148845.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -401,7 +428,7 @@
 
 ### Species: Salmo trutta
 
-**Biosample:** SAMEA994732  
+**Biosample:**  
 **Assembly Accession:** GCA\_901001165.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -410,7 +437,7 @@
 
 ### Species: Sciurus carolinensis
 
-**Biosample:** SAMEA994726  
+**Biosample:**  
 **Assembly Accession:** GCA\_902686445.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -419,7 +446,7 @@
 
 ### Species: Sciurus vulgaris
 
-**Biosample:** SAMEA994733  
+**Biosample:**  
 **Assembly Accession:** GCA\_902686455.2  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -428,7 +455,7 @@
 
 ### Species: Scleropages formosus
 
-**Biosample:** SAMEA4872123  
+**Biosample:**  
 **Assembly Accession:** GCA\_900964775.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -437,7 +464,7 @@
 
 ### Species: Scyliorhinus canicula
 
-**Biosample:** SAMEA994730  
+**Biosample:**  
 **Assembly Accession:** GCA\_902713615.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -446,7 +473,7 @@
 
 ### Species: Sparus aurata
 
-**Biosample:** SAMEA104384835  
+**Biosample:**  
 **Assembly Accession:** GCA\_900880675.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -455,7 +482,7 @@
 
 ### Species: Sphaeramia orbicularis
 
-**Biosample:** SAMEA4966328  
+**Biosample:**  
 **Assembly Accession:** GCA\_902148855.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -464,7 +491,7 @@
 
 ### Species: Streptopelia turtur
 
-**Biosample:** SAMEA994735  
+**Biosample:**  
 **Assembly Accession:** GCA\_901699155.2  
 **Taxon:** Birds  
 **Priority:** 2  
@@ -473,7 +500,7 @@
 
 ### Species: Symphalangus syndactylus
 
-**Biosample:** SAMN30216103  
+**Biosample:**  
 **Assembly Accession:** GCA\_028878055.3  
 **Taxon:** Mammals  
 **Priority:** 2  
@@ -482,7 +509,7 @@
 
 ### Species: Syngnathus acus
 
-**Biosample:** SAMEA104381750  
+**Biosample:**  
 **Assembly Accession:** GCA\_901709675.2  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -491,7 +518,7 @@
 
 ### Species: Takifugu rubripes
 
-**Biosample:** SAMEA104384834  
+**Biosample:**  
 **Assembly Accession:** GCA\_901000725.3  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -500,7 +527,7 @@
 
 ### Species: Thalassophryne amazonica
 
-**Biosample:** SAMEA104129913  
+**Biosample:**  
 **Assembly Accession:** GCA\_902500255.1  
 **Taxon:** Fishes  
 **Priority:** 2  
@@ -509,151 +536,25 @@
 
 ### Species: Tupaia tana
 
-**Biosample:** SAMN07678117  
+**Biosample:**  
 **Assembly Accession:** GCA\_026018925.1  
 **Taxon:** Mammals  
 **Priority:** 2  
 **Flags:** Missing Sampling Location;  
 ![](../species/Tupaia_tana/Tupaia_tana_distribution_map.png)
 
-### Species: Acomys minous
-
-**Biosample:** SAMEA112751364  
-**Assembly Accession:** GCA\_964271855.1  
-**Taxon:** Mammals  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Acomys_minous/Acomys_minous_distribution_map.png)
-
-### Species: Aplidium turbinatum
-
-**Biosample:** SAMEA7536566  
-**Assembly Accession:** GCA\_918807975.1  
-**Taxon:** Invertebrates  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Aplidium_turbinatum/Aplidium_turbinatum_distribution_map.png)
-
-### Species: Ascidia mentula
-
-**Biosample:** SAMEA8724667  
-**Assembly Accession:** GCA\_947561715.1  
-**Taxon:** Invertebrates  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Ascidia_mentula/Ascidia_mentula_distribution_map.png)
-
-### Species: Ascidiella aspersa
-
-**Biosample:** SAMEA110449820  
-**Assembly Accession:** GCA\_963924565.1  
-**Taxon:** Invertebrates  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Ascidiella_aspersa/Ascidiella_aspersa_distribution_map.png)
-
-### Species: Astatotilapia calliptera
-
-**Biosample:** SAMEA112818850  
-**Assembly Accession:** GCA\_964374335.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Astatotilapia_calliptera/Astatotilapia_calliptera_distribution_map.png)
-
-### Species: Aulonocara stuartgranti
-
-**Biosample:** SAMEA112818851  
-**Assembly Accession:** GCA\_965226115.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Aulonocara_stuartgranti/Aulonocara_stuartgranti_distribution_map.png)
-
-### Species: Blennius ocellaris
-
-**Biosample:** SAMEA112788961  
-**Assembly Accession:** GCA\_963422515.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Blennius_ocellaris/Blennius_ocellaris_distribution_map.png)
-
-### Species: Bombina variegata
-
-**Biosample:** SAMEA112651403  
-**Assembly Accession:** GCA\_964205295.1  
-**Taxon:** Amphibians  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Bombina_variegata/Bombina_variegata_distribution_map.png)
-
-### Species: Borostomias antarcticus
-
-**Biosample:** SAMEA8748812  
-**Assembly Accession:** GCA\_949987555.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Borostomias_antarcticus/Borostomias_antarcticus_distribution_map.png)
-
-### Species: Calonectris borealis
-
-**Biosample:** SAMEA114294356  
-**Assembly Accession:** GCA\_964195595.2  
-**Taxon:** Birds  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Calonectris_borealis/Calonectris_borealis_distribution_map.png)
-
 ### Species: Carettochelys insculpta
 
-**Biosample:** SAMN38222597  
+**Biosample:**  
 **Assembly Accession:** GCA\_033958435.1  
 **Taxon:** Reptiles  
 **Priority:** 3  
 **Flags:** Outside Range; Vague Location;  
 ![](../species/Carettochelys_insculpta/Carettochelys_insculpta_distribution_map.png)
 
-### Species: Clavelina lepadiformis
-
-**Biosample:** SAMEA7536527  
-**Assembly Accession:** GCA\_947623445.1  
-**Taxon:** Invertebrates  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Clavelina_lepadiformis/Clavelina_lepadiformis_distribution_map.png)
-
-### Species: Corella eumyota
-
-**Biosample:** SAMEA7536466  
-**Assembly Accession:** GCA\_963082875.1  
-**Taxon:** Invertebrates  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Corella_eumyota/Corella_eumyota_distribution_map.png)
-
-### Species: Danio rerio
-
-**Biosample:** SAMEA14088276  
-**Assembly Accession:** GCA\_944039275.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Danio_rerio/Danio_rerio_distribution_map.png)
-
-### Species: Echiichthys vipera
-
-**Biosample:** SAMEA112765695  
-**Assembly Accession:** GCA\_963691815.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Echiichthys_vipera/Echiichthys_vipera_distribution_map.png)
-
 ### Species: Electrophorus electricus
 
-**Biosample:** SAMN42883346  
+**Biosample:**  
 **Assembly Accession:** GCA\_041902795.1  
 **Taxon:** Fishes  
 **Priority:** 3  
@@ -662,439 +563,43 @@
 
 ### Species: Epinephelus lanceolatus
 
-**Biosample:** SAMN41784231  
+**Biosample:**  
 **Assembly Accession:** GCA\_041903045.1  
 **Taxon:** Fishes  
 **Priority:** 3  
 **Flags:** Outside Range; Vague Location;  
 ![](../species/Epinephelus_lanceolatus/Epinephelus_lanceolatus_distribution_map.png)
 
-### Species: Eutrigla gurnardus
-
-**Biosample:** SAMEA111562159  
-**Assembly Accession:** GCA\_963514095.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Eutrigla_gurnardus/Eutrigla_gurnardus_distribution_map.png)
-
-### Species: Grus grus
-
-**Biosample:** SAMEA113398837  
-**Assembly Accession:** GCA\_964106855.1  
-**Taxon:** Birds  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Grus_grus/Grus_grus_distribution_map.png)
-
-### Species: Gymnoscopelus microlampas
-
-**Biosample:** SAMEA12815435  
-**Assembly Accession:** GCA\_963454915.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Gymnoscopelus_microlampas/Gymnoscopelus_microlampas_distribution_map.png)
-
-### Species: Haliaeetus albicilla
-
-**Biosample:** SAMEA12857288  
-**Assembly Accession:** GCA\_947461875.1  
-**Taxon:** Birds  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Haliaeetus_albicilla/Haliaeetus_albicilla_distribution_map.png)
-
-### Species: Hyperoodon ampullatus
-
-**Biosample:** SAMEA10839125  
-**Assembly Accession:** GCA\_949752795.1  
-**Taxon:** Mammals  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Hyperoodon_ampullatus/Hyperoodon_ampullatus_distribution_map.png)
-
-### Species: Hyperoplus immaculatus
-
-**Biosample:** SAMEA13854416  
-**Assembly Accession:** GCA\_949357725.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Hyperoplus_immaculatus/Hyperoplus_immaculatus_distribution_map.png)
-
-### Species: Melanostigma gelatinosum
-
-**Biosample:** SAMEA12815492  
-**Assembly Accession:** GCA\_949748355.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Melanostigma_gelatinosum/Melanostigma_gelatinosum_distribution_map.png)
-
-### Species: Mesoplodon bidens
-
-**Biosample:** SAMEA112165298  
-**Assembly Accession:** GCA\_964165515.1  
-**Taxon:** Mammals  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Mesoplodon_bidens/Mesoplodon_bidens_distribution_map.png)
-
-### Species: Mesoplodon mirus
-
-**Biosample:** SAMEA115358965  
-**Assembly Accession:** GCA\_964341445.1  
-**Taxon:** Mammals  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Mesoplodon_mirus/Mesoplodon_mirus_distribution_map.png)
-
-### Species: Micromesistius poutassou
-
-**Biosample:** SAMEA111457552  
-**Assembly Accession:** GCA\_964030765.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Micromesistius_poutassou/Micromesistius_poutassou_distribution_map.png)
-
-### Species: Myxine glutinosa
-
-**Biosample:** SAMEA12790223  
-**Assembly Accession:** GCA\_964187855.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Myxine_glutinosa/Myxine_glutinosa_distribution_map.png)
-
-### Species: Nansenia antarctica
-
-**Biosample:** SAMEA8748805  
-**Assembly Accession:** GCA\_963989245.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Nansenia_antarctica/Nansenia_antarctica_distribution_map.png)
-
-### Species: Neogale vison
-
-**Biosample:** SAMEA112468126  
-**Assembly Accession:** GCA\_964106545.1  
-**Taxon:** Mammals  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Neogale_vison/Neogale_vison_distribution_map.png)
-
-### Species: Netta rufina
-
-**Biosample:** SAMEA112468124  
-**Assembly Accession:** GCA\_964035555.1  
-**Taxon:** Birds  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Netta_rufina/Netta_rufina_distribution_map.png)
-
-### Species: Notolepis coatsi
-
-**Biosample:** SAMEA8748806  
-**Assembly Accession:** GCA\_963971535.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Notolepis_coatsi/Notolepis_coatsi_distribution_map.png)
-
-### Species: Notothenia rossii
-
-**Biosample:** SAMEA12815441  
-**Assembly Accession:** GCA\_949606895.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Notothenia_rossii/Notothenia_rossii_distribution_map.png)
-
-### Species: Oryctolagus cuniculus
-
-**Biosample:** SAMEA112468037  
-**Assembly Accession:** GCA\_964237555.1  
-**Taxon:** Mammals  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Oryctolagus_cuniculus/Oryctolagus_cuniculus_distribution_map.png)
-
-### Species: Pagrus pagrus
-
-**Biosample:** SAMEA110450108  
-**Assembly Accession:** GCA\_965226575.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Pagrus_pagrus/Pagrus_pagrus_distribution_map.png)
-
-### Species: Pelophylax lessonae
-
-**Biosample:** SAMEA112468029  
-**Assembly Accession:** GCA\_965119305.1  
-**Taxon:** Amphibians  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Pelophylax_lessonae/Pelophylax_lessonae_distribution_map.png)
-
-### Species: Phalacrocorax carbo
-
-**Biosample:** SAMEA8228692  
-**Assembly Accession:** GCA\_963921805.1  
-**Taxon:** Birds  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Phalacrocorax_carbo/Phalacrocorax_carbo_distribution_map.png)
-
 ### Species: Phascolarctos cinereus
 
-**Biosample:** SAMN06198159  
+**Biosample:**  
 **Assembly Accession:** GCA\_003287225.2  
 **Taxon:** Mammals  
 **Priority:** 3  
 **Flags:** Outside Range; Vague Location;  
 ![](../species/Phascolarctos_cinereus/Phascolarctos_cinereus_distribution_map.png)
 
-### Species: Pholis gunnellus
-
-**Biosample:** SAMEA7522838  
-**Assembly Accession:** GCA\_910591455.2  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Pholis_gunnellus/Pholis_gunnellus_distribution_map.png)
-
-### Species: Pipistrellus hanaki
-
-**Biosample:** SAMEA115799862  
-**Assembly Accession:** GCA\_964339955.1  
-**Taxon:** Mammals  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Pipistrellus_hanaki/Pipistrellus_hanaki_distribution_map.png)
-
-### Species: Platalea leucorodia
-
-**Biosample:** SAMEA112468120  
-**Assembly Accession:** GCA\_965183815.1  
-**Taxon:** Birds  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Platalea_leucorodia/Platalea_leucorodia_distribution_map.png)
-
-### Species: Podarcis bocagei
-
-**Biosample:** SAMEA115336769  
-**Assembly Accession:** GCA\_964188305.1  
-**Taxon:** Reptiles  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Podarcis_bocagei/Podarcis_bocagei_distribution_map.png)
-
-### Species: Podarcis cretensis
-
-**Biosample:** SAMEA12110019  
-**Assembly Accession:** GCA\_951804945.1  
-**Taxon:** Reptiles  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Podarcis_cretensis/Podarcis_cretensis_distribution_map.png)
-
-### Species: Podarcis filfolensis
-
-**Biosample:** SAMEA113403362  
-**Assembly Accession:** GCA\_964270895.1  
-**Taxon:** Reptiles  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Podarcis_filfolensis/Podarcis_filfolensis_distribution_map.png)
-
-### Species: Podarcis liolepis
-
-**Biosample:** SAMEA114217798  
-**Assembly Accession:** GCA\_965112155.1  
-**Taxon:** Reptiles  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Podarcis_liolepis/Podarcis_liolepis_distribution_map.png)
-
-### Species: Podarcis pityusensis
-
-**Biosample:** SAMEA114217797  
-**Assembly Accession:** GCA\_964106645.2  
-**Taxon:** Reptiles  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Podarcis_pityusensis/Podarcis_pityusensis_distribution_map.png)
-
-### Species: Podarcis tiliguerta
-
-**Biosample:** SAMEA114217799  
-**Assembly Accession:** GCA\_965153285.1  
-**Taxon:** Reptiles  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Podarcis_tiliguerta/Podarcis_tiliguerta_distribution_map.png)
-
-### Species: Podarcis vaucheri
-
-**Biosample:** SAMEA115336770  
-**Assembly Accession:** GCA\_965113315.1  
-**Taxon:** Reptiles  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Podarcis_vaucheri/Podarcis_vaucheri_distribution_map.png)
-
 ### Species: Polymixia cf. hollisterae
 
-**Biosample:** SAMN42899157  
+**Biosample:**  
 **Assembly Accession:** GCA\_048537225.1  
 **Taxon:** Fishes  
 **Priority:** 3  
 **Flags:** Vague Location; Missing Range;  
 ![](../species/Polymixia_cf._hollisterae/Polymixia_cf._hollisterae_distribution_map.png)
 
-### Species: Poromitra crassiceps
+### Species: Acomys minous
 
-**Biosample:** SAMEA8748810  
-**Assembly Accession:** GCA\_964638095.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Poromitra_crassiceps/Poromitra_crassiceps_distribution_map.png)
-
-### Species: Protomyctophum parallelum
-
-**Biosample:** SAMEA12815440  
-**Assembly Accession:** GCA\_964188405.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Protomyctophum_parallelum/Protomyctophum_parallelum_distribution_map.png)
-
-### Species: Rhamphochromis chilingali
-
-**Biosample:** SAMEA112818853  
-**Assembly Accession:** GCA\_963969265.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Rhamphochromis_chilingali/Rhamphochromis_chilingali_distribution_map.png)
-
-### Species: Solea solea
-
-**Biosample:** SAMEA10984647  
-**Assembly Accession:** GCA\_958295425.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Solea_solea/Solea_solea_distribution_map.png)
-
-### Species: Spermophilus citellus
-
-**Biosample:** SAMEA10332752  
-**Assembly Accession:** GCA\_964194105.1  
+**Biosample:**  
+**Assembly Accession:** GCA\_964271855.1  
 **Taxon:** Mammals  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Spermophilus_citellus/Spermophilus_citellus_distribution_map.png)
-
-### Species: Stenella coeruleoalba
-
-**Biosample:** SAMEA111380539  
-**Assembly Accession:** GCA\_951394435.1  
-**Taxon:** Mammals  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Stenella_coeruleoalba/Stenella_coeruleoalba_distribution_map.png)
-
-### Species: Styela clava
-
-**Biosample:** SAMEA7536473  
-**Assembly Accession:** GCA\_964204865.1  
-**Taxon:** Invertebrates  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Styela_clava/Styela_clava_distribution_map.png)
-
-### Species: Telmatherina bonti
-
-**Biosample:** SAMEA8592627  
-**Assembly Accession:** GCA\_933228915.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Telmatherina_bonti/Telmatherina_bonti_distribution_map.png)
-
-### Species: Tetrao urogallus
-
-**Biosample:** SAMEA9654429  
-**Assembly Accession:** GCA\_951394365.1  
-**Taxon:** Birds  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Tetrao_urogallus/Tetrao_urogallus_distribution_map.png)
-
-### Species: Thalia democratica
-
-**Biosample:** SAMEA111439782  
-**Assembly Accession:** GCA\_965202585.1  
-**Taxon:** Invertebrates  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Thalia_democratica/Thalia_democratica_distribution_map.png)
-
-### Species: Thunnus albacares
-
-**Biosample:** SAMEA8654749  
-**Assembly Accession:** GCA\_914725855.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Thunnus_albacares/Thunnus_albacares_distribution_map.png)
-
-### Species: Thunnus maccoyii
-
-**Biosample:** SAMEA8654747  
-**Assembly Accession:** GCA\_910596095.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Thunnus_maccoyii/Thunnus_maccoyii_distribution_map.png)
-
-### Species: Thunnus thynnus
-
-**Biosample:** SAMEA111406335  
-**Assembly Accession:** GCA\_963924715.1  
-**Taxon:** Fishes  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Thunnus_thynnus/Thunnus_thynnus_distribution_map.png)
-
-### Species: Trididemnum clinides
-
-**Biosample:** SAMEA9873882  
-**Assembly Accession:** GCA\_963675345.1  
-**Taxon:** Invertebrates  
-**Priority:** 3  
-**Flags:** Vague Location; Missing Range;  
-![](../species/Trididemnum_clinides/Trididemnum_clinides_distribution_map.png)
-
-### Species: Zosterops lateralis
-
-**Biosample:** SAMEA112953925  
-**Assembly Accession:** GCA\_965231275.1  
-**Taxon:** Birds  
-**Priority:** 3  
-**Flags:** Outside Range; Vague Location;  
-![](../species/Zosterops_lateralis/Zosterops_lateralis_distribution_map.png)
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Acomys_minous/Acomys_minous_distribution_map.png)
 
 ### Species: Acridotheres tristis
 
-**Biosample:** SAMN28454388  
+**Biosample:**  
 **Assembly Accession:** GCA\_027559615.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1103,7 +608,7 @@
 
 ### Species: Antennarius maculatus
 
-**Biosample:** SAMN12623626  
+**Biosample:**  
 **Assembly Accession:** GCA\_013358685.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1112,7 +617,7 @@
 
 ### Species: Antrozous pallidus
 
-**Biosample:** SAMN30225125  
+**Biosample:**  
 **Assembly Accession:** GCA\_027563665.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1121,7 +626,7 @@
 
 ### Species: Ara ararauna
 
-**Biosample:** SAMN33059336  
+**Biosample:**  
 **Assembly Accession:** GCA\_028858755.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1130,7 +635,7 @@
 
 ### Species: Archocentrus centrarchus
 
-**Biosample:** SAMN09948522  
+**Biosample:**  
 **Assembly Accession:** GCA\_007364275.2  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1139,34 +644,88 @@
 
 ### Species: Arvicanthis niloticus
 
-**Biosample:** SAMN12611849  
+**Biosample:**  
 **Assembly Accession:** GCA\_011762505.3  
 **Taxon:** Mammals  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Arvicanthis_niloticus/Arvicanthis_niloticus_distribution_map.png)
 
+### Species: Astatotilapia calliptera
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964374335.1  
+**Taxon:** Fishes  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Astatotilapia_calliptera/Astatotilapia_calliptera_distribution_map.png)
+
+### Species: Aulonocara stuartgranti
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965226115.1  
+**Taxon:** Fishes  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Aulonocara_stuartgranti/Aulonocara_stuartgranti_distribution_map.png)
+
 ### Species: Balaenoptera ricei
 
-**Biosample:** SAMN32629060  
+**Biosample:**  
 **Assembly Accession:** GCA\_028023285.1  
 **Taxon:** Mammals  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Balaenoptera_ricei/Balaenoptera_ricei_distribution_map.png)
 
+### Species: Blennius ocellaris
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963422515.1  
+**Taxon:** Fishes  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Blennius_ocellaris/Blennius_ocellaris_distribution_map.png)
+
+### Species: Bombina variegata
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964205295.1  
+**Taxon:** Amphibians  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Bombina_variegata/Bombina_variegata_distribution_map.png)
+
+### Species: Borostomias antarcticus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949987555.1  
+**Taxon:** Fishes  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Borostomias_antarcticus/Borostomias_antarcticus_distribution_map.png)
+
 ### Species: Callithrix jacchus
 
-**Biosample:** SAMN47004743  
+**Biosample:**  
 **Assembly Accession:** GCA\_049354715.1  
 **Taxon:** Mammals  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Callithrix_jacchus/Callithrix_jacchus_distribution_map.png)
 
+### Species: Calonectris borealis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964195595.2  
+**Taxon:** Birds  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Calonectris_borealis/Calonectris_borealis_distribution_map.png)
+
 ### Species: Calypte anna
 
-**Biosample:** SAMN02265252  
+**Biosample:**  
 **Assembly Accession:** GCA\_003957555.2  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1175,7 +734,7 @@
 
 ### Species: Candoia aspera
 
-**Biosample:** SAMN37159891  
+**Biosample:**  
 **Assembly Accession:** GCA\_035149785.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -1184,7 +743,7 @@
 
 ### Species: Choloepus didactylus
 
-**Biosample:** SAMN12612024  
+**Biosample:**  
 **Assembly Accession:** GCA\_015220235.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1193,7 +752,7 @@
 
 ### Species: Clarias gariepinus
 
-**Biosample:** SAMN27021044  
+**Biosample:**  
 **Assembly Accession:** GCA\_024256435.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1202,7 +761,7 @@
 
 ### Species: Columba livia
 
-**Biosample:** SAMN38891892  
+**Biosample:**  
 **Assembly Accession:** GCA\_036013475.2  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1211,7 +770,7 @@
 
 ### Species: Corvus hawaiiensis
 
-**Biosample:** SAMN22550278  
+**Biosample:**  
 **Assembly Accession:** GCA\_020740725.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1220,7 +779,7 @@
 
 ### Species: Cristiceps australis
 
-**Biosample:** SAMN40589650  
+**Biosample:**  
 **Assembly Accession:** GCA\_049082185.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1229,7 +788,7 @@
 
 ### Species: Dasyurus maculatus
 
-**Biosample:** SAMN47326980  
+**Biosample:**  
 **Assembly Accession:** GCA\_048593285.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1238,7 +797,7 @@
 
 ### Species: Dendropsophus ebraccatus
 
-**Biosample:** SAMN32145295  
+**Biosample:**  
 **Assembly Accession:** GCA\_027789765.1  
 **Taxon:** Amphibians  
 **Priority:** 4  
@@ -1247,7 +806,7 @@
 
 ### Species: Dibamus smithi
 
-**Biosample:** SAMN44704469  
+**Biosample:**  
 **Assembly Accession:** GCA\_046126795.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -1256,7 +815,7 @@
 
 ### Species: Engystomops pustulosus
 
-**Biosample:** SAMN42463661  
+**Biosample:**  
 **Assembly Accession:** GCA\_040894005.1  
 **Taxon:** Amphibians  
 **Priority:** 4  
@@ -1265,7 +824,7 @@
 
 ### Species: Enoplosus armatus
 
-**Biosample:** SAMN40589647  
+**Biosample:**  
 **Assembly Accession:** GCA\_043641665.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1274,7 +833,7 @@
 
 ### Species: Epinephelus rankini
 
-**Biosample:** SAMN41769322  
+**Biosample:**  
 **Assembly Accession:** GCA\_048129235.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1283,7 +842,7 @@
 
 ### Species: Falco biarmicus
 
-**Biosample:** SAMN28688289  
+**Biosample:**  
 **Assembly Accession:** GCA\_023638135.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1292,7 +851,7 @@
 
 ### Species: Falco rusticolus
 
-**Biosample:** SAMN12629496  
+**Biosample:**  
 **Assembly Accession:** GCA\_015220075.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1301,7 +860,7 @@
 
 ### Species: Furcifer pardalis
 
-**Biosample:** SAMN35298317  
+**Biosample:**  
 **Assembly Accession:** GCA\_030440675.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -1310,7 +869,7 @@
 
 ### Species: Gavia stellata
 
-**Biosample:** SAMN37096312  
+**Biosample:**  
 **Assembly Accession:** GCA\_030936135.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1319,7 +878,7 @@
 
 ### Species: Gopherus evgoodei
 
-**Biosample:** SAMN03496275  
+**Biosample:**  
 **Assembly Accession:** GCA\_007399415.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
@@ -1328,16 +887,43 @@
 
 ### Species: Gopherus flavomarginatus
 
-**Biosample:** SAMN24199108  
+**Biosample:**  
 **Assembly Accession:** GCA\_025201925.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Gopherus_flavomarginatus/Gopherus_flavomarginatus_distribution_map.png)
 
+### Species: Grus grus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964106855.1  
+**Taxon:** Birds  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Grus_grus/Grus_grus_distribution_map.png)
+
+### Species: Gymnoscopelus microlampas
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963454915.1  
+**Taxon:** Fishes  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Gymnoscopelus_microlampas/Gymnoscopelus_microlampas_distribution_map.png)
+
+### Species: Haliaeetus albicilla
+
+**Biosample:**  
+**Assembly Accession:** GCA\_947461875.1  
+**Taxon:** Birds  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Haliaeetus_albicilla/Haliaeetus_albicilla_distribution_map.png)
+
 ### Species: Hemiscyllium ocellatum
 
-**Biosample:** SAMN22550098  
+**Biosample:**  
 **Assembly Accession:** GCA\_020745735.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1346,7 +932,7 @@
 
 ### Species: Heptranchias perlo
 
-**Biosample:** SAMN38891902  
+**Biosample:**  
 **Assembly Accession:** GCA\_035084215.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1355,16 +941,25 @@
 
 ### Species: Hyperolius riggenbachi
 
-**Biosample:** SAMN42123895  
+**Biosample:**  
 **Assembly Accession:** GCA\_040937935.1  
 **Taxon:** Amphibians  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Hyperolius_riggenbachi/Hyperolius_riggenbachi_distribution_map.png)
 
+### Species: Hyperoodon ampullatus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949752795.1  
+**Taxon:** Mammals  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Hyperoodon_ampullatus/Hyperoodon_ampullatus_distribution_map.png)
+
 ### Species: Jaculus jaculus
 
-**Biosample:** SAMN20391724  
+**Biosample:**  
 **Assembly Accession:** GCA\_020740685.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1373,7 +968,7 @@
 
 ### Species: Lathamus discolor
 
-**Biosample:** SAMN40289871  
+**Biosample:**  
 **Assembly Accession:** GCA\_037157495.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1382,7 +977,7 @@
 
 ### Species: Lepidogalaxias salamandroides
 
-**Biosample:** SAMN47481373  
+**Biosample:**  
 **Assembly Accession:** GCA\_049190665.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1391,7 +986,7 @@
 
 ### Species: Leptosomus discolor
 
-**Biosample:** SAMN37284216  
+**Biosample:**  
 **Assembly Accession:** GCA\_034619465.1  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1400,7 +995,7 @@
 
 ### Species: Lethrinus nebulosus
 
-**Biosample:** SAMN40589648  
+**Biosample:**  
 **Assembly Accession:** GCA\_045362495.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1409,7 +1004,7 @@
 
 ### Species: Lycaon pictus
 
-**Biosample:** SAMN36939365  
+**Biosample:**  
 **Assembly Accession:** GCA\_040955705.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1418,7 +1013,7 @@
 
 ### Species: Lynx canadensis
 
-**Biosample:** SAMN09948483  
+**Biosample:**  
 **Assembly Accession:** GCA\_007474595.2  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1427,7 +1022,7 @@
 
 ### Species: Macaca nemestrina
 
-**Biosample:** SAMN41827875  
+**Biosample:**  
 **Assembly Accession:** GCA\_043159975.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1436,7 +1031,7 @@
 
 ### Species: Megaderma spasma
 
-**Biosample:** SAMN33550865  
+**Biosample:**  
 **Assembly Accession:** GCA\_043880595.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1445,16 +1040,34 @@
 
 ### Species: Melopsittacus undulatus
 
-**Biosample:** SAMN12623090  
+**Biosample:**  
 **Assembly Accession:** GCA\_012275295.1  
 **Taxon:** Birds  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Melopsittacus_undulatus/Melopsittacus_undulatus_distribution_map.png)
 
+### Species: Mesoplodon bidens
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964165515.1  
+**Taxon:** Mammals  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Mesoplodon_bidens/Mesoplodon_bidens_distribution_map.png)
+
+### Species: Mesoplodon mirus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964341445.1  
+**Taxon:** Mammals  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Mesoplodon_mirus/Mesoplodon_mirus_distribution_map.png)
+
 ### Species: Mixophyes fleayi
 
-**Biosample:** SAMN39657083  
+**Biosample:**  
 **Assembly Accession:** GCA\_038048845.1  
 **Taxon:** Amphibians  
 **Priority:** 4  
@@ -1463,7 +1076,7 @@
 
 ### Species: Molossus alvarezi
 
-**Biosample:** SAMN40002245  
+**Biosample:**  
 **Assembly Accession:** GCA\_037157525.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1472,7 +1085,7 @@
 
 ### Species: Monodelphis domestica
 
-**Biosample:** SAMN31801966  
+**Biosample:**  
 **Assembly Accession:** GCA\_027887165.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1481,16 +1094,61 @@
 
 ### Species: Mops condylurus
 
-**Biosample:** SAMN33550911  
+**Biosample:**  
 **Assembly Accession:** GCA\_043748645.1  
 **Taxon:** Mammals  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Mops_condylurus/Mops_condylurus_distribution_map.png)
 
+### Species: Myxine glutinosa
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964187855.1  
+**Taxon:** Fishes  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Myxine_glutinosa/Myxine_glutinosa_distribution_map.png)
+
+### Species: Neogale vison
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964106545.1  
+**Taxon:** Mammals  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Neogale_vison/Neogale_vison_distribution_map.png)
+
+### Species: Netta rufina
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964035555.1  
+**Taxon:** Birds  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Netta_rufina/Netta_rufina_distribution_map.png)
+
+### Species: Oryctolagus cuniculus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964237555.1  
+**Taxon:** Mammals  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Oryctolagus_cuniculus/Oryctolagus_cuniculus_distribution_map.png)
+
+### Species: Pagrus pagrus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965226575.1  
+**Taxon:** Fishes  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Pagrus_pagrus/Pagrus_pagrus_distribution_map.png)
+
 ### Species: Pangasianodon hypophthalmus
 
-**Biosample:** SAMN32348883  
+**Biosample:**  
 **Assembly Accession:** GCA\_027358585.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1499,34 +1157,43 @@
 
 ### Species: Pangshura tecta
 
-**Biosample:** SAMN43277916  
+**Biosample:**  
 **Assembly Accession:** GCA\_045781085.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Pangshura_tecta/Pangshura_tecta_distribution_map.png)
 
-### Species: Patagioenas fasciata
+### Species: Pelophylax lessonae
 
-**Biosample:** SAMN40018840  
-**Assembly Accession:** GCA\_036971685.2  
-**Taxon:** Birds  
+**Biosample:**  
+**Assembly Accession:** GCA\_965119305.1  
+**Taxon:** Amphibians  
 **Priority:** 4  
 **Flags:** Outside Range;  
-![](../species/Patagioenas_fasciata/Patagioenas_fasciata_distribution_map.png)
+![](../species/Pelophylax_lessonae/Pelophylax_lessonae_distribution_map.png)
 
 ### Species: Periophthalmus magnuspinnatus
 
-**Biosample:** SAMN12629500  
+**Biosample:**  
 **Assembly Accession:** GCA\_009829125.3  
 **Taxon:** Fishes  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Periophthalmus_magnuspinnatus/Periophthalmus_magnuspinnatus_distribution_map.png)
 
+### Species: Phalacrocorax carbo
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963921805.1  
+**Taxon:** Birds  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Phalacrocorax_carbo/Phalacrocorax_carbo_distribution_map.png)
+
 ### Species: Phocoena sinus
 
-**Biosample:** SAMN12325353  
+**Biosample:**  
 **Assembly Accession:** GCA\_008692025.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1535,7 +1202,7 @@
 
 ### Species: Pholidichthys leucotaenia
 
-**Biosample:** SAMN12623617  
+**Biosample:**  
 **Assembly Accession:** GCA\_020510985.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1544,34 +1211,133 @@
 
 ### Species: Phyllostomus discolor
 
-**Biosample:** SAMN09948786  
+**Biosample:**  
 **Assembly Accession:** GCA\_004126475.3  
 **Taxon:** Mammals  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Phyllostomus_discolor/Phyllostomus_discolor_distribution_map.png)
 
+### Species: Pipistrellus hanaki
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964339955.1  
+**Taxon:** Mammals  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Pipistrellus_hanaki/Pipistrellus_hanaki_distribution_map.png)
+
+### Species: Platalea leucorodia
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965183815.1  
+**Taxon:** Birds  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Platalea_leucorodia/Platalea_leucorodia_distribution_map.png)
+
+### Species: Podarcis bocagei
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964188305.1  
+**Taxon:** Reptiles  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Podarcis_bocagei/Podarcis_bocagei_distribution_map.png)
+
+### Species: Podarcis cretensis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_951804945.1  
+**Taxon:** Reptiles  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Podarcis_cretensis/Podarcis_cretensis_distribution_map.png)
+
+### Species: Podarcis filfolensis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964270895.1  
+**Taxon:** Reptiles  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Podarcis_filfolensis/Podarcis_filfolensis_distribution_map.png)
+
+### Species: Podarcis liolepis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965112155.1  
+**Taxon:** Reptiles  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Podarcis_liolepis/Podarcis_liolepis_distribution_map.png)
+
+### Species: Podarcis pityusensis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964106645.2  
+**Taxon:** Reptiles  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Podarcis_pityusensis/Podarcis_pityusensis_distribution_map.png)
+
+### Species: Podarcis tiliguerta
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965153285.1  
+**Taxon:** Reptiles  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Podarcis_tiliguerta/Podarcis_tiliguerta_distribution_map.png)
+
+### Species: Podarcis vaucheri
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965113315.1  
+**Taxon:** Reptiles  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Podarcis_vaucheri/Podarcis_vaucheri_distribution_map.png)
+
 ### Species: Polymixia lowei
 
-**Biosample:** SAMN45134564  
+**Biosample:**  
 **Assembly Accession:** GCA\_047511565.1  
 **Taxon:** Fishes  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Polymixia_lowei/Polymixia_lowei_distribution_map.png)
 
+### Species: Poromitra crassiceps
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964638095.1  
+**Taxon:** Fishes  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Poromitra_crassiceps/Poromitra_crassiceps_distribution_map.png)
+
 ### Species: Pristipomoides typus
 
-**Biosample:** SAMN40589651  
+**Biosample:**  
 **Assembly Accession:** GCA\_045363895.1  
 **Taxon:** Fishes  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Pristipomoides_typus/Pristipomoides_typus_distribution_map.png)
 
+### Species: Protomyctophum parallelum
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964188405.1  
+**Taxon:** Fishes  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Protomyctophum_parallelum/Protomyctophum_parallelum_distribution_map.png)
+
 ### Species: Pygocentrus nattereri
 
-**Biosample:** SAMN12623623  
+**Biosample:**  
 **Assembly Accession:** GCA\_015220715.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1580,7 +1346,7 @@
 
 ### Species: Ranitomeya imitator
 
-**Biosample:** SAMN32907850  
+**Biosample:**  
 **Assembly Accession:** GCA\_032444005.1  
 **Taxon:** Amphibians  
 **Priority:** 4  
@@ -1589,7 +1355,7 @@
 
 ### Species: Rattus norvegicus
 
-**Biosample:** SAMN16261960  
+**Biosample:**  
 **Assembly Accession:** GCA\_015227675.2  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1598,7 +1364,7 @@
 
 ### Species: Rhinopoma microphyllum
 
-**Biosample:** SAMN33421188  
+**Biosample:**  
 **Assembly Accession:** GCA\_043880545.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1607,7 +1373,7 @@
 
 ### Species: Rhynchocyon petersi
 
-**Biosample:** SAMN43274963  
+**Biosample:**  
 **Assembly Accession:** GCA\_043290085.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1616,7 +1382,7 @@
 
 ### Species: Rousettus aegyptiacus
 
-**Biosample:** SAMN14734550  
+**Biosample:**  
 **Assembly Accession:** GCA\_014176215.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1625,7 +1391,7 @@
 
 ### Species: Saimiri boliviensis
 
-**Biosample:** SAMN46760316  
+**Biosample:**  
 **Assembly Accession:** GCA\_048565385.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1634,25 +1400,52 @@
 
 ### Species: Sarcophilus harrisii
 
-**Biosample:** SAMN47327921  
+**Biosample:**  
 **Assembly Accession:** GCA\_048593225.1  
 **Taxon:** Mammals  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Sarcophilus_harrisii/Sarcophilus_harrisii_distribution_map.png)
 
+### Species: Solea solea
+
+**Biosample:**  
+**Assembly Accession:** GCA\_958295425.1  
+**Taxon:** Fishes  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Solea_solea/Solea_solea_distribution_map.png)
+
+### Species: Spermophilus citellus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964194105.1  
+**Taxon:** Mammals  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Spermophilus_citellus/Spermophilus_citellus_distribution_map.png)
+
 ### Species: Spheniscus humboldti
 
-**Biosample:** SAMN28408465  
+**Biosample:**  
 **Assembly Accession:** GCA\_027474245.1  
 **Taxon:** Birds  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Spheniscus_humboldti/Spheniscus_humboldti_distribution_map.png)
 
+### Species: Stenella coeruleoalba
+
+**Biosample:**  
+**Assembly Accession:** GCA\_951394435.1  
+**Taxon:** Mammals  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Stenella_coeruleoalba/Stenella_coeruleoalba_distribution_map.png)
+
 ### Species: Strigops habroptilus
 
-**Biosample:** SAMN09948751  
+**Biosample:**  
 **Assembly Accession:** GCA\_004027225.2  
 **Taxon:** Birds  
 **Priority:** 4  
@@ -1661,7 +1454,7 @@
 
 ### Species: Suncus etruscus
 
-**Biosample:** SAMN28420931  
+**Biosample:**  
 **Assembly Accession:** GCA\_024139225.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1670,7 +1463,7 @@
 
 ### Species: Symphorus nematophorus
 
-**Biosample:** SAMN41179601  
+**Biosample:**  
 **Assembly Accession:** GCA\_048128725.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1679,25 +1472,61 @@
 
 ### Species: Taeniopygia guttata
 
-**Biosample:** SAMN47142318  
+**Biosample:**  
 **Assembly Accession:** GCA\_048771995.1  
 **Taxon:** Birds  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Taeniopygia_guttata/Taeniopygia_guttata_distribution_map.png)
 
+### Species: Tetrao urogallus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_951394365.1  
+**Taxon:** Birds  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Tetrao_urogallus/Tetrao_urogallus_distribution_map.png)
+
 ### Species: Thamnophis elegans
 
-**Biosample:** SAMN12629499  
+**Biosample:**  
 **Assembly Accession:** GCA\_009769535.1  
 **Taxon:** Reptiles  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Thamnophis_elegans/Thamnophis_elegans_distribution_map.png)
 
+### Species: Thunnus albacares
+
+**Biosample:**  
+**Assembly Accession:** GCA\_914725855.1  
+**Taxon:** Fishes  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Thunnus_albacares/Thunnus_albacares_distribution_map.png)
+
+### Species: Thunnus maccoyii
+
+**Biosample:**  
+**Assembly Accession:** GCA\_910596095.1  
+**Taxon:** Fishes  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Thunnus_maccoyii/Thunnus_maccoyii_distribution_map.png)
+
+### Species: Thunnus thynnus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963924715.1  
+**Taxon:** Fishes  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Thunnus_thynnus/Thunnus_thynnus_distribution_map.png)
+
 ### Species: Toxotes jaculatrix
 
-**Biosample:** SAMN18445299  
+**Biosample:**  
 **Assembly Accession:** GCA\_017976425.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1706,7 +1535,7 @@
 
 ### Species: Trichosurus vulpecula
 
-**Biosample:** SAMN12629507  
+**Biosample:**  
 **Assembly Accession:** GCA\_011100635.1  
 **Taxon:** Mammals  
 **Priority:** 4  
@@ -1715,7 +1544,7 @@
 
 ### Species: Xenentodon cancila
 
-**Biosample:** SAMN12623622  
+**Biosample:**  
 **Assembly Accession:** GCA\_014839995.1  
 **Taxon:** Fishes  
 **Priority:** 4  
@@ -1724,1060 +1553,70 @@
 
 ### Species: Xenopus petersii
 
-**Biosample:** SAMN39187339  
+**Biosample:**  
 **Assembly Accession:** GCA\_038501925.1  
 **Taxon:** Amphibians  
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Xenopus_petersii/Xenopus_petersii_distribution_map.png)
 
-### Species: Abramis brama
+### Species: Zosterops lateralis
 
-**Biosample:** SAMEA11296536  
-**Assembly Accession:** GCA\_963993115.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Abramis_brama/Abramis_brama_distribution_map.png)
-
-### Species: Accipiter gentilis
-
-**Biosample:** SAMEA8235650  
-**Assembly Accession:** GCA\_929443795.1  
+**Biosample:**  
+**Assembly Accession:** GCA\_965231275.1  
 **Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Accipiter_gentilis/Accipiter_gentilis_distribution_map.png)
-
-### Species: Anas acuta
-
-**Biosample:** SAMEA112468036  
-**Assembly Accession:** GCA\_963932015.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Anas_acuta/Anas_acuta_distribution_map.png)
-
-### Species: Anas platyrhynchos
-
-**Biosample:** SAMEA113398833  
-**Assembly Accession:** GCA\_964188345.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Anas_platyrhynchos/Anas_platyrhynchos_distribution_map.png)
-
-### Species: Anser anser
-
-**Biosample:** SAMEA113398854  
-**Assembly Accession:** GCA\_964211835.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Anser_anser/Anser_anser_distribution_map.png)
-
-### Species: Anser brachyrhynchus
-
-**Biosample:** SAMEA112468040  
-**Assembly Accession:** GCA\_964034855.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Anser_brachyrhynchus/Anser_brachyrhynchus_distribution_map.png)
-
-### Species: Apodemus sylvaticus
-
-**Biosample:** SAMEA7702024  
-**Assembly Accession:** GCA\_947179515.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Apodemus_sylvaticus/Apodemus_sylvaticus_distribution_map.png)
-
-### Species: Athene noctua
-
-**Biosample:** SAMEA114594456  
-**Assembly Accession:** GCA\_965140245.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Athene_noctua/Athene_noctua_distribution_map.png)
-
-### Species: Aythya ferina
-
-**Biosample:** SAMEA112468034  
-**Assembly Accession:** GCA\_964211825.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Aythya_ferina/Aythya_ferina_distribution_map.png)
-
-### Species: Aythya marila
-
-**Biosample:** SAMEA115433010  
-**Assembly Accession:** GCA\_965140915.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Aythya_marila/Aythya_marila_distribution_map.png)
-
-### Species: Balaenoptera acutorostrata
-
-**Biosample:** SAMEA111380540  
-**Assembly Accession:** GCA\_949987535.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Balaenoptera_acutorostrata/Balaenoptera_acutorostrata_distribution_map.png)
-
-### Species: Balaenoptera borealis
-
-**Biosample:** SAMEA114493134  
-**Assembly Accession:** GCA\_965194805.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Balaenoptera_borealis/Balaenoptera_borealis_distribution_map.png)
-
-### Species: Balaenoptera physalus
-
-**Biosample:** SAMEA114493136  
-**Assembly Accession:** GCA\_965194825.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Balaenoptera_physalus/Balaenoptera_physalus_distribution_map.png)
-
-### Species: Barbatula barbatula
-
-**Biosample:** SAMEA11296540  
-**Assembly Accession:** GCA\_947034865.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Barbatula_barbatula/Barbatula_barbatula_distribution_map.png)
-
-### Species: Barbus barbus
-
-**Biosample:** SAMEA13335783  
-**Assembly Accession:** GCA\_936440315.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Barbus_barbus/Barbus_barbus_distribution_map.png)
-
-### Species: Branta canadensis
-
-**Biosample:** SAMEA113398965  
-**Assembly Accession:** GCA\_965231335.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Branta_canadensis/Branta_canadensis_distribution_map.png)
-
-### Species: Bucephala clangula
-
-**Biosample:** SAMEA112468123  
-**Assembly Accession:** GCA\_964059595.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Bucephala_clangula/Bucephala_clangula_distribution_map.png)
-
-### Species: Bufo bufo
-
-**Biosample:** SAMEA7521636  
-**Assembly Accession:** GCA\_905171765.1  
-**Taxon:** Amphibians  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Bufo_bufo/Bufo_bufo_distribution_map.png)
-
-### Species: Buteo buteo
-
-**Biosample:** SAMEA114594453  
-**Assembly Accession:** GCA\_964188355.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Buteo_buteo/Buteo_buteo_distribution_map.png)
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Zosterops_lateralis/Zosterops_lateralis_distribution_map.png)
 
 ### Species: Caesio teres
 
-**Biosample:** SAMN41769331  
+**Biosample:**  
 **Assembly Accession:** GCA\_048129055.1  
 **Taxon:** Fishes  
 **Priority:** 5  
 **Flags:** Vague Location;  
 ![](../species/Caesio_teres/Caesio_teres_distribution_map.png)
 
-### Species: Caprimulgus europaeus
-
-**Biosample:** SAMEA7524394  
-**Assembly Accession:** GCA\_907165065.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Caprimulgus_europaeus/Caprimulgus_europaeus_distribution_map.png)
-
-### Species: Carassius carassius
-
-**Biosample:** SAMEA11296534  
-**Assembly Accession:** GCA\_963082965.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Carassius_carassius/Carassius_carassius_distribution_map.png)
-
-### Species: Cervus elaphus
-
-**Biosample:** SAMEA7523520  
-**Assembly Accession:** GCA\_910594005.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Cervus_elaphus/Cervus_elaphus_distribution_map.png)
-
-### Species: Cetorhinus maximus
-
-**Biosample:** SAMEA113902670  
-**Assembly Accession:** GCA\_964194155.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Cetorhinus_maximus/Cetorhinus_maximus_distribution_map.png)
-
-### Species: Chelon labrosus
-
-**Biosample:** SAMEA111562027  
-**Assembly Accession:** GCA\_963514085.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Chelon_labrosus/Chelon_labrosus_distribution_map.png)
-
-### Species: Cinclus cinclus
-
-**Biosample:** SAMEA9679959  
-**Assembly Accession:** GCA\_963662255.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Cinclus_cinclus/Cinclus_cinclus_distribution_map.png)
-
-### Species: Clangula hyemalis
-
-**Biosample:** SAMEA112468035  
-**Assembly Accession:** GCA\_963989345.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Clangula_hyemalis/Clangula_hyemalis_distribution_map.png)
-
-### Species: Conger conger
-
-**Biosample:** SAMEA12219431  
-**Assembly Accession:** GCA\_963514075.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Conger_conger/Conger_conger_distribution_map.png)
-
-### Species: Cygnus columbianus
-
-**Biosample:** SAMEA112468031  
-**Assembly Accession:** GCA\_965151615.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Cygnus_columbianus/Cygnus_columbianus_distribution_map.png)
-
 ### Species: Dama dama
 
-**Biosample:** SAMN36735489  
+**Biosample:**  
 **Assembly Accession:** GCA\_048126745.1  
 **Taxon:** Mammals  
 **Priority:** 5  
 **Flags:** Vague Location;  
 ![](../species/Dama_dama/Dama_dama_distribution_map.png)
 
-### Species: Delphinus delphis
-
-**Biosample:** SAMEA111380534  
-**Assembly Accession:** GCA\_949987515.2  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Delphinus_delphis/Delphinus_delphis_distribution_map.png)
-
-### Species: Electrona antarctica
-
-**Biosample:** SAMEA8748807  
-**Assembly Accession:** GCA\_951216825.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Electrona_antarctica/Electrona_antarctica_distribution_map.png)
-
-### Species: Eptesicus nilssonii
-
-**Biosample:** SAMEA14098186  
-**Assembly Accession:** GCA\_951640355.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Eptesicus_nilssonii/Eptesicus_nilssonii_distribution_map.png)
-
-### Species: Erinaceus europaeus
-
-**Biosample:** SAMEA13207416  
-**Assembly Accession:** GCA\_950295315.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Erinaceus_europaeus/Erinaceus_europaeus_distribution_map.png)
-
-### Species: Fringilla coelebs
-
-**Biosample:** SAMEA9359753  
-**Assembly Accession:** GCA\_963513975.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Fringilla_coelebs/Fringilla_coelebs_distribution_map.png)
-
-### Species: Gallinula chloropus
-
-**Biosample:** SAMEA113398958  
-**Assembly Accession:** GCA\_964237585.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Gallinula_chloropus/Gallinula_chloropus_distribution_map.png)
-
-### Species: Gasterosteus aculeatus
-
-**Biosample:** SAMEA11296546  
-**Assembly Accession:** GCA\_964276395.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Gasterosteus_aculeatus/Gasterosteus_aculeatus_distribution_map.png)
-
-### Species: Globicephala melas
-
-**Biosample:** SAMEA111380538  
-**Assembly Accession:** GCA\_963455315.2  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Globicephala_melas/Globicephala_melas_distribution_map.png)
-
-### Species: Gobio gobio
-
-**Biosample:** SAMEA11296538  
-**Assembly Accession:** GCA\_949357685.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Gobio_gobio/Gobio_gobio_distribution_map.png)
-
-### Species: Gobius niger
-
-**Biosample:** SAMEA13854149  
-**Assembly Accession:** GCA\_951799975.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Gobius_niger/Gobius_niger_distribution_map.png)
-
-### Species: Grampus griseus
-
-**Biosample:** SAMEA111380541  
-**Assembly Accession:** GCA\_964374135.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Grampus_griseus/Grampus_griseus_distribution_map.png)
-
-### Species: Gulosus aristotelis
-
-**Biosample:** SAMEA10059652  
-**Assembly Accession:** GCA\_949628215.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Gulosus_aristotelis/Gulosus_aristotelis_distribution_map.png)
-
-### Species: Gymnoscopelus braueri
-
-**Biosample:** SAMEA12815494  
-**Assembly Accession:** GCA\_963280865.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Gymnoscopelus_braueri/Gymnoscopelus_braueri_distribution_map.png)
-
-### Species: Halichoerus grypus
-
-**Biosample:** SAMEA115427674  
-**Assembly Accession:** GCA\_964656455.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Halichoerus_grypus/Halichoerus_grypus_distribution_map.png)
-
 ### Species: Hirundo rustica
 
-**Biosample:** SAMN14675488  
+**Biosample:**  
 **Assembly Accession:** GCA\_015227805.3  
 **Taxon:** Birds  
 **Priority:** 5  
 **Flags:** Vague Location;  
 ![](../species/Hirundo_rustica/Hirundo_rustica_distribution_map.png)
 
-### Species: Labrus bergylta
-
-**Biosample:** SAMEA111562158  
-**Assembly Accession:** GCA\_963930695.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Labrus_bergylta/Labrus_bergylta_distribution_map.png)
-
-### Species: Labrus mixtus
-
-**Biosample:** SAMEA111562155  
-**Assembly Accession:** GCA\_963584025.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Labrus_mixtus/Labrus_mixtus_distribution_map.png)
-
-### Species: Lagenorhynchus acutus
-
-**Biosample:** SAMEA114493133  
-**Assembly Accession:** GCA\_964270905.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Lagenorhynchus_acutus/Lagenorhynchus_acutus_distribution_map.png)
-
-### Species: Lagenorhynchus albirostris
-
-**Biosample:** SAMEA111380537  
-**Assembly Accession:** GCA\_949774975.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Lagenorhynchus_albirostris/Lagenorhynchus_albirostris_distribution_map.png)
-
-### Species: Lampetra fluviatilis
-
-**Biosample:** SAMEA111528664  
-**Assembly Accession:** GCA\_964198595.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Lampetra_fluviatilis/Lampetra_fluviatilis_distribution_map.png)
-
-### Species: Larus argentatus
-
-**Biosample:** SAMEA115168456  
-**Assembly Accession:** GCA\_964417175.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Larus_argentatus/Larus_argentatus_distribution_map.png)
-
-### Species: Larus fuscus
-
-**Biosample:** SAMEA112468039  
-**Assembly Accession:** GCA\_963932225.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Larus_fuscus/Larus_fuscus_distribution_map.png)
-
-### Species: Larus michahellis
-
-**Biosample:** SAMEA114211328  
-**Assembly Accession:** GCA\_964199755.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Larus_michahellis/Larus_michahellis_distribution_map.png)
-
-### Species: Leuciscus leuciscus
-
-**Biosample:** SAMEA11296544  
-**Assembly Accession:** GCA\_965113295.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Leuciscus_leuciscus/Leuciscus_leuciscus_distribution_map.png)
-
-### Species: Limanda limanda
-
-**Biosample:** SAMEA112765706  
-**Assembly Accession:** GCA\_963576545.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Limanda_limanda/Limanda_limanda_distribution_map.png)
-
-### Species: Lipophrys pholis
-
-**Biosample:** SAMEA7522844  
-**Assembly Accession:** GCA\_963383615.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Lipophrys_pholis/Lipophrys_pholis_distribution_map.png)
-
-### Species: Lissotriton helveticus
-
-**Biosample:** SAMEA110240860  
-**Assembly Accession:** GCA\_964261635.1  
-**Taxon:** Amphibians  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Lissotriton_helveticus/Lissotriton_helveticus_distribution_map.png)
-
-### Species: Lissotriton vulgaris
-
-**Biosample:** SAMEA110240861  
-**Assembly Accession:** GCA\_964263255.1  
-**Taxon:** Amphibians  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Lissotriton_vulgaris/Lissotriton_vulgaris_distribution_map.png)
-
-### Species: Martes martes
-
-**Biosample:** SAMEA14268932  
-**Assembly Accession:** GCA\_963455335.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Martes_martes/Martes_martes_distribution_map.png)
-
-### Species: Meles meles
-
-**Biosample:** SAMEA7524400  
-**Assembly Accession:** GCA\_922984935.2  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Meles_meles/Meles_meles_distribution_map.png)
-
-### Species: Microchirus variegatus
-
-**Biosample:** SAMEA12219470  
-**Assembly Accession:** GCA\_963457635.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Microchirus_variegatus/Microchirus_variegatus_distribution_map.png)
-
-### Species: Micromys minutus
-
-**Biosample:** SAMEA112468042  
-**Assembly Accession:** GCA\_963924665.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Micromys_minutus/Micromys_minutus_distribution_map.png)
-
-### Species: Microstomus kitt
-
-**Biosample:** SAMEA114298639  
-**Assembly Accession:** GCA\_964266715.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Microstomus_kitt/Microstomus_kitt_distribution_map.png)
-
-### Species: Miniopterus schreibersii
-
-**Biosample:** SAMEA113980738  
-**Assembly Accession:** GCA\_964146895.2  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Miniopterus_schreibersii/Miniopterus_schreibersii_distribution_map.png)
-
-### Species: Muntiacus reevesi
-
-**Biosample:** SAMEA110690972  
-**Assembly Accession:** GCA\_963930625.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Muntiacus_reevesi/Muntiacus_reevesi_distribution_map.png)
-
-### Species: Mus musculus
-
-**Biosample:** SAMEA112251260  
-**Assembly Accession:** GCA\_949316315.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Mus_musculus/Mus_musculus_distribution_map.png)
-
-### Species: Muscardinus avellanarius
-
-**Biosample:** SAMEA110180654  
-**Assembly Accession:** GCA\_963383645.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Muscardinus_avellanarius/Muscardinus_avellanarius_distribution_map.png)
-
-### Species: Mustelus asterias
-
-**Biosample:** SAMEA114298637  
-**Assembly Accession:** GCA\_964213995.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Mustelus_asterias/Mustelus_asterias_distribution_map.png)
-
-### Species: Myotis daubentonii
-
-**Biosample:** SAMEA9921455  
-**Assembly Accession:** GCA\_963259705.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Myotis_daubentonii/Myotis_daubentonii_distribution_map.png)
-
-### Species: Myotis emarginatus
-
-**Biosample:** SAMEA115534660  
-**Assembly Accession:** GCA\_965115925.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Myotis_emarginatus/Myotis_emarginatus_distribution_map.png)
-
-### Species: Myotis mystacinus
-
-**Biosample:** SAMEA114250307  
-**Assembly Accession:** GCA\_964094495.2  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Myotis_mystacinus/Myotis_mystacinus_distribution_map.png)
-
-### Species: Myotis nattereri
-
-**Biosample:** SAMEA114614248  
-**Assembly Accession:** GCA\_964212035.2  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Myotis_nattereri/Myotis_nattereri_distribution_map.png)
-
-### Species: Natrix helvetica
-
-**Biosample:** SAMEA114598156  
-**Assembly Accession:** GCA\_964273705.1  
-**Taxon:** Reptiles  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Natrix_helvetica/Natrix_helvetica_distribution_map.png)
-
 ### Species: Notoryctes typhlops
 
-**Biosample:** SAMN45131536  
+**Biosample:**  
 **Assembly Accession:** GCA\_048126345.1  
 **Taxon:** Mammals  
 **Priority:** 5  
 **Flags:** Vague Location;  
 ![](../species/Notoryctes_typhlops/Notoryctes_typhlops_distribution_map.png)
 
-### Species: Numenius arquata
+### Species: Abramis brama
 
-**Biosample:** SAMEA112693994  
-**Assembly Accession:** GCA\_964106895.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Numenius_arquata/Numenius_arquata_distribution_map.png)
-
-### Species: Nyctalus leisleri
-
-**Biosample:** SAMEA114250308  
-**Assembly Accession:** GCA\_964264875.2  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Nyctalus_leisleri/Nyctalus_leisleri_distribution_map.png)
-
-### Species: Orcinus orca
-
-**Biosample:** SAMEA8800229  
-**Assembly Accession:** GCA\_937001465.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Orcinus_orca/Orcinus_orca_distribution_map.png)
-
-### Species: Osmerus eperlanus
-
-**Biosample:** SAMEA14448128  
-**Assembly Accession:** GCA\_963692335.1  
+**Biosample:**  
+**Assembly Accession:** GCA\_963993115.1  
 **Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Osmerus_eperlanus/Osmerus_eperlanus_distribution_map.png)
-
-### Species: Phocoena phocoena
-
-**Biosample:** SAMEA111380536  
-**Assembly Accession:** GCA\_963924675.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Phocoena_phocoena/Phocoena_phocoena_distribution_map.png)
-
-### Species: Phoxinus phoxinus
-
-**Biosample:** SAMEA11296539  
-**Assembly Accession:** GCA\_949152265.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Phoxinus_phoxinus/Phoxinus_phoxinus_distribution_map.png)
-
-### Species: Pipistrellus nathusii
-
-**Biosample:** SAMEA115534661  
-**Assembly Accession:** GCA\_964656225.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Pipistrellus_nathusii/Pipistrellus_nathusii_distribution_map.png)
-
-### Species: Pipistrellus pygmaeus
-
-**Biosample:** SAMEA9921456  
-**Assembly Accession:** GCA\_949987585.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Pipistrellus_pygmaeus/Pipistrellus_pygmaeus_distribution_map.png)
-
-### Species: Platichthys flesus
-
-**Biosample:** SAMEA110026475  
-**Assembly Accession:** GCA\_949316205.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Platichthys_flesus/Platichthys_flesus_distribution_map.png)
-
-### Species: Plecotus auritus
-
-**Biosample:** SAMEA110056142  
-**Assembly Accession:** GCA\_963455305.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Plecotus_auritus/Plecotus_auritus_distribution_map.png)
-
-### Species: Pleuronectes platessa
-
-**Biosample:** SAMEA13853390  
-**Assembly Accession:** GCA\_947347685.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Pleuronectes_platessa/Pleuronectes_platessa_distribution_map.png)
-
-### Species: Podarcis erhardii
-
-**Biosample:** SAMEA115336771  
-**Assembly Accession:** GCA\_964252035.1  
-**Taxon:** Reptiles  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Podarcis_erhardii/Podarcis_erhardii_distribution_map.png)
-
-### Species: Podarcis melisellensis
-
-**Biosample:** SAMEA115336775  
-**Assembly Accession:** GCA\_964234715.1  
-**Taxon:** Reptiles  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Podarcis_melisellensis/Podarcis_melisellensis_distribution_map.png)
-
-### Species: Podarcis muralis
-
-**Biosample:** SAMEA115336776  
-**Assembly Accession:** GCA\_964188315.1  
-**Taxon:** Reptiles  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Podarcis_muralis/Podarcis_muralis_distribution_map.png)
-
-### Species: Podarcis siculus
-
-**Biosample:** SAMEA115336774  
-**Assembly Accession:** GCA\_964188175.1  
-**Taxon:** Reptiles  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Podarcis_siculus/Podarcis_siculus_distribution_map.png)
-
-### Species: Pollachius pollachius
-
-**Biosample:** SAMEA111562038  
-**Assembly Accession:** GCA\_949987615.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Pollachius_pollachius/Pollachius_pollachius_distribution_map.png)
-
-### Species: Protomyctophum bolini
-
-**Biosample:** SAMEA12815434  
-**Assembly Accession:** GCA\_963924005.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Protomyctophum_bolini/Protomyctophum_bolini_distribution_map.png)
-
-### Species: Pungitius pungitius
-
-**Biosample:** SAMEA11296545  
-**Assembly Accession:** GCA\_949316345.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Pungitius_pungitius/Pungitius_pungitius_distribution_map.png)
-
-### Species: Raja brachyura
-
-**Biosample:** SAMEA110450105  
-**Assembly Accession:** GCA\_963514005.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Raja_brachyura/Raja_brachyura_distribution_map.png)
-
-### Species: Rana temporaria
-
-**Biosample:** SAMEA7521635  
-**Assembly Accession:** GCA\_905171775.1  
-**Taxon:** Amphibians  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Rana_temporaria/Rana_temporaria_distribution_map.png)
-
-### Species: Rhinolophus hipposideros
-
-**Biosample:** SAMEA113980802  
-**Assembly Accession:** GCA\_964194185.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Rhinolophus_hipposideros/Rhinolophus_hipposideros_distribution_map.png)
-
-### Species: Rutilus rutilus
-
-**Biosample:** SAMEA11296543  
-**Assembly Accession:** GCA\_951802725.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Rutilus_rutilus/Rutilus_rutilus_distribution_map.png)
-
-### Species: Sardina pilchardus
-
-**Biosample:** SAMEA111562172  
-**Assembly Accession:** GCA\_963854185.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Sardina_pilchardus/Sardina_pilchardus_distribution_map.png)
-
-### Species: Scardinius erythrophthalmus
-
-**Biosample:** SAMEA11296541  
-**Assembly Accession:** GCA\_964197995.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Scardinius_erythrophthalmus/Scardinius_erythrophthalmus_distribution_map.png)
-
-### Species: Scomber scombrus
-
-**Biosample:** SAMEA110450232  
-**Assembly Accession:** GCA\_963691925.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Scomber_scombrus/Scomber_scombrus_distribution_map.png)
-
-### Species: Scophthalmus maximus
-
-**Biosample:** SAMEA110450106  
-**Assembly Accession:** GCA\_963854745.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Scophthalmus_maximus/Scophthalmus_maximus_distribution_map.png)
-
-### Species: Silurus aristotelis
-
-**Biosample:** SAMEA12595289  
-**Assembly Accession:** GCA\_946808225.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Silurus_aristotelis/Silurus_aristotelis_distribution_map.png)
-
-### Species: Sprattus sprattus
-
-**Biosample:** SAMEA111562173  
-**Assembly Accession:** GCA\_963457725.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Sprattus_sprattus/Sprattus_sprattus_distribution_map.png)
-
-### Species: Squalius cephalus
-
-**Biosample:** SAMEA11296547  
-**Assembly Accession:** GCA\_949319135.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Squalius_cephalus/Squalius_cephalus_distribution_map.png)
-
-### Species: Streptopelia decaocto
-
-**Biosample:** SAMEA113398962  
-**Assembly Accession:** GCA\_964273445.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Streptopelia_decaocto/Streptopelia_decaocto_distribution_map.png)
-
-### Species: Symphodus melops
-
-**Biosample:** SAMEA12219485  
-**Assembly Accession:** GCA\_947650265.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Symphodus_melops/Symphodus_melops_distribution_map.png)
-
-### Species: Talpa europaea
-
-**Biosample:** SAMEA112468127  
-**Assembly Accession:** GCA\_964194135.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Talpa_europaea/Talpa_europaea_distribution_map.png)
-
-### Species: Taurulus bubalis
-
-**Biosample:** SAMEA7522994  
-**Assembly Accession:** GCA\_910589615.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Taurulus_bubalis/Taurulus_bubalis_distribution_map.png)
-
-### Species: Trachurus trachurus
-
-**Biosample:** SAMEA7524396  
-**Assembly Accession:** GCA\_905171665.2  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Trachurus_trachurus/Trachurus_trachurus_distribution_map.png)
-
-### Species: Triturus cristatus
-
-**Biosample:** SAMEA112468129  
-**Assembly Accession:** GCA\_964204655.1  
-**Taxon:** Amphibians  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Triturus_cristatus/Triturus_cristatus_distribution_map.png)
-
-### Species: Vanellus vanellus
-
-**Biosample:** SAMEA113398832  
-**Assembly Accession:** GCA\_965231255.1  
-**Taxon:** Birds  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Vanellus_vanellus/Vanellus_vanellus_distribution_map.png)
-
-### Species: Vespertilio murinus
-
-**Biosample:** SAMEA112247422  
-**Assembly Accession:** GCA\_963924515.1  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Vespertilio_murinus/Vespertilio_murinus_distribution_map.png)
-
-### Species: Vipera berus
-
-**Biosample:** SAMEA114293681  
-**Assembly Accession:** GCA\_964194415.1  
-**Taxon:** Reptiles  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Vipera_berus/Vipera_berus_distribution_map.png)
-
-### Species: Vipera ursinii
-
-**Biosample:** SAMEA12832258  
-**Assembly Accession:** GCA\_947247035.1  
-**Taxon:** Reptiles  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Vipera_ursinii/Vipera_ursinii_distribution_map.png)
-
-### Species: Vulpes vulpes
-
-**Biosample:** SAMEA113398840  
-**Assembly Accession:** GCA\_964106825.2  
-**Taxon:** Mammals  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Vulpes_vulpes/Vulpes_vulpes_distribution_map.png)
-
-### Species: Zeus faber
-
-**Biosample:** SAMEA111562156  
-**Assembly Accession:** GCA\_960531495.1  
-**Taxon:** Fishes  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Zeus_faber/Zeus_faber_distribution_map.png)
-
-### Species: Zootoca vivipara
-
-**Biosample:** SAMEA111528662  
-**Assembly Accession:** GCA\_963506605.1  
-**Taxon:** Reptiles  
-**Priority:** 5  
-**Flags:** Vague Location;  
-![](../species/Zootoca_vivipara/Zootoca_vivipara_distribution_map.png)
+**Priority:** 6  
+**Flags:**  
+![](../species/Abramis_brama/Abramis_brama_distribution_map.png)
 
 ### Species: Acanthisitta chloris
 
-**Biosample:** SAMN16442762  
+**Biosample:**  
 **Assembly Accession:** GCA\_016904835.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2786,16 +1625,25 @@
 
 ### Species: Acanthopagrus schlegelii
 
-**Biosample:** SAMN43087228  
+**Biosample:**  
 **Assembly Accession:** GCA\_041753875.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Acanthopagrus_schlegelii/Acanthopagrus_schlegelii_distribution_map.png)
 
+### Species: Accipiter gentilis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_929443795.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Accipiter_gentilis/Accipiter_gentilis_distribution_map.png)
+
 ### Species: Aegotheles albertisi
 
-**Biosample:** SAMN41085506  
+**Biosample:**  
 **Assembly Accession:** GCA\_039906565.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2804,7 +1652,7 @@
 
 ### Species: Agelaius phoeniceus
 
-**Biosample:** SAMN19590559  
+**Biosample:**  
 **Assembly Accession:** GCA\_020745825.3  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2813,7 +1661,7 @@
 
 ### Species: Alligator mississippiensis
 
-**Biosample:** SAMN37045233  
+**Biosample:**  
 **Assembly Accession:** GCA\_030867095.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -2822,7 +1670,7 @@
 
 ### Species: Alosa sapidissima
 
-**Biosample:** SAMN18857608  
+**Biosample:**  
 **Assembly Accession:** GCA\_018492685.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2831,7 +1679,7 @@
 
 ### Species: Amazona ochrocephala
 
-**Biosample:** SAMN41018448  
+**Biosample:**  
 **Assembly Accession:** GCA\_039720435.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2840,7 +1688,7 @@
 
 ### Species: Amblyopsis spelaea
 
-**Biosample:** SAMN45063415  
+**Biosample:**  
 **Assembly Accession:** GCA\_046255685.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2849,7 +1697,7 @@
 
 ### Species: Amblyraja radiata
 
-**Biosample:** SAMN09948523  
+**Biosample:**  
 **Assembly Accession:** GCA\_010909765.2  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2858,7 +1706,7 @@
 
 ### Species: Amia calva
 
-**Biosample:** SAMN39643085  
+**Biosample:**  
 **Assembly Accession:** GCA\_036373705.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2867,7 +1715,7 @@
 
 ### Species: Ammodytes marinus
 
-**Biosample:** SAMEA110137622  
+**Biosample:**  
 **Assembly Accession:** GCA\_949987685.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2876,7 +1724,7 @@
 
 ### Species: Ammospiza maritima
 
-**Biosample:** SAMN39181024  
+**Biosample:**  
 **Assembly Accession:** GCA\_036010785.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2885,7 +1733,7 @@
 
 ### Species: Ammospiza nelsoni
 
-**Biosample:** SAMN28421656  
+**Biosample:**  
 **Assembly Accession:** GCA\_027579445.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2894,16 +1742,34 @@
 
 ### Species: Anableps anableps
 
-**Biosample:** SAMN12623628  
+**Biosample:**  
 **Assembly Accession:** GCA\_014839685.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:** Zoo Sample;  
 ![](../species/Anableps_anableps/Anableps_anableps_distribution_map.png)
 
+### Species: Anas acuta
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963932015.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Anas_acuta/Anas_acuta_distribution_map.png)
+
+### Species: Anas platyrhynchos
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964188345.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Anas_platyrhynchos/Anas_platyrhynchos_distribution_map.png)
+
 ### Species: Anguilla anguilla
 
-**Biosample:** SAMN12623627  
+**Biosample:**  
 **Assembly Accession:** GCA\_013347855.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2912,7 +1778,7 @@
 
 ### Species: Anolis sagrei
 
-**Biosample:** SAMN40144551  
+**Biosample:**  
 **Assembly Accession:** GCA\_037176765.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -2921,25 +1787,61 @@
 
 ### Species: Anomaloglossus baeobatrachus
 
-**Biosample:** SAMN46966667  
+**Biosample:**  
 **Assembly Accession:** GCA\_048569485.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Anomaloglossus_baeobatrachus/Anomaloglossus_baeobatrachus_distribution_map.png)
 
+### Species: Anser anser
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964211835.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Anser_anser/Anser_anser_distribution_map.png)
+
+### Species: Anser brachyrhynchus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964034855.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Anser_brachyrhynchus/Anser_brachyrhynchus_distribution_map.png)
+
+### Species: Aplidium turbinatum
+
+**Biosample:**  
+**Assembly Accession:** GCA\_918807975.1  
+**Taxon:** Invertebrates  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Aplidium_turbinatum/Aplidium_turbinatum_distribution_map.png)
+
 ### Species: Aplochiton taeniatus
 
-**Biosample:** SAMN12623621  
+**Biosample:**  
 **Assembly Accession:** GCA\_017639675.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Aplochiton_taeniatus/Aplochiton_taeniatus_distribution_map.png)
 
+### Species: Apodemus sylvaticus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_947179515.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Apodemus_sylvaticus/Apodemus_sylvaticus_distribution_map.png)
+
 ### Species: Apteryx mantelli
 
-**Biosample:** SAMN39257886  
+**Biosample:**  
 **Assembly Accession:** GCA\_036417845.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2948,7 +1850,7 @@
 
 ### Species: Apus apus
 
-**Biosample:** SAMN22785356  
+**Biosample:**  
 **Assembly Accession:** GCA\_020740795.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -2957,7 +1859,7 @@
 
 ### Species: Argentina silus
 
-**Biosample:** SAMEA110137623  
+**Biosample:**  
 **Assembly Accession:** GCA\_951799395.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2966,7 +1868,7 @@
 
 ### Species: Arripis georgiana
 
-**Biosample:** SAMN40589644  
+**Biosample:**  
 **Assembly Accession:** GCA\_042242135.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -2975,7 +1877,7 @@
 
 ### Species: Artibeus intermedius
 
-**Biosample:** SAMN40002248  
+**Biosample:**  
 **Assembly Accession:** GCA\_038363145.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2984,7 +1886,7 @@
 
 ### Species: Artibeus lituratus
 
-**Biosample:** SAMN40002247  
+**Biosample:**  
 **Assembly Accession:** GCA\_038363095.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -2993,52 +1895,124 @@
 
 ### Species: Ascaphus truei
 
-**Biosample:** SAMN41155128  
+**Biosample:**  
 **Assembly Accession:** GCA\_040206685.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Ascaphus_truei/Ascaphus_truei_distribution_map.png)
 
+### Species: Ascidia mentula
+
+**Biosample:**  
+**Assembly Accession:** GCA\_947561715.1  
+**Taxon:** Invertebrates  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Ascidia_mentula/Ascidia_mentula_distribution_map.png)
+
+### Species: Ascidiella aspersa
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963924565.1  
+**Taxon:** Invertebrates  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Ascidiella_aspersa/Ascidiella_aspersa_distribution_map.png)
+
 ### Species: Aselliscus stoliczkanus
 
-**Biosample:** SAMN33370315  
+**Biosample:**  
 **Assembly Accession:** GCA\_043727835.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Aselliscus_stoliczkanus/Aselliscus_stoliczkanus_distribution_map.png)
 
+### Species: Athene noctua
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965140245.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Athene_noctua/Athene_noctua_distribution_map.png)
+
 ### Species: Aulostomus maculatus
 
-**Biosample:** SAMN43082348  
+**Biosample:**  
 **Assembly Accession:** GCA\_048301465.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Aulostomus_maculatus/Aulostomus_maculatus_distribution_map.png)
 
+### Species: Aythya ferina
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964211825.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Aythya_ferina/Aythya_ferina_distribution_map.png)
+
 ### Species: Aythya fuligula
 
-**Biosample:** SAMN12621346  
+**Biosample:**  
 **Assembly Accession:** GCA\_009819795.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Aythya_fuligula/Aythya_fuligula_distribution_map.png)
 
+### Species: Aythya marila
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965140915.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Aythya_marila/Aythya_marila_distribution_map.png)
+
+### Species: Balaenoptera acutorostrata
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949987535.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Balaenoptera_acutorostrata/Balaenoptera_acutorostrata_distribution_map.png)
+
+### Species: Balaenoptera borealis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965194805.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Balaenoptera_borealis/Balaenoptera_borealis_distribution_map.png)
+
 ### Species: Balaenoptera musculus
 
-**Biosample:** SAMN12287136  
+**Biosample:**  
 **Assembly Accession:** GCA\_009873245.3  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Balaenoptera_musculus/Balaenoptera_musculus_distribution_map.png)
 
+### Species: Balaenoptera physalus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965194825.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Balaenoptera_physalus/Balaenoptera_physalus_distribution_map.png)
+
 ### Species: Balanoglossus misakiensis
 
-**Biosample:** SAMN40579982  
+**Biosample:**  
 **Assembly Accession:** GCA\_040954625.2  
 **Taxon:** Invertebrates  
 **Priority:** 6  
@@ -3047,16 +2021,34 @@
 
 ### Species: Balearica regulorum gibbericeps
 
-**Biosample:** SAMN12615749  
+**Biosample:**  
 **Assembly Accession:** GCA\_011004875.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:** Zoo Sample; Missing Range;  
 ![](../species/Balearica_regulorum_gibbericeps/Balearica_regulorum_gibbericeps_distribution_map.png)
 
+### Species: Barbatula barbatula
+
+**Biosample:**  
+**Assembly Accession:** GCA\_947034865.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Barbatula_barbatula/Barbatula_barbatula_distribution_map.png)
+
+### Species: Barbus barbus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_936440315.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Barbus_barbus/Barbus_barbus_distribution_map.png)
+
 ### Species: Bombina bombina
 
-**Biosample:** SAMN32378350  
+**Biosample:**  
 **Assembly Accession:** GCA\_027579735.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -3065,7 +2057,7 @@
 
 ### Species: Bradypodion pumilum
 
-**Biosample:** SAMN35825189  
+**Biosample:**  
 **Assembly Accession:** GCA\_047715975.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3074,25 +2066,61 @@
 
 ### Species: Branchiostoma lanceolatum
 
-**Biosample:** SAMN38372375  
+**Biosample:**  
 **Assembly Accession:** GCA\_035083965.1  
 **Taxon:** Invertebrates  
 **Priority:** 6  
 **Flags:** Missing Range;  
 ![](../species/Branchiostoma_lanceolatum/Branchiostoma_lanceolatum_distribution_map.png)
 
+### Species: Branta canadensis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965231335.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Branta_canadensis/Branta_canadensis_distribution_map.png)
+
+### Species: Bucephala clangula
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964059595.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Bucephala_clangula/Bucephala_clangula_distribution_map.png)
+
 ### Species: Bucorvus abyssinicus
 
-**Biosample:** SAMN12614799  
+**Biosample:**  
 **Assembly Accession:** GCA\_009769605.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:** Zoo Sample;  
 ![](../species/Bucorvus_abyssinicus/Bucorvus_abyssinicus_distribution_map.png)
 
+### Species: Bufo bufo
+
+**Biosample:**  
+**Assembly Accession:** GCA\_905171765.1  
+**Taxon:** Amphibians  
+**Priority:** 6  
+**Flags:**  
+![](../species/Bufo_bufo/Bufo_bufo_distribution_map.png)
+
+### Species: Buteo buteo
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964188355.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Buteo_buteo/Buteo_buteo_distribution_map.png)
+
 ### Species: Callospermophilus lateralis
 
-**Biosample:** SAMN47326584  
+**Biosample:**  
 **Assembly Accession:** GCA\_048772815.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3101,16 +2129,34 @@
 
 ### Species: Caloenas nicobarica
 
-**Biosample:** SAMN39256628  
+**Biosample:**  
 **Assembly Accession:** GCA\_036013445.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:** Zoo Sample;  
 ![](../species/Caloenas_nicobarica/Caloenas_nicobarica_distribution_map.png)
 
+### Species: Caprimulgus europaeus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_907165065.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Caprimulgus_europaeus/Caprimulgus_europaeus_distribution_map.png)
+
+### Species: Carassius carassius
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963082965.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Carassius_carassius/Carassius_carassius_distribution_map.png)
+
 ### Species: Carcharodon carcharias
 
-**Biosample:** SAMN12629504  
+**Biosample:**  
 **Assembly Accession:** GCA\_017639515.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3119,7 +2165,7 @@
 
 ### Species: Caretta caretta
 
-**Biosample:** SAMN46282778  
+**Biosample:**  
 **Assembly Accession:** GCA\_965140235.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3128,7 +2174,7 @@
 
 ### Species: Cariama cristata
 
-**Biosample:** SAMN12614807  
+**Biosample:**  
 **Assembly Accession:** GCA\_009819825.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3137,7 +2183,7 @@
 
 ### Species: Castor canadensis
 
-**Biosample:** SAMN45812786  
+**Biosample:**  
 **Assembly Accession:** GCA\_047511655.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3146,7 +2192,7 @@
 
 ### Species: Catharus ustulatus
 
-**Biosample:** SAMN12618602  
+**Biosample:**  
 **Assembly Accession:** GCA\_009819885.2  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3155,16 +2201,34 @@
 
 ### Species: Centroberyx gerrardi
 
-**Biosample:** SAMN41769328  
+**Biosample:**  
 **Assembly Accession:** GCA\_048128805.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:** Missing Range;  
 ![](../species/Centroberyx_gerrardi/Centroberyx_gerrardi_distribution_map.png)
 
+### Species: Cervus elaphus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_910594005.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Cervus_elaphus/Cervus_elaphus_distribution_map.png)
+
+### Species: Cetorhinus maximus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964194155.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Cetorhinus_maximus/Cetorhinus_maximus_distribution_map.png)
+
 ### Species: Chaetodon trifascialis
 
-**Biosample:** SAMN41253346  
+**Biosample:**  
 **Assembly Accession:** GCA\_039877785.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3173,16 +2237,25 @@
 
 ### Species: Chelmon rostratus
 
-**Biosample:** SAMN12623620  
+**Biosample:**  
 **Assembly Accession:** GCA\_017976325.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Chelmon_rostratus/Chelmon_rostratus_distribution_map.png)
 
+### Species: Chelon labrosus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963514085.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Chelon_labrosus/Chelon_labrosus_distribution_map.png)
+
 ### Species: Chelonia mydas
 
-**Biosample:** SAMN12612360  
+**Biosample:**  
 **Assembly Accession:** GCA\_015237465.2  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3191,7 +2264,7 @@
 
 ### Species: Chiroxiphia lanceolata
 
-**Biosample:** SAMN12620979  
+**Biosample:**  
 **Assembly Accession:** GCA\_009829145.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3200,7 +2273,7 @@
 
 ### Species: Chlamydotis macqueenii
 
-**Biosample:** SAMN39296383  
+**Biosample:**  
 **Assembly Accession:** GCA\_036417535.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3209,7 +2282,7 @@
 
 ### Species: Choerodon schoenleinii
 
-**Biosample:** SAMN46014618  
+**Biosample:**  
 **Assembly Accession:** GCA\_047301625.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3218,16 +2291,43 @@
 
 ### Species: Ciconia maguari
 
-**Biosample:** SAMN18353822  
+**Biosample:**  
 **Assembly Accession:** GCA\_017639555.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Ciconia_maguari/Ciconia_maguari_distribution_map.png)
 
+### Species: Cinclus cinclus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963662255.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Cinclus_cinclus/Cinclus_cinclus_distribution_map.png)
+
+### Species: Clangula hyemalis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963989345.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Clangula_hyemalis/Clangula_hyemalis_distribution_map.png)
+
+### Species: Clavelina lepadiformis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_947623445.1  
+**Taxon:** Invertebrates  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Clavelina_lepadiformis/Clavelina_lepadiformis_distribution_map.png)
+
 ### Species: Coilia mystus
 
-**Biosample:** SAMN46980313  
+**Biosample:**  
 **Assembly Accession:** GCA\_048544225.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3236,16 +2336,34 @@
 
 ### Species: Colius striatus
 
-**Biosample:** SAMN33339572  
+**Biosample:**  
 **Assembly Accession:** GCA\_028858725.2  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:** Zoo Sample;  
 ![](../species/Colius_striatus/Colius_striatus_distribution_map.png)
 
+### Species: Conger conger
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963514075.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Conger_conger/Conger_conger_distribution_map.png)
+
+### Species: Corella eumyota
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963082875.1  
+**Taxon:** Invertebrates  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Corella_eumyota/Corella_eumyota_distribution_map.png)
+
 ### Species: Corvus moneduloides
 
-**Biosample:** SAMN12368441  
+**Biosample:**  
 **Assembly Accession:** GCA\_009650955.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3254,7 +2372,7 @@
 
 ### Species: Corynorhinus townsendii
 
-**Biosample:** SAMN31536067  
+**Biosample:**  
 **Assembly Accession:** GCA\_026230055.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3263,7 +2381,7 @@
 
 ### Species: Ctenodactylus gundi
 
-**Biosample:** SAMN47326412  
+**Biosample:**  
 **Assembly Accession:** GCA\_048771875.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3272,7 +2390,7 @@
 
 ### Species: Cuculus canorus
 
-**Biosample:** SAMN12629508  
+**Biosample:**  
 **Assembly Accession:** GCA\_017976375.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3281,7 +2399,7 @@
 
 ### Species: Cyanocitta cristata
 
-**Biosample:** SAMN44574712  
+**Biosample:**  
 **Assembly Accession:** GCA\_046129655.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3290,7 +2408,7 @@
 
 ### Species: Cyclopterus lumpus
 
-**Biosample:** SAMN12629502  
+**Biosample:**  
 **Assembly Accession:** GCA\_009769545.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3299,16 +2417,25 @@
 
 ### Species: Cyclura pinguis
 
-**Biosample:** SAMN35151422  
+**Biosample:**  
 **Assembly Accession:** GCA\_030412105.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
 **Flags:** Zoo Sample;  
 ![](../species/Cyclura_pinguis/Cyclura_pinguis_distribution_map.png)
 
+### Species: Cygnus columbianus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965151615.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Cygnus_columbianus/Cygnus_columbianus_distribution_map.png)
+
 ### Species: Cygnus olor
 
-**Biosample:** SAMN12621369  
+**Biosample:**  
 **Assembly Accession:** GCA\_009769625.2  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3317,7 +2444,7 @@
 
 ### Species: Cynocephalus volans
 
-**Biosample:** SAMN32206947  
+**Biosample:**  
 **Assembly Accession:** GCA\_027409185.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3326,25 +2453,43 @@
 
 ### Species: Cyprinella venusta
 
-**Biosample:** SAMN40647018  
+**Biosample:**  
 **Assembly Accession:** GCA\_038024135.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Cyprinella_venusta/Cyprinella_venusta_distribution_map.png)
 
+### Species: Danio rerio
+
+**Biosample:**  
+**Assembly Accession:** GCA\_944039275.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Danio_rerio/Danio_rerio_distribution_map.png)
+
 ### Species: Dasypus novemcinctus
 
-**Biosample:** SAMN32738980  
+**Biosample:**  
 **Assembly Accession:** GCA\_030445035.2  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Dasypus_novemcinctus/Dasypus_novemcinctus_distribution_map.png)
 
+### Species: Delphinus delphis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949987515.2  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Delphinus_delphis/Delphinus_delphis_distribution_map.png)
+
 ### Species: Dermochelys coriacea
 
-**Biosample:** SAMN12629498  
+**Biosample:**  
 **Assembly Accession:** GCA\_009764565.4  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3353,7 +2498,7 @@
 
 ### Species: Desmodus rotundus
 
-**Biosample:** SAMN24116476  
+**Biosample:**  
 **Assembly Accession:** GCA\_022682495.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3362,7 +2507,7 @@
 
 ### Species: Diretmus argenteus
 
-**Biosample:** SAMN47248252  
+**Biosample:**  
 **Assembly Accession:** GCA\_048569125.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3371,7 +2516,7 @@
 
 ### Species: Discoglossus pictus
 
-**Biosample:** SAMN32227109  
+**Biosample:**  
 **Assembly Accession:** GCA\_027410445.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -3380,7 +2525,7 @@
 
 ### Species: Doryrhina cyclops
 
-**Biosample:** SAMN33372470  
+**Biosample:**  
 **Assembly Accession:** GCA\_043880285.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3389,7 +2534,7 @@
 
 ### Species: Dromaius novaehollandiae
 
-**Biosample:** SAMN39262816  
+**Biosample:**  
 **Assembly Accession:** GCA\_036370855.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3398,7 +2543,7 @@
 
 ### Species: Dromiciops gliroides
 
-**Biosample:** SAMN18857598  
+**Biosample:**  
 **Assembly Accession:** GCA\_019393635.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3407,7 +2552,7 @@
 
 ### Species: Dryobates pubescens
 
-**Biosample:** SAMN12629497  
+**Biosample:**  
 **Assembly Accession:** GCA\_014839835.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3416,16 +2561,34 @@
 
 ### Species: Dugong dugon
 
-**Biosample:** SAMN33212336  
+**Biosample:**  
 **Assembly Accession:** GCA\_030035585.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Dugong_dugon/Dugong_dugon_distribution_map.png)
 
+### Species: Echiichthys vipera
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963691815.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Echiichthys_vipera/Echiichthys_vipera_distribution_map.png)
+
+### Species: Electrona antarctica
+
+**Biosample:**  
+**Assembly Accession:** GCA\_951216825.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Electrona_antarctica/Electrona_antarctica_distribution_map.png)
+
 ### Species: Elephas maximus indicus
 
-**Biosample:** SAMN29174328  
+**Biosample:**  
 **Assembly Accession:** GCA\_024166365.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3434,7 +2597,7 @@
 
 ### Species: Eleutherodactylus coqui
 
-**Biosample:** SAMN39150572  
+**Biosample:**  
 **Assembly Accession:** GCA\_035609145.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -3443,7 +2606,7 @@
 
 ### Species: Emys orbicularis
 
-**Biosample:** SAMN31805221  
+**Biosample:**  
 **Assembly Accession:** GCA\_028017835.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3452,16 +2615,25 @@
 
 ### Species: Eptesicus fuscus
 
-**Biosample:** SAMN30608903  
+**Biosample:**  
 **Assembly Accession:** GCA\_027574615.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Eptesicus_fuscus/Eptesicus_fuscus_distribution_map.png)
 
+### Species: Eptesicus nilssonii
+
+**Biosample:**  
+**Assembly Accession:** GCA\_951640355.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Eptesicus_nilssonii/Eptesicus_nilssonii_distribution_map.png)
+
 ### Species: Erethizon dorsatum
 
-**Biosample:** SAMN32359106  
+**Biosample:**  
 **Assembly Accession:** GCA\_028451465.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3470,16 +2642,25 @@
 
 ### Species: Eretmochelys imbricata
 
-**Biosample:** SAMN46283036  
+**Biosample:**  
 **Assembly Accession:** GCA\_965152235.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Eretmochelys_imbricata/Eretmochelys_imbricata_distribution_map.png)
 
+### Species: Erinaceus europaeus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_950295315.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Erinaceus_europaeus/Erinaceus_europaeus_distribution_map.png)
+
 ### Species: Erythrolamprus reginae
 
-**Biosample:** SAMN32631248  
+**Biosample:**  
 **Assembly Accession:** GCA\_031021105.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3488,7 +2669,7 @@
 
 ### Species: Eschrichtius robustus
 
-**Biosample:** SAMN32629250  
+**Biosample:**  
 **Assembly Accession:** GCA\_028021215.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3497,25 +2678,16 @@
 
 ### Species: Esox lucius
 
-**Biosample:** SAMN12623624  
+**Biosample:**  
 **Assembly Accession:** GCA\_011004845.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Esox_lucius/Esox_lucius_distribution_map.png)
 
-### Species: Eubalaena glacialis
-
-**Biosample:** SAMN32746534  
-**Assembly Accession:** GCA\_028564815.1  
-**Taxon:** Mammals  
-**Priority:** 6  
-**Flags:**  
-![](../species/Eubalaena_glacialis/Eubalaena_glacialis_distribution_map.png)
-
 ### Species: Eudromia elegans
 
-**Biosample:** SAMN46865137  
+**Biosample:**  
 **Assembly Accession:** GCA\_047922985.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3524,16 +2696,25 @@
 
 ### Species: Euleptes europaea
 
-**Biosample:** SAMN32622440  
+**Biosample:**  
 **Assembly Accession:** GCA\_029931775.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Euleptes_europaea/Euleptes_europaea_distribution_map.png)
 
+### Species: Eutrigla gurnardus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963514095.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Eutrigla_gurnardus/Eutrigla_gurnardus_distribution_map.png)
+
 ### Species: Falco cherrug
 
-**Biosample:** SAMN28688204  
+**Biosample:**  
 **Assembly Accession:** GCA\_023634085.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3542,7 +2723,7 @@
 
 ### Species: Falco naumanni
 
-**Biosample:** SAMN16870685  
+**Biosample:**  
 **Assembly Accession:** GCA\_017639655.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3551,25 +2732,52 @@
 
 ### Species: Falco peregrinus
 
-**Biosample:** SAMN28688290  
+**Biosample:**  
 **Assembly Accession:** GCA\_023634155.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Falco_peregrinus/Falco_peregrinus_distribution_map.png)
 
+### Species: Fringilla coelebs
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963513975.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Fringilla_coelebs/Fringilla_coelebs_distribution_map.png)
+
 ### Species: Fundulus diaphanus
 
-**Biosample:** SAMN39736529  
+**Biosample:**  
 **Assembly Accession:** GCA\_037039145.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:** Missing Range;  
 ![](../species/Fundulus_diaphanus/Fundulus_diaphanus_distribution_map.png)
 
+### Species: Gallinula chloropus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964237585.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Gallinula_chloropus/Gallinula_chloropus_distribution_map.png)
+
+### Species: Gasterosteus aculeatus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964276395.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Gasterosteus_aculeatus/Gasterosteus_aculeatus_distribution_map.png)
+
 ### Species: Gastrophryne carolinensis
 
-**Biosample:** SAMN31805274  
+**Biosample:**  
 **Assembly Accession:** GCA\_027917425.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -3578,7 +2786,7 @@
 
 ### Species: Gavialis gangeticus
 
-**Biosample:** SAMN34116453  
+**Biosample:**  
 **Assembly Accession:** GCA\_030020295.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3587,25 +2795,79 @@
 
 ### Species: Geothlypis trichas
 
-**Biosample:** SAMN12631222  
+**Biosample:**  
 **Assembly Accession:** GCA\_009764595.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Geothlypis_trichas/Geothlypis_trichas_distribution_map.png)
 
+### Species: Globicephala melas
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963455315.2  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Globicephala_melas/Globicephala_melas_distribution_map.png)
+
+### Species: Gobio gobio
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949357685.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Gobio_gobio/Gobio_gobio_distribution_map.png)
+
+### Species: Gobius niger
+
+**Biosample:**  
+**Assembly Accession:** GCA\_951799975.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Gobius_niger/Gobius_niger_distribution_map.png)
+
+### Species: Grampus griseus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964374135.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Grampus_griseus/Grampus_griseus_distribution_map.png)
+
 ### Species: Grus americana
 
-**Biosample:** SAMN32775697  
+**Biosample:**  
 **Assembly Accession:** GCA\_028858705.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Grus_americana/Grus_americana_distribution_map.png)
 
+### Species: Gulosus aristotelis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949628215.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Gulosus_aristotelis/Gulosus_aristotelis_distribution_map.png)
+
+### Species: Gymnoscopelus braueri
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963280865.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Gymnoscopelus_braueri/Gymnoscopelus_braueri_distribution_map.png)
+
 ### Species: Gypaetus barbatus
 
-**Biosample:** SAMN32256411  
+**Biosample:**  
 **Assembly Accession:** GCA\_028022735.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3614,16 +2876,25 @@
 
 ### Species: Haemorhous mexicanus
 
-**Biosample:** SAMN28453576  
+**Biosample:**  
 **Assembly Accession:** GCA\_027477595.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Haemorhous_mexicanus/Haemorhous_mexicanus_distribution_map.png)
 
+### Species: Halichoerus grypus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964656455.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Halichoerus_grypus/Halichoerus_grypus_distribution_map.png)
+
 ### Species: Harpia harpyja
 
-**Biosample:** SAMN31530492  
+**Biosample:**  
 **Assembly Accession:** GCA\_026419915.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3632,7 +2903,7 @@
 
 ### Species: Heliangelus exortis
 
-**Biosample:** SAMN37253778  
+**Biosample:**  
 **Assembly Accession:** GCA\_036169615.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3641,7 +2912,7 @@
 
 ### Species: Hemiprocne comata
 
-**Biosample:** SAMN22588383  
+**Biosample:**  
 **Assembly Accession:** GCA\_020745705.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3650,7 +2921,7 @@
 
 ### Species: Heterodontus francisci
 
-**Biosample:** SAMN39432692  
+**Biosample:**  
 **Assembly Accession:** GCA\_036365525.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3659,7 +2930,7 @@
 
 ### Species: Heterohyrax brucei
 
-**Biosample:** SAMN33092455  
+**Biosample:**  
 **Assembly Accession:** GCA\_028571685.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3668,7 +2939,7 @@
 
 ### Species: Hippoglossus hippoglossus
 
-**Biosample:** SAMN12629501  
+**Biosample:**  
 **Assembly Accession:** GCA\_009819705.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3677,7 +2948,7 @@
 
 ### Species: Hippopotamus amphibius
 
-**Biosample:** SAMN33342074  
+**Biosample:**  
 **Assembly Accession:** GCA\_030028045.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3686,7 +2957,7 @@
 
 ### Species: Hipposideros larvatus
 
-**Biosample:** SAMN36277597  
+**Biosample:**  
 **Assembly Accession:** GCA\_031876335.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3695,7 +2966,7 @@
 
 ### Species: Hoplias malabaricus
 
-**Biosample:** SAMN32740525  
+**Biosample:**  
 **Assembly Accession:** GCA\_029633855.2  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3704,7 +2975,7 @@
 
 ### Species: Hydrolagus colliei
 
-**Biosample:** SAMN39156054  
+**Biosample:**  
 **Assembly Accession:** GCA\_035084275.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3713,7 +2984,7 @@
 
 ### Species: Hyla sarda
 
-**Biosample:** SAMN32629340  
+**Biosample:**  
 **Assembly Accession:** GCA\_029499605.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -3722,16 +2993,25 @@
 
 ### Species: Hypanus sabinus
 
-**Biosample:** SAMN32745077  
+**Biosample:**  
 **Assembly Accession:** GCA\_030144855.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Hypanus_sabinus/Hypanus_sabinus_distribution_map.png)
 
+### Species: Hyperoplus immaculatus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949357725.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Hyperoplus_immaculatus/Hyperoplus_immaculatus_distribution_map.png)
+
 ### Species: Inia geoffrensis
 
-**Biosample:** SAMN32797734  
+**Biosample:**  
 **Assembly Accession:** GCA\_036417435.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3740,43 +3020,115 @@
 
 ### Species: Kogia breviceps
 
-**Biosample:** SAMN31719513  
+**Biosample:**  
 **Assembly Accession:** GCA\_026419965.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Kogia_breviceps/Kogia_breviceps_distribution_map.png)
 
+### Species: Labrus bergylta
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963930695.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Labrus_bergylta/Labrus_bergylta_distribution_map.png)
+
+### Species: Labrus mixtus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963584025.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Labrus_mixtus/Labrus_mixtus_distribution_map.png)
+
 ### Species: Lacerta agilis
 
-**Biosample:** SAMN12629509  
+**Biosample:**  
 **Assembly Accession:** GCA\_009819535.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Lacerta_agilis/Lacerta_agilis_distribution_map.png)
 
+### Species: Lagenorhynchus acutus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964270905.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Lagenorhynchus_acutus/Lagenorhynchus_acutus_distribution_map.png)
+
+### Species: Lagenorhynchus albirostris
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949774975.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Lagenorhynchus_albirostris/Lagenorhynchus_albirostris_distribution_map.png)
+
 ### Species: Lagopus muta
 
-**Biosample:** SAMN25144835  
+**Biosample:**  
 **Assembly Accession:** GCA\_023343835.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Lagopus_muta/Lagopus_muta_distribution_map.png)
 
+### Species: Lampetra fluviatilis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964198595.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Lampetra_fluviatilis/Lampetra_fluviatilis_distribution_map.png)
+
 ### Species: Lampris incognitus
 
-**Biosample:** SAMN34060140  
+**Biosample:**  
 **Assembly Accession:** GCA\_029633865.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:** Missing Range;  
 ![](../species/Lampris_incognitus/Lampris_incognitus_distribution_map.png)
 
+### Species: Larus argentatus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964417175.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Larus_argentatus/Larus_argentatus_distribution_map.png)
+
+### Species: Larus fuscus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963932225.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Larus_fuscus/Larus_fuscus_distribution_map.png)
+
+### Species: Larus michahellis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964199755.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Larus_michahellis/Larus_michahellis_distribution_map.png)
+
 ### Species: Latimeria chalumnae
 
-**Biosample:** SAMN39710040  
+**Biosample:**  
 **Assembly Accession:** GCA\_037176945.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3785,7 +3137,7 @@
 
 ### Species: Lemur catta
 
-**Biosample:** SAMN12621102  
+**Biosample:**  
 **Assembly Accession:** GCA\_020740605.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3794,7 +3146,7 @@
 
 ### Species: Lepidochelys kempii
 
-**Biosample:** SAMN46282779  
+**Biosample:**  
 **Assembly Accession:** GCA\_965140285.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3803,7 +3155,7 @@
 
 ### Species: Lepidochelys olivacea
 
-**Biosample:** SAMN46283035  
+**Biosample:**  
 **Assembly Accession:** GCA\_965140295.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3812,7 +3164,7 @@
 
 ### Species: Lepisosteus oculatus
 
-**Biosample:** SAMN41155427  
+**Biosample:**  
 **Assembly Accession:** GCA\_040954835.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3821,25 +3173,70 @@
 
 ### Species: Leptodactylus fuscus
 
-**Biosample:** SAMN37055805  
+**Biosample:**  
 **Assembly Accession:** GCA\_031893055.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Leptodactylus_fuscus/Leptodactylus_fuscus_distribution_map.png)
 
+### Species: Leuciscus leuciscus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965113295.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Leuciscus_leuciscus/Leuciscus_leuciscus_distribution_map.png)
+
 ### Species: Liasis olivaceus
 
-**Biosample:** SAMN32739907  
+**Biosample:**  
 **Assembly Accession:** GCA\_030867105.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
 **Flags:** Zoo Sample;  
 ![](../species/Liasis_olivaceus/Liasis_olivaceus_distribution_map.png)
 
+### Species: Limanda limanda
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963576545.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Limanda_limanda/Limanda_limanda_distribution_map.png)
+
+### Species: Lipophrys pholis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963383615.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Lipophrys_pholis/Lipophrys_pholis_distribution_map.png)
+
+### Species: Lissotriton helveticus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964261635.1  
+**Taxon:** Amphibians  
+**Priority:** 6  
+**Flags:**  
+![](../species/Lissotriton_helveticus/Lissotriton_helveticus_distribution_map.png)
+
+### Species: Lissotriton vulgaris
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964263255.1  
+**Taxon:** Amphibians  
+**Priority:** 6  
+**Flags:**  
+![](../species/Lissotriton_vulgaris/Lissotriton_vulgaris_distribution_map.png)
+
 ### Species: Loxodonta africana
 
-**Biosample:** SAMN32756554  
+**Biosample:**  
 **Assembly Accession:** GCA\_030014295.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3848,7 +3245,7 @@
 
 ### Species: Lycodopsis pacificus
 
-**Biosample:** SAMN32629383  
+**Biosample:**  
 **Assembly Accession:** GCA\_028022725.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3857,7 +3254,7 @@
 
 ### Species: Macrochelys suwanniensis
 
-**Biosample:** SAMN37052244  
+**Biosample:**  
 **Assembly Accession:** GCA\_033349115.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3866,7 +3263,7 @@
 
 ### Species: Macrotis lagotis
 
-**Biosample:** SAMN39300766  
+**Biosample:**  
 **Assembly Accession:** GCA\_037893015.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3875,7 +3272,7 @@
 
 ### Species: Malaclemys terrapin
 
-**Biosample:** SAMN31394215  
+**Biosample:**  
 **Assembly Accession:** GCA\_027887155.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -3884,7 +3281,7 @@
 
 ### Species: Manis pentadactyla
 
-**Biosample:** SAMN32757332  
+**Biosample:**  
 **Assembly Accession:** GCA\_030020395.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -3893,16 +3290,25 @@
 
 ### Species: Marmota flaviventris
 
-**Biosample:** SAMN45932315  
+**Biosample:**  
 **Assembly Accession:** GCA\_047511675.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Marmota_flaviventris/Marmota_flaviventris_distribution_map.png)
 
+### Species: Martes martes
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963455335.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Martes_martes/Martes_martes_distribution_map.png)
+
 ### Species: Megalops cyprinoides
 
-**Biosample:** SAMN12623619  
+**Biosample:**  
 **Assembly Accession:** GCA\_013368585.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3911,16 +3317,34 @@
 
 ### Species: Megaptera novaeangliae
 
-**Biosample:** SAMN41059645  
+**Biosample:**  
 **Assembly Accession:** GCA\_041834305.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Megaptera_novaeangliae/Megaptera_novaeangliae_distribution_map.png)
 
+### Species: Melanostigma gelatinosum
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949748355.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Melanostigma_gelatinosum/Melanostigma_gelatinosum_distribution_map.png)
+
+### Species: Meles meles
+
+**Biosample:**  
+**Assembly Accession:** GCA\_922984935.2  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Meles_meles/Meles_meles_distribution_map.png)
+
 ### Species: Melospiza georgiana
 
-**Biosample:** SAMN22787412  
+**Biosample:**  
 **Assembly Accession:** GCA\_028018845.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3929,7 +3353,7 @@
 
 ### Species: Melospiza melodia
 
-**Biosample:** SAMN35847297  
+**Biosample:**  
 **Assembly Accession:** GCA\_035770615.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3938,7 +3362,7 @@
 
 ### Species: Menidia menidia
 
-**Biosample:** SAMN46987722  
+**Biosample:**  
 **Assembly Accession:** GCA\_048628825.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3947,7 +3371,7 @@
 
 ### Species: Mergus octosetaceus
 
-**Biosample:** SAMN39710078  
+**Biosample:**  
 **Assembly Accession:** GCA\_036873955.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3956,7 +3380,7 @@
 
 ### Species: Merops nubicus
 
-**Biosample:** SAMN12621035  
+**Biosample:**  
 **Assembly Accession:** GCA\_009819595.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -3965,25 +3389,70 @@
 
 ### Species: Mesoplodon densirostris
 
-**Biosample:** SAMN29828597  
+**Biosample:**  
 **Assembly Accession:** GCA\_025265405.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Mesoplodon_densirostris/Mesoplodon_densirostris_distribution_map.png)
 
+### Species: Microchirus variegatus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963457635.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Microchirus_variegatus/Microchirus_variegatus_distribution_map.png)
+
+### Species: Micromesistius poutassou
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964030765.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Micromesistius_poutassou/Micromesistius_poutassou_distribution_map.png)
+
+### Species: Micromys minutus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963924665.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Micromys_minutus/Micromys_minutus_distribution_map.png)
+
+### Species: Microstomus kitt
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964266715.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Microstomus_kitt/Microstomus_kitt_distribution_map.png)
+
 ### Species: Microtus pennsylvanicus
 
-**Biosample:** SAMN39894136  
+**Biosample:**  
 **Assembly Accession:** GCA\_037038515.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Microtus_pennsylvanicus/Microtus_pennsylvanicus_distribution_map.png)
 
+### Species: Miniopterus schreibersii
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964146895.2  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Miniopterus_schreibersii/Miniopterus_schreibersii_distribution_map.png)
+
 ### Species: Mobula birostris
 
-**Biosample:** SAMN32746370  
+**Biosample:**  
 **Assembly Accession:** GCA\_030028105.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -3992,7 +3461,7 @@
 
 ### Species: Molossus molossus
 
-**Biosample:** SAMN14734448  
+**Biosample:**  
 **Assembly Accession:** GCA\_014108415.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4001,7 +3470,7 @@
 
 ### Species: Morphnus guianensis
 
-**Biosample:** SAMN44513986  
+**Biosample:**  
 **Assembly Accession:** GCA\_045345515.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4010,16 +3479,43 @@
 
 ### Species: Morus bassanus
 
-**Biosample:** SAMN37096299  
+**Biosample:**  
 **Assembly Accession:** GCA\_031468815.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:** Zoo Sample;  
 ![](../species/Morus_bassanus/Morus_bassanus_distribution_map.png)
 
+### Species: Muntiacus reevesi
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963930625.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Muntiacus_reevesi/Muntiacus_reevesi_distribution_map.png)
+
+### Species: Mus musculus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949316315.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Mus_musculus/Mus_musculus_distribution_map.png)
+
+### Species: Muscardinus avellanarius
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963383645.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Muscardinus_avellanarius/Muscardinus_avellanarius_distribution_map.png)
+
 ### Species: Mustela erminea
 
-**Biosample:** SAMN12611999  
+**Biosample:**  
 **Assembly Accession:** GCA\_009829155.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4028,34 +3524,88 @@
 
 ### Species: Mustela lutreola
 
-**Biosample:** SAMN35784236  
+**Biosample:**  
 **Assembly Accession:** GCA\_030435805.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Mustela_lutreola/Mustela_lutreola_distribution_map.png)
 
+### Species: Mustelus asterias
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964213995.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Mustelus_asterias/Mustelus_asterias_distribution_map.png)
+
+### Species: Myotis daubentonii
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963259705.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Myotis_daubentonii/Myotis_daubentonii_distribution_map.png)
+
+### Species: Myotis emarginatus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965115925.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:** Zoo Sample;  
+![](../species/Myotis_emarginatus/Myotis_emarginatus_distribution_map.png)
+
 ### Species: Myotis myotis
 
-**Biosample:** SAMN14734277  
+**Biosample:**  
 **Assembly Accession:** GCA\_014108235.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Myotis_myotis/Myotis_myotis_distribution_map.png)
 
+### Species: Myotis mystacinus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964094495.2  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Myotis_mystacinus/Myotis_mystacinus_distribution_map.png)
+
+### Species: Myotis nattereri
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964212035.2  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Myotis_nattereri/Myotis_nattereri_distribution_map.png)
+
 ### Species: Myuchelys georgesi
 
-**Biosample:** SAMN36918804  
+**Biosample:**  
 **Assembly Accession:** GCA\_040894355.2  
 **Taxon:** Reptiles  
 **Priority:** 6  
 **Flags:** Missing Range;  
 ![](../species/Myuchelys_georgesi/Myuchelys_georgesi_distribution_map.png)
 
+### Species: Nansenia antarctica
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963989245.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Nansenia_antarctica/Nansenia_antarctica_distribution_map.png)
+
 ### Species: Narcine bancroftii
 
-**Biosample:** SAMN39325148  
+**Biosample:**  
 **Assembly Accession:** GCA\_036971445.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4064,16 +3614,25 @@
 
 ### Species: Natator depressus
 
-**Biosample:** SAMN46282745  
+**Biosample:**  
 **Assembly Accession:** GCA\_965152275.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
 **Flags:** Missing Range;  
 ![](../species/Natator_depressus/Natator_depressus_distribution_map.png)
 
+### Species: Natrix helvetica
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964273705.1  
+**Taxon:** Reptiles  
+**Priority:** 6  
+**Flags:**  
+![](../species/Natrix_helvetica/Natrix_helvetica_distribution_map.png)
+
 ### Species: Neoarius graeffei
 
-**Biosample:** SAMN28453209  
+**Biosample:**  
 **Assembly Accession:** GCA\_027579695.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4082,7 +3641,7 @@
 
 ### Species: Neofelis nebulosa
 
-**Biosample:** SAMN31801981  
+**Biosample:**  
 **Assembly Accession:** GCA\_028018385.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4091,7 +3650,7 @@
 
 ### Species: Neosynchiropus ocellatus
 
-**Biosample:** SAMN43082349  
+**Biosample:**  
 **Assembly Accession:** GCA\_044231665.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4100,16 +3659,52 @@
 
 ### Species: Notolabrus celidotus
 
-**Biosample:** SAMN12623201  
+**Biosample:**  
 **Assembly Accession:** GCA\_009762535.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Notolabrus_celidotus/Notolabrus_celidotus_distribution_map.png)
 
+### Species: Notolepis coatsi
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963971535.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Notolepis_coatsi/Notolepis_coatsi_distribution_map.png)
+
+### Species: Notothenia rossii
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949606895.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Notothenia_rossii/Notothenia_rossii_distribution_map.png)
+
+### Species: Numenius arquata
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964106895.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Numenius_arquata/Numenius_arquata_distribution_map.png)
+
+### Species: Nyctalus leisleri
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964264875.2  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Nyctalus_leisleri/Nyctalus_leisleri_distribution_map.png)
+
 ### Species: Nyctibius grandis
 
-**Biosample:** SAMN12622411  
+**Biosample:**  
 **Assembly Accession:** GCA\_013368605.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4118,7 +3713,7 @@
 
 ### Species: Nycticebus coucang
 
-**Biosample:** SAMN28408555  
+**Biosample:**  
 **Assembly Accession:** GCA\_027406575.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4127,7 +3722,7 @@
 
 ### Species: Ochotona princeps
 
-**Biosample:** SAMN35822658  
+**Biosample:**  
 **Assembly Accession:** GCA\_030435755.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4136,7 +3731,7 @@
 
 ### Species: Odontesthes bonariensis
 
-**Biosample:** SAMN31802211  
+**Biosample:**  
 **Assembly Accession:** GCA\_027942865.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4145,16 +3740,34 @@
 
 ### Species: Opisthocomus hoazin
 
-**Biosample:** SAMN37055462  
+**Biosample:**  
 **Assembly Accession:** GCA\_030867145.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Opisthocomus_hoazin/Opisthocomus_hoazin_distribution_map.png)
 
+### Species: Orcinus orca
+
+**Biosample:**  
+**Assembly Accession:** GCA\_937001465.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Orcinus_orca/Orcinus_orca_distribution_map.png)
+
+### Species: Osmerus eperlanus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963692335.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Osmerus_eperlanus/Osmerus_eperlanus_distribution_map.png)
+
 ### Species: Osmerus mordax
 
-**Biosample:** SAMN40867348  
+**Biosample:**  
 **Assembly Accession:** GCA\_038355195.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4163,7 +3776,7 @@
 
 ### Species: Panthera onca
 
-**Biosample:** SAMN44524170  
+**Biosample:**  
 **Assembly Accession:** GCA\_046562885.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4172,7 +3785,7 @@
 
 ### Species: Passer domesticus
 
-**Biosample:** SAMN39255856  
+**Biosample:**  
 **Assembly Accession:** GCA\_036417665.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4181,7 +3794,7 @@
 
 ### Species: Passerculus sandwichensis
 
-**Biosample:** SAMN35784765  
+**Biosample:**  
 **Assembly Accession:** GCA\_031885435.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4190,7 +3803,7 @@
 
 ### Species: Pelecanus crispus
 
-**Biosample:** SAMN35784560  
+**Biosample:**  
 **Assembly Accession:** GCA\_030463565.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4199,7 +3812,7 @@
 
 ### Species: Pelobates fuscus
 
-**Biosample:** SAMN39244120  
+**Biosample:**  
 **Assembly Accession:** GCA\_036172605.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -4208,7 +3821,7 @@
 
 ### Species: Pelodytes ibericus
 
-**Biosample:** SAMN37110875  
+**Biosample:**  
 **Assembly Accession:** GCA\_036172795.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -4217,7 +3830,7 @@
 
 ### Species: Pempheris klunzingeri
 
-**Biosample:** SAMN40589649  
+**Biosample:**  
 **Assembly Accession:** GCA\_042242105.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4226,25 +3839,16 @@
 
 ### Species: Peromyscus maniculatus
 
-**Biosample:** SAMN29044276  
+**Biosample:**  
 **Assembly Accession:** GCA\_026229955.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Peromyscus_maniculatus/Peromyscus_maniculatus_distribution_map.png)
 
-### Species: Petromyzon marinus
-
-**Biosample:** SAMN12629506  
-**Assembly Accession:** GCA\_010993605.1  
-**Taxon:** Fishes  
-**Priority:** 6  
-**Flags:**  
-![](../species/Petromyzon_marinus/Petromyzon_marinus_distribution_map.png)
-
 ### Species: Phaethon aethereus
 
-**Biosample:** SAMEA8228673  
+**Biosample:**  
 **Assembly Accession:** GCA\_964289735.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4253,43 +3857,151 @@
 
 ### Species: Phaethornis superciliosus
 
-**Biosample:** SAMN23532249  
+**Biosample:**  
 **Assembly Accession:** GCA\_023637945.2  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Phaethornis_superciliosus/Phaethornis_superciliosus_distribution_map.png)
 
+### Species: Phocoena phocoena
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963924675.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Phocoena_phocoena/Phocoena_phocoena_distribution_map.png)
+
 ### Species: Phoenicopterus ruber
 
-**Biosample:** SAMN12614931  
+**Biosample:**  
 **Assembly Accession:** GCA\_009819775.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:** Zoo Sample;  
 ![](../species/Phoenicopterus_ruber/Phoenicopterus_ruber_distribution_map.png)
 
+### Species: Pholis gunnellus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_910591455.2  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Pholis_gunnellus/Pholis_gunnellus_distribution_map.png)
+
+### Species: Phoxinus phoxinus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949152265.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Phoxinus_phoxinus/Phoxinus_phoxinus_distribution_map.png)
+
 ### Species: Pipistrellus kuhlii
 
-**Biosample:** SAMN14734388  
+**Biosample:**  
 **Assembly Accession:** GCA\_014108245.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Pipistrellus_kuhlii/Pipistrellus_kuhlii_distribution_map.png)
 
+### Species: Pipistrellus nathusii
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964656225.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:** Zoo Sample;  
+![](../species/Pipistrellus_nathusii/Pipistrellus_nathusii_distribution_map.png)
+
+### Species: Pipistrellus pygmaeus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949987585.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Pipistrellus_pygmaeus/Pipistrellus_pygmaeus_distribution_map.png)
+
+### Species: Platichthys flesus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949316205.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Platichthys_flesus/Platichthys_flesus_distribution_map.png)
+
+### Species: Plecotus auritus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963455305.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Plecotus_auritus/Plecotus_auritus_distribution_map.png)
+
+### Species: Pleuronectes platessa
+
+**Biosample:**  
+**Assembly Accession:** GCA\_947347685.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Pleuronectes_platessa/Pleuronectes_platessa_distribution_map.png)
+
 ### Species: Pluvialis apricaria
 
-**Biosample:** SAMN18353970  
+**Biosample:**  
 **Assembly Accession:** GCA\_017639485.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Pluvialis_apricaria/Pluvialis_apricaria_distribution_map.png)
 
+### Species: Podarcis erhardii
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964252035.1  
+**Taxon:** Reptiles  
+**Priority:** 6  
+**Flags:**  
+![](../species/Podarcis_erhardii/Podarcis_erhardii_distribution_map.png)
+
+### Species: Podarcis melisellensis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964234715.1  
+**Taxon:** Reptiles  
+**Priority:** 6  
+**Flags:**  
+![](../species/Podarcis_melisellensis/Podarcis_melisellensis_distribution_map.png)
+
+### Species: Podarcis muralis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964188315.1  
+**Taxon:** Reptiles  
+**Priority:** 6  
+**Flags:**  
+![](../species/Podarcis_muralis/Podarcis_muralis_distribution_map.png)
+
+### Species: Podarcis siculus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964188175.1  
+**Taxon:** Reptiles  
+**Priority:** 6  
+**Flags:**  
+![](../species/Podarcis_siculus/Podarcis_siculus_distribution_map.png)
+
 ### Species: Podargus strigoides
 
-**Biosample:** SAMN31801959  
+**Biosample:**  
 **Assembly Accession:** GCA\_028020825.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4298,7 +4010,7 @@
 
 ### Species: Podocnemis expansa
 
-**Biosample:** SAMN44516642  
+**Biosample:**  
 **Assembly Accession:** GCA\_045364815.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -4307,7 +4019,7 @@
 
 ### Species: Poecile atricapillus
 
-**Biosample:** SAMN35074507  
+**Biosample:**  
 **Assembly Accession:** GCA\_030490865.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4316,16 +4028,25 @@
 
 ### Species: Pogoniulus pusillus
 
-**Biosample:** SAMN15098508  
+**Biosample:**  
 **Assembly Accession:** GCA\_015220805.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Pogoniulus_pusillus/Pogoniulus_pusillus_distribution_map.png)
 
+### Species: Pollachius pollachius
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949987615.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Pollachius_pollachius/Pollachius_pollachius_distribution_map.png)
+
 ### Species: Pristiophorus japonicus
 
-**Biosample:** SAMN44116980  
+**Biosample:**  
 **Assembly Accession:** GCA\_044704955.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4334,16 +4055,25 @@
 
 ### Species: Pristis pectinata
 
-**Biosample:** SAMN12629505  
+**Biosample:**  
 **Assembly Accession:** GCA\_009764475.2  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Pristis_pectinata/Pristis_pectinata_distribution_map.png)
 
+### Species: Protomyctophum bolini
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963924005.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Protomyctophum_bolini/Protomyctophum_bolini_distribution_map.png)
+
 ### Species: Pseudorca crassidens
 
-**Biosample:** SAMN41253811  
+**Biosample:**  
 **Assembly Accession:** GCA\_039906515.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4352,16 +4082,52 @@
 
 ### Species: Pterocles gutturalis
 
-**Biosample:** SAMN12623217  
+**Biosample:**  
 **Assembly Accession:** GCA\_009769525.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Pterocles_gutturalis/Pterocles_gutturalis_distribution_map.png)
 
+### Species: Pungitius pungitius
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949316345.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Pungitius_pungitius/Pungitius_pungitius_distribution_map.png)
+
+### Species: Raja brachyura
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963514005.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Raja_brachyura/Raja_brachyura_distribution_map.png)
+
+### Species: Rana temporaria
+
+**Biosample:**  
+**Assembly Accession:** GCA\_905171775.1  
+**Taxon:** Amphibians  
+**Priority:** 6  
+**Flags:**  
+![](../species/Rana_temporaria/Rana_temporaria_distribution_map.png)
+
+### Species: Rhamphochromis chilingali
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963969265.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Rhamphochromis_chilingali/Rhamphochromis_chilingali_distribution_map.png)
+
 ### Species: Rhea pennata
 
-**Biosample:** SAMN32606345  
+**Biosample:**  
 **Assembly Accession:** GCA\_028389875.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4370,7 +4136,7 @@
 
 ### Species: Rhineura floridana
 
-**Biosample:** SAMN34105704  
+**Biosample:**  
 **Assembly Accession:** GCA\_030035675.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
@@ -4379,7 +4145,7 @@
 
 ### Species: Rhinogobio nasutus
 
-**Biosample:** SAMN45903276  
+**Biosample:**  
 **Assembly Accession:** GCA\_048301585.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4388,7 +4154,7 @@
 
 ### Species: Rhinolophus affinis
 
-**Biosample:** SAMN33388345  
+**Biosample:**  
 **Assembly Accession:** GCA\_043728065.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4397,16 +4163,25 @@
 
 ### Species: Rhinolophus ferrumequinum
 
-**Biosample:** SAMN09948510  
+**Biosample:**  
 **Assembly Accession:** GCA\_004115265.3  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Rhinolophus_ferrumequinum/Rhinolophus_ferrumequinum_distribution_map.png)
 
+### Species: Rhinolophus hipposideros
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964194185.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Rhinolophus_hipposideros/Rhinolophus_hipposideros_distribution_map.png)
+
 ### Species: Rhinolophus trifoliatus
 
-**Biosample:** SAMN33421007  
+**Biosample:**  
 **Assembly Accession:** GCA\_043728145.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4415,7 +4190,7 @@
 
 ### Species: Rhinolophus yonghoiseni
 
-**Biosample:** SAMN33413875  
+**Biosample:**  
 **Assembly Accession:** GCA\_043880425.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4424,7 +4199,7 @@
 
 ### Species: Rhinophrynus dorsalis
 
-**Biosample:** SAMN40302865  
+**Biosample:**  
 **Assembly Accession:** GCA\_037306005.1  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -4433,7 +4208,7 @@
 
 ### Species: Rhynchonycteris naso
 
-**Biosample:** SAMN39947078  
+**Biosample:**  
 **Assembly Accession:** GCA\_037038545.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4442,7 +4217,7 @@
 
 ### Species: Rhynochetos jubatus
 
-**Biosample:** SAMN31802033  
+**Biosample:**  
 **Assembly Accession:** GCA\_027574665.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4451,16 +4226,25 @@
 
 ### Species: Rissa tridactyla
 
-**Biosample:** SAMN32104255  
+**Biosample:**  
 **Assembly Accession:** GCA\_028500815.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Rissa_tridactyla/Rissa_tridactyla_distribution_map.png)
 
+### Species: Rutilus rutilus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_951802725.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Rutilus_rutilus/Rutilus_rutilus_distribution_map.png)
+
 ### Species: Saccopteryx bilineata
 
-**Biosample:** SAMN37288508  
+**Biosample:**  
 **Assembly Accession:** GCA\_036850765.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4469,7 +4253,7 @@
 
 ### Species: Saccopteryx leptura
 
-**Biosample:** SAMN37390139  
+**Biosample:**  
 **Assembly Accession:** GCA\_036850995.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4478,7 +4262,7 @@
 
 ### Species: Salminus brasiliensis
 
-**Biosample:** SAMN35075251  
+**Biosample:**  
 **Assembly Accession:** GCA\_030463535.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4487,7 +4271,7 @@
 
 ### Species: Salvelinus alpinus
 
-**Biosample:** SAMN36900063  
+**Biosample:**  
 **Assembly Accession:** GCA\_036784965.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4496,16 +4280,34 @@
 
 ### Species: Sarcoramphus papa
 
-**Biosample:** SAMN40647026  
+**Biosample:**  
 **Assembly Accession:** GCA\_037962945.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Sarcoramphus_papa/Sarcoramphus_papa_distribution_map.png)
 
+### Species: Sardina pilchardus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963854185.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Sardina_pilchardus/Sardina_pilchardus_distribution_map.png)
+
+### Species: Scardinius erythrophthalmus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964197995.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Scardinius_erythrophthalmus/Scardinius_erythrophthalmus_distribution_map.png)
+
 ### Species: Scatophagus argus
 
-**Biosample:** SAMN12623616  
+**Biosample:**  
 **Assembly Accession:** GCA\_020382885.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4514,16 +4316,34 @@
 
 ### Species: Scomber japonicus
 
-**Biosample:** SAMN32224830  
+**Biosample:**  
 **Assembly Accession:** GCA\_027409825.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Scomber_japonicus/Scomber_japonicus_distribution_map.png)
 
+### Species: Scomber scombrus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963691925.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Scomber_scombrus/Scomber_scombrus_distribution_map.png)
+
+### Species: Scophthalmus maximus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963854745.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Scophthalmus_maximus/Scophthalmus_maximus_distribution_map.png)
+
 ### Species: Sebastes fasciatus
 
-**Biosample:** SAMN43039489  
+**Biosample:**  
 **Assembly Accession:** GCA\_043250625.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4532,7 +4352,7 @@
 
 ### Species: Sebastes umbrosus
 
-**Biosample:** SAMN12629503  
+**Biosample:**  
 **Assembly Accession:** GCA\_015220745.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4541,16 +4361,25 @@
 
 ### Species: Shinisaurus crocodilurus
 
-**Biosample:** SAMN19072228  
+**Biosample:**  
 **Assembly Accession:** GCA\_021292165.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Shinisaurus_crocodilurus/Shinisaurus_crocodilurus_distribution_map.png)
 
+### Species: Silurus aristotelis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_946808225.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Silurus_aristotelis/Silurus_aristotelis_distribution_map.png)
+
 ### Species: Sminthopsis crassicaudata
 
-**Biosample:** SAMN47327922  
+**Biosample:**  
 **Assembly Accession:** GCA\_048593235.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4559,7 +4388,7 @@
 
 ### Species: Sorex araneus
 
-**Biosample:** SAMN32477717  
+**Biosample:**  
 **Assembly Accession:** GCA\_027595985.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4568,7 +4397,7 @@
 
 ### Species: Spea bombifrons
 
-**Biosample:** SAMN28408467  
+**Biosample:**  
 **Assembly Accession:** GCA\_027358695.2  
 **Taxon:** Amphibians  
 **Priority:** 6  
@@ -4577,16 +4406,34 @@
 
 ### Species: Spinachia spinachia
 
-**Biosample:** SAMN36735485  
+**Biosample:**  
 **Assembly Accession:** GCA\_048126635.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:** Zoo Sample;  
 ![](../species/Spinachia_spinachia/Spinachia_spinachia_distribution_map.png)
 
+### Species: Sprattus sprattus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963457725.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Sprattus_sprattus/Sprattus_sprattus_distribution_map.png)
+
+### Species: Squalius cephalus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_949319135.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Squalius_cephalus/Squalius_cephalus_distribution_map.png)
+
 ### Species: Stegostoma tigrinum
 
-**Biosample:** SAMN35823397  
+**Biosample:**  
 **Assembly Accession:** GCA\_030684315.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4595,7 +4442,7 @@
 
 ### Species: Sterna hirundo
 
-**Biosample:** SAMN12369541  
+**Biosample:**  
 **Assembly Accession:** GCA\_009819605.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4604,25 +4451,43 @@
 
 ### Species: Sternotherus odoratus
 
-**Biosample:** SAMN36942441  
+**Biosample:**  
 **Assembly Accession:** GCA\_032164245.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Sternotherus_odoratus/Sternotherus_odoratus_distribution_map.png)
 
+### Species: Streptopelia decaocto
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964273445.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Streptopelia_decaocto/Streptopelia_decaocto_distribution_map.png)
+
 ### Species: Strix aluco
 
-**Biosample:** SAMN37055808  
+**Biosample:**  
 **Assembly Accession:** GCA\_031877795.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Strix_aluco/Strix_aluco_distribution_map.png)
 
+### Species: Styela clava
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964204865.1  
+**Taxon:** Invertebrates  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Styela_clava/Styela_clava_distribution_map.png)
+
 ### Species: Sylvia atricapilla
 
-**Biosample:** SAMN12369542  
+**Biosample:**  
 **Assembly Accession:** GCA\_009819655.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4631,16 +4496,25 @@
 
 ### Species: Sylvia borin
 
-**Biosample:** SAMN12618613  
+**Biosample:**  
 **Assembly Accession:** GCA\_014839755.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Sylvia_borin/Sylvia_borin_distribution_map.png)
 
+### Species: Symphodus melops
+
+**Biosample:**  
+**Assembly Accession:** GCA\_947650265.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Symphodus_melops/Symphodus_melops_distribution_map.png)
+
 ### Species: Synchiropus picturatus
 
-**Biosample:** SAMN43082350  
+**Biosample:**  
 **Assembly Accession:** GCA\_044231675.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4649,7 +4523,7 @@
 
 ### Species: Syngnathus typhle
 
-**Biosample:** SAMN36735486  
+**Biosample:**  
 **Assembly Accession:** GCA\_048301445.1  
 **Taxon:** Fishes  
 **Priority:** 6  
@@ -4658,7 +4532,7 @@
 
 ### Species: Tachyglossus aculeatus
 
-**Biosample:** SAMN12634963  
+**Biosample:**  
 **Assembly Accession:** GCA\_015852505.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4667,16 +4541,25 @@
 
 ### Species: Tadarida brasiliensis
 
-**Biosample:** SAMN35075070  
+**Biosample:**  
 **Assembly Accession:** GCA\_030848825.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Tadarida_brasiliensis/Tadarida_brasiliensis_distribution_map.png)
 
+### Species: Talpa europaea
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964194135.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Talpa_europaea/Talpa_europaea_distribution_map.png)
+
 ### Species: Tamandua tetradactyla
 
-**Biosample:** SAMN12612337  
+**Biosample:**  
 **Assembly Accession:** GCA\_023851605.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4685,7 +4568,7 @@
 
 ### Species: Tapirus indicus
 
-**Biosample:** SAMN37096863  
+**Biosample:**  
 **Assembly Accession:** GCA\_031878705.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4694,25 +4577,52 @@
 
 ### Species: Tauraco erythrolophus
 
-**Biosample:** SAMN12621036  
+**Biosample:**  
 **Assembly Accession:** GCA\_009769465.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:** Zoo Sample;  
 ![](../species/Tauraco_erythrolophus/Tauraco_erythrolophus_distribution_map.png)
 
+### Species: Taurulus bubalis
+
+**Biosample:**  
+**Assembly Accession:** GCA\_910589615.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Taurulus_bubalis/Taurulus_bubalis_distribution_map.png)
+
 ### Species: Tautogolabrus adspersus
 
-**Biosample:** SAMN22589422  
+**Biosample:**  
 **Assembly Accession:** GCA\_020745685.1  
 **Taxon:** Fishes  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Tautogolabrus_adspersus/Tautogolabrus_adspersus_distribution_map.png)
 
+### Species: Telmatherina bonti
+
+**Biosample:**  
+**Assembly Accession:** GCA\_933228915.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:** Zoo Sample;  
+![](../species/Telmatherina_bonti/Telmatherina_bonti_distribution_map.png)
+
+### Species: Thalia democratica
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965202585.1  
+**Taxon:** Invertebrates  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Thalia_democratica/Thalia_democratica_distribution_map.png)
+
 ### Species: Theristicus caerulescens
 
-**Biosample:** SAMN22550094  
+**Biosample:**  
 **Assembly Accession:** GCA\_020745775.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4721,7 +4631,7 @@
 
 ### Species: Thomomys bottae
 
-**Biosample:** SAMN37300244  
+**Biosample:**  
 **Assembly Accession:** GCA\_031878675.1  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4730,25 +4640,52 @@
 
 ### Species: Tiliqua scincoides
 
-**Biosample:** SAMN37319749  
+**Biosample:**  
 **Assembly Accession:** GCA\_035046505.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Tiliqua_scincoides/Tiliqua_scincoides_distribution_map.png)
 
+### Species: Trachurus trachurus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_905171665.2  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Trachurus_trachurus/Trachurus_trachurus_distribution_map.png)
+
 ### Species: Trichechus inunguis
 
-**Biosample:** SAMN44524440  
+**Biosample:**  
 **Assembly Accession:** GCA\_046562895.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Trichechus_inunguis/Trichechus_inunguis_distribution_map.png)
 
+### Species: Trididemnum clinides
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963675345.1  
+**Taxon:** Invertebrates  
+**Priority:** 6  
+**Flags:** Missing Range;  
+![](../species/Trididemnum_clinides/Trididemnum_clinides_distribution_map.png)
+
+### Species: Triturus cristatus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964204655.1  
+**Taxon:** Amphibians  
+**Priority:** 6  
+**Flags:**  
+![](../species/Triturus_cristatus/Triturus_cristatus_distribution_map.png)
+
 ### Species: Trogon surrucura
 
-**Biosample:** SAMN22550082  
+**Biosample:**  
 **Assembly Accession:** GCA\_020746105.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4757,7 +4694,7 @@
 
 ### Species: Tursiops truncatus
 
-**Biosample:** SAMN12326775  
+**Biosample:**  
 **Assembly Accession:** GCA\_011762595.2  
 **Taxon:** Mammals  
 **Priority:** 6  
@@ -4766,34 +4703,79 @@
 
 ### Species: Urocitellus parryii
 
-**Biosample:** SAMN44461866  
+**Biosample:**  
 **Assembly Accession:** GCA\_045843805.1  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Urocitellus_parryii/Urocitellus_parryii_distribution_map.png)
 
+### Species: Vanellus vanellus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_965231255.1  
+**Taxon:** Birds  
+**Priority:** 6  
+**Flags:**  
+![](../species/Vanellus_vanellus/Vanellus_vanellus_distribution_map.png)
+
+### Species: Vespertilio murinus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963924515.1  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Vespertilio_murinus/Vespertilio_murinus_distribution_map.png)
+
 ### Species: Vidua chalybeata
 
-**Biosample:** SAMN12254000  
+**Biosample:**  
 **Assembly Accession:** GCA\_026979565.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Vidua_chalybeata/Vidua_chalybeata_distribution_map.png)
 
+### Species: Vipera berus
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964194415.1  
+**Taxon:** Reptiles  
+**Priority:** 6  
+**Flags:**  
+![](../species/Vipera_berus/Vipera_berus_distribution_map.png)
+
 ### Species: Vipera latastei
 
-**Biosample:** SAMN28408464  
+**Biosample:**  
 **Assembly Accession:** GCA\_024294585.1  
 **Taxon:** Reptiles  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Vipera_latastei/Vipera_latastei_distribution_map.png)
 
+### Species: Vipera ursinii
+
+**Biosample:**  
+**Assembly Accession:** GCA\_947247035.1  
+**Taxon:** Reptiles  
+**Priority:** 6  
+**Flags:** Zoo Sample;  
+![](../species/Vipera_ursinii/Vipera_ursinii_distribution_map.png)
+
+### Species: Vulpes vulpes
+
+**Biosample:**  
+**Assembly Accession:** GCA\_964106825.2  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Vulpes_vulpes/Vulpes_vulpes_distribution_map.png)
+
 ### Species: Willisornis vidua
 
-**Biosample:** SAMN44516465  
+**Biosample:**  
 **Assembly Accession:** GCA\_045364795.1  
 **Taxon:** Birds  
 **Priority:** 6  
@@ -4802,25 +4784,43 @@
 
 ### Species: Zalophus californianus
 
-**Biosample:** SAMN12368149  
+**Biosample:**  
 **Assembly Accession:** GCA\_009762305.2  
 **Taxon:** Mammals  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Zalophus_californianus/Zalophus_californianus_distribution_map.png)
 
+### Species: Zeus faber
+
+**Biosample:**  
+**Assembly Accession:** GCA\_960531495.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Zeus_faber/Zeus_faber_distribution_map.png)
+
 ### Species: Zonotrichia albicollis
 
-**Biosample:** SAMN46390924  
+**Biosample:**  
 **Assembly Accession:** GCA\_047830755.1  
 **Taxon:** Birds  
 **Priority:** 6  
 **Flags:**  
 ![](../species/Zonotrichia_albicollis/Zonotrichia_albicollis_distribution_map.png)
 
+### Species: Zootoca vivipara
+
+**Biosample:**  
+**Assembly Accession:** GCA\_963506605.1  
+**Taxon:** Reptiles  
+**Priority:** 6  
+**Flags:**  
+![](../species/Zootoca_vivipara/Zootoca_vivipara_distribution_map.png)
+
 ### Species: Alca Torda
 
-**Biosample:** SAMN12292087  
+**Biosample:**  
 **Assembly Accession:** GCA\_008658365.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4829,7 +4829,7 @@
 
 ### Species: Ambystoma mexicanum x Ambystoma tigrinum
 
-**Biosample:** SAMN43142723  
+**Biosample:**  
 **Assembly Accession:** GCA\_040938575.1  
 **Taxon:** Amphibians  
 **Priority:** 7  
@@ -4838,7 +4838,7 @@
 
 ### Species: Ammodramus caudacutus
 
-**Biosample:** SAMN28421630  
+**Biosample:**  
 **Assembly Accession:** GCA\_027887145.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4847,7 +4847,7 @@
 
 ### Species: Anniella stebbinsi
 
-**Biosample:** SAMN33386066  
+**Biosample:**  
 **Assembly Accession:** GCA\_029215775.1  
 **Taxon:** Reptiles  
 **Priority:** 7  
@@ -4856,7 +4856,7 @@
 
 ### Species: Anser cygnoides
 
-**Biosample:** SAMN41386743  
+**Biosample:**  
 **Assembly Accession:** GCA\_040182565.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4865,7 +4865,7 @@
 
 ### Species: Aspidoscelis tigris stejnegeri
 
-**Biosample:** SAMN25872408  
+**Biosample:**  
 **Assembly Accession:** GCA\_023333525.2  
 **Taxon:** Reptiles  
 **Priority:** 7  
@@ -4874,7 +4874,7 @@
 
 ### Species: Camelus dromedarius
 
-**Biosample:** SAMN39296380  
+**Biosample:**  
 **Assembly Accession:** GCA\_036321535.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -4883,43 +4883,43 @@
 
 ### Species: Chionomys nivalis
 
-**Biosample:** SAMEA13217622  
+**Biosample:**  
 **Assembly Accession:** GCA\_950005125.1  
 **Taxon:** Mammals  
 **Priority:** 7  
-**Flags:** Vague Location;  
+**Flags:**  
 ![](../species/Chionomys_nivalis/Chionomys_nivalis_distribution_map.png)
 
 ### Species: Chroicocephalus ridibundus
 
-**Biosample:** SAMEA112468038  
+**Biosample:**  
 **Assembly Accession:** GCA\_963924245.1  
 **Taxon:** Birds  
 **Priority:** 7  
-**Flags:** Vague Location;  
+**Flags:**  
 ![](../species/Chroicocephalus_ridibundus/Chroicocephalus_ridibundus_distribution_map.png)
 
 ### Species: Coloeus monedula
 
-**Biosample:** SAMEA115433023  
+**Biosample:**  
 **Assembly Accession:** GCA\_965178545.1  
 **Taxon:** Birds  
 **Priority:** 7  
-**Flags:** Vague Location;  
+**Flags:**  
 ![](../species/Coloeus_monedula/Coloeus_monedula_distribution_map.png)
 
 ### Species: Coregonus lavaretus
 
-**Biosample:** SAMEA111528661  
+**Biosample:**  
 **Assembly Accession:** GCA\_964263955.1  
 **Taxon:** Fishes  
 **Priority:** 7  
-**Flags:** Vague Location;  
+**Flags:**  
 ![](../species/Coregonus_lavaretus/Coregonus_lavaretus_distribution_map.png)
 
 ### Species: Coturnix chinensis
 
-**Biosample:** SAMN41253798  
+**Biosample:**  
 **Assembly Accession:** GCA\_039878825.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4928,7 +4928,7 @@
 
 ### Species: Diceros bicornis minor
 
-**Biosample:** SAMN22047685  
+**Biosample:**  
 **Assembly Accession:** GCA\_020826845.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -4937,7 +4937,7 @@
 
 ### Species: Dixiphia pipra
 
-**Biosample:** SAMN32739894  
+**Biosample:**  
 **Assembly Accession:** GCA\_036250125.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4946,7 +4946,7 @@
 
 ### Species: Elgaria multicarinata webbii
 
-**Biosample:** SAMN25872353  
+**Biosample:**  
 **Assembly Accession:** GCA\_023053635.2  
 **Taxon:** Reptiles  
 **Priority:** 7  
@@ -4955,7 +4955,7 @@
 
 ### Species: Equus caballus
 
-**Biosample:** SAMN39296386  
+**Biosample:**  
 **Assembly Accession:** GCA\_036426135.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -4964,16 +4964,16 @@
 
 ### Species: Falco punctatus
 
-**Biosample:** SAMEA14356472  
+**Biosample:**  
 **Assembly Accession:** GCA\_963210335.1  
 **Taxon:** Birds  
 **Priority:** 7  
-**Flags:** Vague Location;  
+**Flags:**  
 ![](../species/Falco_punctatus/Falco_punctatus_distribution_map.png)
 
 ### Species: Glossophaga mutica
 
-**Biosample:** SAMN40946060  
+**Biosample:**  
 **Assembly Accession:** GCA\_039655065.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -4982,7 +4982,7 @@
 
 ### Species: Guaruba guaruba
 
-**Biosample:** SAMN44514542  
+**Biosample:**  
 **Assembly Accession:** GCA\_045345405.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -4991,7 +4991,7 @@
 
 ### Species: Lateolabrax maculatus
 
-**Biosample:** SAMN36708487  
+**Biosample:**  
 **Assembly Accession:** GCA\_031216445.1  
 **Taxon:** Fishes  
 **Priority:** 7  
@@ -5000,7 +5000,7 @@
 
 ### Species: Lonchura striata domestica
 
-**Biosample:** SAMN44779081  
+**Biosample:**  
 **Assembly Accession:** GCA\_046129695.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -5009,7 +5009,7 @@
 
 ### Species: Macaca fascicularis
 
-**Biosample:** SAMN38317298  
+**Biosample:**  
 **Assembly Accession:** GCA\_037993035.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -5018,7 +5018,7 @@
 
 ### Species: Macropus eugenii
 
-**Biosample:** SAMN28408687  
+**Biosample:**  
 **Assembly Accession:** GCA\_028372415.2  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -5027,7 +5027,7 @@
 
 ### Species: Mantella aurantiaca
 
-**Biosample:** SAMN46714743  
+**Biosample:**  
 **Assembly Accession:** GCA\_048565345.1  
 **Taxon:** Amphibians  
 **Priority:** 7  
@@ -5036,7 +5036,7 @@
 
 ### Species: Melanotaenia boesemani
 
-**Biosample:** SAMN12623618  
+**Biosample:**  
 **Assembly Accession:** GCA\_017639745.1  
 **Taxon:** Fishes  
 **Priority:** 7  
@@ -5045,7 +5045,7 @@
 
 ### Species: Molossus nigricans
 
-**Biosample:** SAMN40002246  
+**Biosample:**  
 **Assembly Accession:** GCA\_039880945.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -5054,7 +5054,7 @@
 
 ### Species: Monodon monocero
 
-**Biosample:** SAMN10872456  
+**Biosample:**  
 **Assembly Accession:** GCA\_005190385.3  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -5063,43 +5063,43 @@
 
 ### Species: Mustela nivalis vulgaris
 
-**Biosample:** SAMEA113398841  
+**Biosample:**  
 **Assembly Accession:** GCA\_964662115.1  
 **Taxon:** Mammals  
 **Priority:** 7  
-**Flags:** Vague Location;  
+**Flags:**  
 ![](../species/Mustela_nivalis_vulgaris/Mustela_nivalis_vulgaris_distribution_map.png)
 
 ### Species: Nannobrachium achirus
 
-**Biosample:** SAMEA12815432  
+**Biosample:**  
 **Assembly Accession:** GCA\_963921795.1  
 **Taxon:** Fishes  
 **Priority:** 7  
-**Flags:** Vague Location;  
+**Flags:**  
 ![](../species/Nannobrachium_achirus/Nannobrachium_achirus_distribution_map.png)
 
 ### Species: Nesoenas mayeri
 
-**Biosample:** SAMEA12922160  
+**Biosample:**  
 **Assembly Accession:** GCA\_963082525.1  
 **Taxon:** Birds  
 **Priority:** 7  
-**Flags:** Vague Location;  
+**Flags:**  
 ![](../species/Nesoenas_mayeri/Nesoenas_mayeri_distribution_map.png)
 
 ### Species: Podarcis gaigeae
 
-**Biosample:** SAMEA114217796  
+**Biosample:**  
 **Assembly Accession:** GCA\_964106915.2  
 **Taxon:** Reptiles  
 **Priority:** 7  
-**Flags:** Vague Location;  
+**Flags:**  
 ![](../species/Podarcis_gaigeae/Podarcis_gaigeae_distribution_map.png)
 
 ### Species: Podarcis raffonei
 
-**Biosample:** SAMN28455423  
+**Biosample:**  
 **Assembly Accession:** GCA\_027172205.1  
 **Taxon:** Reptiles  
 **Priority:** 7  
@@ -5108,7 +5108,7 @@
 
 ### Species: Porphyrio hochstetteri
 
-**Biosample:** SAMN22550412  
+**Biosample:**  
 **Assembly Accession:** GCA\_020800305.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -5117,7 +5117,7 @@
 
 ### Species: Pseudophryne corroboree
 
-**Biosample:** SAMN32631236  
+**Biosample:**  
 **Assembly Accession:** GCA\_028390025.1  
 **Taxon:** Amphibians  
 **Priority:** 7  
@@ -5126,16 +5126,16 @@
 
 ### Species: Psittacula echo
 
-**Biosample:** SAMEA12361725  
+**Biosample:**  
 **Assembly Accession:** GCA\_963264785.1  
 **Taxon:** Birds  
 **Priority:** 7  
-**Flags:** Vague Location;  
+**Flags:**  
 ![](../species/Psittacula_echo/Psittacula_echo_distribution_map.png)
 
 ### Species: Rhinolophus perniger lanosus
 
-**Biosample:** SAMN33438666  
+**Biosample:**  
 **Assembly Accession:** GCA\_043748575.1  
 **Taxon:** Mammals  
 **Priority:** 7  
@@ -5144,7 +5144,7 @@
 
 ### Species: Struthio camelus australis
 
-**Biosample:** SAMN42123890  
+**Biosample:**  
 **Assembly Accession:** GCA\_040807025.1  
 **Taxon:** Birds  
 **Priority:** 7  
@@ -5153,10 +5153,26 @@
 
 ### Species: Trichomycterus rosablanca
 
-**Biosample:** SAMN32755940  
+**Biosample:**  
 **Assembly Accession:** GCA\_030014385.1  
 **Taxon:** Fishes  
 **Priority:** 7  
 **Flags:**  
 ![](../species/Trichomycterus_rosablanca/Trichomycterus_rosablanca_distribution_map.png)
-1 2 3 4 5 6 7 4 52 64 71 116 227 38
+1 2 3 4 5 6 7 4 55 5 109 4 357 38 \[1\] “…1” “X.1”  
+\[3\] “scientific\_name” “iucn\_name”  
+\[5\] “assessment\_id” “category”  
+\[7\] “criteria” “pop\_trend”  
+\[9\] “locations” “year\_published”  
+\[11\] “latest” “gbif\_synonyms”  
+\[13\] “iucn\_synonyms” “X”  
+\[15\] “lineage” “extended\_lineage”  
+\[17\] “english\_name” “accession\_number\_for\_main\_haplotype” \[19\]
+“biosample\_accession” “geo\_location”  
+\[21\] “latlon” “comments”  
+\[23\] “lat” “lon”  
+\[25\] “vague\_location\_flag” “missing\_sampling\_location\_flag”  
+\[27\] “raster\_path\_ea” “raster\_path\_goode”  
+\[29\] “centroid\_lon” “centroid\_lat”  
+\[31\] “outside\_range\_flag” “missing\_range\_flag”  
+\[33\] “zoo\_flag” “domesticated\_flag”

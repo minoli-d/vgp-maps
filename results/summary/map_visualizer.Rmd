@@ -187,51 +187,51 @@ for (i in seq_len(nrow(df))) {
 
 ```{r,  results='asis'}
 
-df_prioritized <- df %>%
-  filter(!domesticated_flag,
-         !grepl("Homo sapiens", scientific_name, ignore.case = TRUE)) %>%
-  
-  # zoo should be on the map - for wild captured samples location is valid
-  # if the sample is from zoo - use centroid and put in 6L
-  mutate(
-    priority = case_when(
-      # 1. both sampling and centroid missing
-      # if vague location exists, remove from here
-      missing_sampling_location_flag  & missing_range_flag ~ 1L,
-      
-      # 2. sampling missing, excluding zoo/aquarium
-      # if vague location exists, remove from here
-      missing_sampling_location_flag & !zoo_flag ~ 2L, 
-      
-      # 3. vague sampling that doesn’t overlap range OR no range
-      (vague_location_flag & outside_range_flag) | (vague_location_flag & missing_range_flag) ~ 3L,
-      
-      # 4. precise sampling that doesn’t overlap range
-      # check manually again - cross check w notes/comments
-      (!vague_location_flag & outside_range_flag) ~ 4L, 
-      
-      # 5. vague sampling inside range
-      (vague_location_flag & !outside_range_flag) ~ 5L, 
-      
-      # 6. precise sampling with no range OR precise inside range
-      # add zoo animals in here 
-      # check manually again - cross check w known range of the species - google/wiki
-       (!vague_location_flag & missing_range_flag) | (!vague_location_flag & !outside_range_flag) ~ 6L,
-      
-      TRUE ~ 7L
-    )
-  ) %>%
-  dplyr::select(scientific_name, iucn_name, assessment_id, category, criteria,
-         pop_trend, locations, year_published, latest, gbif_synonyms,
-         iucn_synonyms, lineage, english_name,
-         accession_number_for_main_haplotype, assemblyInfo_biosample_accession,
-         assemblyInfo_biosample_geoLocName, assemblyInfo_biosample_latLon,
-         assemblyInfo_comments, geo_location, latlon, lat, lon,
-         vague_location_flag, missing_sampling_location_flag,
-         raster_path_ea, raster_path_goode, centroid_lon, centroid_lat,
-         outside_range_flag, missing_range_flag, zoo_flag,
-         domesticated_flag, priority) %>%
-  arrange(priority, scientific_name) 
+# df_prioritized <- df %>%
+#   filter(!domesticated_flag,
+#          !grepl("Homo sapiens", scientific_name, ignore.case = TRUE)) %>%
+#   
+#   # zoo should be on the map - for wild captured samples location is valid
+#   # if the sample is from zoo - use centroid and put in 6L
+#   mutate(
+#     priority = case_when(
+#       # 1. both sampling and centroid missing
+#       # if vague location exists, remove from here
+#       missing_sampling_location_flag  & missing_range_flag ~ 1L,
+#       
+#       # 2. sampling missing, excluding zoo/aquarium
+#       # if vague location exists, remove from here
+#       missing_sampling_location_flag & !zoo_flag ~ 2L, 
+#       
+#       # 3. vague sampling that doesn’t overlap range OR no range
+#       (vague_location_flag & outside_range_flag) | (vague_location_flag & missing_range_flag) ~ 3L,
+#       
+#       # 4. precise sampling that doesn’t overlap range
+#       # check manually again - cross check w notes/comments
+#       (!vague_location_flag & outside_range_flag) ~ 4L, 
+#       
+#       # 5. vague sampling inside range
+#       (vague_location_flag & !outside_range_flag) ~ 5L, 
+#       
+#       # 6. precise sampling with no range OR precise inside range
+#       # add zoo animals in here 
+#       # check manually again - cross check w known range of the species - google/wiki
+#        (!vague_location_flag & missing_range_flag) | (!vague_location_flag & !outside_range_flag) ~ 6L,
+#       
+#       TRUE ~ 7L
+#     )
+#   ) %>%
+#   dplyr::select(scientific_name, iucn_name, assessment_id, category, criteria,
+#          pop_trend, locations, year_published, latest, gbif_synonyms,
+#          iucn_synonyms, lineage, english_name,
+#          accession_number_for_main_haplotype, assemblyInfo_biosample_accession,
+#          assemblyInfo_biosample_geoLocName, assemblyInfo_biosample_latLon,
+#          assemblyInfo_comments, geo_location, latlon, lat, lon,
+#          vague_location_flag, missing_sampling_location_flag,
+#          raster_path_ea, raster_path_goode, centroid_lon, centroid_lat,
+#          outside_range_flag, missing_range_flag, zoo_flag,
+#          domesticated_flag, priority) %>%
+#   arrange(priority, scientific_name) 
 
 
 df_prioritized <- df %>%
@@ -266,10 +266,10 @@ df_prioritized <- df %>%
   ) %>%
   dplyr::select(scientific_name, iucn_name, assessment_id, category, criteria,
          pop_trend, locations, year_published, latest, gbif_synonyms,
-         iucn_synonyms, lineage, english_name,
-         accession_number_for_main_haplotype, assemblyInfo_biosample_accession,
-         assemblyInfo_biosample_geoLocName, assemblyInfo_biosample_latLon,
-         assemblyInfo_comments, geo_location, latlon, lat, lon,
+         iucn_synonyms, lineage, extended_lineage, english_name,
+         accession_number_for_main_haplotype, biosample_accession,
+         geo_location, latlon,
+         comments, lat, lon,
          vague_location_flag, missing_sampling_location_flag,
          raster_path_ea, raster_path_goode, centroid_lon, centroid_lat,
          outside_range_flag, missing_range_flag, zoo_flag,
@@ -305,4 +305,6 @@ for (i in seq_len(nrow(df_prioritized))) {
 }
 
 table(df_prioritized$priority)
+
+colnames(df)
 ```
