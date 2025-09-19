@@ -66,6 +66,5 @@ df <- df %>%
     )
   )
 
-write.csv(df, "~/Desktop/vgp-maps/data/vgp_iucn_loc_metadata.csv")
-
+write.csv(df, "data/vgp_iucn_loc_metadata.csv")
 
