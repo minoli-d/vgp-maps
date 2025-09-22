@@ -7,7 +7,7 @@ library(stringr)
 # set.seed(0)
 
 df <- read.csv(
-  "~/desktop/vgp-maps/data/vgp_iucn_loc_metadata.csv",
+  "data/vgp_iucn_loc_metadata.csv",
   stringsAsFactors = FALSE
 )
 

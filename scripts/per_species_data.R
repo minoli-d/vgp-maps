@@ -66,8 +66,8 @@ if (nrow(df_sp) == 0) {
   sampling_lon <- NA
   sampling_lat <- NA
 } else {
-  sampling_lon <- df_sp$lon[1]
-  sampling_lat <- df_sp$lat[1]
+  sampling_lon <- df_sp %>% pull(lon)
+  sampling_lat <- df_sp %>% pull(lat)
 }
 message(". Computed sampling coords")
 

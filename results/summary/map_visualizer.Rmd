@@ -302,4 +302,7 @@ for (i in seq_len(nrow(df_prioritized))) {
     cat("![](../species/", sp_sane, "/", sp_sane, "_distribution_map.png)", sep = "")
   }
 }
+
+all_species %>% filter(scientific_name == "Antrozous pallidus")
+
 ```
