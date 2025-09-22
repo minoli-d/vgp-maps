@@ -174,15 +174,6 @@
 **Flags:** Missing Sampling Location;  
 ![](../species/Erpetoichthys_calabaricus/Erpetoichthys_calabaricus_distribution_map.png)
 
-### Species: Eubalaena glacialis
-
-**Biosample:** NA  
-**Assembly Accession:** GCA\_028564815.2  
-**Taxon:** Mammals  
-**Priority:** 2  
-**Flags:** Missing Sampling Location;  
-![](../species/Eubalaena_glacialis/Eubalaena_glacialis_distribution_map.png)
-
 ### Species: Eublepharis macularius
 
 **Biosample:** SAMN31016422  
@@ -309,15 +300,6 @@
 **Flags:** Missing Sampling Location;  
 ![](../species/Ornithorhynchus_anatinus/Ornithorhynchus_anatinus_distribution_map.png)
 
-### Species: Ovis canadensis
-
-**Biosample:** NA  
-**Assembly Accession:** GCA\_042477335.2  
-**Taxon:** Mammals  
-**Priority:** 2  
-**Flags:** Missing Sampling Location;  
-![](../species/Ovis_canadensis/Ovis_canadensis_distribution_map.png)
-
 ### Species: Pan paniscus
 
 **Biosample:** SAMN13935689  
@@ -344,24 +326,6 @@
 **Priority:** 2  
 **Flags:** Missing Sampling Location;  
 ![](../species/Parambassis_ranga/Parambassis_ranga_distribution_map.png)
-
-### Species: Patagioenas fasciata
-
-**Biosample:** NA  
-**Assembly Accession:** GCA\_037038585.2  
-**Taxon:** Birds  
-**Priority:** 2  
-**Flags:** Outside Range; Missing Sampling Location;  
-![](../species/Patagioenas_fasciata/Patagioenas_fasciata_distribution_map.png)
-
-### Species: Petromyzon marinus
-
-**Biosample:** NA  
-**Assembly Accession:** GCA\_048934315.1  
-**Taxon:** Fishes  
-**Priority:** 2  
-**Flags:** Missing Sampling Location;  
-![](../species/Petromyzon_marinus/Petromyzon_marinus_distribution_map.png)
 
 ### Species: Pipistrellus pipistrellus
 
@@ -1163,6 +1127,15 @@
 **Priority:** 4  
 **Flags:** Outside Range;  
 ![](../species/Pangshura_tecta/Pangshura_tecta_distribution_map.png)
+
+### Species: Patagioenas fasciata
+
+**Biosample:** SAMN40018840  
+**Assembly Accession:** GCA\_037038585.2  
+**Taxon:** Birds  
+**Priority:** 4  
+**Flags:** Outside Range;  
+![](../species/Patagioenas_fasciata/Patagioenas_fasciata_distribution_map.png)
 
 ### Species: Pelophylax lessonae
 
@@ -2685,6 +2658,15 @@
 **Flags:**  
 ![](../species/Esox_lucius/Esox_lucius_distribution_map.png)
 
+### Species: Eubalaena glacialis
+
+**Biosample:** SAMN32746534  
+**Assembly Accession:** GCA\_028564815.2  
+**Taxon:** Mammals  
+**Priority:** 6  
+**Flags:**  
+![](../species/Eubalaena_glacialis/Eubalaena_glacialis_distribution_map.png)
+
 ### Species: Eudromia elegans
 
 **Biosample:** SAMN46865137  
@@ -3845,6 +3827,15 @@
 **Priority:** 6  
 **Flags:**  
 ![](../species/Peromyscus_maniculatus/Peromyscus_maniculatus_distribution_map.png)
+
+### Species: Petromyzon marinus
+
+**Biosample:** SAMN46926778  
+**Assembly Accession:** GCA\_048934315.1  
+**Taxon:** Fishes  
+**Priority:** 6  
+**Flags:**  
+![](../species/Petromyzon_marinus/Petromyzon_marinus_distribution_map.png)
 
 ### Species: Phaethon aethereus
 
@@ -5088,6 +5079,15 @@
 **Flags:**  
 ![](../species/Nesoenas_mayeri/Nesoenas_mayeri_distribution_map.png)
 
+### Species: Ovis canadensis
+
+**Biosample:** SAMN42787568  
+**Assembly Accession:** GCA\_042477335.2  
+**Taxon:** Mammals  
+**Priority:** 7  
+**Flags:** Vague Location;  
+![](../species/Ovis_canadensis/Ovis_canadensis_distribution_map.png)
+
 ### Species: Podarcis gaigeae
 
 **Biosample:** SAMEA114217796  
@@ -5159,4 +5159,3 @@
 **Priority:** 7  
 **Flags:**  
 ![](../species/Trichomycterus_rosablanca/Trichomycterus_rosablanca_distribution_map.png)
-1 2 3 4 5 6 7 4 55 5 109 4 357 38
