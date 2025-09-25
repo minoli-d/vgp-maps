@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Balaenoptera borealis",-14.635987925607,-7.89030794700082,2,168782468.510607,-3.2765753,54.7023545,"results/species/Balaenoptera_borealis/range_raster.tif","results/species/Balaenoptera_borealis/range_raster_goode.tif"
+"Balaenoptera borealis",-14.6359713734315,-7.89031198128146,2,168782470.217162,-6.8018023,56.539511,"results/species/Balaenoptera_borealis/range_raster.tif","results/species/Balaenoptera_borealis/range_raster_goode.tif"

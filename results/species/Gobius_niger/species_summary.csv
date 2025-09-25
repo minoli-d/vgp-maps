@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Gobius niger",11.405536796284,41.6415430686719,1,3426179.98288058,-3.2765753,54.7023545,"results/species/Gobius_niger/range_raster.tif","results/species/Gobius_niger/range_raster_goode.tif"
+"Gobius niger",11.4055373478384,41.6415458850328,1,3426181.91264124,-4.191445,50.329666,"results/species/Gobius_niger/range_raster.tif","results/species/Gobius_niger/range_raster_goode.tif"

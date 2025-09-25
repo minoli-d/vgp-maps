@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Mesoplodon mirus",-39.8761711098102,39.473326564958,2,12267376.2708811,-3.2765753,54.7023545,"results/species/Mesoplodon_mirus/range_raster.tif","results/species/Mesoplodon_mirus/range_raster_goode.tif"
+"Mesoplodon mirus",-39.8761711098102,39.473326564958,2,12267376.2708811,-6.6442982,58.347361,"results/species/Mesoplodon_mirus/range_raster.tif","results/species/Mesoplodon_mirus/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Cuculus canorus",66.2907523875507,31.6195557900028,4,49965489.2516588,17.0677347,48.855775,"results/species/Cuculus_canorus/range_raster.tif","results/species/Cuculus_canorus/range_raster_goode.tif"
+"Cuculus canorus",66.2907969663493,31.6195402400409,4,49965520.0233721,17.0677347,48.855775,"results/species/Cuculus_canorus/range_raster.tif","results/species/Cuculus_canorus/range_raster_goode.tif"

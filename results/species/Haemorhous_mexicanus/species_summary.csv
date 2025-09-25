@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Haemorhous mexicanus",-100.388006913494,37.6301351210331,1,10293188.4104864,-121.790024,38.526463,"results/species/Haemorhous_mexicanus/range_raster.tif","results/species/Haemorhous_mexicanus/range_raster_goode.tif"
+"Haemorhous mexicanus",-100.388021535808,37.6301387425155,1,10293181.4474014,-121.790024,38.526463,"results/species/Haemorhous_mexicanus/range_raster.tif","results/species/Haemorhous_mexicanus/range_raster_goode.tif"

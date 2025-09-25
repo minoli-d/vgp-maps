@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Rissa tridactyla",-5.14596617656649,45.3329710667081,4,44677756.6751576,-146.34,59.43,"results/species/Rissa_tridactyla/range_raster.tif","results/species/Rissa_tridactyla/range_raster_goode.tif"
+"Rissa tridactyla",-5.14604192252093,45.3329966428344,4,44677859.7092555,-146.34,59.43,"results/species/Rissa_tridactyla/range_raster.tif","results/species/Rissa_tridactyla/range_raster_goode.tif"

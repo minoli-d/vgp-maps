@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Agelaius phoeniceus",-101.606931203346,41.3807737031264,3,14120925.6005723,-98.216445,26.3530256,"results/species/Agelaius_phoeniceus/range_raster.tif","results/species/Agelaius_phoeniceus/range_raster_goode.tif"
+"Agelaius phoeniceus",-101.606933685913,41.3807887967707,3,14120865.7686199,-98.216445,26.3530256,"results/species/Agelaius_phoeniceus/range_raster.tif","results/species/Agelaius_phoeniceus/range_raster_goode.tif"

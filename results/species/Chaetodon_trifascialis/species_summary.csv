@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Chaetodon trifascialis",76.1580523310675,-1.66959417969884,1,19703487.8573526,38.967423,22.307781,"results/species/Chaetodon_trifascialis/range_raster.tif","results/species/Chaetodon_trifascialis/range_raster_goode.tif"
+"Chaetodon trifascialis",76.1579891162885,-1.6698325753597,1,19703056.3267218,38.967423,22.307781,"results/species/Chaetodon_trifascialis/range_raster.tif","results/species/Chaetodon_trifascialis/range_raster_goode.tif"

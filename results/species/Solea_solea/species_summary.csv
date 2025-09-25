@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Solea solea",4.43779460070632,40.2510859219758,1,3874764.88570993,4.6667145,50.6402809,"results/species/Solea_solea/range_raster.tif","results/species/Solea_solea/range_raster_goode.tif"
+"Solea solea",4.43789545371665,40.2508054306534,1,3874709.03681691,2.65,51.283,"results/species/Solea_solea/range_raster.tif","results/species/Solea_solea/range_raster_goode.tif"

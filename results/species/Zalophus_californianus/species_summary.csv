@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Zalophus californianus",-113.308458911125,30.8594081624036,4,1657100.54118646,-122.48401,37.858768,"results/species/Zalophus_californianus/range_raster.tif","results/species/Zalophus_californianus/range_raster_goode.tif"
+"Zalophus californianus",-113.308452926399,30.8594017388943,4,1657100.05463077,-122.48401,37.858768,"results/species/Zalophus_californianus/range_raster.tif","results/species/Zalophus_californianus/range_raster_goode.tif"

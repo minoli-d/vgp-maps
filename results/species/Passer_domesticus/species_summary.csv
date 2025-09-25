@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Passer domesticus",11.0243697210683,24.1320696309438,5,64134956.6688267,-6.789073,62.006358,"results/species/Passer_domesticus/range_raster.tif","results/species/Passer_domesticus/range_raster_goode.tif"
+"Passer domesticus",11.0245281514543,24.132021505721,5,64135051.6620268,-6.789073,62.006358,"results/species/Passer_domesticus/range_raster.tif","results/species/Passer_domesticus/range_raster_goode.tif"

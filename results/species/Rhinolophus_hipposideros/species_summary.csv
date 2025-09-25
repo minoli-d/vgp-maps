@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Rhinolophus hipposideros",25.2750323360581,39.5139510782149,34,6260370.95836847,32.8899027,34.9174159,"results/species/Rhinolophus_hipposideros/range_raster.tif","results/species/Rhinolophus_hipposideros/range_raster_goode.tif"
+"Rhinolophus hipposideros",25.2750323360581,39.5139510782149,34,6260370.95836847,33.40982,35.14643,"results/species/Rhinolophus_hipposideros/range_raster.tif","results/species/Rhinolophus_hipposideros/range_raster_goode.tif"

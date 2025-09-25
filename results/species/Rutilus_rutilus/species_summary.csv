@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Rutilus rutilus",26.0958362202245,52.4849043123199,2,7280466.96566009,-3.2765753,54.7023545,"results/species/Rutilus_rutilus/range_raster.tif","results/species/Rutilus_rutilus/range_raster_goode.tif"
+"Rutilus rutilus",26.0958333310699,52.4849066429514,2,7280469.70606807,-1.052197,53.03331,"results/species/Rutilus_rutilus/range_raster.tif","results/species/Rutilus_rutilus/range_raster_goode.tif"

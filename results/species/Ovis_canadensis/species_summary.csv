@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Ovis canadensis",-113.544970434569,39.7107801394852,10,506696.752374434,NA,NA,"results/species/Ovis_canadensis/range_raster.tif","results/species/Ovis_canadensis/range_raster_goode.tif"
+"Ovis canadensis",-113.544970434569,39.7107801394852,10,506696.752374434,-117.1498035,46.7337716,"results/species/Ovis_canadensis/range_raster.tif","results/species/Ovis_canadensis/range_raster_goode.tif"

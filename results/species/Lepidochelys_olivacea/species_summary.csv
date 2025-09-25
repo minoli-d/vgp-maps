@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Lepidochelys olivacea",40.2463113647482,1.67499202936064,1,80015548.566696,-117.2251,32.7668,"results/species/Lepidochelys_olivacea/range_raster.tif","results/species/Lepidochelys_olivacea/range_raster_goode.tif"
+"Lepidochelys olivacea",40.2462982856414,1.67500353964279,1,80015471.8296968,-117.2251,32.7668,"results/species/Lepidochelys_olivacea/range_raster.tif","results/species/Lepidochelys_olivacea/range_raster_goode.tif"

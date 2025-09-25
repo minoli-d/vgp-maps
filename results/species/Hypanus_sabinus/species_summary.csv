@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Hypanus sabinus",-87.0463114422424,27.4613169269945,3,291650.745125671,-85.142204,29.51074,"results/species/Hypanus_sabinus/range_raster.tif","results/species/Hypanus_sabinus/range_raster_goode.tif"
+"Hypanus sabinus",-87.0453123167249,27.4611009460163,3,291712.673590479,-85.142204,29.51074,"results/species/Hypanus_sabinus/range_raster.tif","results/species/Hypanus_sabinus/range_raster_goode.tif"

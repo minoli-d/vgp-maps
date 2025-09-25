@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Barbatula barbatula",29.6260988321441,51.6765502340778,2,6721677.6418886,-3.2765753,54.7023545,"results/species/Barbatula_barbatula/range_raster.tif","results/species/Barbatula_barbatula/range_raster_goode.tif"
+"Barbatula barbatula",29.6260988321441,51.6765502340778,2,6721677.6418886,-1.609327,53.908341,"results/species/Barbatula_barbatula/range_raster.tif","results/species/Barbatula_barbatula/range_raster_goode.tif"

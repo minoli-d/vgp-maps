@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Megaptera novaeangliae",-8.5918192143686,-7.85276461169457,2,137121981.290787,-157.745084,21.279139,"results/species/Megaptera_novaeangliae/range_raster.tif","results/species/Megaptera_novaeangliae/range_raster_goode.tif"
+"Megaptera novaeangliae",-8.59179198620285,-7.85277105055518,2,137122039.418499,-157.745084,21.279139,"results/species/Megaptera_novaeangliae/range_raster.tif","results/species/Megaptera_novaeangliae/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Podarcis cretensis",24.0429365448828,35.3618725760541,1,2945.23683661413,21.9877132,38.9953683,"results/species/Podarcis_cretensis/range_raster.tif","results/species/Podarcis_cretensis/range_raster_goode.tif"
+"Podarcis cretensis",24.0429365448828,35.3618725760541,1,2945.23683661413,24.0496,35.331213,"results/species/Podarcis_cretensis/range_raster.tif","results/species/Podarcis_cretensis/range_raster_goode.tif"

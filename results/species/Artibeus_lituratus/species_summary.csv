@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Artibeus lituratus",-61.7874718951883,-5.12260350342755,10,14239613.6944926,-88.65225,17.76639,"results/species/Artibeus_lituratus/range_raster.tif","results/species/Artibeus_lituratus/range_raster_goode.tif"
+"Artibeus lituratus",-61.7874730968258,-5.12260273927252,10,14239614.0629172,-88.65225,17.76639,"results/species/Artibeus_lituratus/range_raster.tif","results/species/Artibeus_lituratus/range_raster_goode.tif"

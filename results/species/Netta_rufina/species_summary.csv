@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Netta rufina",70.1187202008396,39.1796316997876,3,8909449.43794091,-3.2765753,54.7023545,"results/species/Netta_rufina/range_raster.tif","results/species/Netta_rufina/range_raster_goode.tif"
+"Netta rufina",70.1182469050254,39.1796229440102,3,8909505.96569502,-4.12,51.66,"results/species/Netta_rufina/range_raster.tif","results/species/Netta_rufina/range_raster_goode.tif"

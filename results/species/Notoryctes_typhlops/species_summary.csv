@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Notoryctes typhlops",130.666560030879,-25.8367846630951,2,919722.358146255,133.2303375,-19.8516101,"results/species/Notoryctes_typhlops/range_raster.tif","results/species/Notoryctes_typhlops/range_raster_goode.tif"
+"Notoryctes typhlops",130.666560030879,-25.8367846630951,2,919722.358146255,-134.5176,-22.7069,"results/species/Notoryctes_typhlops/range_raster.tif","results/species/Notoryctes_typhlops/range_raster_goode.tif"

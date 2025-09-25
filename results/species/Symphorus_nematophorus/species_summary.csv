@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Symphorus nematophorus",122.000619208501,-4.36892946134784,2,10500342.8715924,121.0187246,-25.2303005,"results/species/Symphorus_nematophorus/range_raster.tif","results/species/Symphorus_nematophorus/range_raster_goode.tif"
+"Symphorus nematophorus",122.000321321027,-4.36880778044203,2,10500378.8020321,-20.77692,-20.77692,"results/species/Symphorus_nematophorus/range_raster.tif","results/species/Symphorus_nematophorus/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Falco punctatus",57.5509021575881,-20.3310867574098,2,852.469663048422,57.5703566,-20.2759451,"results/species/Falco_punctatus/range_raster.tif","results/species/Falco_punctatus/range_raster_goode.tif"
+"Falco punctatus",57.5509021575881,-20.3310867574098,2,852.469663048422,57.454819,-20.386865,"results/species/Falco_punctatus/range_raster.tif","results/species/Falco_punctatus/range_raster_goode.tif"

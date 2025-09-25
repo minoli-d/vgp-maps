@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Caesio teres",94.4504793809662,-2.00687972318508,2,13768396.4094384,39.6881037,-21.4909533,"results/species/Caesio_teres/range_raster.tif","results/species/Caesio_teres/range_raster_goode.tif"
+"Caesio teres",94.4504793809662,-2.00687972318508,2,13768396.4094384,105.60415,-10.44356,"results/species/Caesio_teres/range_raster.tif","results/species/Caesio_teres/range_raster_goode.tif"

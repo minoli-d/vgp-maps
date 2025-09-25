@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Telmatherina bonti",121.298558526191,-2.6653550948509,2,8646.13124260751,10.4478313,51.1638175,"results/species/Telmatherina_bonti/range_raster.tif","results/species/Telmatherina_bonti/range_raster_goode.tif"
+"Telmatherina bonti",121.298558526191,-2.6653550948509,2,8646.13124260751,7.11382096910185,50.7223215315783,"results/species/Telmatherina_bonti/range_raster.tif","results/species/Telmatherina_bonti/range_raster_goode.tif"

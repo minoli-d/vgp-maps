@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Pagrus pagrus",-27.7807458920163,16.4875086295636,2,5265128.48930178,-3.2765753,54.7023545,"results/species/Pagrus_pagrus/range_raster.tif","results/species/Pagrus_pagrus/range_raster_goode.tif"
+"Pagrus pagrus",-27.7807458920163,16.4875086295636,2,5265128.48930178,-4.15421,50.33694,"results/species/Pagrus_pagrus/range_raster.tif","results/species/Pagrus_pagrus/range_raster_goode.tif"

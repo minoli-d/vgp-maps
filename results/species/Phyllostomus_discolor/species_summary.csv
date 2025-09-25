@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Phyllostomus discolor",-59.9953270876746,-5.13791679244653,2,12499242.9215791,11.5753822,48.1371079,"results/species/Phyllostomus_discolor/range_raster.tif","results/species/Phyllostomus_discolor/range_raster_goode.tif"
+"Phyllostomus discolor",-59.9953270876746,-5.13791679244653,2,12499242.9215791,11.5806,48.151,"results/species/Phyllostomus_discolor/range_raster.tif","results/species/Phyllostomus_discolor/range_raster_goode.tif"

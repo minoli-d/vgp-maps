@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Stenella coeruleoalba",-6.85746949505613,-0.80872604827084,2,252279402.001522,-3.2765753,54.7023545,"results/species/Stenella_coeruleoalba/range_raster.tif","results/species/Stenella_coeruleoalba/range_raster_goode.tif"
+"Stenella coeruleoalba",-6.85738716809863,-0.808729641676029,2,252279444.439977,-5.18638889,57.93694444,"results/species/Stenella_coeruleoalba/range_raster.tif","results/species/Stenella_coeruleoalba/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Rattus norvegicus",62.0256662865851,41.4779710052398,10,19172122.7331656,-89.6884637,44.4308975,"results/species/Rattus_norvegicus/range_raster.tif","results/species/Rattus_norvegicus/range_raster_goode.tif"
+"Rattus norvegicus",62.0260908643037,41.47747432353,10,19172295.1458473,-88.0224532,43.0438671,"results/species/Rattus_norvegicus/range_raster.tif","results/species/Rattus_norvegicus/range_raster_goode.tif"

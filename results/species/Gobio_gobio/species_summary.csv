@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Gobio gobio",15.7152971810452,51.0191911669075,3,3004037.33686179,-3.2765753,54.7023545,"results/species/Gobio_gobio/range_raster.tif","results/species/Gobio_gobio/range_raster_goode.tif"
+"Gobio gobio",15.7152963037156,51.0191871914188,3,3004033.2212282,-1.609327,53.908341,"results/species/Gobio_gobio/range_raster.tif","results/species/Gobio_gobio/range_raster_goode.tif"

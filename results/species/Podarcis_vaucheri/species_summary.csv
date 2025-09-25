@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Podarcis vaucheri",0.14281662782084,35.2775668835993,1,305491.149041766,-10.3713379,28.3347722,"results/species/Podarcis_vaucheri/range_raster.tif","results/species/Podarcis_vaucheri/range_raster_goode.tif"
+"Podarcis vaucheri",0.14281662782084,35.2775668835993,1,305491.149041766,-7.85302,31.207837,"results/species/Podarcis_vaucheri/range_raster.tif","results/species/Podarcis_vaucheri/range_raster_goode.tif"

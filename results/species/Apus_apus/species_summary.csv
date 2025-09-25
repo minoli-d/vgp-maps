@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Apus apus",43.12966198295,24.3188617596883,3,42964365.1313738,11.297823,47.969789,"results/species/Apus_apus/range_raster.tif","results/species/Apus_apus/range_raster_goode.tif"
+"Apus apus",43.1296779078199,24.3188663197546,3,42964362.0249857,11.297823,47.969789,"results/species/Apus_apus/range_raster.tif","results/species/Apus_apus/range_raster_goode.tif"

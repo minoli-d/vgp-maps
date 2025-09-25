@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Barbus barbus",17.0196674972903,48.861819610279,2,3129326.34225412,-3.2765753,54.7023545,"results/species/Barbus_barbus/range_raster.tif","results/species/Barbus_barbus/range_raster_goode.tif"
+"Barbus barbus",17.0196674972903,48.861819610279,2,3129326.34225412,-1.052197,53.03331,"results/species/Barbus_barbus/range_raster.tif","results/species/Barbus_barbus/range_raster_goode.tif"

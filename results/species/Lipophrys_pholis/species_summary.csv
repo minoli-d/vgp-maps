@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Lipophrys pholis",-4.19401659887329,48.1439971042881,1,830456.878333977,-3.2765753,54.7023545,"results/species/Lipophrys_pholis/range_raster.tif","results/species/Lipophrys_pholis/range_raster_goode.tif"
+"Lipophrys pholis",-4.19422190303921,48.1437377630222,1,830438.132412907,-4.911721,55.74629,"results/species/Lipophrys_pholis/range_raster.tif","results/species/Lipophrys_pholis/range_raster_goode.tif"

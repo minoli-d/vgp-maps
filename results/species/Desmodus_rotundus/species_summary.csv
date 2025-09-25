@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Desmodus rotundus",-63.4755584223125,-7.44287465271553,6,17730593.1047498,-55.2151905,5.7258672,"results/species/Desmodus_rotundus/range_raster.tif","results/species/Desmodus_rotundus/range_raster_goode.tif"
+"Desmodus rotundus",-63.4755584223125,-7.44287465271553,6,17730593.1047498,-55.2097814,5.628162,"results/species/Desmodus_rotundus/range_raster.tif","results/species/Desmodus_rotundus/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Gymnoscopelus microlampas",11.5396443323029,-48.6818237954311,1,60095585.7547783,89.9999999,-59.9999999,"results/species/Gymnoscopelus_microlampas/range_raster.tif","results/species/Gymnoscopelus_microlampas/range_raster_goode.tif"
+"Gymnoscopelus microlampas",11.5397438079238,-48.6818142523496,1,60095500.5151937,-55.11495,-52.67377,"results/species/Gymnoscopelus_microlampas/range_raster.tif","results/species/Gymnoscopelus_microlampas/range_raster_goode.tif"

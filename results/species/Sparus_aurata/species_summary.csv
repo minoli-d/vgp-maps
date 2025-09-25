@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Sparus aurata",9.15869415786083,37.1479769600727,2,2772361.91153102,NA,NA,"results/species/Sparus_aurata/range_raster.tif","results/species/Sparus_aurata/range_raster_goode.tif"
+"Sparus aurata",9.15872961579869,37.1479678900138,2,2772366.28186756,NA,NA,"results/species/Sparus_aurata/range_raster.tif","results/species/Sparus_aurata/range_raster_goode.tif"

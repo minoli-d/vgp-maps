@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Alca torda",-23.0427274632905,53.9612627237234,7,10738747.0961095,NA,NA,"results/species/Alca_torda/range_raster.tif","results/species/Alca_torda/range_raster_goode.tif"
+"Alca torda",-23.0428803502678,53.9612451359893,7,10738699.3639283,NA,NA,"results/species/Alca_torda/range_raster.tif","results/species/Alca_torda/range_raster_goode.tif"

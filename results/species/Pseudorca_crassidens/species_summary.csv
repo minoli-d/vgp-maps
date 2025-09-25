@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Pseudorca crassidens",6.77384733080643,1.3684208874403,2,194701102.955787,-156.6264,19.50622,"results/species/Pseudorca_crassidens/range_raster.tif","results/species/Pseudorca_crassidens/range_raster_goode.tif"
+"Pseudorca crassidens",6.77387632051294,1.36844832901548,2,194701154.863123,-156.6264,19.50622,"results/species/Pseudorca_crassidens/range_raster.tif","results/species/Pseudorca_crassidens/range_raster_goode.tif"

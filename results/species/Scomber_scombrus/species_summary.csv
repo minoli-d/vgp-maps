@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Scomber scombrus",-7.0802792043039,43.4422822943268,2,8397260.5351429,-3.2765753,54.7023545,"results/species/Scomber_scombrus/range_raster.tif","results/species/Scomber_scombrus/range_raster_goode.tif"
+"Scomber scombrus",-7.07927511354785,43.4419180118096,2,8397563.2623834,-4.20259167,50.23411667,"results/species/Scomber_scombrus/range_raster.tif","results/species/Scomber_scombrus/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Podarcis erhardii",22.3914653704072,40.3420568962994,1,149553.338115606,21.9877132,38.9953683,"results/species/Podarcis_erhardii/range_raster.tif","results/species/Podarcis_erhardii/range_raster_goode.tif"
+"Podarcis erhardii",22.3914653704072,40.3420568962994,1,149553.338115606,24.91615335,37.85005159,"results/species/Podarcis_erhardii/range_raster.tif","results/species/Podarcis_erhardii/range_raster_goode.tif"

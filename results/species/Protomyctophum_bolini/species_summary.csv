@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Protomyctophum bolini",-9.65520881576447,-53.4959790171895,1,75400346.6490058,89.9999999,-59.9999999,"results/species/Protomyctophum_bolini/range_raster.tif","results/species/Protomyctophum_bolini/range_raster_goode.tif"
+"Protomyctophum bolini",-9.65506433281666,-53.4959822626482,1,75400210.0280275,-40.08724,-52.79668,"results/species/Protomyctophum_bolini/range_raster.tif","results/species/Protomyctophum_bolini/range_raster_goode.tif"

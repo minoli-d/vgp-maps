@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Loxodonta africana",26.6876554622981,-7.21036339448285,8,3203492.87786708,-85.7071,38.2057,"results/species/Loxodonta_africana/range_raster.tif","results/species/Loxodonta_africana/range_raster_goode.tif"
+"Loxodonta africana",26.6877010448135,-7.21055892590307,8,3203520.9190485,-85.7071,38.2057,"results/species/Loxodonta_africana/range_raster.tif","results/species/Loxodonta_africana/range_raster_goode.tif"

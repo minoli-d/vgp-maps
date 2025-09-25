@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Martes martes",32.0922462929801,51.5732706589042,16,9924017.78713904,-3.2765753,54.7023545,"results/species/Martes_martes/range_raster.tif","results/species/Martes_martes/range_raster_goode.tif"
+"Martes martes",32.0922462929801,51.5732706589042,16,9924017.78713904,-5.35,57.63,"results/species/Martes_martes/range_raster.tif","results/species/Martes_martes/range_raster_goode.tif"

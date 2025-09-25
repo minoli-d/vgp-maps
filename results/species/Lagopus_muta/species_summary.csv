@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Lagopus muta",12.7673214904183,61.3030845332817,3,17509418.3662713,-17.2647,66.0889,"results/species/Lagopus_muta/range_raster.tif","results/species/Lagopus_muta/range_raster_goode.tif"
+"Lagopus muta",12.7657070295992,61.3029926546399,3,17509593.8242728,-17.2647,66.0889,"results/species/Lagopus_muta/range_raster.tif","results/species/Lagopus_muta/range_raster_goode.tif"

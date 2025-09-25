@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Microtus pennsylvanicus",-101.646875031803,51.5826439297256,4,11953920.0558936,-76.4735,42.4534,"results/species/Microtus_pennsylvanicus/range_raster.tif","results/species/Microtus_pennsylvanicus/range_raster_goode.tif"
+"Microtus pennsylvanicus",-101.646848270165,51.582634087513,4,11953930.5815354,-76.4735,42.4534,"results/species/Microtus_pennsylvanicus/range_raster.tif","results/species/Microtus_pennsylvanicus/range_raster_goode.tif"

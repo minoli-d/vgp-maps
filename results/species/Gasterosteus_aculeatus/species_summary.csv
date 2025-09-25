@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Gasterosteus aculeatus",-33.7230139125339,50.7694847820112,10,13451292.6950874,-3.2765753,54.7023545,"results/species/Gasterosteus_aculeatus/range_raster.tif","results/species/Gasterosteus_aculeatus/range_raster_goode.tif"
+"Gasterosteus aculeatus",-33.7230139125339,50.7694847820112,10,13451292.6950874,-0.367206,53.77149,"results/species/Gasterosteus_aculeatus/range_raster.tif","results/species/Gasterosteus_aculeatus/range_raster_goode.tif"

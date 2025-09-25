@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Vespertilio murinus",69.3235150054752,48.8475908624598,12,15756742.5605022,4.6667145,50.6402809,"results/species/Vespertilio_murinus/range_raster.tif","results/species/Vespertilio_murinus/range_raster_goode.tif"
+"Vespertilio murinus",69.3235150054752,48.8475908624598,12,15756742.5605022,2.934465,51.228443,"results/species/Vespertilio_murinus/range_raster.tif","results/species/Vespertilio_murinus/range_raster_goode.tif"

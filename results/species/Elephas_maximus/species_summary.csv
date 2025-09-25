@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Elephas maximus",94.4186439092046,17.679098487526,6,877197.238669141,NA,NA,"results/species/Elephas_maximus/range_raster.tif","results/species/Elephas_maximus/range_raster_goode.tif"
+"Elephas maximus",94.4181102324448,17.6790346510353,6,877106.091532678,NA,NA,"results/species/Elephas_maximus/range_raster.tif","results/species/Elephas_maximus/range_raster_goode.tif"

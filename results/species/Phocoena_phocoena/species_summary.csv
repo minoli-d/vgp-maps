@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Phocoena phocoena",-7.5724356144176,55.3819604569118,6,11005475.8566889,-3.2765753,54.7023545,"results/species/Phocoena_phocoena/range_raster.tif","results/species/Phocoena_phocoena/range_raster_goode.tif"
+"Phocoena phocoena",-7.57243805466495,55.3819642833856,6,11005493.3329012,-3.49805556,57.67833333,"results/species/Phocoena_phocoena/range_raster.tif","results/species/Phocoena_phocoena/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Hippopotamus amphibius",26.0020870338705,-7.44567806522292,2,1211914.51366596,-117.149046,32.735316,"results/species/Hippopotamus_amphibius/range_raster.tif","results/species/Hippopotamus_amphibius/range_raster_goode.tif"
+"Hippopotamus amphibius",26.0020819875009,-7.44568245634282,2,1211913.68926551,-117.149046,32.735316,"results/species/Hippopotamus_amphibius/range_raster.tif","results/species/Hippopotamus_amphibius/range_raster_goode.tif"

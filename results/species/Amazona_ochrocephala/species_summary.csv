@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Amazona ochrocephala",-64.358795190177,-1.72222060471567,2,6631240.71862853,-75.428333,6.958611,"results/species/Amazona_ochrocephala/range_raster.tif","results/species/Amazona_ochrocephala/range_raster_goode.tif"
+"Amazona ochrocephala",-64.3587975704853,-1.72222801622927,2,6631235.97575684,-75.428333,6.958611,"results/species/Amazona_ochrocephala/range_raster.tif","results/species/Amazona_ochrocephala/range_raster_goode.tif"

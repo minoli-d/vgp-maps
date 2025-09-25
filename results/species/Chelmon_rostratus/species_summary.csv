@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Chelmon rostratus",124.156667063095,-0.24578287860213,1,9338464.82177831,103.8198,1.3521,"results/species/Chelmon_rostratus/range_raster.tif","results/species/Chelmon_rostratus/range_raster_goode.tif"
+"Chelmon rostratus",124.156713822382,-0.245857574728617,1,9338575.38724244,103.8198,1.3521,"results/species/Chelmon_rostratus/range_raster.tif","results/species/Chelmon_rostratus/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Grampus griseus",-9.17368446954533,4.65183037714478,2,236503742.046356,-3.2765753,54.7023545,"results/species/Grampus_griseus/range_raster.tif","results/species/Grampus_griseus/range_raster_goode.tif"
+"Grampus griseus",-9.17387871853026,4.65184989939821,2,236503560.298828,-1.97083333,57.67583333,"results/species/Grampus_griseus/range_raster.tif","results/species/Grampus_griseus/range_raster_goode.tif"

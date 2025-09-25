@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Salarias fasciatus",108.247400133652,-1.63273497641888,1,15122287.7602648,NA,NA,"results/species/Salarias_fasciatus/range_raster.tif","results/species/Salarias_fasciatus/range_raster_goode.tif"
+"Salarias fasciatus",108.247467628805,-1.63274298553612,1,15122346.913012,NA,NA,"results/species/Salarias_fasciatus/range_raster.tif","results/species/Salarias_fasciatus/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Phaethon aethereus",-22.4143353522608,6.66528498114664,2,24740527.7333588,-24.0083947,16.0000552,"results/species/Phaethon_aethereus/range_raster.tif","results/species/Phaethon_aethereus/range_raster_goode.tif"
+"Phaethon aethereus",-22.4143398683904,6.66528518340482,2,24740525.6471431,-22.9297,16.7266,"results/species/Phaethon_aethereus/range_raster.tif","results/species/Phaethon_aethereus/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Dryobates pubescens",-102.793061134903,45.7507691739152,2,12772712.3665928,-80.2563,36.13054,"results/species/Dryobates_pubescens/range_raster.tif","results/species/Dryobates_pubescens/range_raster_goode.tif"
+"Dryobates pubescens",-102.793083375365,45.7508147464276,2,12772701.6530731,-80.2563,36.13054,"results/species/Dryobates_pubescens/range_raster.tif","results/species/Dryobates_pubescens/range_raster_goode.tif"

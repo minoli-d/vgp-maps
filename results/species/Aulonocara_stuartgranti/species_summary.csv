@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Aulonocara stuartgranti",34.6105730339443,-11.7993942632153,1,2168.92508909326,-3.2765753,54.7023545,"results/species/Aulonocara_stuartgranti/range_raster.tif","results/species/Aulonocara_stuartgranti/range_raster_goode.tif"
+"Aulonocara stuartgranti",34.6105730339443,-11.7993942632153,1,2168.92508909326,0.12,52.204,"results/species/Aulonocara_stuartgranti/range_raster.tif","results/species/Aulonocara_stuartgranti/range_raster_goode.tif"

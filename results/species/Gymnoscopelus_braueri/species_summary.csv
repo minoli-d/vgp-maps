@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Gymnoscopelus braueri",-8.31159356342437,-56.5842129731705,1,59648566.8206628,89.9999999,-59.9999999,"results/species/Gymnoscopelus_braueri/range_raster.tif","results/species/Gymnoscopelus_braueri/range_raster_goode.tif"
+"Gymnoscopelus braueri",-8.31174328843957,-56.584219715497,1,59648687.2130359,-45.90156,-54.49654,"results/species/Gymnoscopelus_braueri/range_raster.tif","results/species/Gymnoscopelus_braueri/range_raster_goode.tif"

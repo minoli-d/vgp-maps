@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Lagenorhynchus albirostris",-19.4516964092606,56.8798070458519,4,12843381.7959979,-3.2765753,54.7023545,"results/species/Lagenorhynchus_albirostris/range_raster.tif","results/species/Lagenorhynchus_albirostris/range_raster_goode.tif"
+"Lagenorhynchus albirostris",-19.4516964092606,56.8798070458519,4,12843381.7959979,-3.00694444,55.95527778,"results/species/Lagenorhynchus_albirostris/range_raster.tif","results/species/Lagenorhynchus_albirostris/range_raster_goode.tif"

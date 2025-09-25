@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Liasis olivaceus",130.628360686858,-16.9652846979509,1,859289.507257007,115.8518,-31.9732,"results/species/Liasis_olivaceus/range_raster.tif","results/species/Liasis_olivaceus/range_raster_goode.tif"
+"Liasis olivaceus",130.628397062897,-16.9652911759815,1,859284.474660811,115.8518,-31.9732,"results/species/Liasis_olivaceus/range_raster.tif","results/species/Liasis_olivaceus/range_raster_goode.tif"

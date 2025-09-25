@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Pipistrellus nathusii",24.190255592736,49.3576794948756,26,5893014.424901,8.2319736,46.7985624,"results/species/Pipistrellus_nathusii/range_raster.tif","results/species/Pipistrellus_nathusii/range_raster_goode.tif"
+"Pipistrellus nathusii",24.190255592736,49.3576794948756,26,5893014.424901,6.12843,46.19948,"results/species/Pipistrellus_nathusii/range_raster.tif","results/species/Pipistrellus_nathusii/range_raster_goode.tif"

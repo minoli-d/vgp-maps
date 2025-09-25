@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Plecotus auritus",22.9083423619514,50.5892459084562,2,6098164.95871397,-3.2765753,54.7023545,"results/species/Plecotus_auritus/range_raster.tif","results/species/Plecotus_auritus/range_raster_goode.tif"
+"Plecotus auritus",22.9083435542829,50.589246275737,2,6098164.19389707,0.05,50.89,"results/species/Plecotus_auritus/range_raster.tif","results/species/Plecotus_auritus/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Synoicus chinensis",109.069308716494,8.31992100295978,1,8150507.9187639,NA,NA,"results/species/Synoicus_chinensis/range_raster.tif","results/species/Synoicus_chinensis/range_raster_goode.tif"
+"Synoicus chinensis",109.069250279867,8.319969998602,1,8150548.9426805,NA,NA,"results/species/Synoicus_chinensis/range_raster.tif","results/species/Synoicus_chinensis/range_raster_goode.tif"

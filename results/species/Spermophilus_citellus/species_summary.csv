@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Spermophilus citellus",23.0794526634398,45.4573147450445,4,414373.847702172,21.9877132,38.9953683,"results/species/Spermophilus_citellus/range_raster.tif","results/species/Spermophilus_citellus/range_raster_goode.tif"
+"Spermophilus citellus",23.0794526634398,45.4573147450445,4,414373.847702172,40.5367,23.0093,"results/species/Spermophilus_citellus/range_raster.tif","results/species/Spermophilus_citellus/range_raster_goode.tif"

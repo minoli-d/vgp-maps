@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Gallus gallus",100.311215531615,15.0302981381249,11,5199705.6415156,-94.1719,36.0822,"results/species/Gallus_gallus/range_raster.tif","results/species/Gallus_gallus/range_raster_goode.tif"
+"Gallus gallus",100.31107573595,15.0305033315226,11,5199672.38882415,-94.1719,36.0822,"results/species/Gallus_gallus/range_raster.tif","results/species/Gallus_gallus/range_raster_goode.tif"

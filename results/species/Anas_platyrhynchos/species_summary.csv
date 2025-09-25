@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Anas platyrhynchos",13.1546428290391,41.4954574632336,7,48456989.6014623,-3.2765753,54.7023545,"results/species/Anas_platyrhynchos/range_raster.tif","results/species/Anas_platyrhynchos/range_raster_goode.tif"
+"Anas platyrhynchos",13.1546428290391,41.4954574632336,7,48456989.6014623,-2.4,51.73,"results/species/Anas_platyrhynchos/range_raster.tif","results/species/Anas_platyrhynchos/range_raster_goode.tif"

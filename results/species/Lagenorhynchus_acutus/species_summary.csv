@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Lagenorhynchus acutus",-24.2909723178788,55.8640490996361,2,10330852.2388515,-3.2765753,54.7023545,"results/species/Lagenorhynchus_acutus/range_raster.tif","results/species/Lagenorhynchus_acutus/range_raster_goode.tif"
+"Lagenorhynchus acutus",-24.2909711672581,55.8640457561892,2,10330837.9681161,-4.0381853,57.591787,"results/species/Lagenorhynchus_acutus/range_raster.tif","results/species/Lagenorhynchus_acutus/range_raster_goode.tif"

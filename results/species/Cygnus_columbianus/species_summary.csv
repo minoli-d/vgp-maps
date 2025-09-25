@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Cygnus columbianus",-2.54444591497443,51.1400819070987,6,13917521.787802,-3.2765753,54.7023545,"results/species/Cygnus_columbianus/range_raster.tif","results/species/Cygnus_columbianus/range_raster_goode.tif"
+"Cygnus columbianus",-2.54444591497443,51.1400819070987,6,13917521.787802,-4.12,51.66,"results/species/Cygnus_columbianus/range_raster.tif","results/species/Cygnus_columbianus/range_raster_goode.tif"

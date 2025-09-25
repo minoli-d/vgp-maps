@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Leuciscus leuciscus",31.1429901444781,54.4348462780991,2,6764040.70872509,-3.2765753,54.7023545,"results/species/Leuciscus_leuciscus/range_raster.tif","results/species/Leuciscus_leuciscus/range_raster_goode.tif"
+"Leuciscus leuciscus",31.1429842469667,54.4348483388952,2,6764043.83255379,-1.052197,53.03331,"results/species/Leuciscus_leuciscus/range_raster.tif","results/species/Leuciscus_leuciscus/range_raster_goode.tif"

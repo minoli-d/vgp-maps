@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Poromitra crassiceps",-25.0406798170143,0.379620552900149,1,4075106.71013157,89.9999999,-59.9999999,"results/species/Poromitra_crassiceps/range_raster.tif","results/species/Poromitra_crassiceps/range_raster_goode.tif"
+"Poromitra crassiceps",-25.0406798170143,0.379620552900149,1,4075106.71013157,-42.76694,-55.03478,"results/species/Poromitra_crassiceps/range_raster.tif","results/species/Poromitra_crassiceps/range_raster_goode.tif"

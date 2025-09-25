@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Lonchura striata",100.212863764266,18.7110742513388,1,5423477.25790832,NA,NA,"results/species/Lonchura_striata/range_raster.tif","results/species/Lonchura_striata/range_raster_goode.tif"
+"Lonchura striata",100.212788841427,18.7112093123654,1,5423488.2434752,NA,NA,"results/species/Lonchura_striata/range_raster.tif","results/species/Lonchura_striata/range_raster_goode.tif"

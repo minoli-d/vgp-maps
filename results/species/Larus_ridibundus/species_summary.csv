@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Larus ridibundus",36.6608747845274,42.4082416710545,9,44480355.0009987,NA,NA,"results/species/Larus_ridibundus/range_raster.tif","results/species/Larus_ridibundus/range_raster_goode.tif"
+"Larus ridibundus",36.6608751562316,42.4082483588794,9,44480347.6874538,NA,NA,"results/species/Larus_ridibundus/range_raster.tif","results/species/Larus_ridibundus/range_raster_goode.tif"

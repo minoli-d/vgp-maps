@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Neoarius graeffei",137.529523575261,-17.209179175683,2,205224.11858036,147.423886,-19.567261,"results/species/Neoarius_graeffei/range_raster.tif","results/species/Neoarius_graeffei/range_raster_goode.tif"
+"Neoarius graeffei",137.529741941179,-17.2093589693675,2,205209.765908496,147.423886,-19.567261,"results/species/Neoarius_graeffei/range_raster.tif","results/species/Neoarius_graeffei/range_raster_goode.tif"

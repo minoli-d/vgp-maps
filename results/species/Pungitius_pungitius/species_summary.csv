@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Pungitius pungitius",-40.5100243250279,57.8848121209955,8,21293754.7013669,-3.2765753,54.7023545,"results/species/Pungitius_pungitius/range_raster.tif","results/species/Pungitius_pungitius/range_raster_goode.tif"
+"Pungitius pungitius",-40.5100243250279,57.8848121209955,8,21293754.7013669,-0.401055,53.780795,"results/species/Pungitius_pungitius/range_raster.tif","results/species/Pungitius_pungitius/range_raster_goode.tif"

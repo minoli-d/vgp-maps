@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Falco rusticolus",5.20824969097258,59.2349061859686,3,26073402.1802125,51.25,25.5,"results/species/Falco_rusticolus/range_raster.tif","results/species/Falco_rusticolus/range_raster_goode.tif"
+"Falco rusticolus",5.2082489346177,59.2348922837886,3,26073416.9263323,51.25,25.5,"results/species/Falco_rusticolus/range_raster.tif","results/species/Falco_rusticolus/range_raster_goode.tif"

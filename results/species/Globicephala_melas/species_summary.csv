@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Globicephala melas",-7.68651604725026,-25.8179586420087,2,133074301.837082,-3.2765753,54.7023545,"results/species/Globicephala_melas/range_raster.tif","results/species/Globicephala_melas/range_raster_goode.tif"
+"Globicephala melas",-7.68666063806021,-25.8178488913497,2,133074613.82641,-6.165,57.19888889,"results/species/Globicephala_melas/range_raster.tif","results/species/Globicephala_melas/range_raster_goode.tif"

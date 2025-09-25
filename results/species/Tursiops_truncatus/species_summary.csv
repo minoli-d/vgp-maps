@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Tursiops truncatus",-9.98749435505436,-1.16249495786506,8,254989405.728077,-76.6083,39.2851,"results/species/Tursiops_truncatus/range_raster.tif","results/species/Tursiops_truncatus/range_raster_goode.tif"
+"Tursiops truncatus",-9.98738594853944,-1.16249088534596,8,254989668.937073,-76.6083,39.2851,"results/species/Tursiops_truncatus/range_raster.tif","results/species/Tursiops_truncatus/range_raster_goode.tif"

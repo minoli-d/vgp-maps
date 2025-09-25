@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Coregonus lavaretus",5.85848147127877,45.7305795995743,4,23.9728218475044,-3.2765753,54.7023545,"results/species/Coregonus_lavaretus/range_raster.tif","results/species/Coregonus_lavaretus/range_raster_goode.tif"
+"Coregonus lavaretus",5.85848147127877,45.7305795995743,4,23.9728218475044,-2.5607,58.4682,"results/species/Coregonus_lavaretus/range_raster.tif","results/species/Coregonus_lavaretus/range_raster_goode.tif"

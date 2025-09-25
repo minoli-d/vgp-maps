@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Lissotriton vulgaris",25.7561135667896,52.8319525078838,1,6772165.95871917,-3.2765753,54.7023545,"results/species/Lissotriton_vulgaris/range_raster.tif","results/species/Lissotriton_vulgaris/range_raster_goode.tif"
+"Lissotriton vulgaris",25.7564139627344,52.8319080553822,1,6772063.93405736,-0.057,51.413,"results/species/Lissotriton_vulgaris/range_raster.tif","results/species/Lissotriton_vulgaris/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Silurus aristotelis",21.6212457157748,38.7120283225154,3,2179.24416470195,21.9877132,38.9953683,"results/species/Silurus_aristotelis/range_raster.tif","results/species/Silurus_aristotelis/range_raster_goode.tif"
+"Silurus aristotelis",21.6212457157748,38.7120283225154,3,2179.24416470195,20.85261,39.66181,"results/species/Silurus_aristotelis/range_raster.tif","results/species/Silurus_aristotelis/range_raster_goode.tif"

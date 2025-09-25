@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Sterna hirundo",61.4952116802209,27.3799499333339,5,51333523.2434289,8.11253,53.52998,"results/species/Sterna_hirundo/range_raster.tif","results/species/Sterna_hirundo/range_raster_goode.tif"
+"Sterna hirundo",61.4948428033748,27.3800311206183,5,51333765.2775221,8.11253,53.52998,"results/species/Sterna_hirundo/range_raster.tif","results/species/Sterna_hirundo/range_raster_goode.tif"

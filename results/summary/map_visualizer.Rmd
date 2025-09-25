@@ -5,8 +5,8 @@ output: md_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, results = 'asis')
-# knitr::opts_knit$set(root.dir = "/global/scratch/users/minoli/maps")
-knitr::opts_knit$set(root.dir = "~/Desktop/vgp-maps")
+knitr::opts_knit$set(root.dir = "/global/scratch/users/minoli/maps")
+# knitr::opts_knit$set(root.dir = "~/Desktop/vgp-maps")
 library(ggplot2)
 library(sf)
 library(terra)
@@ -185,7 +185,7 @@ for (i in seq_len(nrow(df))) {
 }
 ```
 
-```{r,  results='asis'}
+```{r,  results='asis', cache=TRUE}
 
 # df_prioritized <- df %>%
 #   filter(!domesticated_flag,
@@ -302,7 +302,4 @@ for (i in seq_len(nrow(df_prioritized))) {
     cat("![](../species/", sp_sane, "/", sp_sane, "_distribution_map.png)", sep = "")
   }
 }
-
-all_species %>% filter(scientific_name == "Antrozous pallidus")
-
 ```

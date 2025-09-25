@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Gulosus aristotelis",9.03597159247393,46.4192537876362,2,1995894.75085123,-3.2765753,54.7023545,"results/species/Gulosus_aristotelis/range_raster.tif","results/species/Gulosus_aristotelis/range_raster_goode.tif"
+"Gulosus aristotelis",9.03597159247393,46.4192537876362,2,1995894.75085123,-2.5736,56.1902,"results/species/Gulosus_aristotelis/range_raster.tif","results/species/Gulosus_aristotelis/range_raster_goode.tif"

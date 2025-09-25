@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Furcifer pardalis",49.9862745866464,-15.4024488381123,4,48070.1401798131,116.412144,40.190632,"results/species/Furcifer_pardalis/range_raster.tif","results/species/Furcifer_pardalis/range_raster_goode.tif"
+"Furcifer pardalis",49.9844276524813,-15.400138735576,4,48122.1166126544,116.412144,40.190632,"results/species/Furcifer_pardalis/range_raster.tif","results/species/Furcifer_pardalis/range_raster_goode.tif"

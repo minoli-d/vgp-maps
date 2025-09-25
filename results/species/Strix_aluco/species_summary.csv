@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Strix aluco",31.0031420311,47.8257343377077,1,9589157.64726978,-1.9838889,43.3224219,"results/species/Strix_aluco/range_raster.tif","results/species/Strix_aluco/range_raster_goode.tif"
+"Strix aluco",31.003201177142,47.825707545817,1,9589136.32039039,-1.9838889,43.3224219,"results/species/Strix_aluco/range_raster.tif","results/species/Strix_aluco/range_raster_goode.tif"

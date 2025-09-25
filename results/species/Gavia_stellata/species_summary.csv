@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Gavia stellata",26.5067199231375,57.4317235856778,3,23300797.9435096,-42.6043,71.7069,"results/species/Gavia_stellata/range_raster.tif","results/species/Gavia_stellata/range_raster_goode.tif"
+"Gavia stellata",26.5066307541501,57.4317029502062,3,23300806.7024214,-42.6043,71.7069,"results/species/Gavia_stellata/range_raster.tif","results/species/Gavia_stellata/range_raster_goode.tif"

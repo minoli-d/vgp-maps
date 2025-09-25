@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Numenius arquata",59.3822278004577,30.6331595526565,4,42768570.9878488,-7.9794599,52.865196,"results/species/Numenius_arquata/range_raster.tif","results/species/Numenius_arquata/range_raster_goode.tif"
+"Numenius arquata",59.3822103786507,30.6331457421817,4,42768625.0931331,-9.48929614,52.3532975,"results/species/Numenius_arquata/range_raster.tif","results/species/Numenius_arquata/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Gallinula chloropus",56.0596676525814,21.9775635248041,4,38933747.3721763,-3.2765753,54.7023545,"results/species/Gallinula_chloropus/range_raster.tif","results/species/Gallinula_chloropus/range_raster_goode.tif"
+"Gallinula chloropus",56.0596676525814,21.9775635248041,4,38933747.3721763,-0.23,51.47,"results/species/Gallinula_chloropus/range_raster.tif","results/species/Gallinula_chloropus/range_raster_goode.tif"

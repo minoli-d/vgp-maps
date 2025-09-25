@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Colius striatus",28.7626247661574,-3.36246257194962,1,8054767.99287943,12.52133664,55.67256961,"results/species/Colius_striatus/range_raster.tif","results/species/Colius_striatus/range_raster_goode.tif"
+"Colius striatus",28.7626197135494,-3.36246639226552,1,8054762.40893882,12.52133664,55.67256961,"results/species/Colius_striatus/range_raster.tif","results/species/Colius_striatus/range_raster_goode.tif"

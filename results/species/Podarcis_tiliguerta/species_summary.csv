@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Podarcis tiliguerta",9.08317065723012,40.692504552952,1,28738.3669817682,12.674297,42.6384261,"results/species/Podarcis_tiliguerta/range_raster.tif","results/species/Podarcis_tiliguerta/range_raster_goode.tif"
+"Podarcis tiliguerta",9.08314730503925,40.6924960111971,1,28737.2806047839,9.22911,41.25152,"results/species/Podarcis_tiliguerta/range_raster.tif","results/species/Podarcis_tiliguerta/range_raster_goode.tif"

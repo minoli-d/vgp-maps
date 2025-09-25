@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Calonectris borealis",-19.0517702182192,-2.09679276777674,2,58849291.8964647,-4.8379791,39.3260685,"results/species/Calonectris_borealis/range_raster.tif","results/species/Calonectris_borealis/range_raster_goode.tif"
+"Calonectris borealis",-19.0517702288303,-2.09679291072459,2,58849291.6104771,-15.7886,27.8444,"results/species/Calonectris_borealis/range_raster.tif","results/species/Calonectris_borealis/range_raster_goode.tif"

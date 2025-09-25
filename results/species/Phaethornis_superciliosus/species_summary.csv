@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Phaethornis superciliosus",-57.0140540892419,0.345394491153383,1,2560362.16082398,-48.2951,-1.2109,"results/species/Phaethornis_superciliosus/range_raster.tif","results/species/Phaethornis_superciliosus/range_raster_goode.tif"
+"Phaethornis superciliosus",-57.0140538948759,0.345393669794611,1,2560361.83625663,-48.2951,-1.2109,"results/species/Phaethornis_superciliosus/range_raster.tif","results/species/Phaethornis_superciliosus/range_raster_goode.tif"

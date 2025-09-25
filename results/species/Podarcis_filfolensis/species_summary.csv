@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Podarcis filfolensis",14.3566912322159,35.9053539724973,2,183.804108106162,14.4476911,35.8885993,"results/species/Podarcis_filfolensis/range_raster.tif","results/species/Podarcis_filfolensis/range_raster_goode.tif"
+"Podarcis filfolensis",14.3566912322159,35.9053539724973,2,183.804108106162,14.409401,35.787928,"results/species/Podarcis_filfolensis/range_raster.tif","results/species/Podarcis_filfolensis/range_raster_goode.tif"

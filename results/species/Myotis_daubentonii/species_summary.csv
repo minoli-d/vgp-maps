@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Myotis daubentonii",27.6960757458519,51.3989322079062,2,7009228.97905159,8.2319736,46.7985624,"results/species/Myotis_daubentonii/range_raster.tif","results/species/Myotis_daubentonii/range_raster_goode.tif"
+"Myotis daubentonii",27.6960757458519,51.3989322079062,2,7009228.97905159,6.174296,46.212997,"results/species/Myotis_daubentonii/range_raster.tif","results/species/Myotis_daubentonii/range_raster_goode.tif"

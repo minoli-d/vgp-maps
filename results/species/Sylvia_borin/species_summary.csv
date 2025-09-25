@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Sylvia borin",29.0504678969223,22.5526720183121,3,47979914.529796,12.949173,40.9293,"results/species/Sylvia_borin/range_raster.tif","results/species/Sylvia_borin/range_raster_goode.tif"
+"Sylvia borin",29.05048369824,22.5526350992442,3,47979839.2629514,12.949173,40.9293,"results/species/Sylvia_borin/range_raster.tif","results/species/Sylvia_borin/range_raster_goode.tif"

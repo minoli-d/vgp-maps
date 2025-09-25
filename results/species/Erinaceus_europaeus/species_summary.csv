@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Erinaceus europaeus",14.13192913894,51.1172572391856,10,4083280.2316617,-3.2765753,54.7023545,"results/species/Erinaceus_europaeus/range_raster.tif","results/species/Erinaceus_europaeus/range_raster_goode.tif"
+"Erinaceus europaeus",14.13192913894,51.1172572391856,10,4083280.2316617,-4.0991872,51.580742,"results/species/Erinaceus_europaeus/range_raster.tif","results/species/Erinaceus_europaeus/range_raster_goode.tif"

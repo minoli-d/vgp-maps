@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Esox lucius",16.4234020445083,56.0808094619721,1,30949631.6902229,16.717,49.218,"results/species/Esox_lucius/range_raster.tif","results/species/Esox_lucius/range_raster_goode.tif"
+"Esox lucius",16.4233314444402,56.0808210387559,1,30949713.4810166,16.717,49.218,"results/species/Esox_lucius/range_raster.tif","results/species/Esox_lucius/range_raster_goode.tif"

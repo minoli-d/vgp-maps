@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Nesoenas mayeri",57.5574152480896,-20.2839789197864,2,1804.90716428913,-3.2765753,54.7023545,"results/species/Nesoenas_mayeri/range_raster.tif","results/species/Nesoenas_mayeri/range_raster_goode.tif"
+"Nesoenas mayeri",57.5574152480896,-20.2839789197864,2,1804.90716428913,49.227924,-2.076585,"results/species/Nesoenas_mayeri/range_raster.tif","results/species/Nesoenas_mayeri/range_raster_goode.tif"

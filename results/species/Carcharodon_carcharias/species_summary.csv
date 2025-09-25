@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Carcharodon carcharias",-9.63985392076664,-2.55488259291121,4,273975408.042147,-118.12249,33.782158,"results/species/Carcharodon_carcharias/range_raster.tif","results/species/Carcharodon_carcharias/range_raster_goode.tif"
+"Carcharodon carcharias",-9.63981929188453,-2.55487398215537,4,273975616.142372,-118.12249,33.782158,"results/species/Carcharodon_carcharias/range_raster.tif","results/species/Carcharodon_carcharias/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Menidia menidia",-68.2107917979831,41.7505054464182,1,718754.544408459,-72.7342163,41.6500201,"results/species/Menidia_menidia/range_raster.tif","results/species/Menidia_menidia/range_raster_goode.tif"
+"Menidia menidia",-68.2102188622121,41.7509946787269,1,718749.326538196,-72.02,41.32,"results/species/Menidia_menidia/range_raster.tif","results/species/Menidia_menidia/range_raster_goode.tif"

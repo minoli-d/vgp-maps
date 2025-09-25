@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Lacerta agilis",50.8228444811036,51.770661289994,2,9417576.23839543,11.936655,57.489552,"results/species/Lacerta_agilis/range_raster.tif","results/species/Lacerta_agilis/range_raster_goode.tif"
+"Lacerta agilis",50.8228000859738,51.7706731373631,2,9417590.84887149,11.936655,57.489552,"results/species/Lacerta_agilis/range_raster.tif","results/species/Lacerta_agilis/range_raster_goode.tif"

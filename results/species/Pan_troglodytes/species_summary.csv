@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Pan troglodytes",13.2514583827735,3.19673576358419,8,2308701.31428777,NA,NA,"results/species/Pan_troglodytes/range_raster.tif","results/species/Pan_troglodytes/range_raster_goode.tif"
+"Pan troglodytes",13.2502412281277,3.19762287544327,8,2308507.92350112,NA,NA,"results/species/Pan_troglodytes/range_raster.tif","results/species/Pan_troglodytes/range_raster_goode.tif"

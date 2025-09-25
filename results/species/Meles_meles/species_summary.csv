@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Meles meles",27.1475739044758,47.3675114570738,12,9801839.90516295,-3.2765753,54.7023545,"results/species/Meles_meles/range_raster.tif","results/species/Meles_meles/range_raster_goode.tif"
+"Meles meles",27.1475739044758,47.3675114570738,12,9801839.90516295,-1.34,51.77,"results/species/Meles_meles/range_raster.tif","results/species/Meles_meles/range_raster_goode.tif"

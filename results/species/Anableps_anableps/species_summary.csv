@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Anableps anableps",-52.067925768143,-1.72770589214902,4,2559379.43380831,9.1829321,48.7758459,"results/species/Anableps_anableps/range_raster.tif","results/species/Anableps_anableps/range_raster_goode.tif"
+"Anableps anableps",-52.0679289871712,-1.72771310584401,4,2559373.14623117,9.1829321,48.7758459,"results/species/Anableps_anableps/range_raster.tif","results/species/Anableps_anableps/range_raster_goode.tif"

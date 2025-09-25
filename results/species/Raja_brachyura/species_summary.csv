@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Raja brachyura",-1.78062096559919,46.7999769422598,2,1328413.42202643,-3.2765753,54.7023545,"results/species/Raja_brachyura/range_raster.tif","results/species/Raja_brachyura/range_raster_goode.tif"
+"Raja brachyura",-1.78140259089997,46.8008730155593,2,1328327.27659199,-4.236297,50.325291,"results/species/Raja_brachyura/range_raster.tif","results/species/Raja_brachyura/range_raster_goode.tif"

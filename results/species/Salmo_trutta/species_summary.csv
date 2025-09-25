@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Salmo trutta",22.2536122249985,56.0033030457117,6,7225482.23535298,NA,NA,"results/species/Salmo_trutta/range_raster.tif","results/species/Salmo_trutta/range_raster_goode.tif"
+"Salmo trutta",22.2536122249984,56.0033030457123,6,7225482.23535335,NA,NA,"results/species/Salmo_trutta/range_raster.tif","results/species/Salmo_trutta/range_raster_goode.tif"

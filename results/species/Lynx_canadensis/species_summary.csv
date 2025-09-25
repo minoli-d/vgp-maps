@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Lynx canadensis",-108.457916121299,56.2069143170789,38,8322228.70974779,-71.6746,42.2466,"results/species/Lynx_canadensis/range_raster.tif","results/species/Lynx_canadensis/range_raster_goode.tif"
+"Lynx canadensis",-108.457916233512,56.2069143484483,38,8322228.68680651,-71.6746,42.2466,"results/species/Lynx_canadensis/range_raster.tif","results/species/Lynx_canadensis/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Eptesicus fuscus",-99.0474132379935,37.1070092195043,4,12807384.3402872,-101.1597,33.666074,"results/species/Eptesicus_fuscus/range_raster.tif","results/species/Eptesicus_fuscus/range_raster_goode.tif"
+"Eptesicus fuscus",-99.0474132379935,37.1070092195043,4,12807384.3402872,33.666074,33.666074,"results/species/Eptesicus_fuscus/range_raster.tif","results/species/Eptesicus_fuscus/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Protomyctophum parallelum",-1.48052484655741,-46.8004121685249,1,76691409.2782844,89.9999999,-59.9999999,"results/species/Protomyctophum_parallelum/range_raster.tif","results/species/Protomyctophum_parallelum/range_raster_goode.tif"
+"Protomyctophum parallelum",-1.48055955814264,-46.8004135856172,1,76691431.0601388,-49.31091,-53.94395,"results/species/Protomyctophum_parallelum/range_raster.tif","results/species/Protomyctophum_parallelum/range_raster_goode.tif"
