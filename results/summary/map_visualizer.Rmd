@@ -275,7 +275,7 @@ df_prioritized <- df %>%
          domesticated_flag, priority) %>%
   arrange(priority, scientific_name) 
 
-# write.csv(df_prioritized, "results/summary/all_species_prioritized.csv", row.names = FALSE)
+write.csv(df_prioritized, "results/summary/all_species_prioritized.csv", row.names = FALSE)
 
 for (i in seq_len(nrow(df_prioritized))) {
   sp      <- df_prioritized$scientific_name[i]

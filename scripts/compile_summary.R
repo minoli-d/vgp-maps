@@ -14,69 +14,97 @@ all_summaries <- summary_files |>
   bind_rows() |>
   distinct()
 
-check_outside_flag <- function(lon, lat, rpath, buffer_km = 50) {
-  flag <- NA
-  if (!is.na(lon) && !is.na(lat) && !is.na(rpath) && file.exists(rpath)) {
-    try({
-      r <- terra::rast(rpath)
-      r_mask <- r > 0
-      res_km <- mean(res(r)) / 1000
-      n_cells <- max(1, ceiling(buffer_km / res_km))
-      
-      w <- matrix(1, nrow = 2 * n_cells + 1, ncol = 2 * n_cells + 1)
-      r_dilated <- terra::focal(r_mask, w = w, fun = max)
-      
-      pt <- sf::st_sfc(sf::st_point(c(lon, lat)), crs = 4326)
-      pt_r <- sf::st_transform(pt, crs(r))
-      coords <- sf::st_coordinates(pt_r)
-      
-      ex <- terra::extract(r_dilated, coords)
-      val <- ex$focal_max
-      
-      flag <- is.na(val) || val == 0
-    }, silent = TRUE)
-  }
-  return(flag)
-}
+few_summaries <- all_summaries %>%  filter(species %in% c("Rhinolophus luctus", 
+                                                          "Acridotheres tristis", 
+                                                          "Pseudophryne corroboree", 
+                                                          "Poromitra crassiceps"))
+
+# check_outside_flag <- function(lon, lat, rpath, buffer_km = 50, debug = FALSE) {
+#   flag <- NA
+#   
+#   if (!is.na(lon) && !is.na(lat) && !is.na(rpath) && file.exists(rpath)) {
+#     try({
+#       print("valid inputs")
+#       r <- terra::rast(rpath)
+#       r_mask <- r > 0
+#       
+# 
+#       res_km  <- mean(res(r)) / 1000
+#       n_cells <- max(1, ceiling(buffer_km / res_km))
+#       n_cells <- min(n_cells, floor(min(nrow(r), ncol(r)) / 2))  
+#       
+#       w <- matrix(1, nrow = 2 * n_cells + 1, ncol = 2 * n_cells + 1)
+#       r_dilated <- terra::focal(r_mask, w = w, fun = max)
+#       
+# 
+#       pt <- sf::st_sfc(sf::st_point(c(lon, lat)), crs = 4326)
+#       pt_r <- sf::st_transform(pt, crs(r))
+#       coords <- sf::st_coordinates(pt_r)
+#       
+# 
+#       val_dil <- terra::extract(r_dilated, coords)[,1]
+#       
+# 
+#       if (is.na(val_dil)) {
+#         flag <- NA
+#       } else {
+#         flag <- val_dil == 0
+#       }
+#       
+#       if (debug) {
+#         message(sprintf(
+#           "lon=%.4f lat=%.4f projX=%.1f projY=%.1f dil=%s -> flag=%s",
+#           lon, lat, coords[1], coords[2],
+#           ifelse(is.na(val_dil), "NA", val_dil),
+#           flag
+#         ))
+#       }
+#     }, silent = TRUE)
+#   }
+#   
+#   return(flag)
+# }
+
 
 check_outside_flag <- function(lon, lat, rpath, buffer_km = 50, debug = FALSE) {
   flag <- NA
   
   if (!is.na(lon) && !is.na(lat) && !is.na(rpath) && file.exists(rpath)) {
     try({
-      # Load raster
       r <- terra::rast(rpath)
       r_mask <- r > 0
       
-      # Compute dilation buffer (in pixels)
       res_km  <- mean(res(r)) / 1000
       n_cells <- max(1, ceiling(buffer_km / res_km))
-      n_cells <- min(n_cells, floor(min(nrow(r), ncol(r)) / 2))  # safety check
+      n_cells <- min(n_cells, floor(min(nrow(r), ncol(r)) / 2))  
       
       w <- matrix(1, nrow = 2 * n_cells + 1, ncol = 2 * n_cells + 1)
       r_dilated <- terra::focal(r_mask, w = w, fun = max)
       
-      # Reproject point to raster CRS
       pt <- sf::st_sfc(sf::st_point(c(lon, lat)), crs = 4326)
       pt_r <- sf::st_transform(pt, crs(r))
       coords <- sf::st_coordinates(pt_r)
       
-      # Extract values
-      val_dil <- terra::extract(r_dilated, coords)[,1]
+      ext <- ext(r_dilated)
+      inside <- coords[1] >= ext[1] && coords[1] <= ext[2] &&
+        coords[2] >= ext[3] && coords[2] <= ext[4]
       
-      # Flag logic
-      if (is.na(val_dil)) {
-        flag <- NA
+      if (!inside) {
+        flag <- TRUE  # definitely outside range
       } else {
-        flag <- val_dil == 0
+        val_dil <- terra::extract(r_dilated, coords)[,1]
+        if (is.na(val_dil)) {
+          flag <- TRUE
+        } else {
+          flag <- val_dil == 0
+        }
       }
       
       if (debug) {
         message(sprintf(
-          "lon=%.4f lat=%.4f projX=%.1f projY=%.1f dil=%s -> flag=%s",
-          lon, lat, coords[1], coords[2],
-          ifelse(is.na(val_dil), "NA", val_dil),
-          flag
+          "lon=%.4f lat=%.4f projX=%.1f projY=%.1f inside=%s val=%s -> flag=%s",
+          lon, lat, coords[1], coords[2], inside,
+          ifelse(exists("val_dil"), val_dil, "NA"), flag
         ))
       }
     }, silent = TRUE)
@@ -86,6 +114,11 @@ check_outside_flag <- function(lon, lat, rpath, buffer_km = 50, debug = FALSE) {
 }
 
 all_summaries <- all_summaries %>%
+  rowwise() %>%
+  mutate(outside_range_flag = check_outside_flag(sampling_lon, sampling_lat, raster_path_ea)) %>%
+  ungroup()
+
+few_summaries <- few_summaries %>%
   rowwise() %>%
   mutate(outside_range_flag = check_outside_flag(sampling_lon, sampling_lat, raster_path_ea)) %>%
   ungroup()
@@ -117,6 +150,23 @@ all_species <- df %>%
       str_detect(geo_location, str_c(zoo_terms, collapse = "|")),
     domesticated_flag = iucn_name %in% domesticated_species
   )
+
+
+few_all_species <- df %>%
+  left_join(
+    few_summaries %>%
+      dplyr::select(species, raster_path_ea, raster_path_goode,
+                    centroid_lon, centroid_lat, 
+                    outside_range_flag),
+    by = c("iucn_name" = "species")
+  ) %>%
+  mutate(
+    missing_range_flag = is.na(raster_path_ea),
+    zoo_flag = !is.na(geo_location) &
+      str_detect(geo_location, str_c(zoo_terms, collapse = "|")),
+    domesticated_flag = iucn_name %in% domesticated_species
+  )
+
 
 write_csv(all_species, "results/summary/all_species_summary.csv")
 
