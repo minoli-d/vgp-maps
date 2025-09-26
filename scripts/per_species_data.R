@@ -60,7 +60,8 @@ message(". Computed centroid")
 
 # sampling location (from metadata)
 df_sp <- df %>%
-  filter(scientific_name == species & !is.na(lon) & !is.na(lat))
+  filter((scientific_name == species | iucn_name == species) & 
+           !is.na(lon) & !is.na(lat))
 
 if (nrow(df_sp) == 0) {
   sampling_lon <- NA

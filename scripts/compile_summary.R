@@ -17,7 +17,8 @@ all_summaries <- summary_files |>
 few_summaries <- all_summaries %>%  filter(species %in% c("Rhinolophus luctus", 
                                                           "Acridotheres tristis", 
                                                           "Pseudophryne corroboree", 
-                                                          "Poromitra crassiceps"))
+                                                          "Poromitra crassiceps",
+                                                          "Alca torda"))
 
 # check_outside_flag <- function(lon, lat, rpath, buffer_km = 50, debug = FALSE) {
 #   flag <- NA
@@ -90,7 +91,7 @@ check_outside_flag <- function(lon, lat, rpath, buffer_km = 50, debug = FALSE) {
         coords[2] >= ext[3] && coords[2] <= ext[4]
       
       if (!inside) {
-        flag <- TRUE  # definitely outside range
+        flag <- TRUE  
       } else {
         val_dil <- terra::extract(r_dilated, coords)[,1]
         if (is.na(val_dil)) {
@@ -102,7 +103,7 @@ check_outside_flag <- function(lon, lat, rpath, buffer_km = 50, debug = FALSE) {
       
       if (debug) {
         message(sprintf(
-          "lon=%.4f lat=%.4f projX=%.1f projY=%.1f inside=%s val=%s -> flag=%s",
+          "lon=%.4f  lat=%.4f  projX=%.1f  projY=%.1f  inside=%s  val=%s -> flag=%s",
           lon, lat, coords[1], coords[2], inside,
           ifelse(exists("val_dil"), val_dil, "NA"), flag
         ))
@@ -113,7 +114,7 @@ check_outside_flag <- function(lon, lat, rpath, buffer_km = 50, debug = FALSE) {
   return(flag)
 }
 
-all_summaries <- all_summaries %>%
+ all_summaries <- all_summaries %>%
   rowwise() %>%
   mutate(outside_range_flag = check_outside_flag(sampling_lon, sampling_lat, raster_path_ea)) %>%
   ungroup()
@@ -136,6 +137,8 @@ domesticated_species <- c(
   "Ovis aries"             # sheep
 )
 
+synonym_map <- 
+
 all_species <- df %>%
   left_join(
     all_summaries %>%
@@ -156,7 +159,7 @@ few_all_species <- df %>%
   left_join(
     few_summaries %>%
       dplyr::select(species, raster_path_ea, raster_path_goode,
-                    centroid_lon, centroid_lat, 
+                    centroid_lon, centroid_lat,
                     outside_range_flag),
     by = c("iucn_name" = "species")
   ) %>%

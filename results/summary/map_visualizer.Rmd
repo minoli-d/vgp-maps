@@ -302,4 +302,6 @@ for (i in seq_len(nrow(df_prioritized))) {
     cat("![](../species/", sp_sane, "/", sp_sane, "_distribution_map.png)", sep = "")
   }
 } 
+
+table(df_prioritized$priority)
 ```
