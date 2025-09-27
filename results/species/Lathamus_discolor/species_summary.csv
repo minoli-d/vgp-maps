@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Lathamus discolor",147.638365345368,-34.5015810269342,2,767959.541165428,147.319128,-43.164424,"results/species/Lathamus_discolor/range_raster.tif","results/species/Lathamus_discolor/range_raster_goode.tif"
+"Lathamus discolor",147.638385400137,-34.5015436117279,2,767962.931188603,147.319128,-43.164424,"results/species/Lathamus_discolor/range_raster.tif","results/species/Lathamus_discolor/range_raster_goode.tif"

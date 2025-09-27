@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Phoenicopterus ruber",-75.4528033089383,19.4113631407439,5,483377.183788574,12.52139,55.67278,"results/species/Phoenicopterus_ruber/range_raster.tif","results/species/Phoenicopterus_ruber/range_raster_goode.tif"
+"Phoenicopterus ruber",-75.4515128675603,19.408739512093,5,483218.62656539,12.52139,55.67278,"results/species/Phoenicopterus_ruber/range_raster.tif","results/species/Phoenicopterus_ruber/range_raster_goode.tif"

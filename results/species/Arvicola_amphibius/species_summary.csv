@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Arvicola amphibius",54.5858883201517,53.8333090287581,2,15593677.6181957,NA,NA,"results/species/Arvicola_amphibius/range_raster.tif","results/species/Arvicola_amphibius/range_raster_goode.tif"
+"Arvicola amphibius",54.5858814315118,53.833309659916,2,15593680.9098169,NA,NA,"results/species/Arvicola_amphibius/range_raster.tif","results/species/Arvicola_amphibius/range_raster_goode.tif"

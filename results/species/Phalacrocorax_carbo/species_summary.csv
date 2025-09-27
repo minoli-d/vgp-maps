@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Phalacrocorax carbo",77.0243596926149,11.0376549032871,4,32244143.5245357,132.2277778,34.14444444,"results/species/Phalacrocorax_carbo/range_raster.tif","results/species/Phalacrocorax_carbo/range_raster_goode.tif"
+"Phalacrocorax carbo",77.0245599499006,11.0375870080837,4,32244168.5963005,132.2277778,34.14444444,"results/species/Phalacrocorax_carbo/range_raster.tif","results/species/Phalacrocorax_carbo/range_raster_goode.tif"

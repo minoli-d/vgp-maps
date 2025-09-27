@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Lissotriton helveticus",1.71017405324192,48.2651009890925,2,1098495.44397797,-3.999,50.542,"results/species/Lissotriton_helveticus/range_raster.tif","results/species/Lissotriton_helveticus/range_raster_goode.tif"
+"Lissotriton helveticus",1.71039545681386,48.2648744385104,2,1098459.51543165,-3.999,50.542,"results/species/Lissotriton_helveticus/range_raster.tif","results/species/Lissotriton_helveticus/range_raster_goode.tif"

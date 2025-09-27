@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Geothlypis trichas",-99.380695429918,39.3182460833313,4,15136001.0779619,-88.01,43.23,"results/species/Geothlypis_trichas/range_raster.tif","results/species/Geothlypis_trichas/range_raster_goode.tif"
+"Geothlypis trichas",-99.3806267828857,39.3182227813648,4,15136058.0935321,-88.01,43.23,"results/species/Geothlypis_trichas/range_raster.tif","results/species/Geothlypis_trichas/range_raster_goode.tif"

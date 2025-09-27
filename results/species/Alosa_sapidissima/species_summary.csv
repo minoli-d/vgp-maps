@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Alosa sapidissima",-73.9404313137814,31.436586737457,10,3952853.44814581,-81.894728,28.438892,"results/species/Alosa_sapidissima/range_raster.tif","results/species/Alosa_sapidissima/range_raster_goode.tif"
+"Alosa sapidissima",-73.9404773088774,31.4364972676362,10,3952816.52598945,-81.894728,28.438892,"results/species/Alosa_sapidissima/range_raster.tif","results/species/Alosa_sapidissima/range_raster_goode.tif"

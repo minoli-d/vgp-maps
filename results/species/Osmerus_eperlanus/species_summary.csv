@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Osmerus eperlanus",17.1251814274809,59.2201945342934,1,1518569.0535684,0.78,51.5,"results/species/Osmerus_eperlanus/range_raster.tif","results/species/Osmerus_eperlanus/range_raster_goode.tif"
+"Osmerus eperlanus",17.125184004891,59.2201944359424,1,1518572.17739699,0.78,51.5,"results/species/Osmerus_eperlanus/range_raster.tif","results/species/Osmerus_eperlanus/range_raster_goode.tif"

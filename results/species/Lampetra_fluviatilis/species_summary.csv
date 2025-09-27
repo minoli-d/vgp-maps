@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Lampetra fluviatilis",15.5287115216933,55.140570876154,6,3204943.54132516,-4.43645,56.04908,"results/species/Lampetra_fluviatilis/range_raster.tif","results/species/Lampetra_fluviatilis/range_raster_goode.tif"
+"Lampetra fluviatilis",15.5286952188985,55.1405141972735,6,3204919.80808626,-4.43645,56.04908,"results/species/Lampetra_fluviatilis/range_raster.tif","results/species/Lampetra_fluviatilis/range_raster_goode.tif"

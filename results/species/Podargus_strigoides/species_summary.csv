@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Podargus strigoides",134.378287577447,-25.2683844479242,1,7673485.05697045,151.24137756,-33.84336411,"results/species/Podargus_strigoides/range_raster.tif","results/species/Podargus_strigoides/range_raster_goode.tif"
+"Podargus strigoides",134.378245909382,-25.2684161749253,1,7673443.34336251,151.24137756,-33.84336411,"results/species/Podargus_strigoides/range_raster.tif","results/species/Podargus_strigoides/range_raster_goode.tif"

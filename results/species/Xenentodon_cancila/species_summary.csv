@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Xenentodon cancila",87.7398403078575,23.2576068278565,2,3113748.32783416,4.4777325,51.9244201,"results/species/Xenentodon_cancila/range_raster.tif","results/species/Xenentodon_cancila/range_raster_goode.tif"
+"Xenentodon cancila",87.7398242388339,23.2576252428108,2,3113736.16535831,4.4777325,51.9244201,"results/species/Xenentodon_cancila/range_raster.tif","results/species/Xenentodon_cancila/range_raster_goode.tif"

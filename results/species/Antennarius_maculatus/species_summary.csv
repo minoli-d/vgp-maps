@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Antennarius maculatus",115.54986637287,0.790219204513337,1,6207916.56764263,4.4777325,51.9244201,"results/species/Antennarius_maculatus/range_raster.tif","results/species/Antennarius_maculatus/range_raster_goode.tif"
+"Antennarius maculatus",115.550154547823,0.790205109882001,1,6207924.28722077,4.4777325,51.9244201,"results/species/Antennarius_maculatus/range_raster.tif","results/species/Antennarius_maculatus/range_raster_goode.tif"

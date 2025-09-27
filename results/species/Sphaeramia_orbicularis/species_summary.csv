@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Sphaeramia orbicularis",114.042932894914,-0.207825734728191,1,12471014.175366,NA,NA,"results/species/Sphaeramia_orbicularis/range_raster.tif","results/species/Sphaeramia_orbicularis/range_raster_goode.tif"
+"Sphaeramia orbicularis",114.043042247671,-0.207874422515903,1,12471054.1002913,NA,NA,"results/species/Sphaeramia_orbicularis/range_raster.tif","results/species/Sphaeramia_orbicularis/range_raster_goode.tif"

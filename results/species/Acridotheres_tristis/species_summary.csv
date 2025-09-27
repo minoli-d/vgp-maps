@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Acridotheres tristis",85.2693993419636,18.256814062973,2,10002750.5173689,34.80909311,32.11339733,"results/species/Acridotheres_tristis/range_raster.tif","results/species/Acridotheres_tristis/range_raster_goode.tif"
+"Acridotheres tristis",85.2691396770133,18.2565439372705,2,10002886.2636684,34.80909311,32.11339733,"results/species/Acridotheres_tristis/range_raster.tif","results/species/Acridotheres_tristis/range_raster_goode.tif"

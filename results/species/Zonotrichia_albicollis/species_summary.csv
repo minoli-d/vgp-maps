@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Zonotrichia albicollis",-95.203327519671,44.585926599129,4,11722989.7148816,-73.750862,41.767983,"results/species/Zonotrichia_albicollis/range_raster.tif","results/species/Zonotrichia_albicollis/range_raster_goode.tif"
+"Zonotrichia albicollis",-95.203400500134,44.5859216765232,4,11722978.6772127,-73.750862,41.767983,"results/species/Zonotrichia_albicollis/range_raster.tif","results/species/Zonotrichia_albicollis/range_raster_goode.tif"

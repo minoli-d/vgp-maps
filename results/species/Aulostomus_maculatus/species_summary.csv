@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Aulostomus maculatus",-70.1684237401816,14.8036695395574,2,3182263.45621833,-68.9309263,12.1176488,"results/species/Aulostomus_maculatus/range_raster.tif","results/species/Aulostomus_maculatus/range_raster_goode.tif"
+"Aulostomus maculatus",-70.1680101163569,14.8034433272431,2,3182324.00344904,-68.9309263,12.1176488,"results/species/Aulostomus_maculatus/range_raster.tif","results/species/Aulostomus_maculatus/range_raster_goode.tif"

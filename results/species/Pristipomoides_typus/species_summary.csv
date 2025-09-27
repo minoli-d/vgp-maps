@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Pristipomoides typus",115.820929043385,-1.76388358655789,2,7191709.83731516,115.39185,-20.77692,"results/species/Pristipomoides_typus/range_raster.tif","results/species/Pristipomoides_typus/range_raster_goode.tif"
+"Pristipomoides typus",115.820986694756,-1.76388696984914,2,7191712.66724595,115.39185,-20.77692,"results/species/Pristipomoides_typus/range_raster.tif","results/species/Pristipomoides_typus/range_raster_goode.tif"

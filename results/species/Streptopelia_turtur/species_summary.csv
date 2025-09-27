@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Streptopelia turtur",36.600741546484,36.3841297942464,2,22075509.9298114,NA,NA,"results/species/Streptopelia_turtur/range_raster.tif","results/species/Streptopelia_turtur/range_raster_goode.tif"
+"Streptopelia turtur",36.6007617901207,36.3841524334717,2,22075493.4132771,NA,NA,"results/species/Streptopelia_turtur/range_raster.tif","results/species/Streptopelia_turtur/range_raster_goode.tif"

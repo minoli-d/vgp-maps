@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Scyliorhinus canicula",3.92530415806865,44.9428078666779,2,2687944.28155241,NA,NA,"results/species/Scyliorhinus_canicula/range_raster.tif","results/species/Scyliorhinus_canicula/range_raster_goode.tif"
+"Scyliorhinus canicula",3.92512290973387,44.9430738938833,2,2687946.76338313,NA,NA,"results/species/Scyliorhinus_canicula/range_raster.tif","results/species/Scyliorhinus_canicula/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Corvus monedula",46.7927633035945,46.1068111100907,5,15222338.9648221,NA,NA,"results/species/Corvus_monedula/range_raster.tif","results/species/Corvus_monedula/range_raster_goode.tif"
+"Corvus monedula",46.7928259009821,46.1067969953628,5,15222319.8771998,-2.41,51.74,"results/species/Corvus_monedula/range_raster.tif","results/species/Corvus_monedula/range_raster_goode.tif"

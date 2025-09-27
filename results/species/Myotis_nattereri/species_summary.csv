@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Myotis nattereri",19.6173371405316,50.3655386334677,4,4383358.37228916,-3.07047,47.65081,"results/species/Myotis_nattereri/range_raster.tif","results/species/Myotis_nattereri/range_raster_goode.tif"
+"Myotis nattereri",19.6173373340093,50.3655387282981,4,4383358.26389603,-3.07047,47.65081,"results/species/Myotis_nattereri/range_raster.tif","results/species/Myotis_nattereri/range_raster_goode.tif"

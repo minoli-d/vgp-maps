@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Pristiophorus japonicus",127.354880404335,32.7009665718247,2,1523481.20754009,127.87794,26.69439,"results/species/Pristiophorus_japonicus/range_raster.tif","results/species/Pristiophorus_japonicus/range_raster_goode.tif"
+"Pristiophorus japonicus",127.354832346714,32.7010935448577,2,1523483.54133628,127.87794,26.69439,"results/species/Pristiophorus_japonicus/range_raster.tif","results/species/Pristiophorus_japonicus/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Ammospiza caudacuta",-78.3521884594347,34.7630425254952,4,212181.272996296,NA,NA,"results/species/Ammospiza_caudacuta/range_raster.tif","results/species/Ammospiza_caudacuta/range_raster_goode.tif"
+"Ammospiza caudacuta",-78.3521884594347,34.7630425254952,4,212181.272996296,-71.8677,41.338,"results/species/Ammospiza_caudacuta/range_raster.tif","results/species/Ammospiza_caudacuta/range_raster_goode.tif"

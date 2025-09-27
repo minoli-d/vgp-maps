@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Blennius ocellaris",9.98678951148219,39.9240561985083,1,1611523.88260635,-3.952467,50.259383,"results/species/Blennius_ocellaris/range_raster.tif","results/species/Blennius_ocellaris/range_raster_goode.tif"
+"Blennius ocellaris",9.98629518868976,39.9238463437867,1,1611388.61332054,-3.952467,50.259383,"results/species/Blennius_ocellaris/range_raster.tif","results/species/Blennius_ocellaris/range_raster_goode.tif"

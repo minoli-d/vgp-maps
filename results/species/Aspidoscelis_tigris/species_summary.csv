@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Aspidoscelis tigris",-111.657441994251,33.9046855383164,2,1869836.09092963,NA,NA,"results/species/Aspidoscelis_tigris/range_raster.tif","results/species/Aspidoscelis_tigris/range_raster_goode.tif"
+"Aspidoscelis tigris",-111.657441994251,33.9046855383164,2,1869836.09092963,-116.854298,32.7421123,"results/species/Aspidoscelis_tigris/range_raster.tif","results/species/Aspidoscelis_tigris/range_raster_goode.tif"

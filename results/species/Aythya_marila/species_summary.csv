@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Aythya marila",10.9634274953085,55.5990127855496,4,16804478.5592527,-2.86,53.62,"results/species/Aythya_marila/range_raster.tif","results/species/Aythya_marila/range_raster_goode.tif"
+"Aythya marila",10.9639675736375,55.598968115917,4,16804497.223252,-2.86,53.62,"results/species/Aythya_marila/range_raster.tif","results/species/Aythya_marila/range_raster_goode.tif"

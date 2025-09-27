@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Protopterus annectens",16.9683770330584,1.81448616259198,1,1637452.45380072,NA,NA,"results/species/Protopterus_annectens/range_raster.tif","results/species/Protopterus_annectens/range_raster_goode.tif"
+"Protopterus annectens",16.9683941876955,1.81447016734807,1,1637455.33818019,NA,NA,"results/species/Protopterus_annectens/range_raster.tif","results/species/Protopterus_annectens/range_raster_goode.tif"

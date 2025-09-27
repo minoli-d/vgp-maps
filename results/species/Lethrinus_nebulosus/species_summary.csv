@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Lethrinus nebulosus",101.454672457472,-1.48246876682236,2,16879671.3362484,-20.77692,-20.77692,"results/species/Lethrinus_nebulosus/range_raster.tif","results/species/Lethrinus_nebulosus/range_raster_goode.tif"
+"Lethrinus nebulosus",101.454421147175,-1.4824493511914,2,16879548.731779,-20.77692,-20.77692,"results/species/Lethrinus_nebulosus/range_raster.tif","results/species/Lethrinus_nebulosus/range_raster_goode.tif"

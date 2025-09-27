@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Ammospiza maritima",-82.3299881732183,32.2209574855564,3,207803.29559479,-71.8677,41.338,"results/species/Ammospiza_maritima/range_raster.tif","results/species/Ammospiza_maritima/range_raster_goode.tif"
+"Ammospiza maritima",-82.3299101936684,32.2210248626884,3,207796.230259429,-71.8677,41.338,"results/species/Ammospiza_maritima/range_raster.tif","results/species/Ammospiza_maritima/range_raster_goode.tif"

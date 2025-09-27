@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Grus grus",72.4311319110297,46.0454555662874,3,20777366.2161661,-2.4,51.73,"results/species/Grus_grus/range_raster.tif","results/species/Grus_grus/range_raster_goode.tif"
+"Grus grus",72.4311700676205,46.045448281608,3,20777351.3300503,-2.4,51.73,"results/species/Grus_grus/range_raster.tif","results/species/Grus_grus/range_raster_goode.tif"

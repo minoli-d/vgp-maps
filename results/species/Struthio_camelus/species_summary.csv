@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Struthio camelus",20.0528596125466,0.58700681914709,2,9261860.79562807,NA,NA,"results/species/Struthio_camelus/range_raster.tif","results/species/Struthio_camelus/range_raster_goode.tif"
+"Struthio camelus",20.0528596125466,0.58700681914709,2,9261860.79562807,-73.967474,40.750519,"results/species/Struthio_camelus/range_raster.tif","results/species/Struthio_camelus/range_raster_goode.tif"

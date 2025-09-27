@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Eubalaena glacialis",-34.2547440246254,45.1459191840759,2,16201774.7397339,-81.441667,30.591667,"results/species/Eubalaena_glacialis/range_raster.tif","results/species/Eubalaena_glacialis/range_raster_goode.tif"
+"Eubalaena glacialis",-34.254727372451,45.145878738527,2,16201786.338911,-81.441667,30.591667,"results/species/Eubalaena_glacialis/range_raster.tif","results/species/Eubalaena_glacialis/range_raster_goode.tif"

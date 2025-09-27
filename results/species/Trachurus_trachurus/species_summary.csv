@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Trachurus trachurus",2.37195191906341,24.3734384419447,1,9318426.68431865,-1.440836,50.901563,"results/species/Trachurus_trachurus/range_raster.tif","results/species/Trachurus_trachurus/range_raster_goode.tif"
+"Trachurus trachurus",2.37199277931465,24.3732832848536,1,9318361.28007285,-1.440836,50.901563,"results/species/Trachurus_trachurus/range_raster.tif","results/species/Trachurus_trachurus/range_raster_goode.tif"

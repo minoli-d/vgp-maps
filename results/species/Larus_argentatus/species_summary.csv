@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Larus argentatus",10.7459547853819,57.4439488946491,5,3509414.64286595,10.758,59.9131,"results/species/Larus_argentatus/range_raster.tif","results/species/Larus_argentatus/range_raster_goode.tif"
+"Larus argentatus",10.7459804916969,57.443946411061,5,3509414.88840253,10.758,59.9131,"results/species/Larus_argentatus/range_raster.tif","results/species/Larus_argentatus/range_raster_goode.tif"

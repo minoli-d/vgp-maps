@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Larus fuscus",44.0673250711633,35.5222260702512,6,47979262.4191089,-2.4,51.73,"results/species/Larus_fuscus/range_raster.tif","results/species/Larus_fuscus/range_raster_goode.tif"
+"Larus fuscus",44.0673203814775,35.5222278228028,6,47979274.8259549,-2.4,51.73,"results/species/Larus_fuscus/range_raster.tif","results/species/Larus_fuscus/range_raster_goode.tif"

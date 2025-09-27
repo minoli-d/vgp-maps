@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Myotis mystacinus",22.0209126703977,49.5812450847395,18,4970798.40904556,-4.88,55.75,"results/species/Myotis_mystacinus/range_raster.tif","results/species/Myotis_mystacinus/range_raster_goode.tif"
+"Myotis mystacinus",22.0209108006517,49.5812423591547,18,4970797.00747263,-4.88,55.75,"results/species/Myotis_mystacinus/range_raster.tif","results/species/Myotis_mystacinus/range_raster_goode.tif"

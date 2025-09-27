@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Epinephelus lanceolatus",76.755784478054,-2.65130705389149,2,20243416.6757881,104.999927,35.000074,"results/species/Epinephelus_lanceolatus/range_raster.tif","results/species/Epinephelus_lanceolatus/range_raster_goode.tif"
+"Epinephelus lanceolatus",76.7558291093442,-2.65125696786941,2,20243395.0541057,104.999927,35.000074,"results/species/Epinephelus_lanceolatus/range_raster.tif","results/species/Epinephelus_lanceolatus/range_raster_goode.tif"

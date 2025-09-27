@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Aythya fuligula",75.576884032479,41.4328533015992,4,33235663.6916283,17.63,59.8509,"results/species/Aythya_fuligula/range_raster.tif","results/species/Aythya_fuligula/range_raster_goode.tif"
+"Aythya fuligula",75.5771618778267,41.4328853051917,4,33235515.2012019,17.63,59.8509,"results/species/Aythya_fuligula/range_raster.tif","results/species/Aythya_fuligula/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Astatotilapia calliptera",36.4233563366851,-15.1033762719724,1,623729.544604974,0.12,52.204,"results/species/Astatotilapia_calliptera/range_raster.tif","results/species/Astatotilapia_calliptera/range_raster_goode.tif"
+"Astatotilapia calliptera",36.4233519080541,-15.1033817074617,1,623728.893483361,0.12,52.204,"results/species/Astatotilapia_calliptera/range_raster.tif","results/species/Astatotilapia_calliptera/range_raster_goode.tif"

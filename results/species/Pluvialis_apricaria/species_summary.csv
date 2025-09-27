@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Pluvialis apricaria",34.7632028128478,57.6477219635956,3,4396175.62174563,-22.601111,63.971667,"results/species/Pluvialis_apricaria/range_raster.tif","results/species/Pluvialis_apricaria/range_raster_goode.tif"
+"Pluvialis apricaria",34.7636376676722,57.6477141004845,3,4396087.66621189,-22.601111,63.971667,"results/species/Pluvialis_apricaria/range_raster.tif","results/species/Pluvialis_apricaria/range_raster_goode.tif"

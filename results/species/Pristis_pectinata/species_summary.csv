@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Pristis pectinata",-59.9339795663751,9.1761480047561,12,2034564.88683096,-80.75,24.766667,"results/species/Pristis_pectinata/range_raster.tif","results/species/Pristis_pectinata/range_raster_goode.tif"
+"Pristis pectinata",-59.9334353118578,9.17515762095332,12,2034652.869024,-80.75,24.766667,"results/species/Pristis_pectinata/range_raster.tif","results/species/Pristis_pectinata/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Cygnus olor",42.676960924052,46.5082109146666,5,6092403.87128972,11.06327,50.14985,"results/species/Cygnus_olor/range_raster.tif","results/species/Cygnus_olor/range_raster_goode.tif"
+"Cygnus olor",42.6769207370914,46.5082269085118,5,6092411.35494525,11.06327,50.14985,"results/species/Cygnus_olor/range_raster.tif","results/species/Cygnus_olor/range_raster_goode.tif"

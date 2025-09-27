@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Guaruba guarouba",-54.2574149759736,-5.27580054810791,3,931887.24063116,NA,NA,"results/species/Guaruba_guarouba/range_raster.tif","results/species/Guaruba_guarouba/range_raster_goode.tif"
+"Guaruba guarouba",-54.2574149759736,-5.27580054810791,3,931887.24063116,-49.115833,-4.450833,"results/species/Guaruba_guarouba/range_raster.tif","results/species/Guaruba_guarouba/range_raster_goode.tif"

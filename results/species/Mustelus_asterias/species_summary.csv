@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Mustelus asterias",2.91066334495667,46.3444540440463,2,1416374.9556518,-2.875,49.43,"results/species/Mustelus_asterias/range_raster.tif","results/species/Mustelus_asterias/range_raster_goode.tif"
+"Mustelus asterias",2.91025851427836,46.3447353317329,2,1416338.38015771,-2.875,49.43,"results/species/Mustelus_asterias/range_raster.tif","results/species/Mustelus_asterias/range_raster_goode.tif"

@@ -5,8 +5,8 @@ output: md_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, results = 'asis')
-# knitr::opts_knit$set(root.dir = "/global/scratch/users/minoli/maps")
-knitr::opts_knit$set(root.dir = "~/Desktop/vgp-maps")
+knitr::opts_knit$set(root.dir = "/global/scratch/users/minoli/maps")
+# knitr::opts_knit$set(root.dir = "~/Desktop/vgp-maps")
 library(ggplot2)
 library(sf)
 library(terra)

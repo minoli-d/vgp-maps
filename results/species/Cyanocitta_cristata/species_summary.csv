@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Cyanocitta cristata",-90.5327709626978,41.5372963367597,3,6798735.56664392,-73.750862,41.767983,"results/species/Cyanocitta_cristata/range_raster.tif","results/species/Cyanocitta_cristata/range_raster_goode.tif"
+"Cyanocitta cristata",-90.5326298944745,41.5372944972766,3,6798762.34143278,-73.750862,41.767983,"results/species/Cyanocitta_cristata/range_raster.tif","results/species/Cyanocitta_cristata/range_raster_goode.tif"

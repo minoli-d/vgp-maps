@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Podarcis melisellensis",16.8105632839917,43.7631993606848,1,44451.0558140674,16.081184,43.048141,"results/species/Podarcis_melisellensis/range_raster.tif","results/species/Podarcis_melisellensis/range_raster_goode.tif"
+"Podarcis melisellensis",16.8105631490026,43.7631993662716,1,44451.0596430223,16.081184,43.048141,"results/species/Podarcis_melisellensis/range_raster.tif","results/species/Podarcis_melisellensis/range_raster_goode.tif"

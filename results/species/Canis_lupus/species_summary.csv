@@ -1,2 +1,3 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Canis lupus",43.3703270490071,46.7815865483901,36,55991595.0336815,NA,NA,"results/species/Canis_lupus/range_raster.tif","results/species/Canis_lupus/range_raster_goode.tif"
+"Canis lupus",43.3703270490071,46.7815865483901,36,55991595.0336815,-90.559842,38.529401,"results/species/Canis_lupus/range_raster.tif","results/species/Canis_lupus/range_raster_goode.tif"
+"Canis lupus",43.3703270490071,46.7815865483901,36,55991595.0336815,-70.631389,77.785278,"results/species/Canis_lupus/range_raster.tif","results/species/Canis_lupus/range_raster_goode.tif"

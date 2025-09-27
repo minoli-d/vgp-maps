@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Cyprinella venusta",-91.6576432856048,32.5576695058418,3,870561.958064041,-96.572,34.615,"results/species/Cyprinella_venusta/range_raster.tif","results/species/Cyprinella_venusta/range_raster_goode.tif"
+"Cyprinella venusta",-91.6576001674219,32.5576054172925,3,870580.116838893,-96.572,34.615,"results/species/Cyprinella_venusta/range_raster.tif","results/species/Cyprinella_venusta/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Tautogolabrus adspersus",-60.4831500604028,46.3510248381762,2,1124696.92588733,-63.57,44.66,"results/species/Tautogolabrus_adspersus/range_raster.tif","results/species/Tautogolabrus_adspersus/range_raster_goode.tif"
+"Tautogolabrus adspersus",-60.4831455642023,46.3507912496827,2,1124685.32943898,-63.57,44.66,"results/species/Tautogolabrus_adspersus/range_raster.tif","results/species/Tautogolabrus_adspersus/range_raster_goode.tif"

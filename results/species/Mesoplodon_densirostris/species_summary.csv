@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Mesoplodon densirostris",-9.71821219674928,-0.0729387125238118,2,241981714.674088,-80.457294,27.883333,"results/species/Mesoplodon_densirostris/range_raster.tif","results/species/Mesoplodon_densirostris/range_raster_goode.tif"
+"Mesoplodon densirostris",-9.71813951415797,-0.0729242654270033,2,241981864.497122,-80.457294,27.883333,"results/species/Mesoplodon_densirostris/range_raster.tif","results/species/Mesoplodon_densirostris/range_raster_goode.tif"

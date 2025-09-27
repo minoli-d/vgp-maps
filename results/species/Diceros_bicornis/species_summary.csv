@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Diceros bicornis",24.7509661797141,-0.685583675362989,26,19269221.1587462,NA,NA,"results/species/Diceros_bicornis/range_raster.tif","results/species/Diceros_bicornis/range_raster_goode.tif"
+"Diceros bicornis",24.7509661797141,-0.685583675362989,26,19269221.1587462,-97.7972,32.1795,"results/species/Diceros_bicornis/range_raster.tif","results/species/Diceros_bicornis/range_raster_goode.tif"

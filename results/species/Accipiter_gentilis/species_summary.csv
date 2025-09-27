@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Accipiter gentilis",8.71722958915639,50.4807850999836,4,35998824.9201669,-1.495613,55.366819,"results/species/Accipiter_gentilis/range_raster.tif","results/species/Accipiter_gentilis/range_raster_goode.tif"
+"Accipiter gentilis",8.71767907754735,50.4807911095109,4,35998775.1084689,-1.495613,55.366819,"results/species/Accipiter_gentilis/range_raster.tif","results/species/Accipiter_gentilis/range_raster_goode.tif"

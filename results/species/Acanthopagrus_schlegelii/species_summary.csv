@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Acanthopagrus schlegelii",124.860007051913,30.6638166936797,2,2361344.7408341,114.41469,23.11615,"results/species/Acanthopagrus_schlegelii/range_raster.tif","results/species/Acanthopagrus_schlegelii/range_raster_goode.tif"
+"Acanthopagrus schlegelii",124.860221337386,30.6639369014666,2,2361333.93792253,114.41469,23.11615,"results/species/Acanthopagrus_schlegelii/range_raster.tif","results/species/Acanthopagrus_schlegelii/range_raster_goode.tif"

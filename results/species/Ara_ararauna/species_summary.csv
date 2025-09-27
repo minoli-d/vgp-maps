@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Ara ararauna",-60.9743694191391,-6.3887493446912,4,7826271.86421119,-98.09274949,30.25717885,"results/species/Ara_ararauna/range_raster.tif","results/species/Ara_ararauna/range_raster_goode.tif"
+"Ara ararauna",-60.9743694531786,-6.38875681207073,4,7826267.99810622,-98.09274949,30.25717885,"results/species/Ara_ararauna/range_raster.tif","results/species/Ara_ararauna/range_raster_goode.tif"

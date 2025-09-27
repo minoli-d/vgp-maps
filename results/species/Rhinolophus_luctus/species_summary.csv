@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Rhinolophus luctus",108.025590142461,13.0623996696546,14,5644460.87892337,NA,NA,"results/species/Rhinolophus_luctus/range_raster.tif","results/species/Rhinolophus_luctus/range_raster_goode.tif"
+"Rhinolophus luctus",108.025593060148,13.0624021569188,14,5644462.12504962,113.53,28.8505,"results/species/Rhinolophus_luctus/range_raster.tif","results/species/Rhinolophus_luctus/range_raster_goode.tif"

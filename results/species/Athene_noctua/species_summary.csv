@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Athene noctua",59.9227152131072,38.6177636793735,2,26929934.8423453,0.224,52.35,"results/species/Athene_noctua/range_raster.tif","results/species/Athene_noctua/range_raster_goode.tif"
+"Athene noctua",59.9227773377049,38.6177263283094,2,26929932.9036916,0.224,52.35,"results/species/Athene_noctua/range_raster.tif","results/species/Athene_noctua/range_raster_goode.tif"

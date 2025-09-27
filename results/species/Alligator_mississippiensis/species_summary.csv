@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Alligator mississippiensis",-89.6373977641096,31.3241200377021,1,1138704.81208004,-89.7909,29.7616,"results/species/Alligator_mississippiensis/range_raster.tif","results/species/Alligator_mississippiensis/range_raster_goode.tif"
+"Alligator mississippiensis",-89.6374116014053,31.3241200730499,1,1138703.33072222,-89.7909,29.7616,"results/species/Alligator_mississippiensis/range_raster.tif","results/species/Alligator_mississippiensis/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Aythya ferina",62.7760106194882,40.1572055376065,3,27582759.0588115,-0.55,50.86,"results/species/Aythya_ferina/range_raster.tif","results/species/Aythya_ferina/range_raster_goode.tif"
+"Aythya ferina",62.7758432546811,40.1571876016755,3,27582849.0701009,-0.55,50.86,"results/species/Aythya_ferina/range_raster.tif","results/species/Aythya_ferina/range_raster_goode.tif"

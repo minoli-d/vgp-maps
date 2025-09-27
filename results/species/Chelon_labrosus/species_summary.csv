@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Chelon labrosus",7.72117956828703,44.4184529953319,6,3693199.60451301,-4.133523,50.368452,"results/species/Chelon_labrosus/range_raster.tif","results/species/Chelon_labrosus/range_raster_goode.tif"
+"Chelon labrosus",7.7212208730789,44.4185001921012,6,3693183.3615379,-4.133523,50.368452,"results/species/Chelon_labrosus/range_raster.tif","results/species/Chelon_labrosus/range_raster_goode.tif"

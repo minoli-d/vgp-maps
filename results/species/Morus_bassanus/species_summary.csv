@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Morus bassanus",-32.4083116998633,43.9234689067018,3,18297831.7565572,13.52129,52.50592,"results/species/Morus_bassanus/range_raster.tif","results/species/Morus_bassanus/range_raster_goode.tif"
+"Morus bassanus",-32.4084102650005,43.9234143443698,3,18297942.2332431,13.52129,52.50592,"results/species/Morus_bassanus/range_raster.tif","results/species/Morus_bassanus/range_raster_goode.tif"

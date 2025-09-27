@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Sciurus vulgaris",82.333627471401,52.1623070273977,12,27043697.2608421,NA,NA,"results/species/Sciurus_vulgaris/range_raster.tif","results/species/Sciurus_vulgaris/range_raster_goode.tif"
+"Sciurus vulgaris",82.3336452187566,52.1622925880505,12,27043722.3699361,NA,NA,"results/species/Sciurus_vulgaris/range_raster.tif","results/species/Sciurus_vulgaris/range_raster_goode.tif"

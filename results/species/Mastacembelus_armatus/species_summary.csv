@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Mastacembelus armatus",87.1229024198522,19.052632664842,2,1580143.48113684,NA,NA,"results/species/Mastacembelus_armatus/range_raster.tif","results/species/Mastacembelus_armatus/range_raster_goode.tif"
+"Mastacembelus armatus",87.1233592583432,19.052441419225,2,1580210.78700699,NA,NA,"results/species/Mastacembelus_armatus/range_raster.tif","results/species/Mastacembelus_armatus/range_raster_goode.tif"

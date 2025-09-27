@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Podarcis muralis",13.0406090157522,44.4559403418847,1,1828742.07337016,12.66651,41.73234,"results/species/Podarcis_muralis/range_raster.tif","results/species/Podarcis_muralis/range_raster_goode.tif"
+"Podarcis muralis",13.0405856387598,44.4559441927761,1,1828727.95844086,12.66651,41.73234,"results/species/Podarcis_muralis/range_raster.tif","results/species/Podarcis_muralis/range_raster_goode.tif"

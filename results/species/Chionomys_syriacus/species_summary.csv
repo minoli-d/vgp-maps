@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Chionomys syriacus",24.7043675481956,41.4377291360651,2,889561.354719809,NA,NA,"results/species/Chionomys_syriacus/range_raster.tif","results/species/Chionomys_syriacus/range_raster_goode.tif"
+"Chionomys syriacus",24.7043675481956,41.4377291360651,2,889561.354719809,13.7266,46.4722,"results/species/Chionomys_syriacus/range_raster.tif","results/species/Chionomys_syriacus/range_raster_goode.tif"

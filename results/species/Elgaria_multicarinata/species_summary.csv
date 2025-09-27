@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Elgaria multicarinata",-120.62456695195,38.5498267470277,1,334574.615233464,NA,NA,"results/species/Elgaria_multicarinata/range_raster.tif","results/species/Elgaria_multicarinata/range_raster_goode.tif"
+"Elgaria multicarinata",-120.62456695195,38.5498267470277,1,334574.615233464,-118.097942,34.57283,"results/species/Elgaria_multicarinata/range_raster.tif","results/species/Elgaria_multicarinata/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Balaenoptera musculus",-9.26570725764134,-8.85335163692471,6,228490440.932686,-119.69905,34.41938,"results/species/Balaenoptera_musculus/range_raster.tif","results/species/Balaenoptera_musculus/range_raster_goode.tif"
+"Balaenoptera musculus",-9.26573658302301,-8.85336856674399,6,228490645.866238,-119.69905,34.41938,"results/species/Balaenoptera_musculus/range_raster.tif","results/species/Balaenoptera_musculus/range_raster_goode.tif"

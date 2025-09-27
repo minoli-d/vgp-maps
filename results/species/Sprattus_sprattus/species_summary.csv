@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Sprattus sprattus",11.4426953448592,45.2509873630229,2,3854109.87935355,-4.25672,50.3386,"results/species/Sprattus_sprattus/range_raster.tif","results/species/Sprattus_sprattus/range_raster_goode.tif"
+"Sprattus sprattus",11.4430460694908,45.2506092561588,2,3853988.84480936,-4.25672,50.3386,"results/species/Sprattus_sprattus/range_raster.tif","results/species/Sprattus_sprattus/range_raster_goode.tif"

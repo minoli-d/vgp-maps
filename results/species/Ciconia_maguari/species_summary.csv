@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Ciconia maguari",-59.8112000259082,-17.2777101492712,2,5187445.26351178,-64.8519,-33.2599,"results/species/Ciconia_maguari/range_raster.tif","results/species/Ciconia_maguari/range_raster_goode.tif"
+"Ciconia maguari",-59.8111893519045,-17.2778145767866,2,5187404.51956626,-64.8519,-33.2599,"results/species/Ciconia_maguari/range_raster.tif","results/species/Ciconia_maguari/range_raster_goode.tif"

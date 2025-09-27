@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Labrus mixtus",2.2001068916891,41.7167944652988,2,3488689.54589639,-3.972,50.265247,"results/species/Labrus_mixtus/range_raster.tif","results/species/Labrus_mixtus/range_raster_goode.tif"
+"Labrus mixtus",2.20006882496991,41.716765292778,2,3488693.05834682,-3.972,50.265247,"results/species/Labrus_mixtus/range_raster.tif","results/species/Labrus_mixtus/range_raster_goode.tif"

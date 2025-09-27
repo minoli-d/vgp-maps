@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Delphinus delphis",-15.6486893737828,15.3689436773711,6,89138266.3660413,-3.55027778,58.60666667,"results/species/Delphinus_delphis/range_raster.tif","results/species/Delphinus_delphis/range_raster_goode.tif"
+"Delphinus delphis",-15.6486206987576,15.3689634633472,6,89138380.4803558,-3.55027778,58.60666667,"results/species/Delphinus_delphis/range_raster.tif","results/species/Delphinus_delphis/range_raster_goode.tif"

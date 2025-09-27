@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Anolis sagrei",-68.2854155642117,22.0923312048129,18,442676.902199299,-81.214912,29.582251,"results/species/Anolis_sagrei/range_raster.tif","results/species/Anolis_sagrei/range_raster_goode.tif"
+"Anolis sagrei",-68.2858450733944,22.0923738127416,18,442694.248097453,-81.214912,29.582251,"results/species/Anolis_sagrei/range_raster.tif","results/species/Anolis_sagrei/range_raster_goode.tif"

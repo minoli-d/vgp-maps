@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Equus ferus",90.7284470232829,43.8331606088036,2,25533.4629361198,NA,NA,"results/species/Equus_ferus/range_raster.tif","results/species/Equus_ferus/range_raster_goode.tif"
+"Equus ferus",90.7284470232829,43.8331606088036,2,25533.4629361198,51.44314587,25.30811074,"results/species/Equus_ferus/range_raster.tif","results/species/Equus_ferus/range_raster_goode.tif"

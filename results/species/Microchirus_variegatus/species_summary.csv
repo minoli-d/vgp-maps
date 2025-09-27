@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Microchirus variegatus",3.70128458819518,38.4455377739786,1,2355732.17044446,-4.22148,50.2516,"results/species/Microchirus_variegatus/range_raster.tif","results/species/Microchirus_variegatus/range_raster_goode.tif"
+"Microchirus variegatus",3.70129047355854,38.4455363531313,1,2355731.61343407,-4.22148,50.2516,"results/species/Microchirus_variegatus/range_raster.tif","results/species/Microchirus_variegatus/range_raster_goode.tif"

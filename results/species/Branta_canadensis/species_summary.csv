@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Branta canadensis",-89.8897962611201,45.7305015019382,6,16312853.1364032,-0.55,50.86,"results/species/Branta_canadensis/range_raster.tif","results/species/Branta_canadensis/range_raster_goode.tif"
+"Branta canadensis",-89.8899606823905,45.7305059881031,6,16312900.0209462,-0.55,50.86,"results/species/Branta_canadensis/range_raster.tif","results/species/Branta_canadensis/range_raster_goode.tif"

@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Periophthalmus magnuspinnatus",117.913237043837,26.9674656358866,4,65937.2364407126,126.479306,37.605444,"results/species/Periophthalmus_magnuspinnatus/range_raster.tif","results/species/Periophthalmus_magnuspinnatus/range_raster_goode.tif"
+"Periophthalmus magnuspinnatus",117.913793995427,26.9679081238786,4,65941.4384795576,126.479306,37.605444,"results/species/Periophthalmus_magnuspinnatus/range_raster.tif","results/species/Periophthalmus_magnuspinnatus/range_raster_goode.tif"

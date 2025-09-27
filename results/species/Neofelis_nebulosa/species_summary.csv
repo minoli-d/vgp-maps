@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Neofelis nebulosa",103.97526470367,23.7097388689432,24,5177524.29898467,-77.05021107,38.97061706,"results/species/Neofelis_nebulosa/range_raster.tif","results/species/Neofelis_nebulosa/range_raster_goode.tif"
+"Neofelis nebulosa",103.975282273942,23.7097430860199,24,5177517.03218823,-77.05021107,38.97061706,"results/species/Neofelis_nebulosa/range_raster.tif","results/species/Neofelis_nebulosa/range_raster_goode.tif"

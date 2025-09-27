@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Megalops cyprinoides",97.404595516933,0.746105365558859,4,20616252.9802797,103.8198,1.3521,"results/species/Megalops_cyprinoides/range_raster.tif","results/species/Megalops_cyprinoides/range_raster_goode.tif"
+"Megalops cyprinoides",97.4046161984804,0.74610419303352,4,20616266.925015,103.8198,1.3521,"results/species/Megalops_cyprinoides/range_raster.tif","results/species/Megalops_cyprinoides/range_raster_goode.tif"

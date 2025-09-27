@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Phoxinus phoxinus",0.444974541665023,51.5934037044817,3,608015.695946666,-1.609327,53.908341,"results/species/Phoxinus_phoxinus/range_raster.tif","results/species/Phoxinus_phoxinus/range_raster_goode.tif"
+"Phoxinus phoxinus",0.444974324996901,51.5934030563898,3,608015.605061126,-1.609327,53.908341,"results/species/Phoxinus_phoxinus/range_raster.tif","results/species/Phoxinus_phoxinus/range_raster_goode.tif"

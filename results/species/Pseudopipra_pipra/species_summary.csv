@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Pseudopipra pipra",-62.0053733908014,-1.68590119443528,2,4951921.3351026,NA,NA,"results/species/Pseudopipra_pipra/range_raster.tif","results/species/Pseudopipra_pipra/range_raster_goode.tif"
+"Pseudopipra pipra",-62.005379087104,-1.68589820041587,2,4951920.10598881,-73.8,-10.38,"results/species/Pseudopipra_pipra/range_raster.tif","results/species/Pseudopipra_pipra/range_raster_goode.tif"

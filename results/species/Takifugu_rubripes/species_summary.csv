@@ -1,2 +1,2 @@
 "species","centroid_lon","centroid_lat","n_range_polygons","range_area_km2","sampling_lon","sampling_lat","raster_path_ea","raster_path_goode"
-"Takifugu rubripes",128.093182165254,33.413053353546,1,1777258.58827294,NA,NA,"results/species/Takifugu_rubripes/range_raster.tif","results/species/Takifugu_rubripes/range_raster_goode.tif"
+"Takifugu rubripes",128.09316729275,33.4130583848942,1,1777237.56772078,NA,NA,"results/species/Takifugu_rubripes/range_raster.tif","results/species/Takifugu_rubripes/range_raster_goode.tif"
