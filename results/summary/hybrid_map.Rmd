@@ -171,7 +171,8 @@ p_global <- ggplot() +
   scale_color_manual(values = class_colors, name = "Extended Lineage") +
   scale_shape_manual(values = c("sampling" = 21, "centroid" = 24),
                      name = "Coord type",
-                     labels = c("sampling" = "Wild sample", "centroid" = "Centroid/zoo")) +
+                     labels = c("sampling" = "Sampling Location", 
+                                "centroid" = "Range Centroid")) +
   theme_minimal() +
   theme(panel.grid = element_blank(),
         axis.text = element_blank(),
@@ -187,10 +188,14 @@ p_global
 jitter_amount <- 0.5
 
 # europe inset
-euro_bbox <- st_bbox(c(xmin = -10, xmax = 40, ymin = 35, ymax = 70), crs = 4326)
+# euro_bbox <- st_bbox(c(xmin = -30, xmax = 40, ymin = 30, ymax = 70), crs = 4326)
+# world_europe <- st_crop(world_ll, euro_bbox)
+# euro_bbox_goode <- st_as_sfc(euro_bbox) %>% st_transform(crs_goode)
+# location_europe <- st_transform(plot_sf, 4326) %>% st_crop(euro_bbox)
+
+euro_bbox <- st_bbox(c(xmin = -30, xmax = 40, ymin = 25, ymax = 70), crs = 4326)
 world_europe <- st_crop(world_ll, euro_bbox)
-euro_bbox_goode <- st_as_sfc(euro_bbox) %>% st_transform(crs_goode)
-location_europe <- st_crop(plot_sf, euro_bbox_goode)
+location_europe <- st_transform(plot_sf, 4326) %>% st_crop(euro_bbox)
 
 euro_dup <- st_coordinates(location_europe) %>%
   as.data.frame() %>%
@@ -211,6 +216,10 @@ europe_map <- ggplot() +
   geom_sf(data = location_europe_j,
           aes(color = extended_lineage, shape = shape), size = 1) +
   scale_color_manual(values = class_colors, name = "Extended Lineage") +
+  scale_shape_manual(values = c("sampling" = 21, "centroid" = 24),
+                     name = "Coord type",
+                     labels = c("sampling" = "Sampling Location", 
+                                "centroid" = "Range Centroid")) +
   coord_sf(xlim = c(euro_bbox["xmin"], euro_bbox["xmax"]),
            ylim = c(euro_bbox["ymin"], euro_bbox["ymax"]), expand = FALSE) +
   theme_minimal() +
@@ -221,10 +230,9 @@ europe_map <- ggplot() +
 
 
 # n america inset
-na_bbox <- st_bbox(c(xmin = -130, xmax = -60, ymin = 25, ymax = 55), crs = 4326)
+na_bbox <- st_bbox(c(xmin = -140, xmax = -60, ymin = 0, ymax = 55), crs = 4326)
 world_na <- st_crop(world_ll, na_bbox)
-na_bbox_goode <- st_as_sfc(na_bbox) %>% st_transform(crs_goode)
-location_na <- st_crop(plot_sf, na_bbox_goode)
+location_na <- st_transform(plot_sf, 4326) %>% st_crop(na_bbox)
 
 na_dup <- st_coordinates(location_na) %>%
   as.data.frame() %>%
@@ -245,6 +253,10 @@ na_map <- ggplot() +
   geom_sf(data = location_na_j,
           aes(color = extended_lineage, shape = shape), size = 1) +
   scale_color_manual(values = class_colors, name = "Extended Lineage") +
+  scale_shape_manual(values = c("sampling" = 21, "centroid" = 24),
+                     name = "Coord type",
+                     labels = c("sampling" = "Sampling Location", 
+                                "centroid" = "Range Centroid")) +
   coord_sf(xlim = c(na_bbox["xmin"], na_bbox["xmax"]),
            ylim = c(na_bbox["ymin"], na_bbox["ymax"]), expand = FALSE) +
   theme_minimal() +
@@ -308,8 +320,8 @@ final_map <- plot_grid(
 
 final_map
 
-ggsave("/global/scratch/users/minoli/maps/results/summary/plots/hybrid_map_insets.svg", 
-       final_map, width = 14, height = 7)
+# ggsave("/global/scratch/users/minoli/maps/results/summary/plots/hybrid_map_insets.svg",
+#        final_map, width = 14, height = 7)
 
 ```
 
