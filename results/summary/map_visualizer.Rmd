@@ -303,5 +303,5 @@ for (i in seq_len(nrow(df_prioritized))) {
   }
 } 
 
-table(df_prioritized$priority)
+# table(df_prioritized$priority)
 ```

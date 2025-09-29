@@ -5,7 +5,7 @@ library(terra)
 library(sf)
 library(stringr)
 
-df <- read_csv("data/vgp_iucn_loc_metadata.csv")
+df <- read.csv("data/vgp_iucn_loc_metadata.csv")
 summary_files <- dir_ls("results/species", recurse = TRUE,
                         glob = "*/species_summary.csv")
 
@@ -137,11 +137,9 @@ domesticated_species <- c(
   "Ovis aries"             # sheep
 )
 
-synonym_map <- 
-
-all_species <- df %>%
+all_species <- (df %>% distinct(iucn_name, .keep_all = TRUE)) %>%
   left_join(
-    all_summaries %>%
+    (all_summaries %>% distinct(species, .keep_all = TRUE)) %>%
       dplyr::select(species, raster_path_ea, raster_path_goode,
                     centroid_lon, centroid_lat, 
                     outside_range_flag),

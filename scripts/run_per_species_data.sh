@@ -1,5 +1,5 @@
 species="$1"
-shapefile="data/shapes/fishes_combined.gpkg"
+shapefile="data/shapes/BOTW_2024_2.gpkg"
 metadata="data/vgp_iucn_loc_metadata.csv"
 sp_sane=$(echo "$species" | tr ' ' '_')
 outdir="results/species/${sp_sane}"

@@ -15,9 +15,24 @@ metadata_csv    <- args[3]
 output_dir      <- args[4]
 tmpl_goode_path <- args[5]
 
+df  <- read.csv(metadata_csv, stringsAsFactors = FALSE)
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
 message("---", species, "---")
+
+# sampling location (from metadata)
+df_sp <- df %>%
+  filter((scientific_name == species | iucn_name == species) & 
+           !is.na(lon) & !is.na(lat))
+
+if (nrow(df_sp) == 0) {
+  sampling_lon <- NA
+  sampling_lat <- NA
+} else {
+  sampling_lon <- df_sp %>% pull(lon)
+  sampling_lat <- df_sp %>% pull(lat)
+}
+message(". Computed sampling coords")
 
 ea_crs <- "EPSG:6933"
 wgs_crs <- "EPSG:4326"
@@ -40,8 +55,6 @@ terraOptions(todisk = TRUE, memfrac = 0.6)
 
 message(". Loaded shapefiles")
 
-df  <- read.csv(metadata_csv, stringsAsFactors = FALSE)
-
 poly_diss <- aggregate(poly, by = "sci_name")
 poly_simp <- simplifyGeom(poly_diss, tolerance = 0.05)
 
@@ -57,20 +70,6 @@ weighted_sf <- st_as_sf(data.frame(x = weighted[1], y = weighted[2]), coords = c
 weighted_wgs <- st_transform(weighted_sf, wgs_crs)
 centroid_coords <- st_coordinates(weighted_wgs)
 message(". Computed centroid")
-
-# sampling location (from metadata)
-df_sp <- df %>%
-  filter((scientific_name == species | iucn_name == species) & 
-           !is.na(lon) & !is.na(lat))
-
-if (nrow(df_sp) == 0) {
-  sampling_lon <- NA
-  sampling_lat <- NA
-} else {
-  sampling_lon <- df_sp %>% pull(lon)
-  sampling_lat <- df_sp %>% pull(lat)
-}
-message(". Computed sampling coords")
 
 # rasters for range
 poly_proj_ea$pres <- 1

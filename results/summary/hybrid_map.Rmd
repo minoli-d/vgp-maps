@@ -1,0 +1,315 @@
+---
+title: "Hybrid Map"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+knitr::opts_knit$set(root.dir = "/global/scratch/users/minoli/maps")
+library(dplyr)
+library(readr)
+library(sf)
+library(ggplot2)
+library(stringr)
+library(cowplot)  
+library(grid)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(svglite)
+
+```
+
+```{r}
+df <- read_csv("results/summary/all_species_prioritized.csv")
+```
+
+
+```{r}
+set_centroid_coord <- function(df, species, coord_lon, coord_lat, note = NULL) {
+  df %>%
+    mutate(
+      centroid_lon = ifelse(scientific_name == species, coord_lon, centroid_lon),
+      centroid_lat = ifelse(scientific_name == species, coord_lat, centroid_lat),
+      missing_range_flag = ifelse(scientific_name == species, FALSE, missing_range_flag),
+      map_notes = ifelse(
+        scientific_name == species,
+        paste0(coalesce(map_notes, ""), 
+               if (!is.null(note)) paste0("; ", note) else ""),
+        map_notes
+      )
+    )
+}
+
+set_sampling_coord <- function(df, species, coord_lon, coord_lat, note = NULL) {
+  df %>%
+    mutate(
+      sampling_lon = ifelse(scientific_name == species, coord_lon, sampling_lon),
+      sampling_lat = ifelse(scientific_name == species, coord_lat, sampling_lat),
+      missing_sampling_location_flag = ifelse(scientific_name == species, FALSE, missing_sampling_location_flag),
+      map_notes = ifelse(
+        scientific_name == species,
+        paste0(coalesce(map_notes, ""), 
+               if (!is.null(note)) paste0("; ", note) else ""),
+        map_notes
+      )
+    )
+}
+
+# species to remove - lab crosses
+remove_species <- c(
+  "Branchiostoma floridae",
+  "Branchiostoma belcheri"
+)
+
+map_df <- df %>%
+  filter(!iucn_name %in% remove_species) %>%
+  mutate(map_notes = case_when(
+    iucn_name == "Asterias rubens" ~ "Contact submitter: no range or sampling location",
+    iucn_name == "Gadus morhua"    ~ "Contact submitter: no range or sampling location",
+    TRUE ~ NA
+  )) %>%
+  set_centroid_coord("Danio rerio", 
+                     coord_lon = 80.14396, coord_lat = 26.46875,
+                     note = "Manual centroid (Indian subcontinent)") %>%
+  set_centroid_coord("Balearica regulorum gibbericeps", 
+                     coord_lon = 30.5245, coord_lat = -15.8579,
+                     note = "Manual centroid (from Balearica regulorum)") %>%
+  set_centroid_coord("Rhamphochromis chilingali", 
+                     coord_lon=34.21271, coord_lat=-12.94559,
+                     note = "Manual centroid (Lake Chilingali)") %>%
+  set_centroid_coord("Thunnus thynnus",
+                     coord_lon=NA, coord_lat=NA,
+                     note = "Manual sampling (bad input)")   %>%
+  mutate(
+    use_coord = case_when(
+      # manual
+      str_detect(map_notes, "Manual centroid") ~ "centroid",
+      str_detect(map_notes, "Manual sampling") ~ "sampling",
+      
+      # priorities
+      priority == 2 ~ "centroid",
+      priority == 3 ~ "centroid",
+      priority == 4 ~ "centroid",
+      priority == 5 ~ "sampling",
+      priority == 6 ~ "sampling",
+
+      # centroid if outside range
+      outside_range_flag ~ "centroid",
+
+      # try sampling first, if not available then centroid
+      !is.na(sampling_lon) & !is.na(sampling_lat) ~ "sampling",
+      !is.na(centroid_lon) & !is.na(centroid_lat) ~ "centroid",
+
+      # fallback
+      TRUE ~ "none"
+    )
+  )
+```
+
+
+```{r fig.width=14, fig.height=7}
+plot_df <- map_df %>%
+  mutate(
+    plot_lon = ifelse(use_coord == "sampling", lon, centroid_lon),
+    plot_lat = ifelse(use_coord == "sampling", lat, centroid_lat),
+    shape = ifelse(use_coord == "sampling", "sampling", "centroid")
+  ) %>%
+  filter(!is.na(plot_lon) & !is.na(plot_lat))
+
+plot_sf <- st_as_sf(plot_df, coords = c("plot_lon", "plot_lat"), crs = 4326) %>%
+  st_transform(crs_goode)
+
+
+class_colors <- c(
+  "Mammals" = "#E69F00",
+  "Birds" = "#00796B",
+  "Crocodiles" = "#009688",
+  "Turtles" = "#4DB6AC",
+  "Lepidosauria" = "#80CBC4",
+  "Amphibians" = "#984EA3",
+  "Lobe-finned fishes" = "#A6761D",
+  "Ray-finned fishes" = "#56B4E9",
+  "Cartilaginous fishes" = "#0072B2",
+  "Cyclostomes" = "#CC79A7",
+  "Other Deurostomes" = "#999999"
+)
+
+lats <- c(90:-90, -90:0, 0:-90, -90:0, 0:-90, -90:0, 0:-90, -90:90, 90:0, 0:90, 90)
+longs <- c(rep(180, 181),
+           rep(c(80.01, 79.99), each = 91),
+           rep(c(-19.99, -20.01), each = 91),
+           rep(c(-99.99, -100.01), each = 91),
+           rep(-180, 181),
+           rep(c(-40.01, -39.99), each = 91),
+           180)
+
+goode_outline_ll <- st_polygon(list(cbind(longs, lats))) %>% st_sfc(crs = 4326)
+crs_goode <- "+proj=igh +datum=WGS84 +no_defs"
+goode_outline   <- st_transform(goode_outline_ll, crs_goode)
+bb   <- st_bbox(goode_outline)
+xlim <- bb[c("xmin","xmax")] * c(1.1,1.1)
+ylim <- bb[c("ymin","ymax")] * c(1.1,1.1)
+goode_encl_rect <- st_polygon(list(rbind(c(xlim[1], ylim[1]),
+                                         c(xlim[2], ylim[1]),
+                                         c(xlim[2], ylim[2]),
+                                         c(xlim[1], ylim[2]),
+                                         c(xlim[1], ylim[1])))) %>% st_sfc(crs = crs_goode)
+goode_without <- st_difference(goode_encl_rect, goode_outline)
+world_ll   <- ne_countries(scale="medium", returnclass="sf")
+world_goode<- st_transform(world_ll, crs_goode)
+ocean_goode<- st_difference(goode_encl_rect, st_union(world_goode))
+
+tmpl_goode <- terra::rast(extent = terra::ext(xlim[1], xlim[2], ylim[1], ylim[2]),
+                          resolution = 10000, crs = crs_goode)
+
+p_global <- ggplot() +
+  geom_sf(data = ocean_goode, fill="white", color=NA) +
+  geom_sf(data = world_goode, fill="grey85", color="white", size=0.2) +
+  geom_sf(data = goode_without, fill="white", color=NA) +
+  geom_sf(data = goode_outline, fill=NA, color="gray70", size=0.5) +
+  geom_sf(data = plot_sf, aes(color = extended_lineage, shape = shape), size = 2, alpha = 0.8) +
+  scale_color_manual(values = class_colors, name = "Extended Lineage") +
+  scale_shape_manual(values = c("sampling" = 21, "centroid" = 24),
+                     name = "Coord type",
+                     labels = c("sampling" = "Wild sample", "centroid" = "Centroid/zoo")) +
+  theme_minimal() +
+  theme(panel.grid = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank()) +
+  labs(title = "Sampling location and geographic coverage of VGP phase I assemblies",
+       x = NULL, y = NULL)
+
+p_global
+# ggsave("/global/scratch/users/minoli/maps/results/summary/plots/hybrid_map.svg", 
+#        p_global, width = 14, height = 7)
+```
+```{r fig.width=14, fig.height=7}
+jitter_amount <- 0.5
+
+# europe inset
+euro_bbox <- st_bbox(c(xmin = -10, xmax = 40, ymin = 35, ymax = 70), crs = 4326)
+world_europe <- st_crop(world_ll, euro_bbox)
+euro_bbox_goode <- st_as_sfc(euro_bbox) %>% st_transform(crs_goode)
+location_europe <- st_crop(plot_sf, euro_bbox_goode)
+
+euro_dup <- st_coordinates(location_europe) %>%
+  as.data.frame() %>%
+  group_by(X, Y) %>%
+  summarise(count = n(), .groups = "drop") %>%
+  filter(count > 1)
+
+location_europe <- location_europe %>%
+  mutate(is_dup = paste0(st_coordinates(.)[,1], st_coordinates(.)[,2]) %in%
+                      paste0(euro_dup$X, euro_dup$Y))
+
+location_europe_j <- location_europe
+location_europe_j$geometry[location_europe$is_dup] <- 
+  st_jitter(location_europe$geometry[location_europe$is_dup], amount = jitter_amount)
+
+europe_map <- ggplot() +
+  geom_sf(data = world_europe, fill = "grey90", color = "grey80") +
+  geom_sf(data = location_europe_j,
+          aes(color = extended_lineage, shape = shape), size = 1) +
+  scale_color_manual(values = class_colors, name = "Extended Lineage") +
+  coord_sf(xlim = c(euro_bbox["xmin"], euro_bbox["xmax"]),
+           ylim = c(euro_bbox["ymin"], euro_bbox["ymax"]), expand = FALSE) +
+  theme_minimal() +
+  theme(legend.position = "none",
+        panel.grid = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank())
+
+
+# n america inset
+na_bbox <- st_bbox(c(xmin = -130, xmax = -60, ymin = 25, ymax = 55), crs = 4326)
+world_na <- st_crop(world_ll, na_bbox)
+na_bbox_goode <- st_as_sfc(na_bbox) %>% st_transform(crs_goode)
+location_na <- st_crop(plot_sf, na_bbox_goode)
+
+na_dup <- st_coordinates(location_na) %>%
+  as.data.frame() %>%
+  group_by(X, Y) %>%
+  summarise(count = n(), .groups = "drop") %>%
+  filter(count > 1)
+
+location_na <- location_na %>%
+  mutate(is_dup = paste0(st_coordinates(.)[,1], st_coordinates(.)[,2]) %in%
+                      paste0(na_dup$X, na_dup$Y))
+
+location_na_j <- location_na
+location_na_j$geometry[location_na$is_dup] <- 
+  st_jitter(location_na$geometry[location_na$is_dup], amount = jitter_amount)
+
+na_map <- ggplot() +
+  geom_sf(data = world_na, fill = "grey90", color = "grey80") +
+  geom_sf(data = location_na_j,
+          aes(color = extended_lineage, shape = shape), size = 1) +
+  scale_color_manual(values = class_colors, name = "Extended Lineage") +
+  coord_sf(xlim = c(na_bbox["xmin"], na_bbox["xmax"]),
+           ylim = c(na_bbox["ymin"], na_bbox["ymax"]), expand = FALSE) +
+  theme_minimal() +
+  theme(legend.position = "none",
+        panel.grid = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank()) +
+  guides(color = "none", shape = "none")
+
+
+
+na_rect <- st_as_sfc(na_bbox) %>% st_transform(crs_goode)
+euro_rect <- st_as_sfc(euro_bbox) %>% st_transform(crs_goode)
+
+p_global_noleg <- p_global + 
+  theme(legend.position = "none")
+
+boxed_goode_map <- p_global_noleg +
+  geom_sf(data = na_rect, fill = NA, color = "black", linetype = 2, linewidth = 0.35) +
+  geom_sf(data = euro_rect, fill = NA, color = "black", linetype = 2, linewidth = 0.35)
+
+add_dashed_border <- function(plot) {
+  plot +
+    annotation_custom(
+      grob = rectGrob(gp = gpar(col = "black", lty = "dashed", fill = NA, lwd = 2)),
+      xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf
+    ) +
+    theme(plot.margin = margin(0, 0, 0, 0))
+}
+
+na_map_boxed <- add_dashed_border(na_map)
+europe_map_boxed <- add_dashed_border(europe_map)
+
+legend <- get_legend(
+  boxed_goode_map +
+    theme(legend.position = "right",
+          legend.title = element_text(size = 9, face = "bold"),
+          legend.text = element_text(size = 6),
+          legend.key.size = unit(0.3, "cm"))
+)
+
+# inset row
+inset_row <- plot_grid(
+  NULL,
+  na_map_boxed,
+  europe_map_boxed,
+  legend,
+  NULL,
+  ncol = 5,
+  rel_widths = c(1, 3, 2, 1, 1),
+  align = "h"
+)
+
+# final combined map
+final_map <- plot_grid(
+  boxed_goode_map,
+  inset_row,
+  ncol = 1,
+  rel_heights = c(5, 2.5)
+)
+
+final_map
+
+ggsave("/global/scratch/users/minoli/maps/results/summary/plots/hybrid_map_insets.svg", 
+       final_map, width = 14, height = 7)
+
+```
+

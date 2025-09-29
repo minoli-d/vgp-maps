@@ -1,8 +1,8 @@
 #!/bin/bash
-#SBATCH --job-name=fish
+#SBATCH --job-name=birds
 #SBATCH --account=co_genomicdata
 #SBATCH --partition=savio3_htc
-#SBATCH --array=1-200
+#SBATCH --array=1-140
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=8G
 #SBATCH --time=02:00:00
@@ -11,6 +11,6 @@
 
 module load r/4.4.0-gcc-11.4.0
 
-species=$(sed -n "${SLURM_ARRAY_TASK_ID}p" data/fishes_list.txt)
+species=$(sed -n "${SLURM_ARRAY_TASK_ID}p" data/birds_list.txt)
 
 scripts/run_per_species_data.sh "$species"
