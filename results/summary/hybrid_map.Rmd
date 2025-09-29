@@ -188,14 +188,10 @@ p_global
 jitter_amount <- 0.5
 
 # europe inset
-# euro_bbox <- st_bbox(c(xmin = -30, xmax = 40, ymin = 30, ymax = 70), crs = 4326)
-# world_europe <- st_crop(world_ll, euro_bbox)
-# euro_bbox_goode <- st_as_sfc(euro_bbox) %>% st_transform(crs_goode)
-# location_europe <- st_transform(plot_sf, 4326) %>% st_crop(euro_bbox)
-
-euro_bbox <- st_bbox(c(xmin = -30, xmax = 40, ymin = 25, ymax = 70), crs = 4326)
-world_europe <- st_crop(world_ll, euro_bbox)
-location_europe <- st_transform(plot_sf, 4326) %>% st_crop(euro_bbox)
+euro_bbox_ll <- st_bbox(c(xmin = -20, xmax = 40, ymin = 30, ymax = 70), crs = 4326)
+euro_bbox_goode <- st_as_sfc(euro_bbox_ll) %>% st_transform(crs_goode)
+world_europe <- st_crop(world_goode, euro_bbox_goode)
+location_europe <- st_crop(plot_sf, euro_bbox_goode)
 
 euro_dup <- st_coordinates(location_europe) %>%
   as.data.frame() %>%
@@ -220,8 +216,7 @@ europe_map <- ggplot() +
                      name = "Coord type",
                      labels = c("sampling" = "Sampling Location", 
                                 "centroid" = "Range Centroid")) +
-  coord_sf(xlim = c(euro_bbox["xmin"], euro_bbox["xmax"]),
-           ylim = c(euro_bbox["ymin"], euro_bbox["ymax"]), expand = FALSE) +
+  coord_sf(expand = FALSE) +
   theme_minimal() +
   theme(legend.position = "none",
         panel.grid = element_blank(),
@@ -230,10 +225,14 @@ europe_map <- ggplot() +
 
 
 # n america inset
-na_bbox <- st_bbox(c(xmin = -140, xmax = -60, ymin = 0, ymax = 55), crs = 4326)
-world_na <- st_crop(world_ll, na_bbox)
-location_na <- st_transform(plot_sf, 4326) %>% st_crop(na_bbox)
+na_bbox_ll <- st_bbox(c(xmin = -140, xmax = -60, ymin = 0, ymax = 55), crs = 4326)
+na_bbox_goode <- st_as_sfc(na_bbox_ll) %>% st_transform(crs_goode)
 
+# crop in Goode
+world_na <- st_crop(world_goode, na_bbox_goode)
+location_na <- st_crop(plot_sf, na_bbox_goode)
+
+# detect duplicates
 na_dup <- st_coordinates(location_na) %>%
   as.data.frame() %>%
   group_by(X, Y) %>%
@@ -244,9 +243,11 @@ location_na <- location_na %>%
   mutate(is_dup = paste0(st_coordinates(.)[,1], st_coordinates(.)[,2]) %in%
                       paste0(na_dup$X, na_dup$Y))
 
+# jitter duplicates
 location_na_j <- location_na
 location_na_j$geometry[location_na$is_dup] <- 
   st_jitter(location_na$geometry[location_na$is_dup], amount = jitter_amount)
+
 
 na_map <- ggplot() +
   geom_sf(data = world_na, fill = "grey90", color = "grey80") +
@@ -257,8 +258,7 @@ na_map <- ggplot() +
                      name = "Coord type",
                      labels = c("sampling" = "Sampling Location", 
                                 "centroid" = "Range Centroid")) +
-  coord_sf(xlim = c(na_bbox["xmin"], na_bbox["xmax"]),
-           ylim = c(na_bbox["ymin"], na_bbox["ymax"]), expand = FALSE) +
+  coord_sf(expand = FALSE) +
   theme_minimal() +
   theme(legend.position = "none",
         panel.grid = element_blank(),
