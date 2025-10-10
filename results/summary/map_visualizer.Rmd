@@ -282,26 +282,32 @@ for (i in seq_len(nrow(df_prioritized))) {
   sp_sane <- gsub(" ", "_", sp)
   sp_dir  <- file.path("results/species", sp_sane)
   img_path <- file.path(sp_dir, paste0(sp_sane, "_distribution_map.png"))
-
+  
   if (file.exists(img_path)) {
+    # dynamic description
     desc <- paste0(
       "\n\n### Species: ", sp, "\n\n",
+      "**Common Name:** ", df_prioritized$english_name[i], "  \n",
       "**Biosample:** ", df_prioritized$biosample_accession[i], "  \n",
       "**Assembly Accession:** ", df_prioritized$accession_number_for_main_haplotype[i], "  \n",
       "**Taxon:** ", df_prioritized$lineage[i], "  \n",
-      "**Priority:** ", df_prioritized$priority[i],"  \n",
+      "**Priority:** ", df_prioritized$priority[i], "  \n",
       "**Flags:** ",
-  ifelse(isTRUE(df_prioritized$outside_range_flag[i]) & !isTRUE(df_prioritized$zoo_flag[i]), "Outside Range; ", ""),
-  ifelse(isTRUE(df_prioritized$vague_location_flag[i]), "Vague Location; ", ""),
-  ifelse(isTRUE(df_prioritized$zoo_flag[i]), "Zoo Sample; ", ""),
-  ifelse(isTRUE(df_prioritized$domesticated_flag[i]), "Domesticated; ", ""),
-  ifelse(df_prioritized$missing_range_flag[i], "Missing Range; ", ""),
-  ifelse(isTRUE(df_prioritized$missing_sampling_location_flag[i]), "Missing Sampling Location; ", "")
-)
-    cat(desc, "\n")
-    cat("![](../species/", sp_sane, "/", sp_sane, "_distribution_map.png)", sep = "")
+        ifelse(isTRUE(df_prioritized$outside_range_flag[i]) & !isTRUE(df_prioritized$zoo_flag[i]), "Outside Range; ", ""),
+        ifelse(isTRUE(df_prioritized$vague_location_flag[i]), "Vague Location; ", ""),
+        ifelse(isTRUE(df_prioritized$zoo_flag[i]), "Zoo Sample; ", ""),
+        ifelse(isTRUE(df_prioritized$domesticated_flag[i]), "Domesticated; ", ""),
+        ifelse(df_prioritized$missing_range_flag[i], "Missing Range; ", ""),
+        ifelse(isTRUE(df_prioritized$missing_sampling_location_flag[i]), "Missing Sampling Location; ", ""),
+      "\n\n**Map Notes:** ", df_prioritized$map_notes[i], "  \n",
+      "**Comments:** ", df_prioritized$comments[i], "\n\n"
+    )
+    
+    # print the species section to the Markdown
+    cat(desc)
+    cat("![](../species/", sp_sane, "/", sp_sane, "_distribution_map.png)\n", sep = "")
   }
-} 
+}
 
 # table(df_prioritized$priority)
 ```
