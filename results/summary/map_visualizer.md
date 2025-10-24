@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 ## Sampling Map
 
 ![](map_visualizer_files/figure-markdown_strict/unnamed-chunk-3-1.png)
@@ -18,10534 +12,6918 @@ editor_options:
 
 ## Individual Species Maps
 
-### Species: Asterias rubens
+### Asterias rubens
 
 **Common Name:** common starfish\
 **Biosample:** SAMEA994741\
 **Assembly Accession:** GCA_902459465.3\
 **Taxon:** Invertebrates\
 **Priority:** 1\
-**Flags:** Missing Range; Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly eAstRub1.3 is based on 103x PacBio data, 150x
-Illumina data, and 126x Dovetail Hi-C data generated at the Wellcome
-Sanger Institute. The assembly process included the following sequence
-of steps: initial PacBio assembly generation with Falcon-unzip, retained
-haplotig identification with Purge Haplotigs, Hi-C based scaffolding
-with SALSA2, Arrow polishing, and two rounds of FreeBayes polishing.
-Finally, the assembly was analysed and manually improved using gEVAL.
-Chromosome-scale scaffolds confirmed by the Hi-C data have been named in
-order of size.
+**Flags:** Missing sampling coords · Missing range raster
 
 ![](../species/Asterias_rubens/Asterias_rubens_distribution_map.png)
 
-### Species: Branchiostoma belcheri
+### Branchiostoma belcheri
 
 **Common Name:** belcher’s lancelet\
 **Biosample:** SAMN13907882\
 **Assembly Accession:** GCA_019207075.1\
 **Taxon:** Invertebrates\
 **Priority:** 1\
-**Flags:** Missing Range; Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** This is a lab-generated F1 cross between Branchiostoma
-floridae x Branchiostoma belcheri for which parental haplotypes were
-determined. The principal haplotype in JAFMNY000000000 represents the
-Branchiostoma belcheri genome which contains 20 chromosomes while the
-alternative haplotype in JAFMNZ000000000 represents the Branchiostoma
-floridae genome which only contains 19 chromosomes due to a chromosome
-pair fusion. Note the chromosomes were named according to chromosome
-size, not homology.
+**Flags:** Missing sampling coords · Missing range raster
 
 ![](../species/Branchiostoma_belcheri/Branchiostoma_belcheri_distribution_map.png)
 
-### Species: Branchiostoma floridae
+### Branchiostoma floridae
 
 **Common Name:** Florida amphioxus\
 **Biosample:** SAMN13896449\
 **Assembly Accession:** GCA_015852565.1\
 **Taxon:** Invertebrates\
 **Priority:** 1\
-**Flags:** Missing Range; Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing sampling coords · Missing range raster
 
 ![](../species/Branchiostoma_floridae/Branchiostoma_floridae_distribution_map.png)
 
-### Species: Gadus morhua
+### Gadus morhua
 
 **Common Name:** Atlantic cod\
 **Biosample:** SAMEA5574046\
 **Assembly Accession:** GCA_902167405.1\
 **Taxon:** Fishes\
 **Priority:** 1\
-**Flags:** Missing Range; Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly gadMor3.0 of individual fGadMor1
-(SAMEA5574046) is based on 83x PacBio data generated at the Wellcome
-Sanger Institute and the Jakobsen lab at the University of Olso in
-Norway, 59x 10X Genomics Chromium data and BioNano data generated at the
-Wellcome Sanger Institute, as well as 76x Arima Hi-C data generated at
-the Jakobsen lab. The assembly process included the following sequence
-of steps: initial PacBio assembly generation with Falcon-unzip, retained
-haplotig identification with purge_dups, 10X based scaffolding with
-scaff10x, BioNano hybrid-scaffolding, Hi-C based scaffolding with
-SALSA2, Arrow polishing, and two rounds of FreeBayes polishing. Finally,
-the assembly was analysed and manually improved using gEVAL.
-Chromosome-scale scaffolds were named based on a genetic map provided by
-the Jakobsen lab.
+**Flags:** Missing sampling coords · Missing range raster
 
 ![](../species/Gadus_morhua/Gadus_morhua_distribution_map.png)
 
-### Species: Acanthopagrus latus
+### Acanthopagrus latus
 
 **Common Name:** yellowfin sea bream\
 **Biosample:** SAMN16236878\
 **Assembly Accession:** GCA_904848185.1\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fAcaLat1.1 is based on 60x Illumina genome
-survey data, 106x Illumina Hi-C data, 282x PacBio data, and 100x
-Illumina transcriptome data generated at Nextomics Biosciences. The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Falcon-unzip, retained haplotig
-separation with purge_dups, Hi-C based scaffolding with SALSA2, Arrow
-polishing, and two rounds of FreeBayes polishing. Finally, the assembly
-was analysed and manually improved using gEVAL. Chromosome-scale
-scaffolds are named by synteny to the GCA_900880675.1 assembly of Sparus
-aurata.
+**Flags:** Missing sampling coords
 
 ![](../species/Acanthopagrus_latus/Acanthopagrus_latus_distribution_map.png)
 
-### Species: Acipenser ruthenus
+### Acipenser ruthenus
 
 **Common Name:** sterlet\
 **Biosample:** SAMEA5572864\
 **Assembly Accession:** GCA_902713425.2\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fAciRut3.2 is based on 61x PacBio data and
-Dovetail Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: HiFi reads were trio-binned using trioCanu
-with k-mers from the Illumina-sequenced parents; haplotype-specific HiFi
-reads were assembled separately using Hifiasm; segregation of HiC reads
-using Canu’s ‘splitHaplotype’ script and k-mers from the
-Illumina-sequenced parents; for each haplotype assembly,
-haplotype-specific and unclassified HiC reads were combined to construct
-scaffolds using pins. The mitochondrial genome was assembled using
-MitoHifi. Finally, the assembly was analysed and manually improved using
-gEVAL. Chromosome-scale scaffolds confirmed by the Hi-C data have been
-named in order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Acipenser_ruthenus/Acipenser_ruthenus_distribution_map.png)
 
-### Species: Acomys russatus
+### Acomys russatus
 
 **Common Name:** golden spiny mouse\
 **Biosample:** SAMEA104026431\
 **Assembly Accession:** GCA_903995435.1\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly mAcoRus1.1 is based on 58x PacBio data and
-BioNano data generated at the Wellcome Sanger Institute, and 33x
-Illumina data generated at the Earlham Institute. The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Falcon-unzip, BioNano hybrid-scaffolding, gap filling
-with PBJelly, polishing using Arrow, polishing using Illumina data with
-Freebayes, and manual curation. Chromosome-scale scaffolds are built
-based on chromosome painting with Mus musculus fosmids, karyotype named
-as previously published (Baker et. al, 1979).
+**Flags:** Missing sampling coords
 
 ![](../species/Acomys_russatus/Acomys_russatus_distribution_map.png)
 
-### Species: Anabas testudineus
+### Anabas testudineus
 
 **Common Name:** climbing perch\
 **Biosample:** SAMEA104026376\
 **Assembly Accession:** GCA_900324465.3\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fAnaTes1.3 is based on 68x PacBio Sequel
-data, 114x coverage Illumina HiSeqX data from a 10X Genomics Chromium
-library generated at the Wellcome Sanger Institute as well as BioNano
-Saphyr DLE data generated at the Rockefeller University Vertebrate
-Genome Laboratory and 170x coverage HiSeqX data from a Hi-C library
-prepared by Arima Genomics. An initial PacBio assembly was made using
-Falcon-unzip. The primary contigs were then scaffolded using the 10X
-data with scaff10x and mis-joins broken using break10x. After using the
-PacBio data to gap fill with PBJelly and polish with Arrow, the assembly
-was polished again using the 10X Illumina data and freebayes. Finally,
-the assembly was further manually curated using gEVAL to correct
-mis-joins and improve concordance with the BioNano data and Arima Hi-C
-data. This was the initial fAnaTes1.1 assembly. An updated fAnaTes1.2
-assembly has been further curated to removed duplicate haplotypes using
-purge_haplotigs and using the Hi-C data to identify further breaks and
-joins and produce chromosomal-level scaffolds. fAnaTes1.3 includes a
-mitochondrial assembly produced at The Rockefeller University using
-mitoVGP. Chromosomes have been named by synteny to medaka.
+**Flags:** Missing sampling coords
 
 ![](../species/Anabas_testudineus/Anabas_testudineus_distribution_map.png)
 
-### Species: Aquila chrysaetos
+### Aquila chrysaetos
 
 **Common Name:** European golden eagle\
 **Biosample:** SAMEA994725\
 **Assembly Accession:** GCA_900496995.4\
 **Taxon:** Birds\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly bAquChr1.4 is based on 60x PacBio data, 54x
-coverage 10X Genomics Chromium data, and 63x coverage Dovetail Hi-C data
-generated at the Wellcome Sanger Institute, and BioNano data generated
-by the DeepSeq facility at the University of Nottingham. The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Falcon-unzip, retained haplotig identification
-with Purge Haplotigs, 10X based scaffolding with scaff10x, BioNano
-hybrid-scaffolding, Hi-C based scaffolding with SALSA2, Arrow polishing,
-and two rounds of FreeBayes polishing. The mitochondrial assembly was
-produced at The Rockefeller University using mitoVGP. Finally, the
-assembly was analysed and manually improved using gEVAL.
-Chromosome-scale scaffolds confirmed by the Hi-C data have been named in
-order of size. As a result of the Hi-C data being sourced from a male
-bird it has not been possible to fully construct the W Chromosome for
-the female sample bAquChr1. Scaffolds identified as belonging to W have
-therefore been submitted as unordered fragments. The largest of these
-fragments has been designated as the W chromosome (SUPER_W) and all
-other W scaffolds labelled as W_unloc.
+**Flags:** Missing sampling coords
 
 ![](../species/Aquila_chrysaetos/Aquila_chrysaetos_distribution_map.png)
 
-### Species: Arvicola amphibius
+### Arvicola amphibius
 
 **Common Name:** European water vole\
 **Biosample:** SAMEA994740\
 **Assembly Accession:** GCA_903992535.2\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly mArvAmp1.2 is based on 45x PacBio data, 52x
-10X Genomics Chromium data, BioNano data and 6x Dovetail Hi-C data
-generated at the Wellcome Sanger Institute. The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Falcon-unzip, retained haplotig separation with
-purge_dups, 10X based scaffolding with scaff10x, BioNano
-hybrid-scaffolding with Solve, Hi-C based scaffolding with SALSA2, Arrow
-polishing, and two rounds of FreeBayes polishing. Finally, the assembly
-was analysed and manually improved using gEVAL. Chromosome-scale
-scaffolds confirmed by the Hi-C data have been named in order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Arvicola_amphibius/Arvicola_amphibius_distribution_map.png)
 
-### Species: Astyanax mexicanus
+### Astyanax mexicanus
 
 **Common Name:** Mexican tetra\
 **Biosample:** SAMN25965548\
 **Assembly Accession:** GCA_023375975.1\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** Grants:#NIH Grant 1DP2OD028806-01#NSF EDGE award
-1923372#(both to Dr. Nicolas Rohner)
-
-The Astyanax mexicanus DNA sample was obtained from a female fish that
-was a reared at the Stowers Institute aquatic facility. High molecular
-weight DNA was used as input to generate long-reads using circular
-consensus sequence (CCS) base calling output from the Sequel II
-instrument (Pacific Biosciences) according to the manufacturer’s
-protocols. Total CCS coverage was approx. 38x using a genome size
-estimate of 1.4Gb. All quality filtered sequence reads were assembled
-with HiFasm using default parameter settings and redundant contigs
-removed using purge_haplotigs. Assembled contigs were scaffolded using
-HiC sequence data from a sibling individual using Salsa 2 and JuiceBox.
-Chromosomes were numbered by synteny to previous assembled chromosomes
-of Asytanax mexicanus. This version of the surface fish assembly will
-replace the prior version GCA_000372685.2.
-
-It is requested that users of this Astyanax mexicanus 1.0 sequence
-assembly acknowledge the Astyanax mexicanus genomes consortium in any
-publications that result from use of this sequence assembly prior to the
-publication of this resource. Any publications that propose to generate
-whole genome analyses using this resource should contact Dr. Nicolas
-Rohner ([nro\@stowers.org](mailto:nro@stowers.org){.email}) or Dr. Wes
-Warren ([warrenwc\@missouri.edu](mailto:warrenwc@missouri.edu){.email})
-for the use of pre-publication data in accord with the Ft. Lauderdale
-and Toronto genomic data use agreements.
+**Flags:** Missing sampling coords
 
 ![](../species/Astyanax_mexicanus/Astyanax_mexicanus_distribution_map.png)
 
-### Species: Betta splendens
+### Betta splendens
 
 **Common Name:** Siamese fighting fish\
 **Biosample:** SAMEA104381735\
 **Assembly Accession:** GCA_900634795.4\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fBetSpl5.4 is based on 48x PacBio Sequel data
-and 83x coverage Illumina HiSeqX data from a single individual
-(fBetSpl5, sample SAMEA104381735). Scaffolding and curation also
-integrated 183x Illumina HiSeqX data generated from a 10X Genomics
-Chromium library and single-enzyme BioNano Irys data, both from a
-separate individual (fBetSpl1, sample SAMEA104381745). All data was
-generated at the Wellcome Sanger Institute. An initial PacBio assembly
-of fBetSpl5 was made using Falcon-unzip, and retained haplotigs were
-identified using purge_haplotigs. The primary contigs were then
-scaffolded using the 10X data from fBetSpl1 with scaff10x. After using
-the PacBio data to gap fill with PBJelly and polish with Arrow, the
-assembly was polished again using the fBetSpl5 Illumina data and
-freebayes. Finally, the assembly was manually improved using gEVAL to
-correct mis-joins and improve concordance with the BioNano data. By
-aligning with the existing Betta splendens assembly (GCA_003650155.1)
-and medaka, we were able to order and orient our scaffolds and place
-onto chromosomes. Chromosomes are named by synteny to medaka.
+**Flags:** Missing sampling coords
 
 ![](../species/Betta_splendens/Betta_splendens_distribution_map.png)
 
-### Species: Chanos chanos
+### Chanos chanos
 
 **Common Name:** milkfish\
 **Biosample:** SAMEA5159473\
 **Assembly Accession:** GCA_902362185.1\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fChaCha1.1 is based on 68x PacBio data, 78x
-10X Genomics Chromium data, BioNano data and 93x Dovetail Hi-C data
-generated at the Wellcome Sanger Institute. The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Falcon-unzip, retained haplotig identification with
-Purge Dups, 10X based scaffolding with scaff10x, BioNano
-hybrid-scaffolding, Hi-C based scaffolding with SALSA2, Arrow polishing,
-and two rounds of FreeBayes polishing. Finally, the assembly was
-analysed and manually improved using gEVAL. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Chanos_chanos/Chanos_chanos_distribution_map.png)
 
-### Species: Cottoperca gobio
+### Cottoperca gobio
 
 **Common Name:** channel bull blenny\
 **Biosample:** SAMEA104242975\
 **Assembly Accession:** GCA_900634415.1\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing sampling coords
 
 ![](../species/Cottoperca_gobio/Cottoperca_gobio_distribution_map.png)
 
-### Species: Denticeps clupeoides
+### Denticeps clupeoides
 
 **Common Name:** denticle herring\
 **Biosample:** SAMEA104129917\
 **Assembly Accession:** GCA_900700375.2\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fDenClu1.2 is based on 63x PacBio Sequel data
-and 89x coverage Illumina HiSeqX data from a 10X Genomics Chromium
-library generated at the Wellcome Sanger Institute, as well as BioNano
-Saphyr DLE data generated at the Rockefeller University Vertebrate
-Genome Laboratory and 95x coverage HiSeqX data from a Hi-C library
-prepared by Arima Genomics. An initial PacBio assembly of fDenClu1 was
-made using Falcon-unzip, and retained haplotigs were identified using
-purge_haplotigs. The primary contigs were then scaffolded using the 10X
-data with scaff10x, then scaffolded further with BioNano hybrid
-scaffolding and scaffolded further still using the Hi-C data with
-SALSA2. Polishing and gap-filling of both the primary scaffolds and
-haplotigs was performed using the PacBio reads and Arrow, followed by
-two rounds of Illumina polishing using the 10X data and freebayes. The
-mitochondrial assembly was produced at The Rockefeller University using
-mitoVGP. Finally, the assembly was manually improved using gEVAL to
-correct mis-joins, improve concordance with the BioNano and Hi-C data
-and remove retained haplotypic duplication using purge_haplotigs.
-Chromosomes identified from the Hi-C data have been named in order of
-size.
+**Flags:** Missing sampling coords
 
 ![](../species/Denticeps_clupeoides/Denticeps_clupeoides_distribution_map.png)
 
-### Species: Echeneis naucrates
+### Echeneis naucrates
 
 **Common Name:** live sharksucker\
 **Biosample:** SAMEA4966390\
 **Assembly Accession:** GCA_900963305.2\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fEcheNa1.2 is based on 62x PacBio data, 100x
-coverage 10X Genomics Chromium data, BioNano data and 112x coverage
-Dovetail Hi-C data generated at the Wellcome Sanger Institute. The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Falcon-unzip, retained haplotig
-identification with Purge Haplotigs, 10X based scaffolding with
-scaff10x, BioNano hybrid-scaffolding, Hi-C based scaffolding with
-SALSA2, Arrow polishing, and two rounds of FreeBayes polishing. The
-mitochondrial assembly was produced at The Rockefeller University using
-mitoVGP. Finally, the assembly was analysed and manually improved using
-gEVAL. Chromosome-scale scaffolds are named by synteny to medaka.
+**Flags:** Missing sampling coords
 
 ![](../species/Echeneis_naucrates/Echeneis_naucrates_distribution_map.png)
 
-### Species: Erithacus rubecula
+### Erithacus rubecula
 
 **Common Name:** European robin\
 **Biosample:** SAMEA4760689\
 **Assembly Accession:** GCA_903797595.2\
 **Taxon:** Birds\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly bEriRub2.2 is based on 41x PacBio data, 22x
-10X Genomics Chromium data, and 42x Dovetail Hi-C data generated at the
-Wellcome Sanger Institute. The assembly process included the following
-sequence of steps: initial PacBio assembly generation with Falcon-unzip,
-retained haplotig separation with purge_dups, 10X based scaffolding with
-scaff10x, Hi-C based scaffolding with SALSA2, Arrow polishing, and two
-rounds of FreeBayes polishing. Finally, the assembly was analysed and
-manually improved using gEVAL. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Erithacus_rubecula/Erithacus_rubecula_distribution_map.png)
 
-### Species: Erpetoichthys calabaricus
+### Erpetoichthys calabaricus
 
 **Common Name:** reedfish\
 **Biosample:** SAMEA104026374\
 **Assembly Accession:** GCA_900747795.4\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fErpCal1.3 is based on 58x PacBio data, 31x
-10X Genomics Chromium data, and 35x Arima Hi-C data generated at the
-Wellcome Sanger Institute, as well as BioNano Saphyr DLE data generated
-at the Rockefeller University Vertebrate Genome Laboratory. The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Falcon-unzip, retained haplotig separation with
-purge_dups, 10X based scaffolding with scaff10x, BioNano
-hybrid-scaffolding with Solve, Hi-C based scaffolding with SALSA2, Arrow
-polishing using Merfin, and two rounds of FreeBayes polishing. Finally,
-the assembly was analysed and manually improved using gEVAL. The
-mitochondrial assembly was produced at The Rockefeller University using
-mitoVGP. Chromosome-scale scaffolds confirmed by the Hi-C data have been
-named in order of size. The GC profile of chromosome 11 is very unusual
-when compared with the other chromosomes.
+**Flags:** Missing sampling coords
 
 ![](../species/Erpetoichthys_calabaricus/Erpetoichthys_calabaricus_distribution_map.png)
 
-### Species: Eublepharis macularius
+### Eublepharis macularius
 
 **Common Name:** leopard gecko\
 **Biosample:** SAMN31016422\
 **Assembly Accession:** GCA_028583425.1\
 **Taxon:** Reptiles\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing sampling coords
 
 ![](../species/Eublepharis_macularius/Eublepharis_macularius_distribution_map.png)
 
-### Species: Geotrypetes seraphini
+### Geotrypetes seraphini
 
 **Common Name:** Gaboon caecilian\
 **Biosample:** SAMEA104387963\
 **Assembly Accession:** GCA_902459505.2\
 **Taxon:** Amphibians\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly aGeoSer1.2 is based on 67x PacBio data, 28x
-10X Genomics Chromium data, BioNano data and 20x Dovetail Hi-C data
-generated at the Wellcome Sanger Institute. The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Falcon-unzip, retained haplotig identification with
-Purge Haplotigs, 10X based scaffolding with scaff10x, BioNano
-hybrid-scaffolding, Hi-C based scaffolding with SALSA2, Arrow polishing,
-and two rounds of FreeBayes polishing. The mitochondrial assembly was
-produced at The Rockefeller University using mitoVGP. Finally, the
-assembly was analysed and manually improved using gEVAL.
-Chromosome-scale scaffolds confirmed by the Hi-C data have been named in
-order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Geotrypetes_seraphini/Geotrypetes_seraphini_distribution_map.png)
 
-### Species: Girardinichthys multiradiatus
+### Girardinichthys multiradiatus
 
 **Common Name:** darkedged splitfin\
 **Biosample:** SAMN22242658\
 **Assembly Accession:** GCA_021462225.2\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** In the first version of this genome the authors had
-assembled the genome into a total of 24 chromosomes which they named by
-sorting the final scaffolds by length. This resulted in scaffold_20 of
-v01 being named as “chromosome 16”. After deeper analysis the authors
-concluded that scaffold_20 was actually the combination of both sex
-chromosomes (X and Y). In this version of the assembly (JAJATY020000000)
-chromosome 16 is replaced by chromosomes X and Y.
+**Flags:** Missing sampling coords
 
 ![](../species/Girardinichthys_multiradiatus/Girardinichthys_multiradiatus_distribution_map.png)
 
-### Species: Gorilla gorilla
+### Gorilla gorilla
 
 **Common Name:** gorilla\
 **Biosample:** SAMN04003007\
 **Assembly Accession:** GCA_029281585.3\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** This is the goldenpath principal haplotype containing all
-chromosomes. The maternal (JAQQLJ000000000) and paternal
-(JAQQLK000000000) haplotypes are also available. The mitochondrial
-genome was added to the assembly on May 2024.
+**Flags:** Missing sampling coords
 
 ![](../species/Gorilla_gorilla/Gorilla_gorilla_distribution_map.png)
 
-### Species: Gouania willdenowi
+### Gouania willdenowi
 
 **Common Name:** blunt-snouted clingfish\
 **Biosample:** SAMEA104026382\
 **Assembly Accession:** GCA_900634775.2\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fGouWil2.2 is based on 58x PacBio Sequel
-data, 67x coverage Illumina HiSeqX data from a 10X Genomics Chromium
-library and two-enzyme BioNano Irys data generated at the Wellcome
-Sanger Institute as well as 83x coverage HiSeqX data from a Hi-C library
-prepared by Arima Genomics. The assembly was made using the Vertebrate
-Genomes Project v1.5 assembly pipeline on DNAnexus. An initial PacBio
-assembly was made using Falcon-unzip, and retained haplotigs were
-identified using purge_haplotigs. The primary contigs were then
-scaffolded using the 10X data with scaff10x, then scaffolded further
-with BioNano hybrid scaffolding and scaffolded further still using the
-Hi-C data with SALSA2. Polishing and gap-filling of both the primary
-scaffolds and haplotigs was performed using the PacBio reads and Arrow,
-followed by two rounds of Illumina polishing using the 10X data and
-freebayes. The mitochondrial assembly was produced at The Rockefeller
-University using mitoVGP. Finally, the assembly was manually improved
-using gEVAL to correct mis-joins and improve concordance with the
-BioNano and Hi-C data. Chromosomes are named by synteny to medaka.
+**Flags:** Missing sampling coords
 
 ![](../species/Gouania_willdenowi/Gouania_willdenowi_distribution_map.png)
 
-### Species: Lutra lutra
+### Lutra lutra
 
 **Common Name:** Eurasian otter\
 **Biosample:** SAMEA994731\
 **Assembly Accession:** GCA_902655055.2\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly mLutLut1.2 is based on 63x PacBio data, 58x
-10X Genomics Chromium data, BioNano data and 17x Hi-C data generated at
-the Baylor College of Medicine. The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Falcon-unzip, retained haplotig identification with Purge Haplotigs, 10X
-based scaffolding with scaff10x, Hi-C based scaffolding and improvement
-by the Aiden lab as part of a collaboration with DNA Zoo using 3D-DNA
-and Juicebox, Arrow polishing, and two rounds of FreeBayes polishing.
-The mitochondrial assembly was produced at The Rockefeller University
-using mitoVGP. Finally, the assembly was analysed and manually improved
-using gEVAL. Chromosome-scale scaffolds confirmed by the Hi-C data have
-been named in order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Lutra_lutra/Lutra_lutra_distribution_map.png)
 
-### Species: Lycocorax pyrrhopterus
+### Lycocorax pyrrhopterus
 
 **Common Name:** paradise crow\
 **Biosample:** SAMN15881065\
 **Assembly Accession:** GCA_014706295.1\
 **Taxon:** Birds\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing sampling coords
 
 ![](../species/Lycocorax_pyrrhopterus/Lycocorax_pyrrhopterus_distribution_map.png)
 
-### Species: Mastacembelus armatus
+### Mastacembelus armatus
 
 **Common Name:** zig-zag eel\
 **Biosample:** SAMEA104026378\
 **Assembly Accession:** GCA_900324485.3\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fMasArm1.3 is based on 52x PacBio Sequel
-data, 99x coverage Illumina HiSeqX data from a 10X Genomics Chromium
-library generated at the Wellcome Sanger Institute, as well as
-two-enzyme BioNano Saphyr data generated at the Rockefeller University
-Vertebrate Genome Laboratory and 245x coverage HiSeqX data from a Hi-C
-library prepared by Arima Genomics. An initial PacBio assembly was made
-using Falcon-unzip and the primary contigs extended by merging with a
-miniasm assembly. The contigs were then scaffolded using the 10X data
-with scaff10x, and using synteny with Lates calcarifer (Asian seabass).
-After using the PacBio data to gap fill with PBJelly and polish with
-Arrow, the assembly was polished again using the 10X Illumina data and
-freebayes. Finally, the assembly was further manually curated using
-gEVAL to correct mis-joins and improve concordance with the BioNano and
-Arima Hi-C data. This was the fMasArm1.1 assembly. A updated fMasArm1.2
-assembly has been further curated using the Hi-C data to separate out
-haplotigs, identify further breaks and joins and produce
-chromosomal-level scaffolds. The further updated fMasArm1.3 assembly
-includes a mitochondrial assembly produced at The Rockefeller University
-using mitoVGP. Chromosomes have been named by synteny to medaka.
+**Flags:** Missing sampling coords
 
 ![](../species/Mastacembelus_armatus/Mastacembelus_armatus_distribution_map.png)
 
-### Species: Microcaecilia unicolor
+### Microcaecilia unicolor
 
 **Common Name:** tiny cayenne caecilian\
 **Biosample:** SAMEA104387962\
 **Assembly Accession:** GCA_901765095.2\
 **Taxon:** Amphibians\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly aMicUni1.2 is based on 53x PacBio data, 52x
-coverage 10X Genomics Chromium data, BioNano data and 25x coverage Arima
-Hi-C data generated at the Wellcome Sanger Institute. The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Falcon-unzip, retained haplotig identification
-with Purge Haplotigs, 10X based scaffolding with scaff10x, BioNano
-hybrid-scaffolding, Hi-C based scaffolding with SALSA2, Arrow polishing,
-and two rounds of FreeBayes polishing. The mitochondrial assembly was
-produced at The Rockefeller University using mitoVGP. Finally, the
-assembly was analysed and manually improved using gEVAL.
-Chromosome-scale scaffolds confirmed by the Hi-C data have been named in
-order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Microcaecilia_unicolor/Microcaecilia_unicolor_distribution_map.png)
 
-### Species: Micropterus salmoides
+### Micropterus salmoides
 
 **Common Name:** large-mouth bass\
 **Biosample:** SAMN15783178\
 **Assembly Accession:** GCA_019677235.1\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing sampling coords
 
 ![](../species/Micropterus_salmoides/Micropterus_salmoides_distribution_map.png)
 
-### Species: Myripristis murdjan
+### Myripristis murdjan
 
 **Common Name:** pinecone soldierfish\
 **Biosample:** SAMEA4872133\
 **Assembly Accession:** GCA_902150065.1\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fMyrMur1.1 is based on 45x PacBio data, 89x
-coverage 10X Genomics Chromium data, BioNano data and 39x coverage Arima
-Hi-C data generated at the Wellcome Sanger Institute. The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Falcon-unzip, retained haplotig identification
-with purge_dups, 10X based scaffolding with scaff10x, BioNano
-hybrid-scaffolding, Hi-C based scaffolding with SALSA2, Arrow polishing,
-and two rounds of FreeBayes polishing. Finally, the assembly was
-analysed and manually improved using gEVAL. Chromosome-scale scaffolds
-are named by synteny to medaka.
+**Flags:** Missing sampling coords
 
 ![](../species/Myripristis_murdjan/Myripristis_murdjan_distribution_map.png)
 
-### Species: Oenanthe melanoleuca
+### Oenanthe melanoleuca
 
 **Common Name:** eastern black-eared wheatear\
 **Biosample:** SAMN33408179\
 **Assembly Accession:** GCA_029582105.1\
 **Taxon:** Birds\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing sampling coords
 
 ![](../species/Oenanthe_melanoleuca/Oenanthe_melanoleuca_distribution_map.png)
 
-### Species: Onychomys torridus
+### Onychomys torridus
 
 **Common Name:** Southern grasshopper mouse\
 **Biosample:** SAMEA104026389\
 **Assembly Accession:** GCA_903995425.1\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly mOncTor1.1 is based on 59x PacBio data, 77x
-10X Genomics Chromium data, and BioNano data generated at the Wellcome
-Sanger Institute. The assembly process included the following sequence
-of steps: initial PacBio assembly generation with Falcon and an separate
-initial assembly with miniasm, scaffolding of the Falcon contigs using
-the miniasm assembly as a guide with cross_genome, scaffolding with
-scaff10x, contig breaking with break10x, gap filling with PBJelly,
-polishing using Arrow, polishing using Illumina data with Freebayes, and
-manual curation, including use of synteny with assembly GCA_003704035.1
-of Peromyscus maniculatus bairdii. Chromosome-scale scaffolds are based
-on chromosome painting with Mus musculus fosmids. Autosomes are named in
-order of longer arm length.
+**Flags:** Missing sampling coords
 
 ![](../species/Onychomys_torridus/Onychomys_torridus_distribution_map.png)
 
-### Species: Ornithorhynchus anatinus
+### Ornithorhynchus anatinus
 
 **Common Name:** platypus\
 **Biosample:** SAMN08537700\
 **Assembly Accession:** GCA_004115215.4\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Ornithorhynchus anatinus and includes the chromosomes.
-The alternate haplotype sequences are in WGS project RZJU00000000
+**Flags:** Missing sampling coords
 
 ![](../species/Ornithorhynchus_anatinus/Ornithorhynchus_anatinus_distribution_map.png)
 
-### Species: Pan paniscus
+### Pan paniscus
 
 **Common Name:** bonobo\
 **Biosample:** SAMN13935689\
 **Assembly Accession:** GCA_029289425.3\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** This is the goldenpath principal haplotype containing all
-chromosomes. The maternal (JAQQLL000000000) and paternal
-(JAQQLM000000000) haplotypes are also available. The mitochondrial
-genome was added to the assembly on May 2024.
+**Flags:** Missing sampling coords
 
 ![](../species/Pan_paniscus/Pan_paniscus_distribution_map.png)
 
-### Species: Pan troglodytes
+### Pan troglodytes
 
 **Common Name:** chimpanzee\
 **Biosample:** SAMN30216104\
 **Assembly Accession:** GCA_028858775.2\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The mitochondrial genome was added to the assembly on May
-2024.
+**Flags:** Missing sampling coords
 
 ![](../species/Pan_troglodytes/Pan_troglodytes_distribution_map.png)
 
-### Species: Parambassis ranga
+### Parambassis ranga
 
 **Common Name:** Indian glassy fish\
 **Biosample:** SAMEA4675621\
 **Assembly Accession:** GCA_900634625.2\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fParRan2.2 is based on 101x PacBio Sequel
-data, 122x coverage Illumina HiSeqX data from a 10X Genomics Chromium
-library generated at the Wellcome Sanger Institute as well as BioNano
-Saphyr DLE data generated at the Rockefeller University Vertebrate
-Genome Laboratory and 108x coverage HiSeqX data from a Hi-C library
-prepared by Arima Genomics. An initial PacBio assembly was made using
-Falcon-unzip, and retained haplotigs were identified using
-purge_haplotigs. The primary contigs were then scaffolded using the 10X
-data with scaff10x, then scaffolded further with BioNano hybrid
-scaffolding and scaffolded further still using the Hi-C data with
-SALSA2. Polishing and gap-filling of both the primary scaffolds and
-haplotigs was performed using the PacBio reads and Arrow, followed by
-two rounds of Illumina polishing using the 10X data and freebayes. The
-mitochondrial assembly was produced at The Rockefeller University using
-mitoVGP. Finally, the assembly was manually improved using gEVAL to
-correct mis-joins and improve concordance with the BioNano and Hi-C
-data. Chromosomes are named by synteny to medaka.
+**Flags:** Missing sampling coords
 
 ![](../species/Parambassis_ranga/Parambassis_ranga_distribution_map.png)
 
-### Species: Pipistrellus pipistrellus
+### Pipistrellus pipistrellus
 
 **Common Name:** common pipistrelle\
 **Biosample:** SAMEA994724\
 **Assembly Accession:** GCA_903992545.1\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly mPipPip1.1 is based on 62x PacBio data, 34x
-10X Genomics Chromium data, and 58x Arima Hi-C data generated at the
-Wellcome Sanger Institute. The Hi-C data was derived from a separate
-sample, mPipPip2. The assembly process included the following sequence
-of steps: initial PacBio assembly generation with Falcon-unzip, retained
-haplotig separation with purge_dups, 10X based scaffolding with
-scaff10x, Hi-C based scaffolding with SALSA2, Arrow polishing, two
-rounds of FreeBayes polishing. The mitochondrial assembly was produced
-at The Rockefeller University using mitoVGP. Finally, the assembly was
-analysed and manually improved using gEVAL. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Pipistrellus_pipistrellus/Pipistrellus_pipistrellus_distribution_map.png)
 
-### Species: Pleurodeles waltl
+### Pleurodeles waltl
 
 **Common Name:** Iberian ribbed newt\
 **Biosample:** SAMN28911188\
 **Assembly Accession:** GCA_026652325.1\
 **Taxon:** Amphibians\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** Chromsomes 1, 2, 3 and 4 have been assembled into a single
-sequence each. However, they had to be split into two pieces because the
-chromosome length exceed the technical limit of roughly 2.14 billion
-base pairs. The chromosomes were separated at the centromere. Sequences
-JANPWB010000001.1-JANPWB010000008.1 are the pieces of these split
-chromosomes.
+**Flags:** Missing sampling coords
 
 ![](../species/Pleurodeles_waltl/Pleurodeles_waltl_distribution_map.png)
 
-### Species: Pongo abelii
+### Pongo abelii
 
 **Common Name:** Sumatran orangutan\
 **Biosample:** SAMN10521808\
 **Assembly Accession:** GCA_028885655.2\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The mitochondrial genome was added to the assembly on May
-2024.
+**Flags:** Missing sampling coords
 
 ![](../species/Pongo_abelii/Pongo_abelii_distribution_map.png)
 
-### Species: Pongo pygmaeus
+### Pongo pygmaeus
 
 **Common Name:** Bornean orangutan\
 **Biosample:** SAMN10521809\
 **Assembly Accession:** GCA_028885625.2\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The mitochondrial genome was added to the assembly on May
-2024.
+**Flags:** Missing sampling coords
 
 ![](../species/Pongo_pygmaeus/Pongo_pygmaeus_distribution_map.png)
 
-### Species: Protopterus annectens
+### Protopterus annectens
 
 **Common Name:** West African lungfish\
 **Biosample:** SAMN26533844\
 **Assembly Accession:** GCA_040939525.1\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** All chromosomes were each assembled into a single
-sequence. However chromosomes 1 and 2 had to be split into 3 pieces and
-chromosomes 3-8 had to be split into 2 pieces because the chromosome
-length exceeds the technical limit of roughly 2.14 billion base pairs.
-All of the pieces are treated as chromosomes so the chromosome number in
-the assembly is 27.
+**Flags:** Missing sampling coords
 
 ![](../species/Protopterus_annectens/Protopterus_annectens_distribution_map.png)
 
-### Species: Rhinatrema bivittatum
+### Rhinatrema bivittatum
 
 **Common Name:** two-lined caecilian\
 **Biosample:** SAMEA104387956\
 **Assembly Accession:** GCA_901001135.2\
 **Taxon:** Amphibians\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly aRhiBiv1.2 is based on 43x PacBio data and
-41x coverage 10X Genomics Chromium data generated at the Wellcome Sanger
-Institute, BioNano data generated by BioNano Genomics, and 39x coverage
-Hi-C data generated at the Wellcome Sanger Institute using a library
-created by Arima Genomics. The assembly process included the following
-sequence of steps: initial PacBio assembly generation with Falcon-unzip,
-retained haplotig identification with Purge Haplotigs, 10X based
-scaffolding with scaff10x, BioNano hybrid-scaffolding, Hi-C based
-scaffolding with SALSA2, Arrow polishing, and two rounds of FreeBayes
-polishing. The mitochondrial assembly was produced at The Rockefeller
-University using mitoVGP. Finally, the assembly was analysed and
-manually improved using gEVAL. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Rhinatrema_bivittatum/Rhinatrema_bivittatum_distribution_map.png)
 
-### Species: Salarias fasciatus
+### Salarias fasciatus
 
 **Common Name:** jewelled blenny\
 **Biosample:** SAMEA4966329\
 **Assembly Accession:** GCA_902148845.1\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fSalaFa1.1 is based on 96x PacBio data, 61x
-coverage 10X Genomics Chromium data, and 89x coverage Dovetail Hi-C data
-generated at the Wellcome Sanger Institute, and BioNano data generated
-by the DeepSeq facility at the University of Nottingham. The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Falcon-unzip, retained haplotig identification
-with Purge Haplotigs, 10X based scaffolding with scaff10x, BioNano
-hybrid-scaffolding, Hi-C based scaffolding with SALSA2, Arrow polishing,
-and two rounds of FreeBayes polishing. Finally, the assembly was
-analysed and manually improved using gEVAL. Chromosome-scale scaffolds
-are named by synteny to the GCA_000188235.1 assembly of Nile Tilapia
-(Oreochromis niloticus).
+**Flags:** Missing sampling coords
 
 ![](../species/Salarias_fasciatus/Salarias_fasciatus_distribution_map.png)
 
-### Species: Salmo trutta
+### Salmo trutta
 
 **Common Name:** brown trout\
 **Biosample:** SAMEA994732\
 **Assembly Accession:** GCA_901001165.2\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fSalTru1.2 is based on 68x PacBio data and
-70x coverage 10X Genomics Chromium data generated at the Wellcome Sanger
-Institute, as well as BioNano data generated at the Rockefeller
-University Vertebrate Genome Laboratory and 28x coverage Hi-C data
-generated by Arima Genomics. The assembly process included the following
-sequence of steps: initial PacBio assembly generation with Falcon-unzip,
-retained haplotig identification with Purge Haplotigs, 10X based
-scaffolding with scaff10x, BioNano hybrid-scaffolding, Hi-C based
-scaffolding with SALSA2, Arrow polishing, and two rounds of FreeBayes
-polishing. The mitochondrial assembly was produced at The Rockefeller
-University using mitoVGP. Finally, the assembly was analysed and
-manually improved using gEVAL. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named on the following basis: first they were
-assigned as metacentric versus acrocentric based on a Salmo trutta
-linkage map and synteny with the Salmo salar assembly GCA_000233375.4;
-numbers 1 to 11 are metacentric, numbers 12 to 40 are acrocentric, and
-within each of those two categories they are named in order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Salmo_trutta/Salmo_trutta_distribution_map.png)
 
-### Species: Sciurus carolinensis
+### Sciurus carolinensis
 
 **Common Name:** grey squirrel\
 **Biosample:** SAMEA994726\
 **Assembly Accession:** GCA_902686445.2\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly mSciCar1.2 is based on 74x PacBio data, 40x
-10X Genomics Chromium data, and 42x Dovetail Hi-C data generated at the
-Wellcome Sanger Institute. The assembly process included the following
-sequence of steps: initial PacBio assembly generation with Falcon-unzip,
-retained haplotig identification with purge_dups, 10X based scaffolding
-with scaff10x, Hi-C based scaffolding with SALSA2, Arrow polishing, and
-two rounds of FreeBayes polishing. The mitochondrial assembly was
-produced at The Rockefeller University using mitoVGP. Finally, the
-assembly was analysed and manually improved using gEVAL. Since Hi-C data
-were sparse, curation was aided by synteny with the assembly for Sciurus
-vulgaris simultaneously being curated by the Wellcome Sanger Institute.
-Chromosome-scale scaffolds confirmed by the Hi-C data and synteny have
-been named in order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Sciurus_carolinensis/Sciurus_carolinensis_distribution_map.png)
 
-### Species: Sciurus vulgaris
+### Sciurus vulgaris
 
 **Common Name:** Eurasian red squirrel\
 **Biosample:** SAMEA994733\
 **Assembly Accession:** GCA_902686455.2\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly mSciVul1.2 is based on 23x PacBio data and
-44x 10X Genomics Chromium data generated at the Wellcome Sanger
-Institute, BioNano data generated at the Rockefeller University
-Vertebrate Genome Laboratory, and 17x Hi-C data generated at the Baylor
-College of Medicine. The assembly process included the following
-sequence of steps: initial PacBio assembly generation with Falcon-unzip,
-retained haplotig identification with purge_dups, 10X based scaffolding
-with scaff10x, BioNano hybrid-scaffolding, Hi-C based scaffolding and
-improvement by the Aiden lab as part of a collaboration with DNA Zoo
-using 3D-DNA and Juicebox, Arrow polishing, and two rounds of FreeBayes
-polishing. The mitochondrial assembly was produced at The Rockefeller
-University using mitoVGP. Finally, the assembly was analysed and
-manually improved using gEVAL. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Sciurus_vulgaris/Sciurus_vulgaris_distribution_map.png)
 
-### Species: Scleropages formosus
+### Scleropages formosus
 
 **Common Name:** golden arowana\
 **Biosample:** SAMEA4872123\
 **Assembly Accession:** GCA_900964775.1\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fSclFor1.1 is based on 72x PacBio data, 88x
-coverage 10X Genomics Chromium data, BioNano data and 67x coverage Arima
-Hi-C data generated at the Wellcome Sanger Institute. The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Falcon-unzip, retained haplotig identification
-with Purge Haplotigs, 10X based scaffolding with scaff10x, BioNano
-hybrid-scaffolding, Hi-C based scaffolding with SALSA2, Arrow polishing,
-and two rounds of FreeBayes polishing. Finally, the assembly was
-analysed and manually improved using gEVAL. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Scleropages_formosus/Scleropages_formosus_distribution_map.png)
 
-### Species: Scyliorhinus canicula
+### Scyliorhinus canicula
 
 **Common Name:** small-spotted catshark\
 **Biosample:** SAMEA994730\
 **Assembly Accession:** GCA_902713615.2\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly sScyCan1.2 is based on 63x PacBio data, 43x
-10X Genomics Chromium data, and BioNano data generated at the Wellcome
-Sanger Institute, and 17x Hi-C data generated at the Baylor College of
-Medicine. The assembly process included the following sequence of steps:
-initial PacBio assembly generation with Falcon-unzip, retained haplotig
-identification with purge_dups, 10X based scaffolding with scaff10x,
-BioNano hybrid-scaffolding, Hi-C based scaffolding and improvement by
-the Aiden lab as part of a collaboration with DNA Zoo using 3D-DNA and
-Juicebox, Arrow polishing, and two rounds of FreeBayes polishing.
-Finally, the assembly was analysed and manually improved using gEVAL.
-Chromosome-scale scaffolds confirmed by the Hi-C data have been named in
-order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Scyliorhinus_canicula/Scyliorhinus_canicula_distribution_map.png)
 
-### Species: Sparus aurata
+### Sparus aurata
 
 **Common Name:** gilthead seabream\
 **Biosample:** SAMEA104384835\
 **Assembly Accession:** GCA_900880675.2\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fSpaAur1.2 is based on 56x PacBio Sequel
-data, 62x coverage Illumina HiSeqX data from a 10X Genomics Chromium
-library generated at the Wellcome Sanger Institute, as well as 71x
-coverage HiSeqX data from a Hi-C library prepared by Arima Genomics. An
-initial PacBio assembly was made using Falcon-unzip, and retained
-haplotigs were identified using purge_haplotigs. The primary contigs
-were then scaffolded using the 10X data with scaff10x, then scaffolded
-further using the Hi-C data with SALSA2. Polishing and gap-filling of
-both the primary scaffolds and haplotigs was performed using the PacBio
-reads and Arrow, followed by two rounds of Illumina polishing using the
-10X data and freebayes. The mitochondrial assembly was produced at The
-Rockefeller University using mitoVGP. Finally, the assembly was manually
-improved using gEVAL to correct mis-joins and improve concordance with
-the raw data. Chromosomes are named according to synteny with the
-GCA_003309015.1 assembly of Sparus aurata.
+**Flags:** Missing sampling coords
 
 ![](../species/Sparus_aurata/Sparus_aurata_distribution_map.png)
 
-### Species: Sphaeramia orbicularis
+### Sphaeramia orbicularis
 
 **Common Name:** orbiculate cardinalfish\
 **Biosample:** SAMEA4966328\
 **Assembly Accession:** GCA_902148855.1\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fSphaOr1.1 is based on 53x PacBio data, 40x
-coverage 10X Genomics Chromium data, BioNano data and 46x coverage Arima
-Hi-C data generated at the Wellcome Sanger Institute. The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Falcon-unzip, retained haplotig identification
-with Purge Haplotigs, 10X based scaffolding with scaff10x, BioNano
-hybrid-scaffolding, Hi-C based scaffolding with SALSA2, Arrow polishing,
-and two rounds of FreeBayes polishing. Finally, the assembly was
-analysed and manually improved using gEVAL. Chromosome-scale scaffolds
-are named by synteny to medaka.
+**Flags:** Missing sampling coords
 
 ![](../species/Sphaeramia_orbicularis/Sphaeramia_orbicularis_distribution_map.png)
 
-### Species: Streptopelia turtur
+### Streptopelia turtur
 
 **Common Name:** European turtle dove\
 **Biosample:** SAMEA994735\
 **Assembly Accession:** GCA_901699155.2\
 **Taxon:** Birds\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly bStrTur1.2 is based on 44x PacBio data, 62x
-coverage 10X Genomics Chromium data, and BioNano data generated at the
-Wellcome Sanger Institute, and 106x coverage Hi-C data generated by
-Arima Genomics. The assembly process included the following sequence of
-steps: initial PacBio assembly generation with Falcon-unzip, retained
-haplotig identification with Purge Haplotigs, 10X based scaffolding with
-scaff10x, BioNano hybrid-scaffolding, Hi-C based scaffolding with
-SALSA2, Arrow polishing, and two rounds of FreeBayes polishing. Finally,
-the assembly was analysed and manually improved using gEVAL.
-Chromosome-scale scaffolds are named by synteny to Gallus gallus.
+**Flags:** Missing sampling coords
 
 ![](../species/Streptopelia_turtur/Streptopelia_turtur_distribution_map.png)
 
-### Species: Symphalangus syndactylus
+### Symphalangus syndactylus
 
 **Common Name:** siamang gibbon\
 **Biosample:** SAMN30216103\
 **Assembly Accession:** GCA_028878055.3\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The mitochondrial genome was added to the assembly on May
-2024.
+**Flags:** Missing sampling coords
 
 ![](../species/Symphalangus_syndactylus/Symphalangus_syndactylus_distribution_map.png)
 
-### Species: Syngnathus acus
+### Syngnathus acus
 
 **Common Name:** greater pipefish\
 **Biosample:** SAMEA104381750\
 **Assembly Accession:** GCA_901709675.2\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fSynAcu1.2 is based on 96x PacBio data, 190x
-coverage 10X Genomics Chromium data, and 159x coverage Dovetail Hi-C
-data generated at the Wellcome Sanger Institute. The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Falcon-unzip, retained haplotig identification with
-Purge Haplotigs, 10X based scaffolding with scaff10x, Hi-C based
-scaffolding with SALSA2, Arrow polishing, and two rounds of FreeBayes
-polishing. The mitochondrial assembly was produced at The Rockefeller
-University using mitoVGP. Finally, the assembly was analysed and
-manually improved using gEVAL. Chromosome-scale scaffolds are named by
-synteny to medaka.
+**Flags:** Missing sampling coords
 
 ![](../species/Syngnathus_acus/Syngnathus_acus_distribution_map.png)
 
-### Species: Takifugu rubripes
+### Takifugu rubripes
 
 **Common Name:** Japanese puffer (torafugu)\
 **Biosample:** SAMEA104384834\
 **Assembly Accession:** GCA_901000725.3\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fTakRub1.3 is based on 83x PacBio Sequel
-data, 70x coverage Illumina HiSeqX data from a 10X Genomics Chromium
-library generated at the Wellcome Sanger Institute as well as BioNano
-Saphyr DLE data generated at the Rockefeller University Vertebrate
-Genome Laboratory and 51x coverage HiSeqX data from a Hi-C library
-prepared by Arima Genomics. An initial PacBio assembly was made using
-Falcon-unzip, and retained haplotigs were identified using
-purge_haplotigs. The primary contigs were then scaffolded using the 10X
-data with scaff10x, then scaffolded further with BioNano hybrid
-scaffolding and scaffolded further still using the Hi-C data with
-SALSA2. Polishing and gap-filling of both the primary scaffolds and
-haplotigs was performed using the PacBio reads and Arrow, followed by
-two rounds of Illumina polishing using the 10X data and freebayes. The
-mitochondrial assembly was produced at The Rockefeller University using
-mitoVGP. Finally, the assembly was manually improved using gEVAL to
-correct mis-joins and improve concordance with the BioNano and Hi-C
-data. Chromosome-scale scaffolds are named by synteny to the
-GCA_000180615.2 assembly of Takifugu rubripes.
+**Flags:** Missing sampling coords
 
 ![](../species/Takifugu_rubripes/Takifugu_rubripes_distribution_map.png)
 
-### Species: Thalassophryne amazonica
+### Thalassophryne amazonica
 
 **Common Name:** prehistoric monster fish\
 **Biosample:** SAMEA104129913\
 **Assembly Accession:** GCA_902500255.1\
 **Taxon:** Fishes\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** The assembly fThaAma1.1 is based on 67x PacBio data, 48x
-10X Genomics Chromium data, BioNano data and 13x Arima Hi-C data
-generated at the Wellcome Sanger Institute. The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Falcon-unzip, retained haplotig identification with
-purge_dups, 10X based scaffolding with scaff10x, BioNano
-hybrid-scaffolding, Hi-C based scaffolding with SALSA2, Arrow polishing,
-and two rounds of FreeBayes polishing. Finally, the assembly was
-analysed and manually improved using gEVAL. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size.
+**Flags:** Missing sampling coords
 
 ![](../species/Thalassophryne_amazonica/Thalassophryne_amazonica_distribution_map.png)
 
-### Species: Tupaia tana
+### Tupaia tana
 
 **Common Name:** large treeshrew\
 **Biosample:** SAMN07678117\
 **Assembly Accession:** GCA_026018925.1\
 **Taxon:** Mammals\
 **Priority:** 2\
-**Flags:** Missing Sampling Location;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing sampling coords
 
 ![](../species/Tupaia_tana/Tupaia_tana_distribution_map.png)
 
-### Species: Carettochelys insculpta
-
-**Common Name:** pig-nosed turtle\
-**Biosample:** SAMN38222597\
-**Assembly Accession:** GCA_033958435.1\
-**Taxon:** Reptiles\
-**Priority:** 3\
-**Flags:** Outside Range; Vague Location;
-
-**Map Notes:**\
-**Comments:** NA
-
-![](../species/Carettochelys_insculpta/Carettochelys_insculpta_distribution_map.png)
-
-### Species: Electrophorus electricus
+### Electrophorus electricus
 
 **Common Name:** electric eel\
 **Biosample:** SAMN42883346\
 **Assembly Accession:** GCA_041902795.1\
 **Taxon:** Fishes\
 **Priority:** 3\
-**Flags:** Outside Range; Vague Location;
+**Flags:** Outside range · Vague location
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** —\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** China
 
 ![](../species/Electrophorus_electricus/Electrophorus_electricus_distribution_map.png)
 
-### Species: Epinephelus lanceolatus
+### Epinephelus lanceolatus
 
 **Common Name:** giant grouper\
 **Biosample:** SAMN41784231\
 **Assembly Accession:** GCA_041903045.1\
 **Taxon:** Fishes\
 **Priority:** 3\
-**Flags:** Outside Range; Vague Location;
+**Flags:** Outside range · Vague location
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** —\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** China
 
 ![](../species/Epinephelus_lanceolatus/Epinephelus_lanceolatus_distribution_map.png)
 
-### Species: Lateolabrax maculatus
+### Lateolabrax maculatus
 
 **Common Name:** Chinese sea bass\
 **Biosample:** SAMN36708487\
 **Assembly Accession:** GCA_031216445.1\
 **Taxon:** Fishes\
 **Priority:** 3\
-**Flags:** Outside Range; Vague Location;
+**Flags:** Outside range · Vague location
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** —\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** China
 
 ![](../species/Lateolabrax_maculatus/Lateolabrax_maculatus_distribution_map.png)
 
-### Species: Notoryctes typhlops
-
-**Common Name:** Southern marsupial mole\
-**Biosample:** SAMN45131536\
-**Assembly Accession:** GCA_048126345.1\
-**Taxon:** Mammals\
-**Priority:** 3\
-**Flags:** Outside Range; Vague Location;
-
-**Map Notes:**\
-**Comments:** NA
-
-![](../species/Notoryctes_typhlops/Notoryctes_typhlops_distribution_map.png)
-
-### Species: Phascolarctos cinereus
+### Phascolarctos cinereus
 
 **Common Name:** koala\
 **Biosample:** SAMN06198159\
 **Assembly Accession:** GCA_003287225.2\
 **Taxon:** Mammals\
 **Priority:** 3\
-**Flags:** Outside Range; Vague Location;
+**Flags:** Outside range · Vague location
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Australia Zoo Wildlife Hospital\
+**Collected by:** Australia Zoo Wildlife Hospital\
+**Biosample comments:** Female Koala sample (Bilbo) for PacBio genome assembly.\
+**Location:** Australia
 
 ![](../species/Phascolarctos_cinereus/Phascolarctos_cinereus_distribution_map.png)
 
-### Species: Polymixia cf. hollisterae
-
-**Common Name:** Bermuda beardfish\
-**Biosample:** SAMN42899157\
-**Assembly Accession:** GCA_048537225.1\
-**Taxon:** Fishes\
-**Priority:** 3\
-**Flags:** Vague Location; Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
-
-![](../species/Polymixia_cf._hollisterae/Polymixia_cf._hollisterae_distribution_map.png)
-
-### Species: Acomys minous
-
-**Common Name:** Crete spiny mouse\
-**Biosample:** SAMEA112751364\
-**Assembly Accession:** GCA_964271855.1\
-**Taxon:** Mammals\
-**Priority:** 4\
-**Flags:** Outside Range;
-
-**Map Notes:**\
-**Comments:** Genome assembly of Acomys minous. This assembly is
-provided by the European Reference Genome Atlas (ERGA,
-<https://www.erga-biodiversity.eu/>) via the Biodiversity Genomics
-Europe project (BGE, <https://biodiversitygenomics.eu/>).
-
-![](../species/Acomys_minous/Acomys_minous_distribution_map.png)
-
-### Species: Acridotheres tristis
+### Acridotheres tristis
 
 **Common Name:** common myna\
 **Biosample:** SAMN28454388\
 **Assembly Accession:** GCA_027559615.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Tel Aviv University & Steinhardt, Museum of Natural History\
+**Collected by:** Tali Magory Cohen\
+**Biosample comments:** The common myna or Indian myna (Acridotheres tristis), sometimes spelled mynah, is a bird in the family Sturnidae, native to Asia. It is an omnivorous open woodland bird with a strong territorial instinct, and has adapted extremely well to urban environments. (from Wikipedia entry). This sample was procured by Tali Magory Cohen near Tel Aviv University, Israel, and used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). The project was coordinated by M. Thomas P. Gilbert of the University of Copenhagen. Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** Israel: Tel Aviv
 
 ![](../species/Acridotheres_tristis/Acridotheres_tristis_distribution_map.png)
 
-### Species: Ambystoma mexicanum x Ambystoma tigrinum
+### Ambystoma mexicanum x Ambystoma tigrinum
 
 **Common Name:** axolotl\
 **Biosample:** SAMN43142723\
 **Assembly Accession:** GCA_040938575.1\
 **Taxon:** Amphibians\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** Chromosomes 1, 2, 3, 4, 5, 6, and 7 have been assembled
-into a single sequence each. However, they had to be split into two
-pieces because the chromosome length exceeds the technical limit of
-roughly 2.14 billion base pairs. The chromosomes are separated at the
-centromere.
-
-This is the maternal pseudohaplotype assembly created from the genome
-sequence of the F1 female progeny (isolate Amex_F1_6; BioSample
-SAMN41071122) of a cross between a female Ambystoma mexicanum (isolate
-Mex_15411; BioSample SAMN43142723) and male Ambystoma tigrinum (isolate
-Tig_M23; BioSample SAMN43142724).
+**Biosample provider:** —\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** USA: Kentucky, University of Kentucky
 
 ![](../species/Ambystoma_mexicanum_x_Ambystoma_tigrinum/Ambystoma_mexicanum_x_Ambystoma_tigrinum_distribution_map.png)
 
-### Species: Anser brachyrhynchus
+### Anser brachyrhynchus
 
 **Common Name:** pink-footed goose\
 **Biosample:** SAMEA112468040\
 **Assembly Accession:** GCA_964034855.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly bAnsBra1.1 is based on 38x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. Note that the PAR region is
-collapsed and represented on Chromosome W only.
+**Biosample provider:** —\
+**Collected by:** MICHELLE O’BRIEN\
+**Biosample comments:** —\
+**Location:** England\|Gloucester\|Newgounds
 
 ![](../species/Anser_brachyrhynchus/Anser_brachyrhynchus_distribution_map.png)
 
-### Species: Antennarius maculatus
+### Antennarius maculatus
 
 **Common Name:** warty frogfish\
 **Biosample:** SAMN12623626\
 **Assembly Accession:** GCA_013358685.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Antennarius maculatus and includes the chromosomes. The
-alternate haplotype sequences are in WGS project JABVMD000000000
+**Biosample provider:** University of Konstanz (Dejong Marinelife, Rotterdam)\
+**Collected by:** Andreas Kaut, Joost Woltering\
+**Biosample comments:** The Warty frogfish (Antennarius maculatus) is found in rocky and coral reefs in tropical waters of the Indo-Pacific. Their skin is covered with many wart-like protuberances, giving is characteristic name. They can change color to match their environment, within several weeks. This sample was collected by Martin Reichard, procured by Axel Meyer, sequencing supported by Gene Myers, in collaboration with Richard Durbin, to generate a high-quality reference genome as part of the G10K-VGP and Fish VGP projects.\
+**Location:** Netherlands: Dejong Marinelife, Rotterdam
 
 ![](../species/Antennarius_maculatus/Antennarius_maculatus_distribution_map.png)
 
-### Species: Ara ararauna
+### Ara ararauna
 
 **Common Name:** blue-and-gold macaw\
 **Biosample:** SAMN33059336\
 **Assembly Accession:** GCA_028858755.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** Both haplotypes were curated, but haplotype 1 is more
-complete
+**Biosample provider:** Texas A&M’s Schubot Exotic Bird Health Center\
+**Collected by:** Sharman Hoppes, DVM\
+**Biosample comments:** The blue-and-gold macaw (Ara ararauna), also known as the blue-and-yellow macaw, is a large South American parrot with mostly blue top parts and light orange underparts, with gradient hues of green on top of its head. It is a member of the large group of neotropical parrots known as macaws. This sample is from a male at the Texas A&M’s Schubot Exotic Bird Health Center, born in Hill Country Aviaries in Dripping Springs, Texas, collected by Sharman Hoppes, coordinated by Janice Boyd (deceased) and Taylor Hains at the University of Chicago, and used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** USA: Dripping Springs, Texas
 
 ![](../species/Ara_ararauna/Ara_ararauna_distribution_map.png)
 
-### Species: Archocentrus centrarchus
+### Archocentrus centrarchus
 
 **Common Name:** flier cichlid\
 **Biosample:** SAMN09948522\
 **Assembly Accession:** GCA_007364275.2\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Archocentrus centrarchus and includes the chromosomes.
-The alternate haplotype sequences are in WGS project STFW00000000.
+**Biosample provider:** Sylke Winkler and Gene Myers, Max Planck Institute, Dresden, Germany\
+**Collected by:** Axel Meyer, Andreas Kautt, Paolo Franchini\
+**Biosample comments:** The data from this BioSample are currently under a G10K-VGP publication embargo until removed from this description, following the G10K data use policy at the following URL: <https://genome10k.soe.ucsc.edu/about/data_use_policy>. The flier cichlid is a fish that is used in studies of trait evolution. It is native to Central America. This sample is being used for the G10K-VGP Project. The sample was collected by Axel Myers group in Nicaragua and sequenced by Gene Myers’ group at the Max Plank Institute of Molecular Cell Biology and Genetics (MPI-CBG) and by Olivier Fedrigo’s group at the Rockefeller University Vertebrate Genome lab.\
+**Location:** Nicaragua
 
 ![](../species/Archocentrus_centrarchus/Archocentrus_centrarchus_distribution_map.png)
 
-### Species: Arvicanthis niloticus
+### Arvicanthis niloticus
 
 **Common Name:** Nile rat\
 **Biosample:** SAMN12611849\
 **Assembly Accession:** GCA_011762505.3\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** This is the trio assembly merged haplotype data. The
-maternal and paternal haplotype sequences are in WGS projects
-JAAOME000000000 and JAAOMF000000000 respectively.
-
-Chromosome assignments were updated on this assembly on January 2025.
+**Biosample provider:** University of California Santa Barbara; Morgridge Institute for Research\
+**Collected by:** Huishi Toh\
+**Biosample comments:** Arvicanthis Niloticus, commonly known as the Nile rat or African grass rat, is a valuable model organism used in various areas of research including behavioral neuroscience, nutrition science, ophthalmology and evolutionary biology. Native to Northern Africa, this diurnal rodent has a diet primarily of leaves and stems, supplemented with insects, seeds, and fruits. However, when maintained in a laboratory environment with a rodent chow diet that has high caloric content relative to its native diet, both sexes rapidly develop diet-induced diabetes. By mimicking the disease etiology, the Nile rat provides an important animal model to study the causality of type 2 diabetes and is a suitable pre-clinical model. These samples were collected from a male and his parents in a laboratory colony of Huishi Toh and James Thomson at University of California, Santa Barbara, and used to generate chromosomal level reference assembly as part of the G10K-VGP project.\
+**Location:** USA: Santa Barbara
 
 ![](../species/Arvicanthis_niloticus/Arvicanthis_niloticus_distribution_map.png)
 
-### Species: Astatotilapia calliptera
+### Astatotilapia calliptera
 
 **Common Name:** Eastern happy\
 **Biosample:** SAMEA112818850\
 **Assembly Accession:** GCA_964374335.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly fAstCal68 is based on 65x ONT simplex data
-generated at the University of Cambridge and Arima2 Hi-C data generated
-by the Wellcome Sanger Institute Tree of Life Programme
-(<https://www.sanger.ac.uk/programme/tree-of-life/>). The assembly
-process included the following sequence of steps: initial ONT error
-correction with herro, then assembly generation with Hifiasm, retained
-haplotig separation with purge_dups, and Hi-C based scaffolding with
-YaHS. The mitochondrial genome was assembled using MitoHiFi. Finally,
-the primary assembly was analysed and manually improved using TreeVal.
-Chromosome-scale scaffolds confirmed by the Hi-C data have been named
-according to standard Malawi cichlid nomenclature.
+**Biosample provider:** —\
+**Collected by:** BETTINA FISCHER\
+**Biosample comments:** —\
+**Location:** CAMBRIDGE UNIVERSITY \| AQUARIA FACILITY
 
 ![](../species/Astatotilapia_calliptera/Astatotilapia_calliptera_distribution_map.png)
 
-### Species: Aulonocara stuartgranti
+### Aulonocara stuartgranti
 
 **Common Name:** flavescent peacock cichlid\
 **Biosample:** SAMEA112818851\
 **Assembly Accession:** GCA_965226115.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly fAulStu2.1 is based on 18x ONT duplex data
-generated at the University of Cambridge and Arima2 Hi-C data generated
-at the University of Bern. The assembly process included the following
-sequence of steps: ONT duplex reads assembled with Hifiasm, retained
-haplotig separation with purge_dups, and Hi-C based scaffolding with
-YaHS. The mitochondrial genome was assembled using MitoHiFi. Finally,
-the primary assembly was analysed and manually improved using TreeVal.
-Chromosome-scale scaffolds confirmed by the Hi-C data have been named
-according to standard Malawi cichlid nomenclature.
+**Biosample provider:** —\
+**Collected by:** BETTINA FISCHER\
+**Biosample comments:** —\
+**Location:** CAMBRIDGE UNIVERSITY \| AQUARIA FACILITY
 
 ![](../species/Aulonocara_stuartgranti/Aulonocara_stuartgranti_distribution_map.png)
 
-### Species: Balaenoptera ricei
-
-**Common Name:** Rice’s whale\
-**Biosample:** SAMN32629060\
-**Assembly Accession:** GCA_028023285.1\
-**Taxon:** Mammals\
-**Priority:** 4\
-**Flags:** Outside Range;
-
-**Map Notes:**\
-**Comments:** the mBalRic1.alt.cur.20221125.fasta file contains one
-false haplotype duplication contig removed from Haplotype 2 assembly
-
-![](../species/Balaenoptera_ricei/Balaenoptera_ricei_distribution_map.png)
-
-### Species: Callithrix jacchus
+### Callithrix jacchus
 
 **Common Name:** common marmoset\
 **Biosample:** SAMN47004743\
 **Assembly Accession:** GCA_049354715.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** —\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** USA: Pittsburgh
 
 ![](../species/Callithrix_jacchus/Callithrix_jacchus_distribution_map.png)
 
-### Species: Calypte anna
+### Calypte anna
 
 **Common Name:** Anna’s hummingbird\
 **Biosample:** SAMN02265252\
 **Assembly Accession:** GCA_003957555.2\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** In May 2019 the mitochondrial sequence (RRCD01000160) was
-added to this 01 version of RRCD00000000. This assembly represents the
-primary haplotype of the diploid genome Calypte anna and includes the
-chromosomes. The alternate haplotype sequences are in WGS project
-RRCE00000000.
+**Biosample provider:** —\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** USA
 
 ![](../species/Calypte_anna/Calypte_anna_distribution_map.png)
 
-### Species: Camelus dromedarius
+### Camelus dromedarius
 
 **Common Name:** Dromedary camel\
 **Biosample:** SAMN39296380\
 **Assembly Accession:** GCA_036321535.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** —\
+**Collected by:** Rasheed Hashim, Farooq Omar Al-Ajli\
+**Biosample comments:** The Arabian camel (Camelus dromedarius ) is a one-humped camel species found in the Middle East and North Africa. It is remarkable for its adaptations to arid environments and has been integral to human societies in these regions. This sample (mCamDro1) is from a male bred at Mr. Shabat bin Saqar Al-Muraikhi camel breeding farm, in Qatar. Samples were also obtained from parents (father mCamDro2 and mother mCamDro3). These samples were collected and coordinated by Farooq Omar Al-Ajli (Katara Biodiversity Genomes Program), to create trio-based high-quality assemblies of the maternal and paternal haplotypes for the Vertebrate Genomes Project (VGP) and Qatar Biodiversity Genomes Project (QBGP). Sequencing was done at the Vertebrate Genomes Lab (VGL) at Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis. Genome assembly was conducted at Sidra Medicine by Farooq Omar Al-Ajli and Khalid A. Fakhro in collaboration with VGL.\
+**Location:** Qatar: Mr. Shabat bin Saqar Al-Muraikhi camel breeding farm
 
 ![](../species/Camelus_dromedarius/Camelus_dromedarius_distribution_map.png)
 
-### Species: Candoia aspera
+### Candoia aspera
 
 **Common Name:** viper boa\
 **Biosample:** SAMN37159891\
 **Assembly Accession:** GCA_035149785.1\
 **Taxon:** Reptiles\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Anne Bronikowski: Iowa State University\
+**Collected by:** —\
+**Biosample comments:** Candoia aspera (viper boa, also called Papuan ground boa) is a species of snake in the family Boidae found in New Guinea (in the Papua province of Indonesia and in Papua New Guinea). It is a terrestrial species, living in the undergrowth and smaller than some other members of the Boidae family (modified from Wikipedia source). This sample is from a female bred in captivity at the Ophidian Research Colony, at the University of Texas at Tyler, coordinated and processed by Anne Bronikowski of Iowa State University, and used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** USA: Ophidian Research Colony, at University of Texas at Tyler
 
 ![](../species/Candoia_aspera/Candoia_aspera_distribution_map.png)
 
-### Species: Choloepus didactylus
+### Carettochelys insculpta
+
+**Common Name:** pig-nosed turtle\
+**Biosample:** SAMN38222597\
+**Assembly Accession:** GCA_033958435.1\
+**Taxon:** Reptiles\
+**Priority:** 4\
+**Flags:** Outside range
+
+**Biosample provider:** —\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** China: Xiong County, Hebei Province
+
+![](../species/Carettochelys_insculpta/Carettochelys_insculpta_distribution_map.png)
+
+### Choloepus didactylus
 
 **Common Name:** Linnaeus’s two-toed sloth\
 **Biosample:** SAMN12612024\
 **Assembly Accession:** GCA_015220235.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Leibniz Institute for Zoo and Wildlife, Berlin, Germany\
+**Collected by:** Gudrun Wibbelt\
+**Biosample comments:** Choloepus didactylus, commonly known as Linnaeus’s two-toed sloth, is a native species from South America. Extant sloths are represented by only two genera, Choloepus and Bradypus, and present the slowest metabolism among all mammals. This sample was collected from a Tierpark Berlin male specimen known as Lama Su by researchers from the Leibniz Institute for Zoo and Wildlife Research, and is being used to generate the first chromosome level genome of a sloth for the G10K-VGP Project. This genome is also the first Pilosa and Xenarthra representative of Phase 1 of the VGP Ordinal Project.\
+**Location:** Germany: Tierpark, Berlin
 
 ![](../species/Choloepus_didactylus/Choloepus_didactylus_distribution_map.png)
 
-### Species: Clarias gariepinus
+### Clarias gariepinus
 
 **Common Name:** North African catfish\
 **Biosample:** SAMN27021044\
 **Assembly Accession:** GCA_024256435.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** —\
+**Collected by:** —\
+**Biosample comments:** Genome assemblies of Clarias gariepinus, including diploid-collapsed (i.e., primary) and haplotype-resolved (i.e., phased) assemblies.\
+**Location:** Germany: Rostock
 
 ![](../species/Clarias_gariepinus/Clarias_gariepinus_distribution_map.png)
 
-### Species: Columba livia
+### Columba livia
 
 **Common Name:** rock dove\
 **Biosample:** SAMN38891892\
 **Assembly Accession:** GCA_036013475.2\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The order and orientation of scaffolds is uncertain in the
-W chromosome due to contiguity dropouts
+**Biosample provider:** Feanix Biotechnologies Inc: Thomas Bishop; University of Pennsylvania: Wojciech Panek\
+**Collected by:** —\
+**Biosample comments:** The rock pigeon is a member of the bird family Columbidae (doves and pigeons). It’s a fairly large pigeon with pale gray overall with two bold black wingbars and iridescent purple and green on neck. This species has wild and feral populations throughout the world. True wild birds nest on cliffs and in caves from western Europe to central Asia. Feral varieties are common in cities and farmland, often in large flocks. This sample is from a breed of domestic pigeon (Columba livia domestica) which includes about 1,000 different breeds and descends from the wild rock dove species. It was sampled in Davis, California by Thomas Bishop and Wojciech Panek, and coordinated by Matthew Biegler and Erich D. Jarvis to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Jennifer Balacco, Giulio Formenti. Assembly and curation was performed by Simona Secomandi.\
+**Location:** USA: Davis, CA
 
 ![](../species/Columba_livia/Columba_livia_distribution_map.png)
 
-### Species: Corvus hawaiiensis
+### Coregonus lavaretus
+
+**Common Name:** common whitefish\
+**Biosample:** SAMEA111528661\
+**Assembly Accession:** GCA_964263955.1\
+**Taxon:** Fishes\
+**Priority:** 4\
+**Flags:** Outside range
+
+**Biosample provider:** —\
+**Collected by:** JP Koene\|CE Adams\
+**Biosample comments:** —\
+**Location:** Scotland \| Loch Lomond \| RossPoint
+
+![](../species/Coregonus_lavaretus/Coregonus_lavaretus_distribution_map.png)
+
+### Corvus hawaiiensis
 
 **Common Name:** Hawaiian crow\
 **Biosample:** SAMN22550278\
 **Assembly Accession:** GCA_020740725.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** University of Hawaii\
+**Collected by:** Bryce Masuda\
+**Biosample comments:** The Hawaiian crow (Corvus hawaiiensis) is a crow species endemic to Hawaii and only lives in Hawaii. It has a strong flying ability and is know to be resourceful. It is currently extinct in the wild, with about 100 animals from breeding in captivity. This blood sample was collected by Bryce Masuda, from a female, at the University of Hawaii, Manoa in 2020. It was used to generate a high-quality reference for the Vertebrate Genomes Project (VGP) and conservation research. Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis, and the project coordinated and supported by Stefanie Grosser and Bruce Robertson at the University of Otago, New Zealand, as well as by Jolene Sutton, Erin Datlof, Oliver Ryder, and Catherine Grueber.\
+**Location:** USA: University of Hawaii at Manoa
 
 ![](../species/Corvus_hawaiiensis/Corvus_hawaiiensis_distribution_map.png)
 
-### Species: Coturnix chinensis
+### Coturnix chinensis
 
 **Common Name:** king quail\
 **Biosample:** SAMN41253798\
 **Assembly Accession:** GCA_039878825.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Stanford University: David Ramirez\
+**Collected by:** David Ramirez\
+**Biosample comments:** The blue-breasted quail (Coturnix chinensis), also known as the Asian blue quail, Chinese painted quail, or Chung-Chi, is a species of Old World quail in the family Phasianidae. This species is the smallest “true quail”, ranging in the wild from southern China, South and Southeast Asia to Oceania, south to southeastern Australia, with 9 different subspecies (modified from Wikipedia entry). A recent revised taxonomic species name is Excalfactoria chinensis. This sample of a male individual was sourced and collected from a laboratory colony at Stanford University by Jessica Nowicki, Dave Ramirez, and Lauren O’Connell to generate a high-quality reference genome for a neuroscience project and the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genome Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** USA: Palo Alto, California
 
 ![](../species/Coturnix_chinensis/Coturnix_chinensis_distribution_map.png)
 
-### Species: Dasyurus maculatus
+### Dasyurus maculatus
 
 **Common Name:** tiger quoll\
 **Biosample:** SAMN47326980\
 **Assembly Accession:** GCA_048593285.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** San Diego Zoo\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** missing
 
 ![](../species/Dasyurus_maculatus/Dasyurus_maculatus_distribution_map.png)
 
-### Species: Dendropsophus ebraccatus
+### Dendropsophus ebraccatus
 
 **Common Name:** hourglass treefrog\
 **Biosample:** SAMN32145295\
 **Assembly Accession:** GCA_027789765.1\
 **Taxon:** Amphibians\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Justin Touchon, Vassar College\
+**Collected by:** Justin Touchon, Erich Jarvis\
+**Biosample comments:** The hourglass treefrog (Dendropsophus ebraccatus) name refers to its hourglass shape. The hourglass treefrog is found throughout Central America. It has plasticity in reproduction, laying eggs in water under some conditions and laying eggs on land under others. This female is from a trio of samples, with the parents (mother aDenEbr4 and father aDenEbr5) collected in Gamboa, Panama, and the child (aDenEbr1) breed in captivity at Vassar College in Poughkeepsie, New York, done and coordinated by Justin Touchon, to create a high-quality reference genome for both maternal and paternal haplotypes of aDenEbr1. Genome sequencing and assembly was coordinated by Erich D. Jarvis and Olivier Fedrigo at the Rockefeller University Vertebrate Genome Lab, and as part of the Vertebrate Genomes Project (VGP).\
+**Location:** USA: Vassar College, Poughkeepsie, New York
 
 ![](../species/Dendropsophus_ebraccatus/Dendropsophus_ebraccatus_distribution_map.png)
 
-### Species: Dibamus smithi
+### Dibamus smithi
 
 **Common Name:** Smith’s blind skink\
 **Biosample:** SAMN44704469\
 **Assembly Accession:** GCA_046126795.1\
 **Taxon:** Reptiles\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Institute of Tropical Biology Collection of Zoology: Nguyen Ngoc Sang\
+**Collected by:** Nguyen Ngoc Sang, Le Van Manh\
+**Biosample comments:** Smith’s blind skink (Dibamus smithi) is a species of legless lizard in the family Dibamidae endemic to Vietnam (from Wikipedia entry). This sample of a male individual found in Binh Thuan, Vietnam, was procured by Nguyen Ngoc Sang of the Institute of Tropical Biology at the Vietnam Academy of Science and Technology, and coordinated by Robert Murphy of the University of Toronto, to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genome Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** Viet Nam: Binh Thuan
 
 ![](../species/Dibamus_smithi/Dibamus_smithi_distribution_map.png)
 
-### Species: Diceros bicornis minor
+### Diceros bicornis minor
 
 **Common Name:** Southern black rhinoceros\
 **Biosample:** SAMN22047685\
 **Assembly Accession:** GCA_020826845.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Smithsonian Conservation Biology Institute\
+**Collected by:** Budhan Pukazhenthi\
+**Biosample comments:** The Southern black rhinoceros is a subspecies of the black rhinoceros, native to southern parts of Africa. As of 2021 it is considered critically endangered. This trio of samples was collected to create a high-quality reference genome for two haplotypes. The female (mDicBic1) called Mupani who the reference genome was generated, was born in the Fossil Rim Wildlife Center in Texas. Her mother Coco (mDicBic2) and father (mDicBic3), originally from Zimbabwe. Sample collection was conducted by Budhan Pukazhenthi, in coordination with Klaus-Peter Koepfli. Blood from these samples were used to create high-quality reference genome assemblies of each haplotype, coordinated by Erich Jarvis and Olivier Fedrigo, at the Rockefeller University Vertebrate Genome Lab, as part of the Vertebrate Genomes Project (VGP). The data from these BioSamples are currently under a G10K-VGP publication embargo until removed from this description, following the G10K data use policy at the following URL: <https://genome10k.soe.ucsc.edu/about/data_use_policy>.\
+**Location:** USA
 
 ![](../species/Diceros_bicornis_minor/Diceros_bicornis_minor_distribution_map.png)
 
-### Species: Engystomops pustulosus
+### Engystomops pustulosus
 
 **Common Name:** tungara frog\
 **Biosample:** SAMN42463661\
 **Assembly Accession:** GCA_040894005.1\
 **Taxon:** Amphibians\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** University of the Pacific: Marcos Gridi-Papp\
+**Collected by:** Marcos Gridi-Papp\
+**Biosample comments:** The Tungara frog (Engystomops pustulosus) is a species in the Leptodactylidae family. It is a small nocturnal terrestrial frog found in Mexico, Central America, and the northeastern regions of South America. The tungara frog exhibits interesting behavior in male/female interactions. Male vocalizations are critical in female mate choice, and females often prefer males who give complex mating calls at a lower frequency rather than simple calls at a higher frequency (from Wikipedia entry). This sample of a female individual (aEngPut4/MGP-1488.2) is part of a trio assembly (mother aEngPut2/MGP-1444.1, father aEngPut3/MGP-1452.1), with Hi-C sequence data from the sister offspring aEngPut1/MGP-1488.1 used for scaffolding. The individuals were bred in captivity and procured by Marcos Gridi-Papp to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genome Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** USA: Stockton, California
 
 ![](../species/Engystomops_pustulosus/Engystomops_pustulosus_distribution_map.png)
 
-### Species: Eptesicus fuscus
+### Eptesicus fuscus
 
 **Common Name:** big brown bat\
 **Biosample:** SAMN30608903\
 **Assembly Accession:** GCA_027574615.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** —\
+**Collected by:** David Ray\
+**Biosample comments:** —\
+**Location:** USA: Silver Falls Park - Crosbyton, TX
 
 ![](../species/Eptesicus_fuscus/Eptesicus_fuscus_distribution_map.png)
 
-### Species: Equus caballus
+### Equus caballus
 
 **Common Name:** Arabian horse\
 **Biosample:** SAMN39296386\
 **Assembly Accession:** GCA_036426135.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Qatar Biodiversity Genomes Project: Farooq Omar Al-Ajli\
+**Collected by:** Tatiana Vinardell, Farooq Omar Al-Ajli\
+**Biosample comments:** The domesticated horse (Equus caballus) is a one-toed, hoofed mammal, and one of the most iconic species distinguished by its unique history, diverse breeds, and significant role in human society. This sample (mEquCab1) is from a male Arabian horse bred at Al Shaqab Equestrian Center, in Qatar. Samples were also obtained from the parents (mother mEquCab3 and father mEquCab2). These samples were collected by Tatiana Vinardell, and coordinated and provided by Farooq Omar Al-Ajli (Katara Biodiversity Genomes Program), to create trio-based high-quality assemblies of the maternal and paternal haplotypes for the Vertebrate Genomes Project (VGP) and Qatar Biodiversity Genomes Project (QBGP). Sequencing was done at the Vertebrate Genomes Lab (VGL) at Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis. Genome assembly was conducted at Sidra Medicine by Farooq Omar Al-Ajli and Khalid A. Fakhro in collaboration with VGL.\
+**Location:** Qatar: Al Shaqab Equestrian Center
 
 ![](../species/Equus_caballus/Equus_caballus_distribution_map.png)
 
-### Species: Falco biarmicus
+### Falco biarmicus
 
 **Common Name:** Lanner falcon\
 **Biosample:** SAMN28688289\
 **Assembly Accession:** GCA_023638135.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Farooq Omar Al-Ajli, Qatar Falcon Genome Project\
+**Collected by:** Farooq Omar Al-Ajli, Souq Waqif Falcon Hospital\
+**Biosample comments:** The lanner falcon (Falco biarmicus) is a medium-sized species of falcons. Its breeding range includes Africa, Asia and Europe, and it is a member of the hierofalcon complex. This sample was procured by Farooq Omar Al-Ajli and used to generate a high-quality reference genome in a collaboration between Qatar Falcon Genome Project (QFGP) and the Vertebrate Genomes Project (VGP). The project was coordinated by Farooq Al-Ajli as a part of large conservation study (Qatar Falcon Genome Project), and funded by KATARA Cultural Village and Al-Gannas Qatari Society, Qatar. Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) by Farooq Omar Al-Ajli at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis. The raw data and assembly are currently under a G10K-VGP publication embargo until removed from this description, following the G10K data use policy at the following URL: <https://genome10k.soe.ucsc.edu/data-use-policies/>\
+**Location:** Qatar:Doha
 
 ![](../species/Falco_biarmicus/Falco_biarmicus_distribution_map.png)
 
-### Species: Falco punctatus
-
-**Common Name:** Mauritius kestrel\
-**Biosample:** SAMEA14356472\
-**Assembly Accession:** GCA_963210335.1\
-**Taxon:** Birds\
-**Priority:** 4\
-**Flags:** Outside Range;
-
-**Map Notes:**\
-**Comments:** The assembly bFalPun1.1 is based on 39x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. Chromosome Z was
-assigned by synteny to Falco biarmicus (GCF_023638135.1)
-
-![](../species/Falco_punctatus/Falco_punctatus_distribution_map.png)
-
-### Species: Falco rusticolus
+### Falco rusticolus
 
 **Common Name:** gyrfalcon\
 **Biosample:** SAMN12629496\
 **Assembly Accession:** GCA_015220075.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Farooq Al-Ajli, Qatar Falcon Genome Project, Al-Gannas Qatari Society\
+**Collected by:** Farooq Al-Ajli, Souq Waqif Falcon Hospital\
+**Biosample comments:** —\
+**Location:** Qatar
 
 ![](../species/Falco_rusticolus/Falco_rusticolus_distribution_map.png)
 
-### Species: Furcifer pardalis
+### Furcifer pardalis
 
 **Common Name:** panther chameleon\
 **Biosample:** SAMN35298317\
 **Assembly Accession:** GCA_030440675.1\
 **Taxon:** Reptiles\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Hongxin Xie\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** China: Beijing
 
 ![](../species/Furcifer_pardalis/Furcifer_pardalis_distribution_map.png)
 
-### Species: Gavia stellata
+### Gavia stellata
 
 **Common Name:** red-throated Loon\
 **Biosample:** SAMN37096312\
 **Assembly Accession:** GCA_030936135.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Tom Gilbert: University of Copenhagen\
+**Collected by:** Mikkel Sinding\
+**Biosample comments:** The red-throated loon (North America) or red-throated diver (Britain and Ireland) (Gavia stellata) is a migratory aquatic bird found in the northern hemisphere. The most widely distributed member of the loon or diver family, it breeds primarily in Arctic regions, and winters in northern coastal waters (from Wikipedia entry). This sample is from a male in Greenland, collected by Mikkel Sinding, coordinated by Tom Gilbert, and used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** Greenland
 
 ![](../species/Gavia_stellata/Gavia_stellata_distribution_map.png)
 
-### Species: Gopherus evgoodei
+### Gopherus evgoodei
 
 **Common Name:** Goode’s Thornscrub Tortoise\
 **Biosample:** SAMN03496275\
 **Assembly Accession:** GCA_007399415.1\
 **Taxon:** Reptiles\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Gopherus evgoodei and includes the chromosomes. The
-alternate haplotype sequences are in WGS project VHHO00000000.
+**Biosample provider:** —\
+**Collected by:** T. Edwards\
+**Biosample comments:** Sinaloan lineage of desert tortoise used for transcriptome assembly - Wild tortoise, part of A. Karl radio telemetry study. Located near Alamos, Sonora Mexico in Tropical Deciduous Forest\
+**Location:** Mexico: Sonora
 
 ![](../species/Gopherus_evgoodei/Gopherus_evgoodei_distribution_map.png)
 
-### Species: Gopherus flavomarginatus
+### Gopherus flavomarginatus
 
 **Common Name:** Mexican gopher tortoise\
 **Biosample:** SAMN24199108\
 **Assembly Accession:** GCA_025201925.1\
 **Taxon:** Reptiles\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** University of Arizona\
+**Collected by:** Taylor Edwards\
+**Biosample comments:** The Mexican gopher tortoise is the largest tortoises in North America. They inhabit the Mexican states Chihuahua, Coahulia and Durango, but are primarily found in Chihuahuan Desert. This genome was supported by Robert Murphey and Taylor Edwards. Sequencing and assembly were conducted at the Vertebrate Genomes Lab (VGL) at The Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis, as part of the Vertebrate Genomes Project (VGP). The genome was assembled by Arang Rhie.\
+**Location:** USA: Raton, New Mexico
 
 ![](../species/Gopherus_flavomarginatus/Gopherus_flavomarginatus_distribution_map.png)
 
-### Species: Grus grus
+### Grus grus
 
 **Common Name:** Eurasian crane\
 **Biosample:** SAMEA113398837\
 **Assembly Accession:** GCA_964106855.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly bGruGru1.hap1.1 is based on 48x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Z chromosome identified based on
-synteny with Grus americana (GCF_028858705.1)
+**Biosample provider:** —\
+**Collected by:** MICHELLE O’BRIEN\
+**Biosample comments:** —\
+**Location:** England\|Gloucester\|Newgounds
 
 ![](../species/Grus_grus/Grus_grus_distribution_map.png)
 
-### Species: Hemiscyllium ocellatum
+### Hemiscyllium ocellatum
 
 **Common Name:** epaulette shark\
 **Biosample:** SAMN22550098\
 **Assembly Accession:** GCA_020745735.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** ARMI Monash University\
+**Collected by:** Frank Tulenko\
+**Biosample comments:** The epaulette shark (Hemiscyllium ocellatum) species of longtailed carpet shark, found in shallow, tropical waters off of Australia and New Guinea. The common name comes from the large, white-margined black spot behind each pectoral fin, reminiscent of military epaulettes. they are nocturnal and walk with their fins (from Wikipedia entries). This juvenile male is from trio of samples (parents) breed and collected to create a high-quality reference genome for both maternal and paternal haplotypes. The juvenile was bred in captivity. Breeding and sample collection was conducted by Frank Tulenko, in coordination with Gavin Naylor, Peter Currie, and Olivier Fedrigo. Spleen from the male was used to create high-quality reference genome assemblies of each haplotype. Genome sequencing and assembly was coordinated by Erich D. Jarvis, and Olivier Fedrigo at the Rockefeller University Vertebrate Genome Lab, and Shawn Burgess, Jim Mullikin, and Adam Phillippy at NIH, as part of the Vertebrate Genomes Project (VGP).\
+**Location:** Australia: Clayton, Melbourne, Victoria
 
 ![](../species/Hemiscyllium_ocellatum/Hemiscyllium_ocellatum_distribution_map.png)
 
-### Species: Heptranchias perlo
+### Heptranchias perlo
 
 **Common Name:** sharpnose sevengill shark\
 **Biosample:** SAMN38891902\
 **Assembly Accession:** GCA_035084215.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** University of Florida: Gavin Naylor\
+**Collected by:** —\
+**Biosample comments:** The sharpnose sevengill shark (Heptranchias perlo) is a species of shark in the family Hexanchidae, and the only living species in the genus Heptranchias. The sharpnose sevengill shark is uncommon, but widely distributed in the tropical and temperate regions of all oceans except for the northeastern Pacific Ocean. (from Wikipedia entry). This sample of a female individual found in Okinawa Island, Japan, was procured by Gavin Naylor to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** Japan: Okinawa Island
 
 ![](../species/Heptranchias_perlo/Heptranchias_perlo_distribution_map.png)
 
-### Species: Hyperolius riggenbachi
+### Hyperolius riggenbachi
 
 **Common Name:** Riggenbach’s reed frog\
 **Biosample:** SAMN42123895\
 **Assembly Accession:** GCA_040937935.1\
 **Taxon:** Amphibians\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** California Academy of Sciences\
+**Collected by:** —\
+**Biosample comments:** Riggenbach’s reed frog (Hyperolius riggenbachi) is a species of frog in the family Hyperoliidae. It is found on Bamenda Highlands and the Adamawa Plateau, western and central Cameroon, and Mambilla and Obudu Plateaus of eastern Nigeria. Its natural habitats are wetlands and small wooded watercourses in montane grassland. This species is very common within its small range, but is threatened by habitat loss caused by agricultural activities, wood collection, and human settlement. This sample of a male individual captive born at the California Academy of Sciences was procured by Athena Lam to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genome Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** USA: San Francisco, California
 
 ![](../species/Hyperolius_riggenbachi/Hyperolius_riggenbachi_distribution_map.png)
 
-### Species: Jaculus jaculus
+### Jaculus jaculus
 
 **Common Name:** Lesser Egyptian jerboa\
 **Biosample:** SAMN20391724\
 **Assembly Accession:** GCA_020740685.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** —\
+**Collected by:** Kimberly Cooper\
+**Biosample comments:** The lesser jerboa (Jaculus jaculus) is a small nocturnal rodent of Africa and the Middle East. Its diet consists mainly of seeds and grasses. It is sometimes likened to a tiny kangaroo due to its incredibly large hind legs, and hopping form of locomotion (from Wikipedia). This sample was collected from an adult male by Kimberly Cooper at the University of California, San Diego USA, and used to generate a high-quality trio-based reference genome assembly for the Vertebrate Genomes Project (VGP). The parent samples are named mJacJac2 (mother) and mJacJac3 (father). Sequencing and genome assembly were conducted at the by Gene Myers’ group at Max Planck Institute, Dresden, and coordinated by Olivier Fedrigo and Erich D. Jarvis at the Rockefeller University.\
+**Location:** USA: San Diego
 
 ![](../species/Jaculus_jaculus/Jaculus_jaculus_distribution_map.png)
 
-### Species: Lathamus discolor
+### Lacerta agilis
 
-**Common Name:** swift parrot\
-**Biosample:** SAMN40289871\
-**Assembly Accession:** GCA_037157495.1\
-**Taxon:** Birds\
+**Common Name:** sand lizard\
+**Biosample:** SAMN12629509\
+**Assembly Accession:** GCA_009819535.1\
+**Taxon:** Reptiles\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** University of Gothenburg\
+**Collected by:** Mette Lillie, Mats Olsson\
+**Biosample comments:** —\
+**Location:** Sweden: Halland
 
-![](../species/Lathamus_discolor/Lathamus_discolor_distribution_map.png)
+![](../species/Lacerta_agilis/Lacerta_agilis_distribution_map.png)
 
-### Species: Lepidogalaxias salamandroides
-
-**Common Name:** salamanderfish\
-**Biosample:** SAMN47481373\
-**Assembly Accession:** GCA_049190665.1\
-**Taxon:** Fishes\
-**Priority:** 4\
-**Flags:** Outside Range;
-
-**Map Notes:**\
-**Comments:** NA
-
-![](../species/Lepidogalaxias_salamandroides/Lepidogalaxias_salamandroides_distribution_map.png)
-
-### Species: Leptosomus discolor
+### Leptosomus discolor
 
 **Common Name:** cuckoo-roller\
 **Biosample:** SAMN37284216\
 **Assembly Accession:** GCA_034619465.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** University of Copenhagen\
+**Collected by:** Andreas Frei\
+**Biosample comments:** The cuckoo-roller (Leptosomus discolor) is the only bird in the order Leptosomiformes. Despite its name, the Cuckoo-roller does not share close evolutionary origins with cuckoos or rollers at all. It is a medium-large bird, inhabiting forests and woodlands in Madagascar and the Comoro Islands (modified from Wikipedia). This sample is from a male in captivity in Walsrode Bird Park, Germany, sampled by Andreas Frie, and coordinated by Tom Gilbert and Erich Jarvis to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis. This sample was used for a previous genome assembly for the Avian Phylogenomics project published in 2014 (GCF_000691785.1).\
+**Location:** Germany: Walsrode Bird Park
 
 ![](../species/Leptosomus_discolor/Leptosomus_discolor_distribution_map.png)
 
-### Species: Lethrinus nebulosus
+### Lethrinus nebulosus
 
 **Common Name:** spangled emperor\
 **Biosample:** SAMN40589648\
 **Assembly Accession:** GCA_045362495.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** —\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** Australia: Western Australia, SW of Barrow Island
 
 ![](../species/Lethrinus_nebulosus/Lethrinus_nebulosus_distribution_map.png)
 
-### Species: Lonchura striata domestica
+### Lonchura striata domestica
 
 **Common Name:** Bengalese finch\
 **Biosample:** SAMN44779081\
 **Assembly Accession:** GCA_046129695.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** The Rockefeller University: Matthew Biegler\
+**Collected by:** Matthew Biegler\
+**Biosample comments:** The Bengalese finch (Lonchura striata domestica) is a domesticated subspecies of finch. It became a popular cage and trade bird after appearing in European zoos in the 1860s through being imported from Japan, though it was domesticated in China. Coloration and behavior were modified through centuries of selection in Asia, then later in Europe and North America. Another aspect of the Bengalese finch that evolved throughout the centuries is song production. Extensive research has been done and continues to be done on the different ways Bengalese finch songs are produced, how they are processed in the brain, what characteristics of the songs are preferred by females, and how their songs compare to the also commonly studied zebra finch (from Wikipedia entry). This sample of a male individual was procured by Matthew Biegler at the Rockefeller University Field Research Center in Millbrook, New York, for a vocal learning study and to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genome Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** USA: Millbrook, New York
 
 ![](../species/Lonchura_striata_domestica/Lonchura_striata_domestica_distribution_map.png)
 
-### Species: Lycaon pictus
+### Lycaon pictus
 
 **Common Name:** African hunting dog\
 **Biosample:** SAMN36939365\
 **Assembly Accession:** GCA_040955705.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Julia Stagegaard\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** Denmark: Ree Park
 
 ![](../species/Lycaon_pictus/Lycaon_pictus_distribution_map.png)
 
-### Species: Lynx canadensis
+### Lynx canadensis
 
 **Common Name:** Canada lynx\
 **Biosample:** SAMN09948483\
 **Assembly Accession:** GCA_007474595.2\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Lynx canadensis and includes the chromosomes. The
-alternate haplotype sequences are in WGS project VHLF00000000
+**Biosample provider:** Tanya Lama, Univ Amherst, MA\
+**Collected by:** Tanya Lama\
+**Biosample comments:** The raw data of this submission are currently under a G10K-VGP publication embargo until removed from this description, following the G10K data use policy at the following URL: <https://genome10k.soe.ucsc.edu/about/data_use_policy> The Canada lynx is a north American cat species, and has been a model species to in conservation studies to prevent mammal species extinction. It is native to Canada, Alaska, and northern United States. This sample is being used as part of the G10K Vertebrate Genomes Project. The sample was collected by Tanya Lama of the University of Massachusetts Amherst, and the genome from it supported by her and Warren Johnson of the Smithsonian Institute.\
+**Location:** USA: Aroostook County, Maine
 
 ![](../species/Lynx_canadensis/Lynx_canadensis_distribution_map.png)
 
-### Species: Macaca nemestrina
+### Macaca nemestrina
 
 **Common Name:** pig-tailed macaque\
 **Biosample:** SAMN41827875\
 **Assembly Accession:** GCA_043159975.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Allen Institute for Brain Science: Rebecca Hodge\
+**Collected by:** Washington National Primate Research Center (WaNPRC) at the University of Washington\
+**Biosample comments:** The southern pig-tailed macaque (Macaca nemestrina) is a medium-sized macaque that lives in Sundaland, southern Thailand, Malaysia, and Indonesia. This macaque has buff-brown fur, with a darker dorsal area and lighter ventral area. Its common name refers to the short tail held semi-erect, resembling the tail of a pig (from Wikipedia entry). This sample is from a male individual bred at the Washington National Primate Research Center (WaNPRC) at the University of Washington in Seattle. The sample was procured by Rebecca Hodge and coordinated by Trygve Bakken, Ed Lein, and Rebecca Hodge at the Allen Institute for Brain Science to generate a high-quality reference genome for an Allen Institute motor cortex project and for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genome Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** USA: Seattle, Washington
 
 ![](../species/Macaca_nemestrina/Macaca_nemestrina_distribution_map.png)
 
-### Species: Macropus eugenii
+### Macropus eugenii
 
 **Common Name:** Tammar wallaby\
 **Biosample:** SAMN28408687\
 **Assembly Accession:** GCA_028372415.2\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** In March 2025 42 sequences were suppressed because they
-were found to be contaminants. Order and orientation uncertain
-chromosome 4 301.08-310.96mb, chromosome 6 168.10-171.94mb
+**Biosample provider:** Manaaki Whenua Landcare Research\
+**Collected by:** Andrew Veale\
+**Biosample comments:** The tammar wallaby (Notamacropus eugenii) is a small macropod marsupial native to South and Western Australia. It is the best-studied marsupial in terms of its reproduction and development and it is a model organism for these studies. Tammar wallabies were established in Aotearoa (New Zealand) from the 1870s, and in this introduced range they are now agricultural and ecological pests. This sample is from a male in New Zealand, culled as part of pest management in the Waimangu thermal area, a scenic reserve managed by the New Zealand Department of Conservation. The sample was procured by Andrew Veale and used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** New Zealand: Waimangu thermal area
 
 ![](../species/Macropus_eugenii/Macropus_eugenii_distribution_map.png)
 
-### Species: Mantella aurantiaca
+### Mantella aurantiaca
 
 **Common Name:** golden mantella\
 **Biosample:** SAMN46714743\
 **Assembly Accession:** GCA_048565345.1\
 **Taxon:** Amphibians\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Cynthia Steiner, San Diego Zoo Wildlife Alliance\
+**Collected by:** San Diego Zoo\
+**Biosample comments:** The golden mantella (Mantella aurantiaca) is a small, terrestrial frog endemic to Madagascar. It has an extremely restricted distribution in three distinct areas centered on the town of Moramanga - Beparasy and Ambohibary Communes, Torotorofotsy Wetland northwest of Andasibe, and in the area of Ambakoana. Mantella aurantiaca is one of Madagascar’s most threatened amphibian species due to its limited distribution in an area under tremendous anthropogenic pressure (from Wikipedia entry). This sample of a female individual found in Madagascar was procured by Cynthia Steiner of the San Diego Zoo to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genome Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** Madagascar
 
 ![](../species/Mantella_aurantiaca/Mantella_aurantiaca_distribution_map.png)
 
-### Species: Megaderma spasma
+### Megaderma spasma
 
 **Common Name:** Lesser false vampire bat\
 **Biosample:** SAMN33550865\
 **Assembly Accession:** GCA_043880595.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Eger, JL, Lim, BK, Mitchell, L\
+**Collected by:** Eger, JL, Lim, BK, Mitchell, L\
+**Biosample comments:** —\
+**Location:** missing
 
 ![](../species/Megaderma_spasma/Megaderma_spasma_distribution_map.png)
 
-### Species: Melanotaenia boesemani
+### Melanotaenia boesemani
 
 **Common Name:** Boeseman’s rainbowfish\
 **Biosample:** SAMN12623618\
 **Assembly Accession:** GCA_017639745.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Institue of Molecular and Cell Biology\
+**Collected by:** Byrappa Venkatesh\
+**Biosample comments:** The Boesmans rainbowfish (Melanotaenia boesemani) is currently an endangered species of fish found in lakes and tributaries, in a moutanous region of the West Papua, Indonesia. They can adjust their colors, and are kept in aquarium. This sample was collected by Byrappa Venkatesh, supported by Gene Myers, in collaboration with Richard Durbin, and used to generate a high-quality reference genome as part of the G10K-VGP and Fish VGP projects.\
+**Location:** Singapore
 
 ![](../species/Melanotaenia_boesemani/Melanotaenia_boesemani_distribution_map.png)
 
-### Species: Melopsittacus undulatus
+### Melopsittacus undulatus
 
 **Common Name:** budgerigar\
 **Biosample:** SAMN12623090\
 **Assembly Accession:** GCA_012275295.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Melopsittacus undulatus. This is the VGP trio assembly
-merged haplotype data and includes the chromosomes from the female as
-well as the Z chromosome and the mitochondrion. The #alternate maternal
-and paternal haplotype sequences are in WGS projects JAAVWI000000000 and
-JAAVWH000000000 respectively.
+**Biosample provider:** New Mexico State University\
+**Collected by:** Timothy Wright, Justin Apodaca\
+**Biosample comments:** The budgerigar, also called the Australian Parakeet (Melopsittacus undulatus), is the most widely used parrot species for studying the neurobiology of vocal learning. It was the first parrot species where the vocal learning brain pathways was discovered, and found to uniquely have a core song learning system surrounded by a shell learning system, with the core similar to songbirds and hummingbirds (also vocal learners) and the shell unique to parrots. The brain pathways have convergent changes in gene regulation shared with human speech brain pathways. This sample was collected as part of a trio of samples (daughter in this case), by Timothy Wright and Justin Apodaca, supported by Erich D. Jarvis, and used to generate a high-quality reference genome of he daughter as part of the G10K-VGP Project and G10K Project.\
+**Location:** USA: New Mexico State University
 
 ![](../species/Melopsittacus_undulatus/Melopsittacus_undulatus_distribution_map.png)
 
-### Species: Mesoplodon bidens
+### Mesoplodon bidens
 
 **Common Name:** Sowerby’s beaked whale\
 **Biosample:** SAMEA112165298\
 **Assembly Accession:** GCA_964165515.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly mMesBid2.hap1.1 is based on 57x PacBio data
-and Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of
-Life Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>) as
-part of the European Reference Genome Atlas pilot project
-(<https://www.erga-biodiversity.eu/pilot-project>). The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Hifiasm in Hi-C integrated assembly mode, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, each haplotype assembly was analysed and manually
-improved using TreeVal. This alternate haplotype assembly combines the
-haplotigs separated by purge_dups with haplotigs separated from the
-primary assembly during curation. the sex chromosomes were identified by
-read coverage and homology to Mesoplodon densirostris / mMesDen1.
+**Biosample provider:** —\
+**Collected by:** Anna Roos\
+**Biosample comments:** —\
+**Location:** Oeckeroe
 
 ![](../species/Mesoplodon_bidens/Mesoplodon_bidens_distribution_map.png)
 
-### Species: Mesoplodon mirus
+### Mesoplodon mirus
 
 **Common Name:** True’s beaked whale\
 **Biosample:** SAMEA115358965\
 **Assembly Accession:** GCA_964341445.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly mMesMir1.hap1.1 is based on 53x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. The X chromosome was identified
-through synteny analysis with Globicephala melas (GCA_963455315.2) The
-exact order and orientation of the contigs on chromosome 1 (91,500 -
-208,500 Kbp) are unknown.The exact order and orientation of the contigs
-on chromosome 3 (135,300 - 141,000 Kbp) are unknown.The exact order and
-orientation of the contigs on chromosome 4 (83,400 - 91,000 Kbp) are
-unknown.The exact order and orientation of the contigs on chromosome 7
-(74,500 - 104,500 Kbp) are unknown.The exact order and orientation of
-the contigs on chromosome 10 (98,900 - 111,400 Kbp) are unknown.The
-exact order and orientation of the contigs on chromosome 18 (28,000 -
-37,500 Kbp) are unknown.
+**Biosample provider:** —\
+**Collected by:** Nick Davison\
+**Biosample comments:** —\
+**Location:** Scotland \| Western Isles \| Isle of Lewis \| Brager
 
 ![](../species/Mesoplodon_mirus/Mesoplodon_mirus_distribution_map.png)
 
-### Species: Mixophyes fleayi
-
-**Common Name:** Fleay’s barred frog\
-**Biosample:** SAMN39657083\
-**Assembly Accession:** GCA_038048845.1\
-**Taxon:** Amphibians\
-**Priority:** 4\
-**Flags:** Outside Range;
-
-**Map Notes:**\
-**Comments:** NA
-
-![](../species/Mixophyes_fleayi/Mixophyes_fleayi_distribution_map.png)
-
-### Species: Molossus alvarezi
+### Molossus alvarezi
 
 **Common Name:** Alvarez’s mastiff bat\
 **Biosample:** SAMN40002245\
 **Assembly Accession:** GCA_037157525.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Bat1K, St. Andrews University: Sonja Vernes\
+**Collected by:** Nancy Simmons\
+**Biosample comments:** Alvarez’s mastiff bat (Molossus alvarezi) is a species of bat in the family Molossidae, native to the Yucatan Peninsula. It lives within a relative homogenous environment within perennial forests, low forests, and a band of xeric vegetation (from Wikipedia entry). This sample of a female individual found in Lamanai, Orange Walk District, Belize, was procured by Nancy Simmons and Sonja Vernes to generate a high-quality reference genome for the Bat Biology Foundation and the Bat1K project. Sequencing was conducted at Paratus Sciences and genome assembly was conducted at the Vertebrate Genome Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** Belize: Orange Walk District, Lamanai
 
 ![](../species/Molossus_alvarezi/Molossus_alvarezi_distribution_map.png)
 
-### Species: Monodelphis domestica
+### Monodelphis domestica
 
 **Common Name:** gray short-tailed opossum\
 **Biosample:** SAMN31801966\
 **Assembly Accession:** GCA_027887165.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** University of California, Davis\
+**Collected by:** Leah Krubitzer, Rebecca Hodge\
+**Biosample comments:** The gray short-tailed opossum (Monodelphis domestica) is a small marsupial that inhabits parts of South America. However, it does not have a true pouch. It is a research model as it breeds relatively easily in the laboratory, and neonates can be readily accessed. This sample is from a captive bred colony, procured and collected by Leah Krubitzer at the University of California Davis and Rebecca Hodge at the Allen Institute for Brain Science, and used to generate a high-quality reference for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, lead by Olivier Fedrigo and Erich D. Jarvis, with support from Ed Lien and Trygve Bakken at the Allen Institute for Brain Science.\
+**Location:** USA: Davis, California
 
 ![](../species/Monodelphis_domestica/Monodelphis_domestica_distribution_map.png)
 
-### Species: Mops condylurus
+### Mops condylurus
 
 **Common Name:** Angolan free-tailed bat\
 **Biosample:** SAMN33550911\
 **Assembly Accession:** GCA_043748645.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Riesle-Sbarbaro S.A; Kurth A\
+**Collected by:** Riesle-Sbarbaro S.A; Kurth A\
+**Biosample comments:** —\
+**Location:** Cote d’Ivoire: Bregbo Village
 
 ![](../species/Mops_condylurus/Mops_condylurus_distribution_map.png)
 
-### Species: Myotis mystacinus
+### Myotis mystacinus
 
 **Common Name:** whiskered bat\
 **Biosample:** SAMEA114250307\
 **Assembly Accession:** GCA_964094495.2\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly mMyoMys1.hap1.1 is based on 46x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Chromosomes X and Y were assigned
-based on read coverage and HIC data.
+**Biosample provider:** —\
+**Collected by:** HAZEL RYAN\
+**Biosample comments:** —\
+**Location:** England\|East Grisntead\|Halsford Croft
 
 ![](../species/Myotis_mystacinus/Myotis_mystacinus_distribution_map.png)
 
-### Species: Neogale vison
+### Neogale vison
 
 **Common Name:** American mink\
 **Biosample:** SAMEA112468126\
 **Assembly Accession:** GCA_964106545.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly mNeoVis2.hap1.1 is based on 44x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. This genome has been assembled using
-PacBio and HiC data and phased. The result is two curated haplotypes.
-Chromosome X was identified by synteny to GCF_020171115.1.
+**Biosample provider:** —\
+**Collected by:** MICHELLE O’BRIEN\
+**Biosample comments:** —\
+**Location:** England\|Arundel\|Mill Road
 
 ![](../species/Neogale_vison/Neogale_vison_distribution_map.png)
 
-### Species: Nesoenas mayeri
+### Nesoenas mayeri
 
 **Common Name:** pink pigeon\
 **Biosample:** SAMEA12922160\
 **Assembly Accession:** GCA_963082525.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly bNesMay2.1 is based on 32x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Biosample provider:** —\
+**Collected by:** Harriet Whitford\
+**Biosample comments:** —\
+**Location:** United Kingdom
 
 ![](../species/Nesoenas_mayeri/Nesoenas_mayeri_distribution_map.png)
 
-### Species: Netta rufina
+### Netta rufina
 
 **Common Name:** red-crested pochard\
 **Biosample:** SAMEA112468124\
 **Assembly Accession:** GCA_964035555.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly bNetRuf1.1 is based on 30x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Biosample provider:** —\
+**Collected by:** MICHELLE O’BRIEN\
+**Biosample comments:** —\
+**Location:** Llenelli\|Llwynhendy
 
 ![](../species/Netta_rufina/Netta_rufina_distribution_map.png)
 
-### Species: Oryctolagus cuniculus
+### Notoryctes typhlops
+
+**Common Name:** Southern marsupial mole\
+**Biosample:** SAMN45131536\
+**Assembly Accession:** GCA_048126345.1\
+**Taxon:** Mammals\
+**Priority:** 4\
+**Flags:** Outside range
+
+**Biosample provider:** Australian Biological Tissue Collection (ABTC)\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** Australia:Northern Territory,Waite Creek area
+
+![](../species/Notoryctes_typhlops/Notoryctes_typhlops_distribution_map.png)
+
+### Oryctolagus cuniculus
 
 **Common Name:** European rabbit\
 **Biosample:** SAMEA112468037\
 **Assembly Accession:** GCA_964237555.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly mOryCun1.1 is based on 31x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. X chromosome identified based on
-synteny with Oryctolagus cuniculus cuniculus (GCA_013371645.1).
+**Biosample provider:** —\
+**Collected by:** MICHELLE O’BRIEN\
+**Biosample comments:** —\
+**Location:** England\|Gloucester\|Newgounds
 
 ![](../species/Oryctolagus_cuniculus/Oryctolagus_cuniculus_distribution_map.png)
 
-### Species: Pagrus pagrus
-
-**Common Name:** common seabream\
-**Biosample:** SAMEA110450108\
-**Assembly Accession:** GCA_965226575.1\
-**Taxon:** Fishes\
-**Priority:** 4\
-**Flags:** Outside Range;
-
-**Map Notes:**\
-**Comments:** The assembly fPagPag1.hap1.1 is based on 37x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size.
-
-![](../species/Pagrus_pagrus/Pagrus_pagrus_distribution_map.png)
-
-### Species: Pangasianodon hypophthalmus
+### Pangasianodon hypophthalmus
 
 **Common Name:** striped catfish\
 **Biosample:** SAMN32348883\
 **Assembly Accession:** GCA_027358585.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Axel Meyer, University of Konstanz\
+**Collected by:** Joost Woltering\
+**Biosample comments:** The striped catfish (Pangasianodon hypophthalmus) is a species of shark catfish (family Pangasiidae) native to the rivers of Southeast Asia. It has some morphological features that make it look like a shark. It is heavily cultivated as a food source, and endangered of extinction in the wild. This sample is from an animal collected by Joost Woltering and Axel Meyer from a fish market in Frankfurt, Germany, and likely from a breeding agriculture source. The sample was used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing was conducted at the the Max Planck Dresden Genome Center in Germany, conducted and coordinated by Gene Myers, Sylke Winkler, and Thomas Brown.\
+**Location:** Germany: Frankfurt
 
 ![](../species/Pangasianodon_hypophthalmus/Pangasianodon_hypophthalmus_distribution_map.png)
 
-### Species: Pangshura tecta
+### Pangshura tecta
 
 **Common Name:** Indian roofed turtle\
 **Biosample:** SAMN43277916\
 **Assembly Accession:** GCA_045781085.1\
 **Taxon:** Reptiles\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Wildlife Conservation Society\
+**Collected by:** Wildlife Conservation Society\
+**Biosample comments:** The Indian roofed turtle (Pangshura tecta) is a species of turtle in the family Geoemydidae. It can be distinguished by the distinct “roof” at the topmost part of the shell. It is found in the major rivers of South Asia. It is a common pet in the Indian Subcontinent (from Wikipedia entry). This sample was collected from a male individual at the Bronx Zoo in New York City. The sample was coordinated by the Wildlife Conservation Society to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genome Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** USA: Bronx, New York
 
 ![](../species/Pangshura_tecta/Pangshura_tecta_distribution_map.png)
 
-### Species: Patagioenas fasciata
+### Patagioenas fasciata
 
 **Common Name:** band-tailed pigeon\
 **Biosample:** SAMN40018840\
 **Assembly Accession:** GCA_037038585.2\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The Band-tailed Pigeon (Patagioenas fasciata) is a member
-of the bird family Columbidae (doves and pigeons). It is a medium-sized
-species native to the Americas, with a breeding range extending from the
-west coast of the United States down to Mexico and Peru. The band-tailed
-pigeon is the closest living relative to the extinct passenger pigeon.
-This sample is from an individual of the subspecies P. f. monilis bred
-in captivity. It was sampled in Massapequa (NY) by Marine Reynaldo,
-coordinated by Ben Novak and Erich D. Jarvis, and supported by Revive &
-Restore to generate a high-quality reference genome for the Vertebrate
-Genomes Project (VGP). Sequencing and genome assembly were conducted at
-the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by
-Erich D. Jarvis, Jennifer Balacco, and Giulio Formenti. Assembly and
-curation were performed by Simona Secomandi.
+**Biosample provider:** Erich Jarvis\
+**Collected by:** Marine Reynaldo\
+**Biosample comments:** The Band-tailed Pigeon (Patagioenas fasciata) is a member of the bird family Columbidae (doves and pigeons). It is a medium-sized species native to the Americas, with a breeding range extending from the west coast of the United States down to Mexico and Peru. The band-tailed pigeon is the closest living relative to the extinct passenger pigeon. This sample is from an individual of the subspecies P. f. monilis bred in captivity. It was sampled in Massapequa (NY) by Marine Reynaldo, coordinated by Ben Novak and Erich D. Jarvis, and supported by Revive & Restore to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Jennifer Balacco, and Giulio Formenti. Assembly and curation were performed by Simona Secomandi.\
+**Location:** USA: Massapequa, NY
 
 ![](../species/Patagioenas_fasciata/Patagioenas_fasciata_distribution_map.png)
 
-### Species: Pelophylax lessonae
+### Pelophylax lessonae
 
 **Common Name:** pool frog\
 **Biosample:** SAMEA112468029\
 **Assembly Accession:** GCA_965119305.1\
 **Taxon:** Amphibians\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly aPelLes1.hap1.1 is based on 35x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. There is a heterozygous inversion in
-Chromosome 10 from 11 Mbp to 36 Mbp.
+**Biosample provider:** —\
+**Collected by:** MICHELLE O’BRIEN\
+**Biosample comments:** —\
+**Location:** England\|Gloucester\|Newgounds
 
 ![](../species/Pelophylax_lessonae/Pelophylax_lessonae_distribution_map.png)
 
-### Species: Periophthalmus magnuspinnatus
-
-**Common Name:** Korean giant-fin mudskipper\
-**Biosample:** SAMN12629500\
-**Assembly Accession:** GCA_009829125.3\
-**Taxon:** Fishes\
-**Priority:** 4\
-**Flags:** Outside Range;
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Periophthalmus magnuspinnatus and includes the
-chromosomes. The alternate haplotype sequences are in WGS project
-WNMB00000000
-
-This genome was updated in March 2023. Improved Hi-C mapping shows that
-this assembly has only 24 chromosomes. Chromosome 25 and its associated
-contig (CM020615, WNMA01000025) were removed from the assembly. This
-sequence was found to be a part of chromosome 11, so the chromosome 11
-sequence and its associated contig sequence (CM020601, WNMA01000013)
-were also updated.
-
-![](../species/Periophthalmus_magnuspinnatus/Periophthalmus_magnuspinnatus_distribution_map.png)
-
-### Species: Phocoena sinus
-
-**Common Name:** vaquita\
-**Biosample:** SAMN12325353\
-**Assembly Accession:** GCA_008692025.1\
-**Taxon:** Mammals\
-**Priority:** 4\
-**Flags:** Outside Range;
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Phocoena sinus and includes the chromosomes. The
-alternate haplotype sequences are in WGS project VOSV00000000.
-
-![](../species/Phocoena_sinus/Phocoena_sinus_distribution_map.png)
-
-### Species: Pholidichthys leucotaenia
+### Pholidichthys leucotaenia
 
 **Common Name:** convict blenny\
 **Biosample:** SAMN12623617\
 **Assembly Accession:** GCA_020510985.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Institue of Molecular and Cell Biology\
+**Collected by:** Byrappa Venkatesh\
+**Biosample comments:** The convict blenny (Pholidichthys leucotaenia) lives in the west-central Pacific, and is a small eel shaped fish. Their colors change throughout life. They resemble blennys and gobies, but this may be convergent as genetic analyses indicates that they are not closely related. This sample was collected by Byrappa Venkatesh, supported by Gene Myers, in collaboration with Richard Durbin, and used to generate a high-quality reference genome as part of the G10K-VGP and Fish VGP projects.\
+**Location:** Singapore
 
 ![](../species/Pholidichthys_leucotaenia/Pholidichthys_leucotaenia_distribution_map.png)
 
-### Species: Phyllostomus discolor
+### Phyllostomus discolor
 
 **Common Name:** pale spear-nosed bat\
 **Biosample:** SAMN09948786\
 **Assembly Accession:** GCA_004126475.3\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Phyllostomus discolor and includes the chromosomes. The
-alternate haplotype sequences are in WGS project RXPB00000000
+**Biosample provider:** —\
+**Collected by:** Pedro Rodenas-Cuadrado, Uwe Firzlaff, Sonja Vernes\
+**Biosample comments:** The data from this biosample are currently under a G10K-VGP publication embargo until removed from this description, following the G10K data use policy at the following URL: <https://genome10k.soe.ucsc.edu/about/data_use_policy> The pale spear-nose bat is a large bat, has the ability of vocal learning, and is being used to study this trait as a mammalian model of human speech acquisition. It is native to Central and South America. The sample was collected by the lab of Sonja Vernes and sequenced at the Rockefeller University Vertebrate Genomes lab.\
+**Location:** Germany:Munich, Collected from captive colony, LMU
 
 ![](../species/Phyllostomus_discolor/Phyllostomus_discolor_distribution_map.png)
 
-### Species: Pipistrellus hanaki
-
-**Common Name:** Hanaki’s dwarf bat\
-**Biosample:** SAMEA115799862\
-**Assembly Accession:** GCA_964339955.1\
-**Taxon:** Mammals\
-**Priority:** 4\
-**Flags:** Outside Range;
-
-**Map Notes:**\
-**Comments:** Genome assembly of Acomys minous. This assembly is
-provided by the European Reference Genome Atlas (ERGA,
-<https://www.erga-biodiversity.eu/>) via the Biodiversity Genomics
-Europe project (BGE, <https://biodiversitygenomics.eu/>).
-
-![](../species/Pipistrellus_hanaki/Pipistrellus_hanaki_distribution_map.png)
-
-### Species: Platalea leucorodia
+### Platalea leucorodia
 
 **Common Name:** Eurasian spoonbill\
 **Biosample:** SAMEA112468120\
 **Assembly Accession:** GCA_965183815.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly bPlaLeu2.hap1.1 is based on 33x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Curation of this assembly resulted in
-35 autosomes, plus Z and W. The published karyotype (Takagi N and Sasaki
-M. A phylogenetic study of bird karyotypes. Chromosoma, 46: 91-120,
-1974. <https://doi.org/10.1007/BF00332341>) is ? 70.
+**Biosample provider:** —\
+**Collected by:** MICHELLE O’BRIEN\
+**Biosample comments:** —\
+**Location:** England\|Gloucester\|Newgounds
 
 ![](../species/Platalea_leucorodia/Platalea_leucorodia_distribution_map.png)
 
-### Species: Podarcis bocagei
+### Podarcis raffonei
 
-**Common Name:** Bocage’s wall lizard\
-**Biosample:** SAMEA115336769\
-**Assembly Accession:** GCA_964188305.1\
+**Common Name:** Aeolian wall lizard\
+**Biosample:** SAMN28455423\
+**Assembly Accession:** GCA_027172205.1\
 **Taxon:** Reptiles\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly rPodBoc1.hap1.1 is based on 30x PacBio data
-and Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of
-Life Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>). The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Hifiasm in Hi-C integrated assembly
-mode, and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, each haplotype assembly was analysed
-and manually improved using TreeVal. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size. Chromosomes
-Z and W were assigned based on HiC data and read coverage statistics.
-The order and orientation of the contigs making up Chromosome W are
-uncertain and some may remain in the unplaced scaffolds.
+**Biosample provider:** University of Florence\
+**Collected by:** Claudio Ciofi\
+**Biosample comments:** The Aeolian wall lizard (Podarcis raffonei), also known commonly as Raffone’s wall lizard, is a species of lizard in the family Lacertidae. The species is endemic to Italy (from Wikipedia entry). This sample was procured by Claudio Ciofi and used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP) and the European Reference Genome Atlas (ERGA). The project was coordinated by Claudio Ciofi of the University of Florence, Firenze, Italy. Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** Italy: Stromboli Island
 
-![](../species/Podarcis_bocagei/Podarcis_bocagei_distribution_map.png)
+![](../species/Podarcis_raffonei/Podarcis_raffonei_distribution_map.png)
 
-### Species: Podarcis filfolensis
-
-**Common Name:** Filfola wall lizard\
-**Biosample:** SAMEA113403362\
-**Assembly Accession:** GCA_964270895.1\
-**Taxon:** Reptiles\
-**Priority:** 4\
-**Flags:** Outside Range;
-
-**Map Notes:**\
-**Comments:** The assembly rPodFil1.hap1.1 is based on 33x PacBio data
-and Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of
-Life Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>). The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Hifiasm in Hi-C integrated assembly
-mode, and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, each haplotype assembly was analysed
-and manually improved using TreeVal. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size.
-
-![](../species/Podarcis_filfolensis/Podarcis_filfolensis_distribution_map.png)
-
-### Species: Polymixia lowei
+### Polymixia lowei
 
 **Common Name:** beardfish\
 **Biosample:** SAMN45134564\
 **Assembly Accession:** GCA_047511565.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Yale Peabody Museum: Thomas Near\
+**Collected by:** Gregory Watkins-Colwell\
+**Biosample comments:** The beardfish (Polymixia lowei) is a species of the genus Polymixia, the only extant genus of the order Polymixiiformes and family Polymixiidae. Polymixia contains 10 species, all of which live in deepwater marine environments. They are found in tropical and subtropical waters of the Atlantic, Indian and western Pacific Oceans (from Wikipedia entry). This sample of a male individual was collected by Gregory Watkins-Colwell in the North Atlantic Ocean, and coordinated by Thomas Near to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genome Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** Atlantic Ocean
 
 ![](../species/Polymixia_lowei/Polymixia_lowei_distribution_map.png)
 
-### Species: Poromitra crassiceps
+### Poromitra crassiceps
 
 **Common Name:** crested bigscale\
 **Biosample:** SAMEA8748810\
 **Assembly Accession:** GCA_964638095.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly fPorCra3.hap1.1 is based on 48x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Due to a fission in chromosome 8, the
-haplotypes 1 and 2 have 30 and 31 chromosomes respectively. The
-chromosome 8 is named as 8A and 8B in hap2. A translocation between
-chromosomes 6 and 8 was also detected.
+**Biosample provider:** —\
+**Collected by:** ILIANA BISTA\
+**Biosample comments:** —\
+**Location:** Southern Ocean
 
 ![](../species/Poromitra_crassiceps/Poromitra_crassiceps_distribution_map.png)
 
-### Species: Porphyrio hochstetteri
+### Porphyrio hochstetteri
 
 **Common Name:** takahe\
 **Biosample:** SAMN22550412\
 **Assembly Accession:** GCA_020800305.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Burwood Takahe Breeding Centre, New Zealand\
+**Collected by:** Glen Greaves\
+**Biosample comments:** The takahe (Porphyrio hochstetteri) is a flightless bird indigenous to New Zealand, and the largest living member of the rail family. Due to over hunting, they were once thought extinct by the late1890s, until 50 years later a small isolated population was found. The is now an active breeding program for their conservation. This juvenile female is from trio of samples (parents) breed and collected to create a high-quality reference genome for both maternal and paternal haplotypes. The juvenile was bred in captivity. Sample collection was conducted by Glen Greaves, in a projected coordinated and supported by Lara Urban, Andrew Digby, Daryl Eason, Deidre Vercoe, and Takahe Recovery Programme. Blood from the female was used to create high-quality reference genome assemblies of each haplotype. Genome sequencing and assembly was coordinated by Erich D. Jarvis and Olivier Fedrigo at the Rockefeller University Vertebrate Genome Lab, and as part of the Vertebrate Genomes Project (VGP) and for conservation research.\
+**Location:** New Zealand: Burwood
 
 ![](../species/Porphyrio_hochstetteri/Porphyrio_hochstetteri_distribution_map.png)
 
-### Species: Pseudophryne corroboree
+### Pseudophryne corroboree
 
 **Common Name:** Southern corroboree frog\
 **Biosample:** SAMN32631236\
 **Assembly Accession:** GCA_028390025.1\
 **Taxon:** Amphibians\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The aPseCor3.alt.Hap2.FalseDups.cur.20221217.fasta file
-contains false haplotype duplications removed from the haplotype 2
-assembly
+**Biosample provider:** The University of Melbourne\
+**Collected by:** Lee Berger\
+**Biosample comments:** Corroboree frogs comprise two species native to the Southern Tablelands of Australia: Southern corroboree frog (Pseudophryne corroboree; this sample) and the Northern corroboree frog (Pseudophryne pengilleyi). Both species are small, poisonous ground-dwelling frogs, and are unique among frogs in that they produce their own poison rather than obtain it from their food source as is the case in every other poisonous frog species (from Wikipedia entry). The species are critically endangered of becoming extinct. This sample is from a male, bred in captivity, in Melbourne, Australia, as part of the conservation program. This sample was collected by Lee Berger, and the project coordinated by him, Andrew Crawford, Lee Skerratt, Tiffany Kosch, and others, to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** Australia: Melbourne
 
 ![](../species/Pseudophryne_corroboree/Pseudophryne_corroboree_distribution_map.png)
 
-### Species: Psittacula echo
-
-**Common Name:** Mauritius parakeet\
-**Biosample:** SAMEA12361725\
-**Assembly Accession:** GCA_963264785.1\
-**Taxon:** Birds\
-**Priority:** 4\
-**Flags:** Outside Range;
-
-**Map Notes:**\
-**Comments:** The assembly bPsiEch3.1 is based on 79x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. Z chromosome identified
-based on HiC signal from female sample (Pacbio hifi data used for de
-novo assembly was derived from a male).
-
-![](../species/Psittacula_echo/Psittacula_echo_distribution_map.png)
-
-### Species: Pygocentrus nattereri
+### Pygocentrus nattereri
 
 **Common Name:** red-bellied piranha\
 **Biosample:** SAMN12623623\
 **Assembly Accession:** GCA_015220715.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** University of Konstanz\
+**Collected by:** Nidal Karagic\
+**Biosample comments:** The Red-bellied piranha (Pygocentrus nattereri) is a freshwater fish found in South America, including the Amazon. They are famous for their ferocious predator eating behavior that they do in groups when there is starvation, but this is not very common. They communicate acoustically using sonic muscles, usually during aggressive behaviors. This sample was collected by Nidal Karagic, procured by Axel Meyer, sequencing supported by Gene Myers, in collaboration with Richard Durbin, to generate a high-quality reference genome as part of the G10K-VGP and Fish VGP projects.\
+**Location:** Netherlands: Dejong Marinelife, Rotterdam
 
 ![](../species/Pygocentrus_nattereri/Pygocentrus_nattereri_distribution_map.png)
 
-### Species: Ranitomeya imitator
+### Ranitomeya imitator
 
 **Common Name:** mimic poison frog\
 **Biosample:** SAMN32907850\
 **Assembly Accession:** GCA_032444005.1\
 **Taxon:** Amphibians\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Lauren O’Connell, Stanford University\
+**Collected by:** Dave Ramirez and Billie Goolsby, Stanford University\
+**Biosample comments:** The mimic poison frog (Ranitomeya imitator; formerly Dendrobates imitator) is a species of poison frog found in the north-central region of eastern Peru. It is one of the best known poison frogs for its color variation and monogamous mating system (from Wikipedia entry). This sample is from a male bred in captivity in the USA, collected and coordinated by Lauren O’Connell, Dave Ramirez, and Billie Goolsby at Standard University, and used to generate a high-quality reference genome for a project on hypothalamus evolution in collaboration with Liqun Leo and Yunming Wu. The group is also contributing this genome to the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted by Dovetail Genomics in Santa Cruz, California, and further curated at the Vertebrate Genome Lab (VGL) led by Olivier Fedrigo and Erich D. Jarvis at the Rockefeller University.\
+**Location:** USA: Stanford University, Palo Alto
 
 ![](../species/Ranitomeya_imitator/Ranitomeya_imitator_distribution_map.png)
 
-### Species: Rhinolophus perniger lanosus
+### Rhinolophus perniger lanosus
 
 **Common Name:** Northern woolly horseshoe bat\
 **Biosample:** SAMN33438666\
 **Assembly Accession:** GCA_043748575.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Lim, BK; Eger, JL\
+**Collected by:** Lim, BK; Eger, JL\
+**Biosample comments:** —\
+**Location:** China: Shuipu Village, Yuping Town
 
 ![](../species/Rhinolophus_perniger_lanosus/Rhinolophus_perniger_lanosus_distribution_map.png)
 
-### Species: Rhynchocyon petersi
+### Rhynchocyon petersi
 
 **Common Name:** black and rufous elephant shrew\
 **Biosample:** SAMN43274963\
 **Assembly Accession:** GCA_043290085.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Wildlife Conservation Society\
+**Collected by:** Wildlife Conservation Society\
+**Biosample comments:** The black and rufous elephant shrew (Rhynchocyon petersi) is one of the 17 species of elephant shrew found only in Africa. It is native to the lowland montane and dense forests of Kenya and Tanzania. Like other members of the genus Rhynchocyon, it is a relatively large species, with adults averaging about 28 cm (11 in) in length and 450-700 g (16-25 oz) in weight (from Wikipedia entry). This sample of a male individual was collected by the Wildlife Conservation Society at the Bronx Zoo in New York City, and used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). The specimen was captive born at the Bronx Zoo to captive born specimens (dam originated at Omaha Zoo in Nebraska, sire from Brookfield Zoo in Chicago). Sequencing and genome assembly were conducted at the Vertebrate Genome Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** USA: Bronx, New York
 
 ![](../species/Rhynchocyon_petersi/Rhynchocyon_petersi_distribution_map.png)
 
-### Species: Rousettus aegyptiacus
+### Rousettus aegyptiacus
 
 **Common Name:** Egyptian fruit bat\
 **Biosample:** SAMN14734550\
 **Assembly Accession:** GCA_014176215.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Sonja Vernes, Max Planck Institute for Psycholinguistics, Wundtlaan 1, 6525 XD Nijmegen, The Netherlands\
+**Collected by:** Sonja Vernes\
+**Biosample comments:** Rousettus aegyptiacus (Egyptian fruit bat) is a bat species in the family of Pteropodidae. Its distribution covers Africa, the Middle East, the Mediterranean, and the Indian subcontinent. The sample was collected by Sonja Vernes from a captive colony in Berkeley, USA. This sample is being used to generate chromosomal level reference assembly as part of the Bat1K Project.\
+**Location:** USA: Berkeley (captive colony)
 
 ![](../species/Rousettus_aegyptiacus/Rousettus_aegyptiacus_distribution_map.png)
 
-### Species: Saimiri boliviensis
+### Saimiri boliviensis
 
 **Common Name:** Bolivian squirrel monkey\
 **Biosample:** SAMN46760316\
 **Assembly Accession:** GCA_048565385.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Allen Institute for Brain Science: Rebecca Hodge\
+**Collected by:** University of North Carolina, Chapel Hill, Gregory K. Wilkerson\
+**Biosample comments:** The Bolivian squirrel monkey (Saimiri boliviensis) is a species of New-World monkey native to the upper Amazon basin in Bolivia, western Brazil and eastern Peru. They are primarily tree-dwelling and are found in both native and plantation forests as well as some farmed areas near running water (from Wikipedia entry). This sample from a male adult was collected by Gregory K. Wilkerson from a captive breeding colony at the University of Texas, MD Anderson Cancer Center, Keeling Center for Comparative Medicine in Bastrop, Texas. The sample was coordinated by Trygve Bakken, Rebecca Hodge, and Ed Lein at the Allen Institute for Brain Science to generate a high-quality reference genome for an Allen Institute motor cortex project and for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genome Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** USA: Bastrop, Texas
 
 ![](../species/Saimiri_boliviensis/Saimiri_boliviensis_distribution_map.png)
 
-### Species: Sarcophilus harrisii
+### Sarcophilus harrisii
 
 **Common Name:** Tasmanian devil\
 **Biosample:** SAMN47327921\
 **Assembly Accession:** GCA_048593225.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** San Diego Zoo\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** missing
 
 ![](../species/Sarcophilus_harrisii/Sarcophilus_harrisii_distribution_map.png)
 
-### Species: Silurus aristotelis
+### Silurus aristotelis
 
 **Common Name:** Aristotle’s catfish\
 **Biosample:** SAMEA12595289\
 **Assembly Accession:** GCA_946808225.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly fSilAri3.1 is based on 26x PacBio data and
-Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of Life
-Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>) as part
-of the European Reference Genome Atlas pilot project
-(<https://www.erga-biodiversity.eu/pilot-project>). The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Hifiasm, retained haplotig separation with purge_dups,
-and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, the primary assembly was analysed and
-manually improved using rapid curation. This alternate haplotype
-assembly combines the haplotigs separated by purge_dups with haplotigs
-separated from the primary assembly during curation.
+**Biosample provider:** —\
+**Collected by:** Ioannis Leonardos\
+**Biosample comments:** —\
+**Location:** Ioannina Lake
 
 ![](../species/Silurus_aristotelis/Silurus_aristotelis_distribution_map.png)
 
-### Species: Spermophilus citellus
+### Spermophilus citellus
 
 **Common Name:** European ground squirrel\
 **Biosample:** SAMEA10332752\
 **Assembly Accession:** GCA_964194105.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** The assembly mSpeCit3.1 is based on 30x PacBio data and
-Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of Life
-Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>) as part
-of the European Reference Genome Atlas pilot project
-(<https://www.erga-biodiversity.eu/pilot-project>). The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Hifiasm, and Hi-C based scaffolding with YaHS. The
-mitochondrial genome was assembled using MitoHiFi. Finally, the primary
-assembly was analysed and manually improved using TreeVal. This
-alternate haplotype assembly combines the haplotigs separated by
-purge_dups with haplotigs separated from the primary assembly during
-curation. The order and orientation of contigs in Chromosome 12 between
-approximately 23.6-68.8Mb is unsure.Chromosome X identified by alignment
-to GCA_902686455.2 and GCA_902686445.2
+**Biosample provider:** —\
+**Collected by:** ANASTASIA DIAKOU \| DIONISIOS YOULATOS \| DIMITRA LIDA RAMMOU\
+**Biosample comments:** —\
+**Location:** THESSALONIKI
 
 ![](../species/Spermophilus_citellus/Spermophilus_citellus_distribution_map.png)
 
-### Species: Spheniscus humboldti
+### Spheniscus humboldti
 
 **Common Name:** Humboldt penguin\
 **Biosample:** SAMN28408465\
 **Assembly Accession:** GCA_027474245.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Copenhagen Zoo\
+**Collected by:** Mads Bertelsen\
+**Biosample comments:** The Humboldt penguin (Spheniscus humboldti) is a medium-sized penguin. It resides in South America, with its range containing mainly most of coastal Peru (from Wikipedia entry). This sample from a female in the Copenhagen Zoo, in Denmark. The sample was procured by Mads Bertelsen and used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis, with funding support from Tom Gilbert and Jarvis.\
+**Location:** Denmark: Copenhagen
 
 ![](../species/Spheniscus_humboldti/Spheniscus_humboldti_distribution_map.png)
 
-### Species: Strigops habroptilus
-
-**Common Name:** kakapo\
-**Biosample:** SAMN09948751\
-**Assembly Accession:** GCA_004027225.2\
-**Taxon:** Birds\
-**Priority:** 4\
-**Flags:** Outside Range;
-
-**Map Notes:**\
-**Comments:** The chromosome names were updated in August 2019 when the
-sex chromosomes were identified. Former chromosome 3 is chromosome Z,
-former chromosome 13 is chromosome W, and the remaining former
-chromosomes 3-26 were renamed sequentially to chromosomes 4-24 (4-12 are
-now 3-11, and 14-26 are now 12-24, respectively).
-
-This is an updated assembly of GCA_004027225.1. New Hi-C mapping tools
-(HiGlass) and experience of the VGP with bird genomes were used to
-re-curate the assembly (using gEVAL), where nearly all previously
-unlocalized scaffolds are now assembled into their respective
-chromosomes
-
-This assembly represents the principal haplotype of the diploid genome
-Strigops habroptila and includes the chromosomes. The alternate
-haplotype sequences are in WGS project RXXF00000000.
-
-![](../species/Strigops_habroptilus/Strigops_habroptilus_distribution_map.png)
-
-### Species: Struthio camelus australis
+### Struthio camelus australis
 
 **Common Name:** common ostrich\
 **Biosample:** SAMN42123890\
 **Assembly Accession:** GCA_040807025.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** The Rockefeller University\
+**Collected by:** Anna Keyte, Matthew Biegler\
+**Biosample comments:** The common ostrich (Struthio camelus), or simply ostrich, is a species of flightless bird native to certain large areas of Africa. It is one of two extant species of ostriches, the only living members of the genus Struthio in the ratite order of birds. The North African ostrich (Struthio camelus camelus) is the nominate subspecies of the common ostrich from West and North Africa. It has the largest average size among the subspecies of ostriches, making it the largest living bird (from Wikipedia entries). The cells of this sample are embryonic fibroblasts derived from an HH28 embryo cultured up to 14 days in vitro. The embryo came from eggs shipped from Roaming Acres farm in Lafayette Township, New Jersey. The farm raises ostriches that are a non-pedigreed hybrid of the “blue-necked” Somali ostrich (Struthio molybdophanes) and the “red-necked” North African sub-species of the common ostrich (Struthio camelus camelus). The sample was procured by Anna Keyte and Matthew Biegler to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP), and the cells were incubated at the Rockefeller University. Sequencing and genome assembly were conducted at the Vertebrate Genome Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** USA: New York, NY
 
 ![](../species/Struthio_camelus_australis/Struthio_camelus_australis_distribution_map.png)
 
-### Species: Suncus etruscus
+### Suncus etruscus
 
 **Common Name:** Etruscan shrew\
 **Biosample:** SAMN28420931\
 **Assembly Accession:** GCA_024139225.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Morgridge Institute for Research\
+**Collected by:** Susanne Meyer, Jessica Antosiewicz-Bourget\
+**Biosample comments:** The Etruscan shrew (Suncus etruscus), also known as white-toothed pygmy shrew, is the smallest known extant mammal by mass, weighing only about 1.8 g (0.063 oz) on average. They prefer warm and damp climates and are widely distributed in the belt between 10 and 30 degrees N latitude stretching from Europe and North Africa up to Malaysia (from Wikipedia entry). This sample is from a cell culture line generated by Jessica Antosiewicz-Bourget and Susanne Meyer, from lung fibroblast of an adult male, at the Morgridge Institute for Research, in Madison Wisconsin. The project was coordinated by Yury Bukhman and the sample used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** USA: Madison, Wisconsin
 
 ![](../species/Suncus_etruscus/Suncus_etruscus_distribution_map.png)
 
-### Species: Symphorus nematophorus
+### Symphorus nematophorus
 
 **Common Name:** chinamanfish\
 **Biosample:** SAMN41179601\
 **Assembly Accession:** GCA_048128725.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** —\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** Australia: Western Australia, SW of Barrow Island
 
 ![](../species/Symphorus_nematophorus/Symphorus_nematophorus_distribution_map.png)
 
-### Species: Syngnathus typhle
+### Syngnathus typhle
 
 **Common Name:** broad-nosed pipefish\
 **Biosample:** SAMN36735486\
 **Assembly Accession:** GCA_048301445.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Peter Rask Moller,Josefin Stiller\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** Denmark: Koge
 
 ![](../species/Syngnathus_typhle/Syngnathus_typhle_distribution_map.png)
 
-### Species: Taeniopygia guttata
+### Taeniopygia guttata
 
 **Common Name:** zebra finch\
 **Biosample:** SAMN47142318\
 **Assembly Accession:** GCA_048771995.1\
 **Taxon:** Birds\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** The Rockefeller University: Gillian Durham\
+**Collected by:** Gillian Durham\
+**Biosample comments:** The zebra finch (Taeniopygia guttata), native to Australia, is one of the most studied birds in science, for its vocal learning abilities and as a representative songbird. This sample of a female individual is part of a trio (female offspring bTaeGut7, mother bTaeGut8, father bTaeGut9). It was procured by Gillian Durham and Matthew Biegler of the Rockefeller University Field Center to be used to generate a telomere-to-telomere (T2T) reference genome assembly for the Vertebrate Genomes Project (VGP), as well as for the vocal learning community. Sequencing and genome assembly were conducted at the Vertebrate Genome Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** USA: Millbrook, New York
 
 ![](../species/Taeniopygia_guttata/Taeniopygia_guttata_distribution_map.png)
 
-### Species: Thamnophis elegans
+### Thamnophis elegans
 
 **Common Name:** Western terrestrial garter snake\
 **Biosample:** SAMN12629499\
 **Assembly Accession:** GCA_009769535.1\
 **Taxon:** Reptiles\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Thamnophis elegans and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WNNB00000000
+**Biosample provider:** Iowa State University\
+**Collected by:** Anne Bronikowski\
+**Biosample comments:** —\
+**Location:** USA: Born in Anne Bronikowsk lab at ISU; MOM, 2012; Eagle Lake; PAP
 
 ![](../species/Thamnophis_elegans/Thamnophis_elegans_distribution_map.png)
 
-### Species: Toxotes jaculatrix
+### Toxotes jaculatrix
 
 **Common Name:** banded archerfish\
 **Biosample:** SAMN18445299\
 **Assembly Accession:** GCA_017976425.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Institute of Molecular and Cell Biology, A\*STAR\
+**Collected by:** Byrappa Venkatesh\
+**Biosample comments:** The banded archerfish (Toxotes jaculatrix) is a perciform fish (incertae sedis in Carangimorphariae), found in Indo-Pacific and Oceanian waters, near river mouths. Its name is based on the method banded archerfish use to capture prey (from Wikipedia entry). These samples are from an adult collected by Byrappa Venkatesh in Singapore, to generate a high-quality reference for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Max Planck Institute in Dresden , lead by Gene Meyers, and coordinated with Richard Durbin and Erich D. Jarvis.\
+**Location:** Singapore
 
 ![](../species/Toxotes_jaculatrix/Toxotes_jaculatrix_distribution_map.png)
 
-### Species: Trichosurus vulpecula
+### Trichomycterus rosablanca
+
+**Common Name:** Rosablanca cavefish\
+**Biosample:** SAMN32755940\
+**Assembly Accession:** GCA_030014385.1\
+**Taxon:** Fishes\
+**Priority:** 4\
+**Flags:** Outside range
+
+**Biosample provider:** Universidad de los Andes\
+**Collected by:** Mauricio Torres\
+**Biosample comments:** Trichomycterus rosablanca is a new troglobitic catfish species from caves in southeastern Santander, Colombia. These caves are drained by the Carare River of the Magdalena River basin. The new species is characterized by the advanced condition in the typical troglomorphisms found in other congeneric cave-dwelling species, such as absence of eyes and pigmentation (written by Carlos DoNascimiento 2018, Biota Colombiana). This sample is from a male found in Andes caves in Santander, Colombia, collected by Mauricio Torres and coordinated by Daniel Cadena to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP) and a Colombia Genomes Project. Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** Colombia: Andes Mountains, Santander
+
+![](../species/Trichomycterus_rosablanca/Trichomycterus_rosablanca_distribution_map.png)
+
+### Trichosurus vulpecula
 
 **Common Name:** common brushtail possum\
 **Biosample:** SAMN12629507\
 **Assembly Accession:** GCA_011100635.1\
 **Taxon:** Mammals\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Trichosurus vulpecula and includes the chromosomes. The
-alternate haplotype sequences are in WGS project JAANDF000000000
+**Biosample provider:** University of Otago\
+**Collected by:** Tim Hore, Mel Laird, Sol Wogan\
+**Biosample comments:** —\
+**Location:** New Zealand: Sandymount, Otago Peninsula (Trap 21)
 
 ![](../species/Trichosurus_vulpecula/Trichosurus_vulpecula_distribution_map.png)
 
-### Species: Xenentodon cancila
+### Xenentodon cancila
 
 **Common Name:** needlefish\
 **Biosample:** SAMN12623622\
 **Assembly Accession:** GCA_014839995.1\
 **Taxon:** Fishes\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Xenentodon cancila and includes the chromosomes. The
-alternate haplotype sequences are in WGS project JABWDR000000000
+**Biosample provider:** University of Konstanz\
+**Collected by:** Andreas Kaut\
+**Biosample comments:** The Needlefish (Xenentodon cancila) is a fresh water fish found in South and SouthEast Asia. It is large, but relatively long and thin fish, and thus its name. It is popular in aquarium for over 100 years. This sample was collected by Andreas Kaut, procured by Axel Meyer, sequencing supported by Gene Myers, in collaboration with Richard Durbin, to generate a high-quality reference genome as part of the G10K-VGP and Fish VGP projects.\
+**Location:** Netherlands: Dejong Marinelife, Rotterdam
 
 ![](../species/Xenentodon_cancila/Xenentodon_cancila_distribution_map.png)
 
-### Species: Xenopus petersii
+### Xenopus petersii
 
 **Common Name:** Peter’s clawed frog\
 **Biosample:** SAMN39187339\
 **Assembly Accession:** GCA_038501925.1\
 **Taxon:** Amphibians\
 **Priority:** 4\
-**Flags:** Outside Range;
+**Flags:** Outside range
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Columbia University: Darcy Kelley\
+**Collected by:** Darcy Kelley\
+**Biosample comments:** Peters’ clawed frog (Xenopus petersii) is in the Pipidae frog family found throughout parts of central and southern Africa. Its natural habitats are subtropical or tropical moist lowland forests (modified from Wikipedia entry). This sample is from a breeding colony at Xenopus Express, in Florida, with the original source population from the Congo. The sample (aXenPet1) and the parents (mother aXenPet2 and father aXenPet3) were collected by Darcy Kelley at Columbia University, and coordinated in collaboration with Andres Bendensky, Richard Harland, and Young Kwon, to be used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** USA: Xenopus Express, Brooksville, Florida
 
 ![](../species/Xenopus_petersii/Xenopus_petersii_distribution_map.png)
 
-### Species: Caesio teres
-
-**Common Name:** yellow and blueback fusilier\
-**Biosample:** SAMN41769331\
-**Assembly Accession:** GCA_048129055.1\
-**Taxon:** Fishes\
-**Priority:** 5\
-**Flags:** Vague Location;
-
-**Map Notes:**\
-**Comments:** NA
-
-![](../species/Caesio_teres/Caesio_teres_distribution_map.png)
-
-### Species: Dama dama
+### Dama dama
 
 **Common Name:** fallow deer\
 **Biosample:** SAMN36735489\
 **Assembly Accession:** GCA_048126745.1\
 **Taxon:** Mammals\
 **Priority:** 5\
-**Flags:** Vague Location;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Vague location
 
 ![](../species/Dama_dama/Dama_dama_distribution_map.png)
 
-### Species: Hirundo rustica
+### Hirundo rustica
 
 **Common Name:** barn swallow\
 **Biosample:** SAMN14675488\
 **Assembly Accession:** GCA_015227805.3\
 **Taxon:** Birds\
 **Priority:** 5\
-**Flags:** Vague Location;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Vague location
 
 ![](../species/Hirundo_rustica/Hirundo_rustica_distribution_map.png)
 
-### Species: Ovis canadensis
-
-**Common Name:** bighorn sheep\
-**Biosample:** SAMN42787568\
-**Assembly Accession:** GCA_042477335.2\
-**Taxon:** Mammals\
-**Priority:** 5\
-**Flags:** Vague Location;
-
-**Map Notes:**\
-**Comments:** NA
-
-![](../species/Ovis_canadensis/Ovis_canadensis_distribution_map.png)
-
-### Species: Abramis brama
+### Abramis brama
 
 **Common Name:** common bream\
 **Biosample:** SAMEA11296536\
 **Assembly Accession:** GCA_963993115.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fAbrBra2.1 is based on 44x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Abramis_brama/Abramis_brama_distribution_map.png)
 
-### Species: Acanthisitta chloris
+### Acanthisitta chloris
 
 **Common Name:** rifleman\
 **Biosample:** SAMN16442762\
 **Assembly Accession:** GCA_016904835.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Acanthisitta_chloris/Acanthisitta_chloris_distribution_map.png)
 
-### Species: Acanthopagrus schlegelii
+### Acanthopagrus schlegelii
 
 **Common Name:** black porgy\
 **Biosample:** SAMN43087228\
 **Assembly Accession:** GCA_041753875.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Acanthopagrus_schlegelii/Acanthopagrus_schlegelii_distribution_map.png)
 
-### Species: Accipiter gentilis
+### Accipiter gentilis
 
 **Common Name:** Northern goshawk\
 **Biosample:** SAMEA8235650\
 **Assembly Accession:** GCA_929443795.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bAccGen1.1 is based on 34x PacBio data, 10X
-Genomics Chromium data, and Arima2 Hi-C data generated by the Darwin
-Tree of Life Project (<https://www.darwintreeoflife.org/>). The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Hifiasm, retained haplotig separation with
-purge_dups, short-read polishing using FreeBayes-called variants from
-10X Genomics Chromium reads aligned with LongRanger, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHifi. Finally, the assembly was analysed and manually improved using
-rapid curation. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Microchromosomes SUPER_35, SUPER_36,
-SUPER_37, and SUPER_38 were curated based on homology to
-microchromosomes found in Gallus gallus, Taeniopygia guttata, and
-Cuculus canorus.
+**Flags:** —
 
 ![](../species/Accipiter_gentilis/Accipiter_gentilis_distribution_map.png)
 
-### Species: Aegotheles albertisi
+### Acomys minous
+
+**Common Name:** Crete spiny mouse\
+**Biosample:** SAMEA112751364\
+**Assembly Accession:** GCA_964271855.1\
+**Taxon:** Mammals\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Acomys_minous/Acomys_minous_distribution_map.png)
+
+### Aegotheles albertisi
 
 **Common Name:** mountain owlet-nightjar\
 **Biosample:** SAMN41085506\
 **Assembly Accession:** GCA_039906565.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Aegotheles_albertisi/Aegotheles_albertisi_distribution_map.png)
 
-### Species: Agelaius phoeniceus
+### Agelaius phoeniceus
 
 **Common Name:** red-winged blackbird\
 **Biosample:** SAMN19590559\
 **Assembly Accession:** GCA_020745825.3\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** Agelaius phoeniceus (red-winged blackbird) Sequence
-Assembly Release Notes Background: The red-winged blackbird (family
-Icteridae), one of the most common songbirds in North America and an
-icterid with typical nesting behavior, was chosen for this study to
-serve as an outgroup to the obligate brood parasitic brown-headed
-cowbird (Molothrus ater). Red-winged blackbird DNA isolated for whole
-genome sequencing is derived from an adult female located in the state
-of Texas. High molecular weight DNA was used as input to generate
-long-reads using circular consensus sequence (CCS) base calling output
-from the Sequel II instrument (Pacific Biosciences) according to the
-manufacturer’s protocols. Total CCS coverage was approx. 38x using a
-genome size estimate of 1.1Gb. All quality filtered sequence reads were
-assembled with HiFasm using default parameter settings and redundant
-contigs removed using purge_haplotigs. Assembled contigs were scaffolded
-with Hi-C data from the same individual using SALSA2, and then manually
-curated with JuiceBox. Chromosomes were numbered by size with the
-exception of 16 which was numbered based on alignment with chicken.
-
-This work was supported by NSF grants DBI 1754311, 1754397, 1754406,
-1754643, 1940624.
-
-Agelaius phoeniceus 1.1 Sequence and Assembly Credits: DNA source -
-Hidalgo County, Texas (BioBank/Freezerworks ID: 100140; Name: 224;
-Unique Aliquot ID 101355; Developmental stage: Adult; Tissue type:
-brain; Date collected: 3/30/2018; Received from: Kathleen Lynch, Hofstra
-University, NY; Specimen ID: MCZ Ornithology 364415, collector Scott
-Edwards, link: <https://mczbase.mcz.harvard.edu/guid/MCZ:Orn:364415>).
-Genome Sequence - Hudson Alpha Institute, Hunstville, AL. Sequence and
-Assembly - University of Missouri, Columbia, MO.
-
-Citation upon use of this assembly in a manuscript: It is requested that
-users of this Agelaius phoeniceus 1.1 sequence assembly acknowledge the
-brood parasitic bird genomes consortium in any publications that result
-from use of this sequence assembly prior to the publication of this
-resource. Any publications that propose to generate whole genome
-analyses using this resource should contact Dr. Michael Sorenson
-([msoren\@bu.edu](mailto:msoren@bu.edu){.email}) or Chris Balakrishnan
-([balakrishnanc\@ecu.edu](mailto:balakrishnanc@ecu.edu){.email}) for the
-use of pre-publication data in accord with the Ft. Lauderdale and
-Toronto genomic data use agreements.
-
-The scaffolds and chromosomes for this genome were updated on October
-2022. There was no change to the contigs.
+**Flags:** —
 
 ![](../species/Agelaius_phoeniceus/Agelaius_phoeniceus_distribution_map.png)
 
-### Species: Alca Torda
+### Alca Torda
 
 **Common Name:** razorbill\
 **Biosample:** SAMN12292087\
 **Assembly Accession:** GCA_008658365.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal pseudohaplotype of
-the diploid genome Alca torda and includes the chromosomes. The
-alternate pseudohaplotype sequences are in WGS project VMEC00000000.
+**Flags:** —
 
 ![](../species/Alca_Torda/Alca_Torda_distribution_map.png)
 
-### Species: Alligator mississippiensis
+### Alligator mississippiensis
 
 **Common Name:** American alligator\
 **Biosample:** SAMN37045233\
 **Assembly Accession:** GCA_030867095.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Alligator_mississippiensis/Alligator_mississippiensis_distribution_map.png)
 
-### Species: Alosa sapidissima
+### Alosa sapidissima
 
 **Common Name:** American shad\
 **Biosample:** SAMN18857608\
 **Assembly Accession:** GCA_018492685.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Alosa_sapidissima/Alosa_sapidissima_distribution_map.png)
 
-### Species: Amazona ochrocephala
+### Amazona ochrocephala
 
 **Common Name:** yellow-crowned amazon\
 **Biosample:** SAMN41018448\
 **Assembly Accession:** GCA_039720435.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Amazona_ochrocephala/Amazona_ochrocephala_distribution_map.png)
 
-### Species: Amblyopsis spelaea
+### Amblyopsis spelaea
 
 **Common Name:** Northern cavefish\
 **Biosample:** SAMN45063415\
 **Assembly Accession:** GCA_046255685.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Amblyopsis_spelaea/Amblyopsis_spelaea_distribution_map.png)
 
-### Species: Amblyraja radiata
+### Amblyraja radiata
 
 **Common Name:** thorny skate\
 **Biosample:** SAMN09948523\
 **Assembly Accession:** GCA_010909765.2\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Amblyraja radiata and includes the chromosomes. The
-alternate haplotype sequences are in WGS project JAAGWS000000000
-Chromosome 44 in assembly sAmbRad1.pri was reidentified as chromosome X
-in assembly sAmbRad1.1.pri in March 2021.
+**Flags:** —
 
 ![](../species/Amblyraja_radiata/Amblyraja_radiata_distribution_map.png)
 
-### Species: Amia calva
+### Amia calva
 
 **Common Name:** bowfin\
 **Biosample:** SAMN39643085\
 **Assembly Accession:** GCA_036373705.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Amia_calva/Amia_calva_distribution_map.png)
 
-### Species: Ammodramus caudacutus
+### Ammodramus caudacutus
 
 **Common Name:** saltmarsh sparrow\
 **Biosample:** SAMN28421630\
 **Assembly Accession:** GCA_027887145.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** Orientation is uncertain for chromosome 7 0-6.79mb
+**Flags:** —
 
 ![](../species/Ammodramus_caudacutus/Ammodramus_caudacutus_distribution_map.png)
 
-### Species: Ammodytes marinus
+### Ammodytes marinus
 
 **Common Name:** lesseer sand eel\
 **Biosample:** SAMEA110137622\
 **Assembly Accession:** GCA_949987685.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly fAmmMar1.1 is based on 58x PacBio data and
-Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of Life
-Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>) as part
-of the European Reference Genome Atlas pilot project
-(<https://www.erga-biodiversity.eu/pilot-project>). The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Hifiasm, retained haplotig separation with purge_dups,
-and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, the primary assembly was analysed and
-manually improved using rapid curation. This alternate haplotype
-assembly combines the haplotigs separated by purge_dups with haplotigs
-separated from the primary assembly during curation.
+**Flags:** Missing range raster
 
 ![](../species/Ammodytes_marinus/Ammodytes_marinus_distribution_map.png)
 
-### Species: Ammospiza maritima
+### Ammospiza maritima
 
 **Common Name:** seaside sparrow\
 **Biosample:** SAMN39181024\
 **Assembly Accession:** GCA_036010785.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Ammospiza_maritima/Ammospiza_maritima_distribution_map.png)
 
-### Species: Ammospiza nelsoni
+### Ammospiza nelsoni
 
 **Common Name:** Nelson’s sparrow\
 **Biosample:** SAMN28421656\
 **Assembly Accession:** GCA_027579445.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Ammospiza_nelsoni/Ammospiza_nelsoni_distribution_map.png)
 
-### Species: Anableps anableps
+### Anableps anableps
 
 **Common Name:** largescale four-eyes\
 **Biosample:** SAMN12623628\
 **Assembly Accession:** GCA_014839685.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Anableps anableps and includes the chromosomes. The
-alternate haplotype sequences are in WGS project JABWDT000000000
+**Biosample provider:** University of Konstanz\
+**Collected by:** Andreas Kaut\
+**Biosample comments:** The Four-eyed fish (Anableps anableps) live in fresh water and found in Southern Mexico to Honduras. Their eyes are raised to the top of their head, and divided into two parts: to see above and below the water surface. Right-sided males only mate with left-sided females, and vice versa. This sample was collected by Andreas Kaut, procured by Axel Meyer, sequencing supported by Gene Myers, in collaboration with Richard Durbin, to generate a high-quality reference genome as part of the G10K-VGP and Fish VGP projects.\
+**Location:** Germany: Wilhelma Zoo, Stuttgart
 
 ![](../species/Anableps_anableps/Anableps_anableps_distribution_map.png)
 
-### Species: Anas acuta
+### Anas acuta
 
 **Common Name:** northern pintail\
 **Biosample:** SAMEA112468036\
 **Assembly Accession:** GCA_963932015.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bAnaAcu1.1 is based on 28x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. The reported karyotype for this
-species is n=40. Only 37 autosomes could be confidently assigned during
-curation.
+**Flags:** —
 
 ![](../species/Anas_acuta/Anas_acuta_distribution_map.png)
 
-### Species: Anas platyrhynchos
+### Anas platyrhynchos
 
 **Common Name:** mallard\
 **Biosample:** SAMEA113398833\
 **Assembly Accession:** GCA_964188345.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bAnaPla2.hap1.1 is based on 65x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size.
+**Flags:** —
 
 ![](../species/Anas_platyrhynchos/Anas_platyrhynchos_distribution_map.png)
 
-### Species: Anguilla anguilla
+### Anguilla anguilla
 
 **Common Name:** European eel\
 **Biosample:** SAMN12623627\
 **Assembly Accession:** GCA_013347855.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Anguilla anguilla and includes the chromosomes. The
-alternate haplotype sequences are in WGS project JABVMH000000000
+**Flags:** —
 
 ![](../species/Anguilla_anguilla/Anguilla_anguilla_distribution_map.png)
 
-### Species: Anniella stebbinsi
+### Anniella stebbinsi
 
 **Common Name:** Southern California legless lizard\
 **Biosample:** SAMN33386066\
 **Assembly Accession:** GCA_029215775.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The mitochondrial sequence JARDYG010000134.1 was generated
-with MitoHiFi (V2.2) using the existing Dopasia sokolovi mitochondrial
-sequence (NC_071253.1) as a reference
+**Flags:** —
 
 ![](../species/Anniella_stebbinsi/Anniella_stebbinsi_distribution_map.png)
 
-### Species: Anolis sagrei
+### Anolis sagrei
 
 **Common Name:** brown anole\
 **Biosample:** SAMN40144551\
 **Assembly Accession:** GCA_037176765.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Anolis_sagrei/Anolis_sagrei_distribution_map.png)
 
-### Species: Anomaloglossus baeobatrachus
+### Anomaloglossus baeobatrachus
 
 **Common Name:** Edward’s Rocket Frog\
 **Biosample:** SAMN46966667\
 **Assembly Accession:** GCA_048569485.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Anomaloglossus_baeobatrachus/Anomaloglossus_baeobatrachus_distribution_map.png)
 
-### Species: Anser anser
+### Anser anser
 
 **Common Name:** domestic goose\
 **Biosample:** SAMEA113398854\
 **Assembly Accession:** GCA_964211835.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bAnsAns1.hap1.1 is based on 56x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Chromosomes Z and W were identified by
-read coverage.
+**Flags:** —
 
 ![](../species/Anser_anser/Anser_anser_distribution_map.png)
 
-### Species: Anser cygnoides
+### Anser cygnoides
 
 **Common Name:** swan goose\
 **Biosample:** SAMN41386743\
 **Assembly Accession:** GCA_040182565.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Anser_cygnoides/Anser_cygnoides_distribution_map.png)
 
-### Species: Antrozous pallidus
+### Antrozous pallidus
 
 **Common Name:** pallid bat\
 **Biosample:** SAMN30225125\
 **Assembly Accession:** GCA_027563665.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Antrozous_pallidus/Antrozous_pallidus_distribution_map.png)
 
-### Species: Aplidium turbinatum
+### Aplidium turbinatum
 
 **Common Name:** clonial sea squirt\
 **Biosample:** SAMEA7536566\
 **Assembly Accession:** GCA_918807975.1\
 **Taxon:** Invertebrates\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly kaAplTurb1.1 is based on 65x PacBio data, 10X
-Genomics Chromium data, and Arima Hi-C data generated by the Darwin Tree
-of Life Project (<https://www.darwintreeoflife.org/>). The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Hifiasm, retained haplotig separation with
-purge_dups, short-read polishing using FreeBayes-called variants from
-10X Genomics Chromium reads aligned with LongRanger, and Hi-C based
-scaffolding with SALSA2. The mitochondrial genome was assembled using
-MitoHifi. Finally, the assembly was analysed and manually improved using
-gEVAL. Chromosome-scale scaffolds confirmed by the Hi-C data have been
-named in order of size.
+**Flags:** Missing range raster
 
 ![](../species/Aplidium_turbinatum/Aplidium_turbinatum_distribution_map.png)
 
-### Species: Aplochiton taeniatus
+### Aplochiton taeniatus
 
 **Common Name:** peladilla\
 **Biosample:** SAMN12623621\
 **Assembly Accession:** GCA_017639675.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Aplochiton_taeniatus/Aplochiton_taeniatus_distribution_map.png)
 
-### Species: Apodemus sylvaticus
+### Apodemus sylvaticus
 
 **Common Name:** European woodmouse\
 **Biosample:** SAMEA7702024\
 **Assembly Accession:** GCA_947179515.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mApoSyl1.1 is based on 25x PacBio data, 10X
-Genomics Chromium data, and Arima2 Hi-C data generated by the Darwin
-Tree of Life Project (<https://www.darwintreeoflife.org/>). The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Hifiasm, retained haplotig separation with
-purge_dups, and Hi-C based scaffolding with YaHS. The mitochondrial
-genome was assembled using MitoHiFi. Finally, the primary assembly was
-analysed and manually improved using gEVAL. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Apodemus_sylvaticus/Apodemus_sylvaticus_distribution_map.png)
 
-### Species: Apteryx mantelli
+### Apteryx mantelli
 
 **Common Name:** North Island brown kiwi\
 **Biosample:** SAMN39257886\
 **Assembly Accession:** GCA_036417845.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Klaus-peter Koepfli: Smithsonian’s National Zoo & Conservation Biology Institute\
+**Collected by:** Smithsonian Veterinary Staff: Don Neiffer, Kelly Helmick, Kristina Delaski, Christie Hicks, Julia Jones, Lisa Ware\
+**Biosample comments:** The North Island brown kiwi (Apteryx mantelli) is a species of kiwi that is widespread in the northern two-thirds of the North Island of New Zealand. It is the most common kiwi. It holds the world’s record for laying the largest eggs relative to its body size (modified from Wikipedia entry). This sample of male was collected by the veterinary team at the Smithsonian’s National Zoo & Conservation Biology Institute, and coordinated by Klaus-Peter Koepfli to be used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** USA: Smithsonian’s National Zoo & Conservation Biology Institute, Front Royal, VA
 
 ![](../species/Apteryx_mantelli/Apteryx_mantelli_distribution_map.png)
 
-### Species: Apus apus
+### Apus apus
 
 **Common Name:** common swift\
 **Biosample:** SAMN22785356\
 **Assembly Accession:** GCA_020740795.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Apus_apus/Apus_apus_distribution_map.png)
 
-### Species: Argentina silus
+### Argentina silus
 
 **Common Name:** greater argentine\
 **Biosample:** SAMEA110137623\
 **Assembly Accession:** GCA_951799395.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly fArgSil1.1 is based on 84x PacBio data and
-Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of Life
-Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>) as part
-of the European Reference Genome Atlas pilot project
-(<https://www.erga-biodiversity.eu/pilot-project>). The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Hifiasm, retained haplotig separation with purge_dups,
-and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, the primary assembly was analysed and
-manually improved using rapid curation. This alternate haplotype
-assembly combines the haplotigs separated by purge_dups with haplotigs
-separated from the primary assembly during curation. Sex chromosomes
-were annotated based on coverage statistics as well as synteny to
-GCF_016920845.1
+**Flags:** Missing range raster
 
 ![](../species/Argentina_silus/Argentina_silus_distribution_map.png)
 
-### Species: Arripis georgiana
+### Arripis georgiana
 
 **Common Name:** Australian herring\
 **Biosample:** SAMN40589644\
 **Assembly Accession:** GCA_042242135.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Arripis_georgiana/Arripis_georgiana_distribution_map.png)
 
-### Species: Artibeus intermedius
+### Artibeus intermedius
 
 **Common Name:** intermediate fruit-eating bat\
 **Biosample:** SAMN40002248\
 **Assembly Accession:** GCA_038363145.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Artibeus_intermedius/Artibeus_intermedius_distribution_map.png)
 
-### Species: Ascaphus truei
+### Ascaphus truei
 
 **Common Name:** coastal tailed frog\
 **Biosample:** SAMN41155128\
 **Assembly Accession:** GCA_040206685.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The following regions are of uncertain order and
-orientation: Haplotype 1 Chromosome 1 - approx. 267.5-307 Mbp; Haplotype
-1 Chromosome 3 - approx. 132-186 Mbp; Haplotype 1 Chromosome 4 - approx.
-144-184 Mbp.
+**Flags:** —
 
 ![](../species/Ascaphus_truei/Ascaphus_truei_distribution_map.png)
 
-### Species: Ascidia mentula
+### Ascidia mentula
 
 **Common Name:** pink sea squirt\
 **Biosample:** SAMEA8724667\
 **Assembly Accession:** GCA_947561715.1\
 **Taxon:** Invertebrates\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly kaAscMent1.1 is based on 74x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. The following regions of
-this assembly are of undetermined order and orientation: Chromosome 7
-region 13 - 14 Mbp.
+**Flags:** Missing range raster
 
 ![](../species/Ascidia_mentula/Ascidia_mentula_distribution_map.png)
 
-### Species: Ascidiella aspersa
+### Ascidiella aspersa
 
 **Common Name:** European sea squirt\
 **Biosample:** SAMEA110449820\
 **Assembly Accession:** GCA_963924565.1\
 **Taxon:** Invertebrates\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly kaAscAspe10.1 is based on 61x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-OATK. Finally, the primary assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. The order and orientation of contigs
-along chromosome 5 is uncertain between 8.4 Mb and 15 Mb.
+**Flags:** Missing range raster
 
 ![](../species/Ascidiella_aspersa/Ascidiella_aspersa_distribution_map.png)
 
-### Species: Aselliscus stoliczkanus
+### Aselliscus stoliczkanus
 
 **Common Name:** Stoliczka’s trident bat\
 **Biosample:** SAMN33370315\
 **Assembly Accession:** GCA_043727835.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Aselliscus_stoliczkanus/Aselliscus_stoliczkanus_distribution_map.png)
 
-### Species: Aspidoscelis tigris stejnegeri
+### Aspidoscelis tigris stejnegeri
 
 **Common Name:** Western whiptail stejnegeri\
 **Biosample:** SAMN25872408\
 **Assembly Accession:** GCA_023333525.2\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Aspidoscelis_tigris_stejnegeri/Aspidoscelis_tigris_stejnegeri_distribution_map.png)
 
-### Species: Athene noctua
+### Athene noctua
 
 **Common Name:** little owl\
 **Biosample:** SAMEA114594456\
 **Assembly Accession:** GCA_965140245.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bAthNoc1.hap1.1 is based on 55x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Z chromosome identified based on
-alignment with GCA_024206055.2 (Gallus gallus GGswu).
+**Flags:** —
 
 ![](../species/Athene_noctua/Athene_noctua_distribution_map.png)
 
-### Species: Aulostomus maculatus
+### Aulostomus maculatus
 
 **Common Name:** West Atlantic trumpetfish\
 **Biosample:** SAMN43082348\
 **Assembly Accession:** GCA_048301465.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Aulostomus_maculatus/Aulostomus_maculatus_distribution_map.png)
 
-### Species: Aythya ferina
+### Aythya ferina
 
 **Common Name:** common pochard\
 **Biosample:** SAMEA112468034\
 **Assembly Accession:** GCA_964211825.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bAytFer1.hap1.1 is based on 122x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Chromosomes Z and W were assigned by
-read coverage
+**Flags:** —
 
 ![](../species/Aythya_ferina/Aythya_ferina_distribution_map.png)
 
-### Species: Aythya fuligula
+### Aythya fuligula
 
 **Common Name:** tufted duck\
 **Biosample:** SAMN12621346\
 **Assembly Accession:** GCA_009819795.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Aythya fuligula and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WNMN00000000
+**Flags:** —
 
 ![](../species/Aythya_fuligula/Aythya_fuligula_distribution_map.png)
 
-### Species: Aythya marila
+### Aythya marila
 
 **Common Name:** greater scaup\
 **Biosample:** SAMEA115433010\
 **Assembly Accession:** GCA_965140915.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bAytMar2.hap1.1 is based on 63x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size.
+**Flags:** —
 
 ![](../species/Aythya_marila/Aythya_marila_distribution_map.png)
 
-### Species: Balaenoptera acutorostrata
+### Balaenoptera acutorostrata
 
 **Common Name:** common minke whale\
 **Biosample:** SAMEA111380540\
 **Assembly Accession:** GCA_949987535.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mBalAcu1.1 is based on 30x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. The X chromosome was
-identified based on synteny with Balaenoptera ricei (GCA_028023285.1).
+**Flags:** —
 
 ![](../species/Balaenoptera_acutorostrata/Balaenoptera_acutorostrata_distribution_map.png)
 
-### Species: Balaenoptera borealis
+### Balaenoptera borealis
 
 **Common Name:** sei whale\
 **Biosample:** SAMEA114493134\
 **Assembly Accession:** GCA_965194805.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mBalBor1.hap1.1 is based on 48x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Chromosome X was assigned based on
-alignment to GCF_949987535.1
+**Flags:** —
 
 ![](../species/Balaenoptera_borealis/Balaenoptera_borealis_distribution_map.png)
 
-### Species: Balaenoptera musculus
+### Balaenoptera musculus
 
 **Common Name:** blue whale\
 **Biosample:** SAMN12287136\
 **Assembly Accession:** GCA_009873245.3\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Balaenoptera musculus and includes the chromosomes. The
-alternate haplotype sequences are in WGS project VNFD00000000
+**Flags:** —
 
 ![](../species/Balaenoptera_musculus/Balaenoptera_musculus_distribution_map.png)
 
-### Species: Balaenoptera physalus
+### Balaenoptera physalus
 
 **Common Name:** finback whale\
 **Biosample:** SAMEA114493136\
 **Assembly Accession:** GCA_965194825.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mBalPhy2.hap1.1 is based on 25x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. The regions 20 to 22.5 Mbp in
-Chromosome 4, 22.4 to 32.3 and 108.1 to 119.4 Mbp in Chromosome 6, 26 to
-42.3 Mbp in Chromosome 7, 73 to 88.4 Mbp in Chromosome 10, 88.1 to 97.2
-Mbp in Chromosome 13, 34.5 to 39.1 Mbp in Chromosome 17, 23.7 to 29.6
-Mbp in Chromosome 19, 1.2 to 7.7 Mbp in Chromosome 21 and 18 to 24.3 Mbp
-in Chromosome Y are highly repetitive and the order and orientation may
-be uncertain.The sex chromosomes were identified by PacBio reads
-coverage.
+**Flags:** —
 
 ![](../species/Balaenoptera_physalus/Balaenoptera_physalus_distribution_map.png)
 
-### Species: Balanoglossus misakiensis
+### Balaenoptera ricei
+
+**Common Name:** Rice’s whale\
+**Biosample:** SAMN32629060\
+**Assembly Accession:** GCA_028023285.1\
+**Taxon:** Mammals\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Balaenoptera_ricei/Balaenoptera_ricei_distribution_map.png)
+
+### Balanoglossus misakiensis
 
 **Common Name:** acorn worm\
 **Biosample:** SAMN40579982\
 **Assembly Accession:** GCA_040954625.2\
 **Taxon:** Invertebrates\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Balanoglossus_misakiensis/Balanoglossus_misakiensis_distribution_map.png)
 
-### Species: Balearica regulorum gibbericeps
+### Balearica regulorum gibbericeps
 
 **Common Name:** grey crowned-crane\
 **Biosample:** SAMN12615749\
 **Assembly Accession:** GCA_011004875.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample; Missing Range;
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Balearica regulorum gibbericeps and includes the
-chromosomes. The alternate haplotype sequences are in WGS project
-JAAIYD000000000
+**Flags:** Missing range raster · Zoo/Aquarium sample
 
 ![](../species/Balearica_regulorum_gibbericeps/Balearica_regulorum_gibbericeps_distribution_map.png)
 
-### Species: Barbatula barbatula
+### Barbatula barbatula
 
 **Common Name:** stone loach\
 **Biosample:** SAMEA11296540\
 **Assembly Accession:** GCA_947034865.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fBarBar1.1 is based on 30x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. Region of undetermined
-order and orientation in Chromosome 4 12,000 Kbp - 23,500 Kbp.
+**Flags:** —
 
 ![](../species/Barbatula_barbatula/Barbatula_barbatula_distribution_map.png)
 
-### Species: Barbus barbus
+### Barbus barbus
 
 **Common Name:** barbel\
 **Biosample:** SAMEA13335783\
 **Assembly Accession:** GCA_936440315.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fBarBab1.1 is based on 47x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the assembly was analysed and manually improved using
-rapid curation. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size.
+**Flags:** —
 
 ![](../species/Barbus_barbus/Barbus_barbus_distribution_map.png)
 
-### Species: Blennius ocellaris
+### Blennius ocellaris
 
 **Common Name:** butterfly blenny\
 **Biosample:** SAMEA112788961\
 **Assembly Accession:** GCA_963422515.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fBleOce1.1 is based on 30x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Blennius_ocellaris/Blennius_ocellaris_distribution_map.png)
 
-### Species: Bombina bombina
+### Bombina bombina
 
 **Common Name:** European fire-bellied toad\
 **Biosample:** SAMN32378350\
 **Assembly Accession:** GCA_027579735.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Bombina_bombina/Bombina_bombina_distribution_map.png)
 
-### Species: Bombina variegata
+### Bombina variegata
 
 **Common Name:** yellow-bellied toad\
 **Biosample:** SAMEA112651403\
 **Assembly Accession:** GCA_964205295.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly aBomVar4.paternal.1 is based on 26x PacBio
-data and Arima2 Hi-C data generated by the Wellcome Sanger Institute
-Tree of Life Programme
-(<https://www.sanger.ac.uk/programme/tree-of-life/>). The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Hifiasm in ‘trio’ mode using k-mers from the
-Illumina-sequenced parents, and Hi-C based scaffolding of each haplotype
-separately with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, each haplotype assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Bombina_variegata/Bombina_variegata_distribution_map.png)
 
-### Species: Borostomias antarcticus
+### Borostomias antarcticus
 
 **Common Name:** large-eye snaggletooth\
 **Biosample:** SAMEA8748812\
 **Assembly Accession:** GCA_949987555.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fBorAnt1.1 is based on 68x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Borostomias_antarcticus/Borostomias_antarcticus_distribution_map.png)
 
-### Species: Bradypodion pumilum
+### Bradypodion pumilum
 
 **Common Name:** Cape dwarf chameleon\
 **Biosample:** SAMN35825189\
 **Assembly Accession:** GCA_047715975.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Bradypodion_pumilum/Bradypodion_pumilum_distribution_map.png)
 
-### Species: Branchiostoma lanceolatum
+### Branchiostoma lanceolatum
 
 **Common Name:** European lancelet\
 **Biosample:** SAMN38372375\
 **Assembly Accession:** GCA_035083965.1\
 **Taxon:** Invertebrates\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Branchiostoma_lanceolatum/Branchiostoma_lanceolatum_distribution_map.png)
 
-### Species: Branta canadensis
+### Branta canadensis
 
 **Common Name:** Canada goose\
 **Biosample:** SAMEA113398965\
 **Assembly Accession:** GCA_965231335.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bBraCan1.1 is based on 42x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. Z chromosome assigned based on
-synteny to Anser anser (GCA_964211835.1).
+**Flags:** —
 
 ![](../species/Branta_canadensis/Branta_canadensis_distribution_map.png)
 
-### Species: Bucephala clangula
+### Bucephala clangula
 
 **Common Name:** common goldeneye\
 **Biosample:** SAMEA112468123\
 **Assembly Accession:** GCA_964059595.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bBucCla1.1 is based on 45x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Bucephala_clangula/Bucephala_clangula_distribution_map.png)
 
-### Species: Bucorvus abyssinicus
+### Bucorvus abyssinicus
 
 **Common Name:** Abyssinian ground hornbill\
 **Biosample:** SAMN12614799\
 **Assembly Accession:** GCA_009769605.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Bucorvus abyssinicus and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WNMH00000000
+**Biosample provider:** Copenhagen Zoo, Denmark\
+**Collected by:** Mads Bertelsen\
+**Biosample comments:** The Abyssinian ground hornbill (Bucorvus abyssinicus) is found in the northern sub-Sahara Africa, in savanna and sub-desert scrub areas. It large beak that take three years to develop, and makes a deep booming uh-uh sounds, which some villages or people imitate and base songs off of. This sample was collected by Mads Bertelsen from a female that lived at the Copenhagen Zoo in Denmark, and procured by Tom Gilbert to generate a chromosome level reference assembly as part of the G10K-VGP and B10K Projects.\
+**Location:** Denmark: Copenhagen Zoo
 
 ![](../species/Bucorvus_abyssinicus/Bucorvus_abyssinicus_distribution_map.png)
 
-### Species: Bufo bufo
+### Bufo bufo
 
 **Common Name:** European toad\
 **Biosample:** SAMEA7521636\
 **Assembly Accession:** GCA_905171765.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly aBufBuf1.1 is based on 64x PacBio data, 10X
-Genomics Chromium data, BioNano data, and Arima Hi-C data generated by
-the Darwin Tree of Life Project (<https://www.darwintreeoflife.org/>).
-The assembly process included the following sequence of steps: initial
-PacBio assembly generation with Falcon-unzip, retained haplotig
-separation with purge_dups, 10X based scaffolding with scaff10x, BioNano
-hybrid-scaffolding, Hi-C based scaffolding with 3D-DNA, Arrow polishing,
-and two rounds of FreeBayes polishing. The mitochondrial assembly was
-produced at The Rockefeller University using mitoVGP. Finally, the
-assembly was analysed and manually improved using gEVAL.
-Chromosome-scale scaffolds confirmed by the Hi-C data have been named in
-order of size.
+**Flags:** —
 
 ![](../species/Bufo_bufo/Bufo_bufo_distribution_map.png)
 
-### Species: Buteo buteo
+### Buteo buteo
 
 **Common Name:** common buzzard\
 **Biosample:** SAMEA114594453\
 **Assembly Accession:** GCA_964188355.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bButBut1.hap1.1 is based on 56x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Homogametic sex, ZZ. Chromosome Z was
-identified and assigned by synteny to GCA_028022735.1.
+**Flags:** —
 
 ![](../species/Buteo_buteo/Buteo_buteo_distribution_map.png)
 
-### Species: Callospermophilus lateralis
+### Caesio teres
+
+**Common Name:** yellow and blueback fusilier\
+**Biosample:** SAMN41769331\
+**Assembly Accession:** GCA_048129055.1\
+**Taxon:** Fishes\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Caesio_teres/Caesio_teres_distribution_map.png)
+
+### Callospermophilus lateralis
 
 **Common Name:** golden-mantled ground squirrel\
 **Biosample:** SAMN47326584\
 **Assembly Accession:** GCA_048772815.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Callospermophilus_lateralis/Callospermophilus_lateralis_distribution_map.png)
 
-### Species: Caloenas nicobarica
+### Caloenas nicobarica
 
 **Common Name:** Nicobar pigeon\
 **Biosample:** SAMN39256628\
 **Assembly Accession:** GCA_036013445.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Wildlife Conservation Society\
+**Collected by:** Charles Alex\
+**Biosample comments:** The Nicobar pigeon or Nicobar dove (Caloenas nicobarica) is a bird found on small islands and in coastal regions from the Andaman and Nicobar Islands, India, east through the Indonesian Archipelago, to the Solomons and Palau. It is the only living member of the genus Caloenas alongside and is the closest living relative of the extinct dodo bird (modified from Wikipedia entry). This sample is from a female collected by Charles Alex at the Bronx Zoo, coordinated by Beth Shapiro and Kathleen Horan, and supported by Colossal BioSciences, to be used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP) and Colossal’s de-extinction projects. Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** USA: Bronx Zoo, New York
 
 ![](../species/Caloenas_nicobarica/Caloenas_nicobarica_distribution_map.png)
 
-### Species: Calonectris borealis
+### Calonectris borealis
 
 **Common Name:** Cory’s shearwater\
 **Biosample:** SAMEA114294356\
 **Assembly Accession:** GCA_964195595.2\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bCalBor7.hap1.2 is based on 66x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size.
+**Flags:** —
 
 ![](../species/Calonectris_borealis/Calonectris_borealis_distribution_map.png)
 
-### Species: Caprimulgus europaeus
+### Caprimulgus europaeus
 
 **Common Name:** Eurasian nightjar\
 **Biosample:** SAMEA7524394\
 **Assembly Accession:** GCA_907165065.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bCapEur3.1 is based on 87x PacBio data, 10X
-Genomics Chromium data, and Arima2 Hi-C data generated by the Darwin
-Tree of Life Project (<https://www.darwintreeoflife.org/>). The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Falcon-unzip, retained haplotig separation with
-purge_dups, 10X based scaffolding with scaff10x, Arrow polishing
-assisted by Merfin, short-read polishing using FreeBayes-called variants
-from 10X Genomics Chromium reads aligned with LongRanger, and Hi-C based
-scaffolding with SALSA2. Finally, the assembly was analysed and manually
-improved using gEVAL. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Caprimulgus_europaeus/Caprimulgus_europaeus_distribution_map.png)
 
-### Species: Carassius carassius
+### Carassius carassius
 
 **Common Name:** common carp\
 **Biosample:** SAMEA11296534\
 **Assembly Accession:** GCA_963082965.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fCarCar2.1 is based on 43x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Carassius_carassius/Carassius_carassius_distribution_map.png)
 
-### Species: Carcharodon carcharias
+### Carcharodon carcharias
 
 **Common Name:** great white shark\
 **Biosample:** SAMN12629504\
 **Assembly Accession:** GCA_017639515.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Carcharodon_carcharias/Carcharodon_carcharias_distribution_map.png)
 
-### Species: Caretta caretta
+### Caretta caretta
 
 **Common Name:** loggerhead sea turtle\
 **Biosample:** SAMN46282778\
 **Assembly Accession:** GCA_965140235.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Caretta_caretta/Caretta_caretta_distribution_map.png)
 
-### Species: Cariama cristata
+### Cariama cristata
 
 **Common Name:** red-legged seriema\
 **Biosample:** SAMN12614807\
 **Assembly Accession:** GCA_009819825.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Cariama cristata and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WNMP00000000
+**Biosample provider:** Copenhagen Zoo, Denmark\
+**Collected by:** Mads Bertelsen\
+**Biosample comments:** The Red-legged Seriema (Cariama cristata) is a predatory terrestial bird in the Cariamidae family. It is found in the grasslands of Brazil, south of the Amazon to Uruguay and northern Argentina. The Red-legged Seriema has a song described to sound like a cross between a bark of a young dog and a clucking of turkeys (description from B10K Avian Phylgenomics Project <http://gigadb.org/dataset/101018>). This sample was collected by Mads Bertelsen from a female that lived at the Copenhagen Zoo in Denmark, originally in Holland, and was procured by Tom Gilbert to be used to generate a chromosome level reference assembly as part of the G10K-VGP and B10K Projects.\
+**Location:** Denmark: Copenhagen Zoo
 
 ![](../species/Cariama_cristata/Cariama_cristata_distribution_map.png)
 
-### Species: Castor canadensis
+### Castor canadensis
 
 **Common Name:** North American beaver\
 **Biosample:** SAMN45812786\
 **Assembly Accession:** GCA_047511655.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** In April 2025 320 sequences were suppressed because they
-were found to be contaminants.
+**Flags:** —
 
 ![](../species/Castor_canadensis/Castor_canadensis_distribution_map.png)
 
-### Species: Catharus ustulatus
+### Catharus ustulatus
 
 **Common Name:** Swainson’s thrush\
 **Biosample:** SAMN12618602\
 **Assembly Accession:** GCA_009819885.2\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Catharus_ustulatus/Catharus_ustulatus_distribution_map.png)
 
-### Species: Centroberyx gerrardi
+### Centroberyx gerrardi
 
 **Common Name:** bight redfish\
 **Biosample:** SAMN41769328\
 **Assembly Accession:** GCA_048128805.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Centroberyx_gerrardi/Centroberyx_gerrardi_distribution_map.png)
 
-### Species: Cervus elaphus
+### Cervus elaphus
 
 **Common Name:** red deer\
 **Biosample:** SAMEA7523520\
 **Assembly Accession:** GCA_910594005.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mCerEla1.1 is based on 30x PacBio data, 10X
-Genomics Chromium data, and Arima2 Hi-C data generated by the Darwin
-Tree of Life Project (<https://www.darwintreeoflife.org/>). The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Hifiasm, retained haplotig separation with
-purge_dups, short-read polishing using FreeBayes-called variants from
-10X Genomics Chromium reads aligned with LongRanger, and Hi-C based
-scaffolding with SALSA2. The mitochondrial genome was assembled using
-MitoHifi. Finally, the assembly was analysed and manually improved using
-gEVAL. Chromosome-scale scaffolds are named by synteny based on Cervus
-elaphus (Red deer) GCA_002197005.1.
+**Flags:** —
 
 ![](../species/Cervus_elaphus/Cervus_elaphus_distribution_map.png)
 
-### Species: Cetorhinus maximus
+### Cetorhinus maximus
 
 **Common Name:** basking shark\
 **Biosample:** SAMEA113902670\
 **Assembly Accession:** GCA_964194155.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly sCetMax3.hap1.1 is based on 34x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Chromosome X was assigned by synteny
-to Carcharodon carcharias
+**Flags:** —
 
 ![](../species/Cetorhinus_maximus/Cetorhinus_maximus_distribution_map.png)
 
-### Species: Chaetodon trifascialis
+### Chaetodon trifascialis
 
 **Common Name:** chevron butterflyfish\
 **Biosample:** SAMN41253346\
 **Assembly Accession:** GCA_039877785.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Chaetodon_trifascialis/Chaetodon_trifascialis_distribution_map.png)
 
-### Species: Chelmon rostratus
+### Chelmon rostratus
 
 **Common Name:** copperband butterflyfish\
 **Biosample:** SAMN12623620\
 **Assembly Accession:** GCA_017976325.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Chelmon_rostratus/Chelmon_rostratus_distribution_map.png)
 
-### Species: Chelon labrosus
+### Chelon labrosus
 
 **Common Name:** thicklip grey mullet\
 **Biosample:** SAMEA111562027\
 **Assembly Accession:** GCA_963514085.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fCheLab1.1 is based on 27x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Chelon_labrosus/Chelon_labrosus_distribution_map.png)
 
-### Species: Chelonia mydas
+### Chelonia mydas
 
 **Common Name:** green sea turtle\
 **Biosample:** SAMN12612360\
 **Assembly Accession:** GCA_015237465.2\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Chelonia_mydas/Chelonia_mydas_distribution_map.png)
 
-### Species: Chionomys nivalis
+### Chionomys nivalis
 
 **Common Name:** European snow vole\
 **Biosample:** SAMEA13217622\
 **Assembly Accession:** GCA_950005125.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mChiNiv1.1 is based on 26x PacBio data and
-Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of Life
-Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>) as part
-of the European Reference Genome Atlas pilot project
-(<https://www.erga-biodiversity.eu/pilot-project>). The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Hifiasm, retained haplotig separation with purge_dups,
-and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, the primary assembly was analysed and
-manually improved using rapid curation. This alternate haplotype
-assembly combines the haplotigs separated by purge_dups with haplotigs
-separated from the primary assembly during curation.
+**Flags:** —
 
 ![](../species/Chionomys_nivalis/Chionomys_nivalis_distribution_map.png)
 
-### Species: Chiroxiphia lanceolata
+### Chiroxiphia lanceolata
 
 **Common Name:** lanced-tailed manakin\
 **Biosample:** SAMN12620979\
 **Assembly Accession:** GCA_009829145.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Chiroxiphia lanceolata and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WNMD00000000
+**Flags:** —
 
 ![](../species/Chiroxiphia_lanceolata/Chiroxiphia_lanceolata_distribution_map.png)
 
-### Species: Chlamydotis macqueenii
+### Chlamydotis macqueenii
 
 **Common Name:** MacQueen’s bustard\
 **Biosample:** SAMN39296383\
 **Assembly Accession:** GCA_036417535.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Chlamydotis_macqueenii/Chlamydotis_macqueenii_distribution_map.png)
 
-### Species: Choerodon schoenleinii
+### Choerodon schoenleinii
 
 **Common Name:** blackspot tuskfish\
 **Biosample:** SAMN46014618\
 **Assembly Accession:** GCA_047301625.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Choerodon_schoenleinii/Choerodon_schoenleinii_distribution_map.png)
 
-### Species: Chroicocephalus ridibundus
+### Chroicocephalus ridibundus
 
 **Common Name:** black-headed gull\
 **Biosample:** SAMEA112468038\
 **Assembly Accession:** GCA_963924245.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bChrRid1.1 is based on 37x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. Z chromosome identified based on
-alignment with chicken (GCF_016699485.2).
+**Flags:** —
 
 ![](../species/Chroicocephalus_ridibundus/Chroicocephalus_ridibundus_distribution_map.png)
 
-### Species: Ciconia maguari
+### Ciconia maguari
 
 **Common Name:** Maguari stork\
 **Biosample:** SAMN18353822\
 **Assembly Accession:** GCA_017639555.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Ciconia_maguari/Ciconia_maguari_distribution_map.png)
 
-### Species: Cinclus cinclus
+### Cinclus cinclus
 
 **Common Name:** white-throated dipper\
 **Biosample:** SAMEA9679959\
 **Assembly Accession:** GCA_963662255.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bCinCin1.1 is based on 41x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using gEVAL. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. Z chromosome identifed based on
-synteny with Taeniopygia guttata (GCA_003957565.4).
+**Flags:** —
 
 ![](../species/Cinclus_cinclus/Cinclus_cinclus_distribution_map.png)
 
-### Species: Clangula hyemalis
+### Clangula hyemalis
 
 **Common Name:** long-tailed duck\
 **Biosample:** SAMEA112468035\
 **Assembly Accession:** GCA_963989345.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bClaHye2.1 is based on 43x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Clangula_hyemalis/Clangula_hyemalis_distribution_map.png)
 
-### Species: Clavelina lepadiformis
+### Clavelina lepadiformis
 
 **Common Name:** light-bulb sea squirt\
 **Biosample:** SAMEA7536527\
 **Assembly Accession:** GCA_947623445.1\
 **Taxon:** Invertebrates\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly kaClaLepa1.1 is based on 117x PacBio data,
-10X Genomics Chromium data, and Arima2 Hi-C data generated by the Darwin
-Tree of Life Project (<https://www.darwintreeoflife.org/>). The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Hifiasm, retained haplotig separation with
-purge_dups, and Hi-C based scaffolding with YaHS. The mitochondrial
-genome was assembled using MitoHiFi. Finally, the primary assembly was
-analysed and manually improved using gEVAL. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size. Karyotype
-info used from
-<https://www.tandfonline.com/doi/abs/10.1080/00087114.1971.10796413>.
+**Flags:** Missing range raster
 
 ![](../species/Clavelina_lepadiformis/Clavelina_lepadiformis_distribution_map.png)
 
-### Species: Coilia mystus
+### Coilia mystus
 
 **Common Name:** Osbeck’s grenadier anchovy\
 **Biosample:** SAMN46980313\
 **Assembly Accession:** GCA_048544225.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Coilia_mystus/Coilia_mystus_distribution_map.png)
 
-### Species: Colius striatus
+### Colius striatus
 
 **Common Name:** speckled mousebird\
 **Biosample:** SAMN33339572\
 **Assembly Accession:** GCA_028858725.2\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** Some microchromosomes remain fragmented and unidentified
-due to high repeat content
+**Biosample provider:** University of Copenhagen, and Copenhagen Zoo\
+**Collected by:** Mads Bertelsen\
+**Biosample comments:** The speckled mousebird (Colius striatus) is the largest species of mousebird, as well as one of the most common. It is found throughout most of Central, Eastern and Southern Africa. They are conspicuously social birds, feeding together and engaging in mutual preening (from Wikipedia entry). This sample from a female in the Copenhagen Zoo, in Denmark, was procured by Mads Bertelsen, and coordinated by Tom Gilbert to be used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis, with funding support from Tom Gilbert and Jarvis.\
+**Location:** Denmark: Copenhagen Zoo
 
 ![](../species/Colius_striatus/Colius_striatus_distribution_map.png)
 
-### Species: Coloeus monedula
+### Coloeus monedula
 
 **Common Name:** Western jackdaw\
 **Biosample:** SAMEA115433023\
 **Assembly Accession:** GCA_965178545.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bColMon1.hap1.1 is based on 77x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. The exact order and orientation of the
-contigs on chromosome 1 (55.5 - 59 Mbp), chromosome 8 (12 - 14 Mbp) are
-unknown. The microchromosomes were identified through second-shot
-curation of scaffolds smaller than 20 Mbp, combined with homology-based
-identification using known microchromosome genes via MicroFinder.
-Chromosomes Z and W were identified by copy number in the diploid
-assembly. A large number of centromeric repeats is in the unlocalised
-sequences.
+**Flags:** —
 
 ![](../species/Coloeus_monedula/Coloeus_monedula_distribution_map.png)
 
-### Species: Conger conger
+### Conger conger
 
 **Common Name:** European conger\
 **Biosample:** SAMEA12219431\
 **Assembly Accession:** GCA_963514075.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fConCon1.1 is based on 36x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Conger_conger/Conger_conger_distribution_map.png)
 
-### Species: Corella eumyota
+### Corella eumyota
 
 **Common Name:** Orange-tipped sea squirt\
 **Biosample:** SAMEA7536466\
 **Assembly Accession:** GCA_963082875.1\
 **Taxon:** Invertebrates\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly kaCorEumy4.1 is based on 156x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. The order and orientation of
-contigs along SUPER_3 is uncertain between 10 Mb and 16.5 Mb.
+**Flags:** Missing range raster
 
 ![](../species/Corella_eumyota/Corella_eumyota_distribution_map.png)
 
-### Species: Corvus moneduloides
+### Corvus moneduloides
 
 **Common Name:** New Caledonian crow\
 **Biosample:** SAMN12368441\
 **Assembly Accession:** GCA_009650955.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The bCorMon1 primary assembly is based on the VGP 1.6
-individual pipeline. Primary haplotype: Initial PacBio contig assembly
-with Falcon-unzip, Arrow polishing, retained haplotig identification
-with Purge Haplotigs, Arrow polishing and gap filling, and two rounds of
-FreeBayes polishing with Illumina short reads. Finally, the assembly was
-curated and chromosomes annotated using gEVAL #This assembly represents
-the principal haplotype of the diploid genome orvus moneduloides and
-includes the chromosomes. The alternate haplotype sequences are in WGS
-project WHPP00000000
+**Flags:** —
 
 ![](../species/Corvus_moneduloides/Corvus_moneduloides_distribution_map.png)
 
-### Species: Corynorhinus townsendii
+### Corynorhinus townsendii
 
 **Common Name:** Townsend’s big-eared bat\
 **Biosample:** SAMN31536067\
 **Assembly Accession:** GCA_026230055.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Corynorhinus_townsendii/Corynorhinus_townsendii_distribution_map.png)
 
-### Species: Cristiceps australis
+### Cristiceps australis
 
 **Common Name:** crested weedfish\
 **Biosample:** SAMN40589650\
 **Assembly Accession:** GCA_049082185.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Cristiceps_australis/Cristiceps_australis_distribution_map.png)
 
-### Species: Ctenodactylus gundi
+### Ctenodactylus gundi
 
 **Common Name:** common gundi\
 **Biosample:** SAMN47326412\
 **Assembly Accession:** GCA_048771875.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Ctenodactylus_gundi/Ctenodactylus_gundi_distribution_map.png)
 
-### Species: Cuculus canorus
+### Cuculus canorus
 
 **Common Name:** common cuckoo\
 **Biosample:** SAMN12629508\
 **Assembly Accession:** GCA_017976375.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Cuculus_canorus/Cuculus_canorus_distribution_map.png)
 
-### Species: Cyanocitta cristata
+### Cyanocitta cristata
 
 **Common Name:** blue jay\
 **Biosample:** SAMN44574712\
 **Assembly Accession:** GCA_046129655.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Cyanocitta_cristata/Cyanocitta_cristata_distribution_map.png)
 
-### Species: Cyclopterus lumpus
+### Cyclopterus lumpus
 
 **Common Name:** lumpfish\
 **Biosample:** SAMN12629502\
 **Assembly Accession:** GCA_009769545.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Cyclopterus lumpus and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WNND00000000
+**Flags:** Missing range raster
 
 ![](../species/Cyclopterus_lumpus/Cyclopterus_lumpus_distribution_map.png)
 
-### Species: Cyclura pinguis
+### Cyclura pinguis
 
 **Common Name:** stout iguana\
 **Biosample:** SAMN35151422\
 **Assembly Accession:** GCA_030412105.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Oliver Ryder, San Diego Zoo Global\
+**Collected by:** —\
+**Biosample comments:** Stout iguana (Cyclura pinguis) is a critically endangered species of lizard of the genus Cyclura belonging to the family Iguanidae. The species can be found exclusively in Anegada and Guana islands of the British Virgin Islands. Historically, it inhabited the islands of Puerto Rico and Saint Thomas; however, the animal’s original range has been greatly diminished over prehistory (from Wikipedia). This sample was collected from an adult male born in the San Diego Zoo, coordinated by Oliver Ryder and Cynthia Steiner, and used to create at high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis, with funding support from HHMI.\
+**Location:** USA: San Diego Zoo, San Diego
 
 ![](../species/Cyclura_pinguis/Cyclura_pinguis_distribution_map.png)
 
-### Species: Cygnus columbianus
+### Cygnus columbianus
 
 **Common Name:** tundra swan\
 **Biosample:** SAMEA112468031\
 **Assembly Accession:** GCA_965151615.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bCygCol1.1 is based on 52x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, and Hi-C based scaffolding with YaHS. The mitochondrial genome
-was assembled using MitoHiFi. A manually phased assembly (based on HiC
-signal) was generated from a jointly curated primary and alt assembly.
-Finally, the primary assembly was analysed and manually improved using
-TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data have been
-named in order of size.
+**Flags:** —
 
 ![](../species/Cygnus_columbianus/Cygnus_columbianus_distribution_map.png)
 
-### Species: Cygnus olor
+### Cygnus olor
 
 **Common Name:** mute swan\
 **Biosample:** SAMN12621369\
 **Assembly Accession:** GCA_009769625.2\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Cygnus_olor/Cygnus_olor_distribution_map.png)
 
-### Species: Cynocephalus volans
+### Cynocephalus volans
 
 **Common Name:** Philippine flying lemur\
 **Biosample:** SAMN32206947\
 **Assembly Accession:** GCA_027409185.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Cynocephalus_volans/Cynocephalus_volans_distribution_map.png)
 
-### Species: Cyprinella venusta
+### Cyprinella venusta
 
 **Common Name:** blacktail shiner\
 **Biosample:** SAMN40647018\
 **Assembly Accession:** GCA_038024135.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Cyprinella_venusta/Cyprinella_venusta_distribution_map.png)
 
-### Species: Danio rerio
+### Danio rerio
 
 **Common Name:** zebrafish\
 **Biosample:** SAMEA14088276\
 **Assembly Accession:** GCA_944039275.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly fDanRer4.1 is based on 31x PacBio data and
-10X Genomics Chromium data generated by the Wellcome Sanger Institute
-Tree of Life Programme
-(<https://www.sanger.ac.uk/science/programmes/tree-of-life>). The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Hifiasm, retained haplotig separation
-with purge_dups, short-read polishing using FreeBayes-called variants
-from 10X Genomics Chromium reads aligned with LongRanger, and Hi-C based
-scaffolding with SALSA2. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds are named by
-synteny based on Danio rerio (zebrafish) GCA_020184715.1. Uncertain
-order and orientation of scaffolds in repetitive regions on chromosome 4
-38.2-55.2, chromosome 8 36.6-40.0mb.
+**Flags:** Missing range raster
 
 ![](../species/Danio_rerio/Danio_rerio_distribution_map.png)
 
-### Species: Dasypus novemcinctus
+### Dasypus novemcinctus
 
 **Common Name:** nine-banded armadillo\
 **Biosample:** SAMN32738980\
 **Assembly Accession:** GCA_030445035.2\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Dasypus_novemcinctus/Dasypus_novemcinctus_distribution_map.png)
 
-### Species: Delphinus delphis
+### Delphinus delphis
 
 **Common Name:** saddleback dolphin\
 **Biosample:** SAMEA111380534\
 **Assembly Accession:** GCA_949987515.2\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mDelDel1.2 is based on 29x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Delphinus_delphis/Delphinus_delphis_distribution_map.png)
 
-### Species: Dermochelys coriacea
+### Dermochelys coriacea
 
 **Common Name:** leatherback sea turtle\
 **Biosample:** SAMN12629498\
 **Assembly Accession:** GCA_009764565.4\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Dermochelys_coriacea/Dermochelys_coriacea_distribution_map.png)
 
-### Species: Desmodus rotundus
+### Desmodus rotundus
 
 **Common Name:** common vampire bat\
 **Biosample:** SAMN24116476\
 **Assembly Accession:** GCA_022682495.2\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Desmodus_rotundus/Desmodus_rotundus_distribution_map.png)
 
-### Species: Diretmus argenteus
+### Diretmus argenteus
 
 **Common Name:** silver spinyfin\
 **Biosample:** SAMN47248252\
 **Assembly Accession:** GCA_048569125.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Diretmus_argenteus/Diretmus_argenteus_distribution_map.png)
 
-### Species: Discoglossus pictus
+### Discoglossus pictus
 
 **Common Name:** painted frog\
 **Biosample:** SAMN32227109\
 **Assembly Accession:** GCA_027410445.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Discoglossus_pictus/Discoglossus_pictus_distribution_map.png)
 
-### Species: Dixiphia pipra
+### Dixiphia pipra
 
 **Common Name:** white-crowned manakin\
 **Biosample:** SAMN32739894\
 **Assembly Accession:** GCA_036250125.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Dixiphia_pipra/Dixiphia_pipra_distribution_map.png)
 
-### Species: Doryrhina cyclops
+### Doryrhina cyclops
 
 **Common Name:** Cyclops roundleaf bat\
 **Biosample:** SAMN33372470\
 **Assembly Accession:** GCA_043880285.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Doryrhina_cyclops/Doryrhina_cyclops_distribution_map.png)
 
-### Species: Dromaius novaehollandiae
+### Dromaius novaehollandiae
 
 **Common Name:** emu\
 **Biosample:** SAMN39262816\
 **Assembly Accession:** GCA_036370855.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** World Conservation Society\
+**Collected by:** Bronx Zoo Vetinarian Team\
+**Biosample comments:** The emu (Dromaius novaehollandiae) is the second-tallest living bird after the ostrich, its ratite relative. It is endemic to Australia. They are soft-feathered, flightless, with long necks and legs, and can reach up to 1.9 metres (6 ft 3 in) in height (modified from Wikipedia entry). This sample of a female born in the Bronx Zoo, New York, and collected in collaboration with the World Conservation Society (WCS), coordinated by Susie Bartlett of the WCS and Erich Jarvis and Kathleen Horan of Rockefeller University, to be used to generate a high-quality reference genome assembly for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Erich D. Jarvis, Giulio Formenti, and Jennifer Balacco.\
+**Location:** USA: Bronx Zoo, New York
 
 ![](../species/Dromaius_novaehollandiae/Dromaius_novaehollandiae_distribution_map.png)
 
-### Species: Dromiciops gliroides
+### Dromiciops gliroides
 
 **Common Name:** monito del montes\
 **Biosample:** SAMN18857598\
 **Assembly Accession:** GCA_019393635.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Dromiciops_gliroides/Dromiciops_gliroides_distribution_map.png)
 
-### Species: Dryobates pubescens
+### Dryobates pubescens
 
 **Common Name:** downy woodpecker\
 **Biosample:** SAMN12629497\
 **Assembly Accession:** GCA_014839835.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Picoides pubescens and includes the chromosomes. The
-alternate haplotype sequences are in WGS project JACNMW000000000
+**Flags:** —
 
 ![](../species/Dryobates_pubescens/Dryobates_pubescens_distribution_map.png)
 
-### Species: Dugong dugon
+### Dugong dugon
 
 **Common Name:** dugong\
 **Biosample:** SAMN33212336\
 **Assembly Accession:** GCA_030035585.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Dugong_dugon/Dugong_dugon_distribution_map.png)
 
-### Species: Echiichthys vipera
+### Echiichthys vipera
 
 **Common Name:** lesser weever\
 **Biosample:** SAMEA112765695\
 **Assembly Accession:** GCA_963691815.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly fEchVip8.1 is based on 34x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. Two half coverage
-putative sex chromosomes chromosomes were observed and provisionally
-named X and Y. However, the sample used for genome assembly was of
-unknown sex and so the sex determination system could be ZW instead of
-XY. A literature search did not recover information on the sex
-determination system for this species. It should also be noted that a
-previous cytological study (<https://doi.org/10.1159/000076302>) did not
-identify heteromorphic sex chromosomes in this species.
+**Flags:** Missing range raster
 
 ![](../species/Echiichthys_vipera/Echiichthys_vipera_distribution_map.png)
 
-### Species: Electrona antarctica
+### Electrona antarctica
 
 **Common Name:** Antarctic lanternfish\
 **Biosample:** SAMEA8748807\
 **Assembly Accession:** GCA_951216825.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fEleAnt2.1 is based on 43x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Electrona_antarctica/Electrona_antarctica_distribution_map.png)
 
-### Species: Elephas maximus indicus
+### Elephas maximus indicus
 
 **Common Name:** Asian elephant\
 **Biosample:** SAMN29174328\
 **Assembly Accession:** GCA_024166365.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Frozen Zoo, San Diego Zoo\
+**Collected by:** San Diego Zoo\
+**Biosample comments:** The Indian elephant is one of the three subspecies of the Asian Elephant. It has been classified as Endangered on the IUCN realist since 1986 due to habitat loss and environmental degradation mainly caused by human activities. This assembly has been produced as part of the G10K-VGP Project, and supported by Virpi Lummaa (Professor, Ecology and Evolutionary Biology, university of Turku, Finland), Camila Mazzoni (group leader at the Leibniz Institute for Zoo and Wildlife Research, Berlin, Germany), and by Colossal Biosciences. Work was done in collaboration with Sara Ord, Eriona Hysolli, and Larissa Souza Arantes. Skin tissue was collected from a 50 years old adult male at the San Diego zoo, California (SB-218, and GAN \# 26734787; ZIMS/Species 360) and fibroblast cells were cultured by the Frozen Zoo. The sample was sequenced using the VGP 2.0 individual pipeline at the Rockefeller University Vertebrate Genome Lab, led by Olivier Fedrigo and Erich Jarvis. The primary haplotype contigs were generated from PacBio Hifi reads, scaffolded with Bionano optical maps, and Arima HiC reads. Genome was assembled by Diego De Panis. Manual curation of chromosomes and other genomic features was conducted by Nadolina Brajuka and led by Giulio Formenti. The raw data and assembly are currently under a G10K-VGP publication embargo until removed from this description, following the G10K data use policy at the following URL: <https://genome10k.soe.ucsc.edu/about/data_use_policy>\
+**Location:** USA: San Diego Zoo
 
 ![](../species/Elephas_maximus_indicus/Elephas_maximus_indicus_distribution_map.png)
 
-### Species: Eleutherodactylus coqui
+### Eleutherodactylus coqui
 
 **Common Name:** coqui\
 **Biosample:** SAMN39150572\
 **Assembly Accession:** GCA_035609145.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Eleutherodactylus_coqui/Eleutherodactylus_coqui_distribution_map.png)
 
-### Species: Elgaria multicarinata webbii
+### Elgaria multicarinata webbii
 
 **Common Name:** Southern alligator lizard\
 **Biosample:** SAMN25872353\
 **Assembly Accession:** GCA_023053635.2\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Elgaria_multicarinata_webbii/Elgaria_multicarinata_webbii_distribution_map.png)
 
-### Species: Emys orbicularis
+### Emys orbicularis
 
 **Common Name:** European pond turtle\
 **Biosample:** SAMN31805221\
 **Assembly Accession:** GCA_028017835.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Emys_orbicularis/Emys_orbicularis_distribution_map.png)
 
-### Species: Enoplosus armatus
+### Enoplosus armatus
 
 **Common Name:** old wife\
 **Biosample:** SAMN40589647\
 **Assembly Accession:** GCA_043641665.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Enoplosus_armatus/Enoplosus_armatus_distribution_map.png)
 
-### Species: Epinephelus rankini
+### Epinephelus rankini
 
 **Common Name:** rankin cod\
 **Biosample:** SAMN41769322\
 **Assembly Accession:** GCA_048129235.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Epinephelus_rankini/Epinephelus_rankini_distribution_map.png)
 
-### Species: Eptesicus nilssonii
+### Eptesicus nilssonii
 
 **Common Name:** northern bat\
 **Biosample:** SAMEA14098186\
 **Assembly Accession:** GCA_951640355.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mEptNil1.1 is based on 33x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Eptesicus_nilssonii/Eptesicus_nilssonii_distribution_map.png)
 
-### Species: Erethizon dorsatum
+### Erethizon dorsatum
 
 **Common Name:** North American porcupine\
 **Biosample:** SAMN32359106\
 **Assembly Accession:** GCA_028451465.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** In some mammalian (e.g. human and pale spear-nosed bat)
-the mEreDor Y chromosome of this assembly aligns to the Y chromosome,
-whereas in other species (e.g. ring-tailed lemur, grey squirrel) this
-region aligns to the X chromosome. As coverage of the X chromosome is
-haploid for this individual, we conclude that this sequence represents
-the Y chromosome in mEreDor
+**Flags:** —
 
 ![](../species/Erethizon_dorsatum/Erethizon_dorsatum_distribution_map.png)
 
-### Species: Eretmochelys imbricata
+### Eretmochelys imbricata
 
 **Common Name:** Hawksbill sea turtle\
 **Biosample:** SAMN46283036\
 **Assembly Accession:** GCA_965152235.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Eretmochelys_imbricata/Eretmochelys_imbricata_distribution_map.png)
 
-### Species: Erinaceus europaeus
+### Erinaceus europaeus
 
 **Common Name:** European hedgehog\
 **Biosample:** SAMEA13207416\
 **Assembly Accession:** GCA_950295315.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mEriEur2.1 is based on 31x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. X chromosome identified based on
-alignment with Iberian mole (GCA_014898055.3;
-<https://www.science.org/doi/10.1126/science.aaz2582>) and reduced HiC
-background signal (HiC from male sample, PacBio used for de novo
-assembly from female sample). The order and orientation of the contigs
-in the following regions are uncertain: SUPER_2, 164.5 Mb to 176.5 Mb;
-SUPER_9, 67.5 Mb to 72.5 Mb; SUPER_15, 88.5 Mb to 93.5 Mb; SUPER_17, 42
-Mb to 53.5 Mb.
+**Flags:** —
 
 ![](../species/Erinaceus_europaeus/Erinaceus_europaeus_distribution_map.png)
 
-### Species: Erythrolamprus reginae
+### Erythrolamprus reginae
 
 **Common Name:** royal ground snake\
 **Biosample:** SAMN32631248\
 **Assembly Accession:** GCA_031021105.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** GenomeScope analyses indicates this individual is a
-triploid (model fits p=3); smudgeplot results in a proposed triploid,
-with a strong AAB signal. The Hifiasm + Hi-C process resulted in hap1
-and hap2+3 assemblies, with hap2+3 having two copies of the genome based
-on QC metrics, while hap1 having one un-duplicated copy of the genome.
-This is supported by largely unduplicated BUSCO results, a largely 1
-copy kmer-cn spectrum, and the length of the assembly being near to the
-expected genome size based on the triploid genomescope model. The hap1
-assembly was scaffolded with Hi-C data using YAHS, and is what we are
-submitting for annotation. The hap2+3 assembly was purged with
-purge_dups, resulting in a purged hap2 only assembly and a remaining
-hap3 assembly, but were difficult to scaffold. Thus, hap2 and hap3
-assembled are submitted as contigs only
+**Flags:** —
 
 ![](../species/Erythrolamprus_reginae/Erythrolamprus_reginae_distribution_map.png)
 
-### Species: Eschrichtius robustus
+### Eschrichtius robustus
 
 **Common Name:** gray whale\
 **Biosample:** SAMN32629250\
 **Assembly Accession:** GCA_028021215.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** Hi-C data is from a different individual than that used to
-generate the Pacbio HiFi contigs. The following regions of the assembly
-are of undetermined order and orientation: Chromosome 1 region 77-81 Mb
-and 98-112.6 Mb: Chromosome 4 region 19.5-28.4 Mb; Chromosome 5 region
-93-123 Mb; Chromosome 7 region 16.6-70 Mb; Chromosome 8 region 26.5-48
-Mb; Chromosome 9 region 72.5-108 Mb; Chromosome 14 region 49.5-70 Mb;
-Chromosome 17 34-40 Mb
+**Flags:** —
 
 ![](../species/Eschrichtius_robustus/Eschrichtius_robustus_distribution_map.png)
 
-### Species: Esox lucius
+### Esox lucius
 
 **Common Name:** Northern pike\
 **Biosample:** SAMN12623624\
 **Assembly Accession:** GCA_011004845.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Esox lucius and includes the chromosomes. The alternate
-haplotype sequences are in WGS project JAAIYS000000000
+**Flags:** —
 
 ![](../species/Esox_lucius/Esox_lucius_distribution_map.png)
 
-### Species: Eubalaena glacialis
+### Eubalaena glacialis
 
 **Common Name:** North Atlantic right whale\
 **Biosample:** SAMN32746534\
 **Assembly Accession:** GCA_028564815.2\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The following regions of this assembly are of undetermined
-order and orientation: Chromosome 1 - 70-75.4 Mb, 91.6-109 Mb and
-128-146.5 Mb; Chromosome 2 - 84-99 Mb; Chromosome 3 - 36-38.5 Mb and
-67.5-72 Mb; Chromosome 4 - 135.5-141 Mb and 159-167 Mb; Chromosome 5 -
-96.4-100 Mb; Chromosome 7 - 113 Mb to end; Chromosome 8 - 26.7-46 Mb;
-Chromosome 9 - 90.7-97 Mb; Chromosome 10 - 26-36 Mb; Chromosome 11 -
-76.5-88 Mb; Chromosome 12 - 73-87 Mb; Chromosome 13 - 32-38 Mb;
-Chromosome 16 - 43.5-54 Mb; Chromosome 17 - 35-42 Mb; Chromosome 18 -
-41-47.5 Mb; Chromosome 19 - 33-36 Mb; Chromosome 20 - 37 Mb to end
+**Flags:** —
 
 ![](../species/Eubalaena_glacialis/Eubalaena_glacialis_distribution_map.png)
 
-### Species: Eudromia elegans
+### Eudromia elegans
 
 **Common Name:** elegant crested tinamou\
 **Biosample:** SAMN46865137\
 **Assembly Accession:** GCA_047922985.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Christina Hvilsom, Copenhagen Zoo\
+**Collected by:** Juliana Andrea Berner, Copenhagen Zoo\
+**Biosample comments:** —\
+**Location:** Denmark: Copenhagen, Copenhagen Zoo
 
 ![](../species/Eudromia_elegans/Eudromia_elegans_distribution_map.png)
 
-### Species: Euleptes europaea
+### Euleptes europaea
 
 **Common Name:** European leaf-toed gecko\
 **Biosample:** SAMN32622440\
 **Assembly Accession:** GCA_029931775.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Euleptes_europaea/Euleptes_europaea_distribution_map.png)
 
-### Species: Eutrigla gurnardus
+### Eutrigla gurnardus
 
 **Common Name:** grey gurnard\
 **Biosample:** SAMEA111562159\
 **Assembly Accession:** GCA_963514095.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly fEutGur1.1 is based on 34x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** Missing range raster
 
 ![](../species/Eutrigla_gurnardus/Eutrigla_gurnardus_distribution_map.png)
 
-### Species: Falco cherrug
+### Falco cherrug
 
 **Common Name:** saker falcon\
 **Biosample:** SAMN28688204\
 **Assembly Accession:** GCA_023634085.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Falco_cherrug/Falco_cherrug_distribution_map.png)
 
-### Species: Falco naumanni
+### Falco naumanni
 
 **Common Name:** lesser kestrel\
 **Biosample:** SAMN16870685\
 **Assembly Accession:** GCA_017639655.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Falco_naumanni/Falco_naumanni_distribution_map.png)
 
-### Species: Falco peregrinus
+### Falco peregrinus
 
 **Common Name:** peregrine falcon\
 **Biosample:** SAMN28688290\
 **Assembly Accession:** GCA_023634155.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Falco_peregrinus/Falco_peregrinus_distribution_map.png)
 
-### Species: Fringilla coelebs
+### Falco punctatus
+
+**Common Name:** Mauritius kestrel\
+**Biosample:** SAMEA14356472\
+**Assembly Accession:** GCA_963210335.1\
+**Taxon:** Birds\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Falco_punctatus/Falco_punctatus_distribution_map.png)
+
+### Fringilla coelebs
 
 **Common Name:** common chaffinch\
 **Biosample:** SAMEA9359753\
 **Assembly Accession:** GCA_963513975.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bFriCoe1.1 is based on 42x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using gEVAL. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. Z chromosome identified based on
-alignment with Gallus gallus (GCA_016700215.1).
+**Flags:** —
 
 ![](../species/Fringilla_coelebs/Fringilla_coelebs_distribution_map.png)
 
-### Species: Fundulus diaphanus
+### Fundulus diaphanus
 
 **Common Name:** banded killifish\
 **Biosample:** SAMN39736529\
 **Assembly Accession:** GCA_037039145.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Fundulus_diaphanus/Fundulus_diaphanus_distribution_map.png)
 
-### Species: Gallinula chloropus
+### Gallinula chloropus
 
 **Common Name:** common moorhen\
 **Biosample:** SAMEA113398958\
 **Assembly Accession:** GCA_964237585.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bGalChl1.hap1.1 is based on 44x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size.
+**Flags:** —
 
 ![](../species/Gallinula_chloropus/Gallinula_chloropus_distribution_map.png)
 
-### Species: Gasterosteus aculeatus
+### Gasterosteus aculeatus
 
 **Common Name:** three-spined stickleback\
 **Biosample:** SAMEA11296546\
 **Assembly Accession:** GCA_964276395.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fGasAcu3.hap1.1 is based on 56x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds are named by synteny based on
-Gasterosteus aculeatus aculeatus (three-spined stickleback)
-GCF_016920845.1. Chromosomes are named and orientated according to
-GCF_016920845.1. Chromosomes X and Y were assigned by HiC signal and
-alignment to GCF_016920845.1.
+**Flags:** —
 
 ![](../species/Gasterosteus_aculeatus/Gasterosteus_aculeatus_distribution_map.png)
 
-### Species: Gastrophryne carolinensis
+### Gastrophryne carolinensis
 
 **Common Name:** Eastern narrow-mouthed toad\
 **Biosample:** SAMN31805274\
 **Assembly Accession:** GCA_027917425.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** Both haplotypes were manually curated for chromosomes, but
-haplotype 1 received more extensive curation. In haplotype 1, scaffold
-order and orientation is uncertain on chromosome 4 (between
-278.43-283.90 Mb), chromosome 6 (between 143.10-170.11 Mb), and
-chromosome 11 (between 4.30-6.60 Mb)
+**Flags:** —
 
 ![](../species/Gastrophryne_carolinensis/Gastrophryne_carolinensis_distribution_map.png)
 
-### Species: Gavialis gangeticus
+### Gavialis gangeticus
 
 **Common Name:** Indian gharial\
 **Biosample:** SAMN34116453\
 **Assembly Accession:** GCA_030020295.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** There is some uncertainty in structural organization of
-Chromosome 8 due to highly dense repeat content
+**Biosample provider:** Oliver Ryder, San Diego Zoo, Frozen Zoo\
+**Collected by:** San Diego Zoo\
+**Biosample comments:** The gharial (Gavialis gangeticus) is a crocodilian in the Gavialidae family and among the longest of living crocodilians. Adult males have a distinct boss at the end of the snout, which resembles an earthenware pot known as a ghara, hence the name “gharial”. The gharial is well adapted to catching fish because of its long narrow snout and sharp interlocking teeth. (from Wikipedia entry). The gharial is endemic to India and is currently critically endangered. This sample was collected from an animal born in captivity at the San Diego Zoo, in California, USA, and coordinated and provided by Oliver Ryder, Marlys Houck, and Cynthia Steiner of the San Diego Frozen Zoo, to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** USA: San Diego Zoo, San Diego
 
 ![](../species/Gavialis_gangeticus/Gavialis_gangeticus_distribution_map.png)
 
-### Species: Geothlypis trichas
+### Geothlypis trichas
 
 **Common Name:** common yellowthroat\
 **Biosample:** SAMN12631222\
 **Assembly Accession:** GCA_009764595.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Geothlypis trichas and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WSPK00000000.
+**Flags:** —
 
 ![](../species/Geothlypis_trichas/Geothlypis_trichas_distribution_map.png)
 
-### Species: Globicephala melas
+### Globicephala melas
 
 **Common Name:** long-finned pilot whale\
 **Biosample:** SAMEA111380538\
 **Assembly Accession:** GCA_963455315.2\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mGloMel1.2 is based on 29x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. Chromosomes X and Y were assigned
-by read coverage statistics and synteny to GCA_949987515.1
+**Flags:** —
 
 ![](../species/Globicephala_melas/Globicephala_melas_distribution_map.png)
 
-### Species: Glossophaga mutica
+### Glossophaga mutica
 
 **Common Name:** Merriam’s long-tongued bat\
 **Biosample:** SAMN40946060\
 **Assembly Accession:** GCA_039655065.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Glossophaga_mutica/Glossophaga_mutica_distribution_map.png)
 
-### Species: Gobio gobio
+### Gobio gobio
 
 **Common Name:** gudgeon\
 **Biosample:** SAMEA11296538\
 **Assembly Accession:** GCA_949357685.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fGobGob1.1 is based on 34x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Gobio_gobio/Gobio_gobio_distribution_map.png)
 
-### Species: Gobius niger
+### Gobius niger
 
 **Common Name:** black goby\
 **Biosample:** SAMEA13854149\
 **Assembly Accession:** GCA_951799975.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fGobNig1.1 is based on 30x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Gobius_niger/Gobius_niger_distribution_map.png)
 
-### Species: Grampus griseus
+### Grampus griseus
 
 **Common Name:** Risso’s dolphin\
 **Biosample:** SAMEA111380541\
 **Assembly Accession:** GCA_964374135.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mGraGri1.hap1.1 is based on 30x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. The X and Y chromosomes were
-identified by read coverage. The exact order and orientation of the
-contigs on chromosome Y (7.8 - 18 Mbp) are unknown.
+**Flags:** —
 
 ![](../species/Grampus_griseus/Grampus_griseus_distribution_map.png)
 
-### Species: Grus americana
+### Grus americana
 
 **Common Name:** whooping crane\
 **Biosample:** SAMN32775697\
 **Assembly Accession:** GCA_028858705.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Grus_americana/Grus_americana_distribution_map.png)
 
-### Species: Guaruba guaruba
+### Guaruba guaruba
 
 **Common Name:** golden parakeet\
 **Biosample:** SAMN44514542\
 **Assembly Accession:** GCA_045345405.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Guaruba_guaruba/Guaruba_guaruba_distribution_map.png)
 
-### Species: Gulosus aristotelis
+### Gulosus aristotelis
 
 **Common Name:** European shag\
 **Biosample:** SAMEA10059652\
 **Assembly Accession:** GCA_949628215.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bGulAri2.1 is based on 42x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using gEVAL. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Gulosus_aristotelis/Gulosus_aristotelis_distribution_map.png)
 
-### Species: Gymnoscopelus braueri
+### Gymnoscopelus braueri
 
 **Common Name:** Brauer’s lanternfish\
 **Biosample:** SAMEA12815494\
 **Assembly Accession:** GCA_963280865.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fGymBra2.1 is based on 34x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Gymnoscopelus_braueri/Gymnoscopelus_braueri_distribution_map.png)
 
-### Species: Gymnoscopelus microlampas
+### Gymnoscopelus microlampas
 
 **Common Name:** minispotted lanternfish\
 **Biosample:** SAMEA12815435\
 **Assembly Accession:** GCA_963454915.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fGymMic1.1 is based on 62x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Gymnoscopelus_microlampas/Gymnoscopelus_microlampas_distribution_map.png)
 
-### Species: Gypaetus barbatus
+### Gypaetus barbatus
 
 **Common Name:** bearded vulture\
 **Biosample:** SAMN32256411\
 **Assembly Accession:** GCA_028022735.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** Order and orientation of contigs in the following
-centromeric repeats is uncertain: chromosome 1 20.6-23.9mb, chromosome 2
-19.1-22.2mb, chromosome 3 24.1-25.5mb, chromosome 4 37.9-39.1mb,
-chromosome 9, 17.3-22.8mb, chromosome 12 16.6-20.9mb, chromosome 14
-20.6-23.5mb, chromosome 16 4.8-8.8mb, chromosome 19 0.7-3.6mb,
-chromosome 24 1-3.7mb, chromosome W 17.6-19.4mb chromosome 18 9.1-11.8mb
+**Flags:** —
 
 ![](../species/Gypaetus_barbatus/Gypaetus_barbatus_distribution_map.png)
 
-### Species: Haemorhous mexicanus
+### Haemorhous mexicanus
 
 **Common Name:** house finch\
 **Biosample:** SAMN28453576\
 **Assembly Accession:** GCA_027477595.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Haemorhous_mexicanus/Haemorhous_mexicanus_distribution_map.png)
 
-### Species: Haliaeetus albicilla
+### Haliaeetus albicilla
 
 **Common Name:** white-tailed eagle\
 **Biosample:** SAMEA12857288\
 **Assembly Accession:** GCA_947461875.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bHalAlb1.1 is based on 49x PacBio data and
-Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of Life
-Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>) as part
-of the European Reference Genome Atlas pilot project
-(<https://www.erga-biodiversity.eu/pilot-project>). The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Hifiasm, retained haplotig separation with purge_dups,
-and Hi-C based scaffolding with YaHS. The \${ORGANELLE_TYPE_CLAUSE}
-assembled using MitoHiFi. Finally, the primary assembly was analysed and
-manually improved using rapid curation. This alternate haplotype
-assembly combines the haplotigs separated by purge_dups with haplotigs
-separated from the primary assembly during curation.
+**Flags:** —
 
 ![](../species/Haliaeetus_albicilla/Haliaeetus_albicilla_distribution_map.png)
 
-### Species: Halichoerus grypus
+### Halichoerus grypus
 
 **Common Name:** grey seal\
 **Biosample:** SAMEA115427674\
 **Assembly Accession:** GCA_964656455.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mHalGry1.hap1.1 is based on 58x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. The exact order and orientation of the
-contigs on chromosome 8 (13.0 - 20.0) are unknown. The sex chromosome X
-was assigned by synteny to GCA_028975605.1 / Pusa sibirica.
+**Flags:** —
 
 ![](../species/Halichoerus_grypus/Halichoerus_grypus_distribution_map.png)
 
-### Species: Harpia harpyja
+### Harpia harpyja
 
 **Common Name:** harpy eagle\
 **Biosample:** SAMN31530492\
 **Assembly Accession:** GCA_026419915.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Harpia_harpyja/Harpia_harpyja_distribution_map.png)
 
-### Species: Heliangelus exortis
+### Heliangelus exortis
 
 **Common Name:** tourmaline sunangel\
 **Biosample:** SAMN37253778\
 **Assembly Accession:** GCA_036169615.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Heliangelus_exortis/Heliangelus_exortis_distribution_map.png)
 
-### Species: Hemiprocne comata
+### Hemiprocne comata
 
 **Common Name:** whiskered treeswift\
 **Biosample:** SAMN22588383\
 **Assembly Accession:** GCA_020745705.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Hemiprocne_comata/Hemiprocne_comata_distribution_map.png)
 
-### Species: Heterodontus francisci
+### Heterodontus francisci
 
 **Common Name:** horn shark\
 **Biosample:** SAMN39432692\
 **Assembly Accession:** GCA_036365525.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Heterodontus_francisci/Heterodontus_francisci_distribution_map.png)
 
-### Species: Heterohyrax brucei
+### Heterohyrax brucei
 
 **Common Name:** yellow-spotted rock hyrax\
 **Biosample:** SAMN33092455\
 **Assembly Accession:** GCA_028571685.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** The mHetBru1 assembly is characterized by telocentric
-repeats. As such, several centromeres were difficult to resolve and the
-order/orientation of scaffolds in these regions is uncertain
+**Biosample provider:** Gudrun Wibbelt, Leibniz Institute for Zoo and Wildlife Research\
+**Collected by:** Opel-Zoo\
+**Biosample comments:** The yellow-spotted rock hyrax (Heterohyrax brucei) is small, thickset, herbivorous mammals in the order Hyracoidea. Hyraxes means shrewmouse, derived from Greek. Hyraxes retain or have redeveloped a number of primitive mammalian characteristics, including poorly developed internal temperature regulation (modified from Wikipedia entry). This sample is from a male, bred in captivity, in Opel Zoo, Kronberg, Germany. This sample was collected by Gudrun Wibbelt, and the project coordinated by Camila Mazzoni, Sylke Winkler, Gene Myers, and Erich D. Jarvis to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Dresden Genome Center at the Max Planck Institute, led by Gene Myers and Sylke Winkler.\
+**Location:** Germany: Opel Zoo, Kronberg im Taunus
 
 ![](../species/Heterohyrax_brucei/Heterohyrax_brucei_distribution_map.png)
 
-### Species: Hippoglossus hippoglossus
+### Hippoglossus hippoglossus
 
 **Common Name:** Atlantic halibut\
 **Biosample:** SAMN12629501\
 **Assembly Accession:** GCA_009819705.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Hippoglossus hippoglossus and includes the chromosomes.
-The alternate haplotype sequences are in WGS project WOYC00000000
+**Flags:** —
 
 ![](../species/Hippoglossus_hippoglossus/Hippoglossus_hippoglossus_distribution_map.png)
 
-### Species: Hippopotamus amphibius
+### Hippopotamus amphibius
 
 **Common Name:** common hippopotamus\
 **Biosample:** SAMN33342074\
 **Assembly Accession:** GCA_030028045.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Olivier Ryder and Cynthia Steiner, San Diego Zoo\
+**Collected by:** —\
+**Biosample comments:** The East African hippopotamus (Hippopotamus amphibius) or common hippopotamus is a large semiaquatic mammal native to sub-Saharan Africa. It is one of only two extant species in the family Hippopotamidae, the other being the pygmy hippopotamus (Choeropsis liberiensis or Hexaprotodon liberiensis). Its name comes from the ancient Greek for “river horse” (from Wikipedia entry). This sample from a female born in captivity at the San Diego Zoo, USA, procured by Oliver Ryder and Cynthia Steiner, and used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** USA: San Diego Zoo, San Diego
 
 ![](../species/Hippopotamus_amphibius/Hippopotamus_amphibius_distribution_map.png)
 
-### Species: Hipposideros larvatus
+### Hipposideros larvatus
 
 **Common Name:** intermediate roundleaf bat\
 **Biosample:** SAMN36277597\
 **Assembly Accession:** GCA_031876335.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Hipposideros_larvatus/Hipposideros_larvatus_distribution_map.png)
 
-### Species: Hoplias malabaricus
+### Hoplias malabaricus
 
 **Common Name:** trahira\
 **Biosample:** SAMN32740525\
 **Assembly Accession:** GCA_029633855.2\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Hoplias_malabaricus/Hoplias_malabaricus_distribution_map.png)
 
-### Species: Hydrolagus colliei
+### Hydrolagus colliei
 
 **Common Name:** spotted ratfish\
 **Biosample:** SAMN39156054\
 **Assembly Accession:** GCA_035084275.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Hydrolagus_colliei/Hydrolagus_colliei_distribution_map.png)
 
-### Species: Hyla sarda
+### Hyla sarda
 
 **Common Name:** Sardinian treefrog\
 **Biosample:** SAMN32629340\
 **Assembly Accession:** GCA_029499605.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Hyla_sarda/Hyla_sarda_distribution_map.png)
 
-### Species: Hypanus sabinus
+### Hypanus sabinus
 
 **Common Name:** Atlantic stingray\
 **Biosample:** SAMN32745077\
 **Assembly Accession:** GCA_030144855.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** Chromosomes X1, X2 and Y were found based on coverage
-data. Chromosome Y was moved from hap2 into hap1 to have sex chromosomes
-in the same haplotype. Chromosome 32 is likely much larger, made up of
-many small scaffolds that could not be joined manually.
+**Flags:** —
 
 ![](../species/Hypanus_sabinus/Hypanus_sabinus_distribution_map.png)
 
-### Species: Hyperoodon ampullatus
+### Hyperoodon ampullatus
 
 **Common Name:** North Atlantic bottlenose whale\
 **Biosample:** SAMEA10839125\
 **Assembly Accession:** GCA_949752795.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mHypAmp2.1 is based on 28x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. The X chromosome was
-identified based on alignment with Mesoplodon densirostris
-(GCA_025265405.1). The order and orientation of contigs in the following
-regions is uncertain: SUPER_2, 131 Mb to 140 Mb; SUPER_6, 91 Mb to 102
-Mb and SUPER_7, 76 Mb to 81 Mb.
+**Flags:** —
 
 ![](../species/Hyperoodon_ampullatus/Hyperoodon_ampullatus_distribution_map.png)
 
-### Species: Hyperoplus immaculatus
+### Hyperoplus immaculatus
 
 **Common Name:** greater sand eel\
 **Biosample:** SAMEA13854416\
 **Assembly Accession:** GCA_949357725.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly fHypImm3.1 is based on 31x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** Missing range raster
 
 ![](../species/Hyperoplus_immaculatus/Hyperoplus_immaculatus_distribution_map.png)
 
-### Species: Inia geoffrensis
+### Inia geoffrensis
 
 **Common Name:** Amazon river dolphin\
 **Biosample:** SAMN32797734\
 **Assembly Accession:** GCA_036417435.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Inia_geoffrensis/Inia_geoffrensis_distribution_map.png)
 
-### Species: Kogia breviceps
+### Kogia breviceps
 
 **Common Name:** pygmy sperm whale\
 **Biosample:** SAMN31719513\
 **Assembly Accession:** GCA_026419965.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Kogia_breviceps/Kogia_breviceps_distribution_map.png)
 
-### Species: Labrus bergylta
+### Labrus bergylta
 
 **Common Name:** ballan wrasse\
 **Biosample:** SAMEA111562158\
 **Assembly Accession:** GCA_963930695.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fLabBer1.1 is based on 34x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. the exact order and orientation
-of the contigs in the telomeric repeat regions is unknown.
+**Flags:** —
 
 ![](../species/Labrus_bergylta/Labrus_bergylta_distribution_map.png)
 
-### Species: Labrus mixtus
+### Labrus mixtus
 
 **Common Name:** cuckoo wrasse\
 **Biosample:** SAMEA111562155\
 **Assembly Accession:** GCA_963584025.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fLabMix1.1 is based on 35x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Labrus_mixtus/Labrus_mixtus_distribution_map.png)
 
-### Species: Lacerta agilis
-
-**Common Name:** sand lizard\
-**Biosample:** SAMN12629509\
-**Assembly Accession:** GCA_009819535.1\
-**Taxon:** Reptiles\
-**Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Lacerta agilis and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WNMT00000000
-
-![](../species/Lacerta_agilis/Lacerta_agilis_distribution_map.png)
-
-### Species: Lagenorhynchus acutus
+### Lagenorhynchus acutus
 
 **Common Name:** Atlantic white-sided dolphin\
 **Biosample:** SAMEA114493133\
 **Assembly Accession:** GCA_964270905.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mLagAcu1.hap1.1 is based on 59x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Chromosomes X and Y were identified
-based on PacBio read coverage and HiC signal.
+**Flags:** —
 
 ![](../species/Lagenorhynchus_acutus/Lagenorhynchus_acutus_distribution_map.png)
 
-### Species: Lagenorhynchus albirostris
+### Lagenorhynchus albirostris
 
 **Common Name:** white-beaked dolphin\
 **Biosample:** SAMEA111380537\
 **Assembly Accession:** GCA_949774975.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mLagAlb1.1 is based on 33x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. The X chromosome was
-identified based on synteny with Tursiops truncatus (GCF_011762595.1).
-The order and orientation of contigs in the following regions is
-uncertain: SUPER_1 94.5 Mb to 110 Mb, SUPER_6 95 Mb to 100.5 Mb, SUPER_8
-105.5 Mb to end, SUPER_12 88.5 Mb to 91.5 Mb.
+**Flags:** —
 
 ![](../species/Lagenorhynchus_albirostris/Lagenorhynchus_albirostris_distribution_map.png)
 
-### Species: Lagopus muta
+### Lagopus muta
 
 **Common Name:** rock ptarmigan\
 **Biosample:** SAMN25144835\
 **Assembly Accession:** GCA_023343835.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Lagopus_muta/Lagopus_muta_distribution_map.png)
 
-### Species: Lampetra fluviatilis
+### Lampetra fluviatilis
 
 **Common Name:** European river lamprey\
 **Biosample:** SAMEA111528664\
 **Assembly Accession:** GCA_964198595.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly kcLamFluv1.1 is based on 36x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Lampetra_fluviatilis/Lampetra_fluviatilis_distribution_map.png)
 
-### Species: Lampris incognitus
+### Lampris incognitus
 
 **Common Name:** smalleye Pacific opah\
 **Biosample:** SAMN34060140\
 **Assembly Accession:** GCA_029633865.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Lampris_incognitus/Lampris_incognitus_distribution_map.png)
 
-### Species: Larus argentatus
+### Larus argentatus
 
 **Common Name:** herring gull\
 **Biosample:** SAMEA115168456\
 **Assembly Accession:** GCA_964417175.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bLarArg3.hap1.1 is based on 75x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. The Z and W sex chromosomes were
-identified by read coverage. The found karyotype is 33+ZW, as one known
-microchromosome couldn’t be found.
+**Flags:** —
 
 ![](../species/Larus_argentatus/Larus_argentatus_distribution_map.png)
 
-### Species: Larus fuscus
+### Larus fuscus
 
 **Common Name:** lesser black-backed gull\
 **Biosample:** SAMEA112468039\
 **Assembly Accession:** GCA_963932225.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bLarFus1.1 is based on 30x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. Z chromosome identified based on
-alignment with chicken (GCF_016699485.2).
+**Flags:** —
 
 ![](../species/Larus_fuscus/Larus_fuscus_distribution_map.png)
 
-### Species: Larus michahellis
+### Larus michahellis
 
 **Common Name:** yellow-legged gull\
 **Biosample:** SAMEA114211328\
 **Assembly Accession:** GCA_964199755.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bLarMic1.1 is based on 68x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. Chromosomes Z and W were
-identified using read coverage.
+**Flags:** —
 
 ![](../species/Larus_michahellis/Larus_michahellis_distribution_map.png)
 
-### Species: Latimeria chalumnae
+### Lathamus discolor
+
+**Common Name:** swift parrot\
+**Biosample:** SAMN40289871\
+**Assembly Accession:** GCA_037157495.1\
+**Taxon:** Birds\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Lathamus_discolor/Lathamus_discolor_distribution_map.png)
+
+### Latimeria chalumnae
 
 **Common Name:** African coelacanth\
 **Biosample:** SAMN39710040\
 **Assembly Accession:** GCA_037176945.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** Hi-C data was from different individual, fLatCha2, used to
-generate the Pacbio HiFi long read data, fLatCha1. Thus we used Hi-C for
-scaffolding the primary haplotype, but could not use it for phasing each
-haplotype equally
+**Flags:** Missing range raster
 
 ![](../species/Latimeria_chalumnae/Latimeria_chalumnae_distribution_map.png)
 
-### Species: Lemur catta
+### Lemur catta
 
 **Common Name:** ring-tailed lemur\
 **Biosample:** SAMN12621102\
 **Assembly Accession:** GCA_020740605.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Copenhagen Zoo, Denmark\
+**Collected by:** Mads Bertelsen\
+**Biosample comments:** The ring-tailed lemur (Lemur cata) is primate that like other lemurs is endemic to Madagascar. It is recognized by the stripped black and white ring circles on its tail. They have been studied for the communication and cognitive abilities. They are the most popular lemurs in zoos worldwide. They are currently endangered in the wild (IUCN red list). This sample was collected by Mads Bertelsen from a male that lived at the Copenhagen Zoo in Denmark, procured by Tom Gilbert, and supported by Tomas Marques-Bonet at the Universitat Pompeu Fabra, Barcelona, for primate evolution investigations, to generate a chromosome level reference assembly as part of the G10K-VGP Project.\
+**Location:** Denmark: Copenhagen Zoo
 
 ![](../species/Lemur_catta/Lemur_catta_distribution_map.png)
 
-### Species: Lepidochelys kempii
+### Lepidochelys kempii
 
 **Common Name:** Kemp’s ridley sea turtle\
 **Biosample:** SAMN46282779\
 **Assembly Accession:** GCA_965140285.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Lepidochelys_kempii/Lepidochelys_kempii_distribution_map.png)
 
-### Species: Lepidochelys olivacea
+### Lepidochelys olivacea
 
 **Common Name:** Pacific ridley\
 **Biosample:** SAMN46283035\
 **Assembly Accession:** GCA_965140295.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Lepidochelys_olivacea/Lepidochelys_olivacea_distribution_map.png)
 
-### Species: Lepisosteus oculatus
+### Lepidogalaxias salamandroides
+
+**Common Name:** salamanderfish\
+**Biosample:** SAMN47481373\
+**Assembly Accession:** GCA_049190665.1\
+**Taxon:** Fishes\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Lepidogalaxias_salamandroides/Lepidogalaxias_salamandroides_distribution_map.png)
+
+### Lepisosteus oculatus
 
 **Common Name:** spotted gar\
 **Biosample:** SAMN41155427\
 **Assembly Accession:** GCA_040954835.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Lepisosteus_oculatus/Lepisosteus_oculatus_distribution_map.png)
 
-### Species: Leptodactylus fuscus
+### Leptodactylus fuscus
 
 **Common Name:** rufous frog\
 **Biosample:** SAMN37055805\
 **Assembly Accession:** GCA_031893055.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Leptodactylus_fuscus/Leptodactylus_fuscus_distribution_map.png)
 
-### Species: Leuciscus leuciscus
+### Leuciscus leuciscus
 
 **Common Name:** common dace\
 **Biosample:** SAMEA11296544\
 **Assembly Accession:** GCA_965113295.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fLeuLeu2.hap1.1 is based on 40x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. The exact order and orientation of the
-contigs on chromosome 3 (22,100 - 28,900 Kbp) are unknown.The exact
-order and orientation of the contigs on chromosome 4 (36,700 - 38,100
-Kbp) are unknown.The exact order and orientation of the contigs on
-chromosome 8 (31,500 - 35,200 Kbp) are unknown.The exact order and
-orientation of the contigs on chromosome 17 (34,100 - 36,900 Kbp) are
-unknown.The exact order and orientation of the contigs on chromosome 18
-(31,500 - 33,700 Kbp) are unknown.The exact order and orientation of the
-contigs on chromosome 23 (25,300 - 25,900 & 27,900 - 29,000 Kbp) are
-unknown.The exact order and orientation of the contigs on chromosome 24
-(0- 2,300 & 27,900 - 29,000 Kbp) are unknown.
+**Flags:** —
 
 ![](../species/Leuciscus_leuciscus/Leuciscus_leuciscus_distribution_map.png)
 
-### Species: Liasis olivaceus
+### Liasis olivaceus
 
 **Common Name:** olive python\
 **Biosample:** SAMN32739907\
 **Assembly Accession:** GCA_030867105.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Morten Erik Allentoft, Curtin University, Perth, WA, Australia\
+**Collected by:** Perth Zoo\
+**Biosample comments:** The olive python (Liasis olivaceus) is a species of snake in the family Pythonidae, endemic to Australia. The olive python is often kept as a pet and is bred in captivity. It is technically an advanced-level species due to its size, habitat requirements, and strong feeding response, requiring a terrarium of a minimum of 2.4 metres (8 ft) long, by 1 metre (3 ft) high (from Wikipedia entry). Two subspecies are recognized: L. o. barroni and L. o. olivaceus. This sample is from a female barroni subspecies, in Perth Zoo, Australia, coordinated by Morten E. Allentoft at Curtin University, Perth, and used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** Australia: Perth Zoo, Australia
 
 ![](../species/Liasis_olivaceus/Liasis_olivaceus_distribution_map.png)
 
-### Species: Limanda limanda
+### Limanda limanda
 
 **Common Name:** common dab\
 **Biosample:** SAMEA112765706\
 **Assembly Accession:** GCA_963576545.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fLimLim1.1 is based on 114x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Limanda_limanda/Limanda_limanda_distribution_map.png)
 
-### Species: Lipophrys pholis
+### Lipophrys pholis
 
 **Common Name:** shanny\
 **Biosample:** SAMEA7522844\
 **Assembly Accession:** GCA_963383615.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fLipPho2.1 is based on 41x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Lipophrys_pholis/Lipophrys_pholis_distribution_map.png)
 
-### Species: Lissotriton helveticus
+### Lissotriton helveticus
 
 **Common Name:** palmate newt\
 **Biosample:** SAMEA110240860\
 **Assembly Accession:** GCA_964261635.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly aLisHel1.1 is based on 27x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. Chromosome 5 has a large
-heterozygous inversion between 184-341 Mbp.
+**Flags:** —
 
 ![](../species/Lissotriton_helveticus/Lissotriton_helveticus_distribution_map.png)
 
-### Species: Lissotriton vulgaris
+### Lissotriton vulgaris
 
 **Common Name:** common newt\
 **Biosample:** SAMEA110240861\
 **Assembly Accession:** GCA_964263255.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly aLisVul1.1 is based on 34x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Lissotriton_vulgaris/Lissotriton_vulgaris_distribution_map.png)
 
-### Species: Loxodonta africana
+### Loxodonta africana
 
 **Common Name:** African elephant\
 **Biosample:** SAMN32756554\
 **Assembly Accession:** GCA_030014295.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Cells derived by Virginia Pearson, cultured by Austin Bow and Xochitl Ambriz Pena\
+**Collected by:** Austin Bow\
+**Biosample comments:** The African elephants (Loxodonta) are a genus comprising two living species, the African bush elephant (Loxodonta africana) and the smaller African forest elephant (Loxodonta cyclotis). Both are social herbivores with grey skin, but differ in the size and color of their tusks and in the shape and size of their ears and skulls. Both species are at heavy risk of extinction, where as of 2021, the bush elephant is endangered and the forest elephant is critically endangered according to the IUCN Red List (modified from Wikipedia entry). This sample of Loxodonta africana was collected from a male calf born in Louisville Kentucky Zoo, the endothelial cells derived from the umbilical cord by Virginia Pearson, cultured by Austin Bow and Xochitl Ambriz Pena, and coordinated by Eriona Hysolli, Austin Bow, Sara Ord, and Ben Lamm of Colossal Biosciences and Kathleen Horan of Rockefeller University. The cultured cells were used to create a high-quality reference genome for Colossal Biosciences mammoth project and the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** USA: Louisville Zoo, Kentucky
 
 ![](../species/Loxodonta_africana/Loxodonta_africana_distribution_map.png)
 
-### Species: Lycodopsis pacificus
+### Lycodopsis pacificus
 
 **Common Name:** blackbelly eelpout\
 **Biosample:** SAMN32629383\
 **Assembly Accession:** GCA_028022725.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Lycodopsis_pacificus/Lycodopsis_pacificus_distribution_map.png)
 
-### Species: Macrochelys suwanniensis
+### Macrochelys suwanniensis
 
 **Common Name:** Suwannee snapping turtle\
 **Biosample:** SAMN37052244\
 **Assembly Accession:** GCA_033349115.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Macrochelys_suwanniensis/Macrochelys_suwanniensis_distribution_map.png)
 
-### Species: Macrotis lagotis
+### Macrotis lagotis
 
 **Common Name:** greater bilby\
 **Biosample:** SAMN39300766\
 **Assembly Accession:** GCA_037893015.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** —\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** Australia:Perth Zoo
 
 ![](../species/Macrotis_lagotis/Macrotis_lagotis_distribution_map.png)
 
-### Species: Malaclemys terrapin
+### Malaclemys terrapin
 
 **Common Name:** diamondback terrapin\
 **Biosample:** SAMN31394215\
 **Assembly Accession:** GCA_027887155.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Malaclemys_terrapin/Malaclemys_terrapin_distribution_map.png)
 
-### Species: Manis pentadactyla
+### Manis pentadactyla
 
 **Common Name:** Chinese pangolin\
 **Biosample:** SAMN32757332\
 **Assembly Accession:** GCA_030020395.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:** Zoo Sample;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Zoo/Aquarium sample
 
 ![](../species/Manis_pentadactyla/Manis_pentadactyla_distribution_map.png)
 
-### Species: Marmota flaviventris
+### Marmota flaviventris
 
 **Common Name:** yellow bellied marmot\
 **Biosample:** SAMN45932315\
 **Assembly Accession:** GCA_047511675.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Marmota_flaviventris/Marmota_flaviventris_distribution_map.png)
 
-### Species: Martes martes
+### Martes martes
 
 **Common Name:** European pine marten\
 **Biosample:** SAMEA14268932\
 **Assembly Accession:** GCA_963455335.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mMarMar1.1 is based on 35x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. Chromosomes X and Y were
-assigned by read coverage statistics and synteny to GCA_029410595.1
+**Flags:** —
 
 ![](../species/Martes_martes/Martes_martes_distribution_map.png)
 
-### Species: Megalops cyprinoides
+### Megalops cyprinoides
 
 **Common Name:** Indo-pacific tarpon\
 **Biosample:** SAMN12623619\
 **Assembly Accession:** GCA_013368585.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Megalops cyprinoides and includes the chromosomes. The
-alternate haplotype sequences are in WGS project JABWDN000000000
+**Flags:** —
 
 ![](../species/Megalops_cyprinoides/Megalops_cyprinoides_distribution_map.png)
 
-### Species: Megaptera novaeangliae
+### Megaptera novaeangliae
 
 **Common Name:** humpback whale\
 **Biosample:** SAMN41059645\
 **Assembly Accession:** GCA_041834305.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Megaptera_novaeangliae/Megaptera_novaeangliae_distribution_map.png)
 
-### Species: Melanostigma gelatinosum
+### Melanostigma gelatinosum
 
 **Common Name:** limp eelpout\
 **Biosample:** SAMEA12815492\
 **Assembly Accession:** GCA_949748355.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly fMelGel1.1 is based on 39x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** Missing range raster
 
 ![](../species/Melanostigma_gelatinosum/Melanostigma_gelatinosum_distribution_map.png)
 
-### Species: Meles meles
+### Meles meles
 
 **Common Name:** European badger\
 **Biosample:** SAMEA7524400\
 **Assembly Accession:** GCA_922984935.2\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mMelMel3.2 is based on 85x PacBio data, and
-Arima Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: HiFi reads were assembled using Hifiasm and
-k-mers from the Illumina-sequenced parents in ‘trio’ mode; segregation
-of HiC reads using Canu’s ‘splitHaplotype’ script and k-mers from the
-Illumina-sequenced parents; for each haplotype assembly,
-haplotype-specific and unclassified HiC reads were combined to construct
-scaffolds using SALSA2. The mitochondrial genome was assembled using
-MitoHifi. Finally, the assembly was analysed and manually improved using
-gEVAL, combining the paternal haplotype with the X chromosome from the
-maternal haplotype. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Meles_meles/Meles_meles_distribution_map.png)
 
-### Species: Melospiza georgiana
+### Melospiza georgiana
 
 **Common Name:** swamp sparrow\
 **Biosample:** SAMN22787412\
 **Assembly Accession:** GCA_028018845.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Melospiza_georgiana/Melospiza_georgiana_distribution_map.png)
 
-### Species: Melospiza melodia
+### Melospiza melodia
 
 **Common Name:** song sparrow\
 **Biosample:** SAMN35847297\
 **Assembly Accession:** GCA_035770615.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** We were unable to identify the 3 smallest microchromosomes
+**Flags:** —
 
 ![](../species/Melospiza_melodia/Melospiza_melodia_distribution_map.png)
 
-### Species: Menidia menidia
+### Menidia menidia
 
 **Common Name:** Atlantic silverside\
 **Biosample:** SAMN46987722\
 **Assembly Accession:** GCA_048628825.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Menidia_menidia/Menidia_menidia_distribution_map.png)
 
-### Species: Mergus octosetaceus
+### Mergus octosetaceus
 
 **Common Name:** Brazilian merganser\
 **Biosample:** SAMN39710078\
 **Assembly Accession:** GCA_036873955.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Mergus_octosetaceus/Mergus_octosetaceus_distribution_map.png)
 
-### Species: Merops nubicus
+### Merops nubicus
 
 **Common Name:** carmine bee-eater\
 **Biosample:** SAMN12621035\
 **Assembly Accession:** GCA_009819595.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Merops nubicus and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WNMV00000000
+**Biosample provider:** Copenhagen Zoo, Denmark\
+**Collected by:** Mads Bertelsen\
+**Biosample comments:** The Northern Carmine Bee-eater (Merops nubicus nubicus) is part of the bee-eater family, Meropidae, and is also known as the Nubian bee-eater. It is a brightly-coloured bird and feeds primarily on bees and other flying insects, such as grasshoppers and locusts (description from the Avian Phylogenomics Project <http://gigadb.org/dataset/101029>). This sample was collected by Mads Bertelsen from a female that lived at the Copenhagen Zoo in Denmark (same animal as in BioSample SAMN02338310) and was used to generate a chromosome level reference assembly as part of the G10K-VGP and B10K Projects.\
+**Location:** Denmark: Copenhagen Zoo
 
 ![](../species/Merops_nubicus/Merops_nubicus_distribution_map.png)
 
-### Species: Mesoplodon densirostris
+### Mesoplodon densirostris
 
 **Common Name:** Blainville’s beaked whale\
 **Biosample:** SAMN29828597\
 **Assembly Accession:** GCA_025265405.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Mesoplodon_densirostris/Mesoplodon_densirostris_distribution_map.png)
 
-### Species: Microchirus variegatus
+### Microchirus variegatus
 
 **Common Name:** thickback sole\
 **Biosample:** SAMEA12219470\
 **Assembly Accession:** GCA_963457635.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fMicVar1.1 is based on 36x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Microchirus_variegatus/Microchirus_variegatus_distribution_map.png)
 
-### Species: Micromesistius poutassou
+### Micromesistius poutassou
 
 **Common Name:** blue whiting\
 **Biosample:** SAMEA111457552\
 **Assembly Accession:** GCA_964030765.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly fMicPou1.1 is based on 41x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** Missing range raster
 
 ![](../species/Micromesistius_poutassou/Micromesistius_poutassou_distribution_map.png)
 
-### Species: Micromys minutus
+### Micromys minutus
 
 **Common Name:** European harvest mouse\
 **Biosample:** SAMEA112468042\
 **Assembly Accession:** GCA_963924665.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mMicMin1.1 is based on 28x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. X chromosome identified based on
-synteny with to Mus musculus.
+**Flags:** —
 
 ![](../species/Micromys_minutus/Micromys_minutus_distribution_map.png)
 
-### Species: Microstomus kitt
+### Microstomus kitt
 
 **Common Name:** lemon sole\
 **Biosample:** SAMEA114298639\
 **Assembly Accession:** GCA_964266715.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fMicKit1.1 is based on 60x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Microstomus_kitt/Microstomus_kitt_distribution_map.png)
 
-### Species: Microtus pennsylvanicus
+### Microtus pennsylvanicus
 
 **Common Name:** Eastern meadow vole\
 **Biosample:** SAMN39894136\
 **Assembly Accession:** GCA_037038515.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Microtus_pennsylvanicus/Microtus_pennsylvanicus_distribution_map.png)
 
-### Species: Miniopterus schreibersii
+### Miniopterus schreibersii
 
 **Common Name:** Schreibers’ long-fingered bat\
 **Biosample:** SAMEA113980738\
 **Assembly Accession:** GCA_964146895.2\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mMinSch1.hap1.2 is based on 37x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds are named by synteny based on
-Miniopterus schreibersii (Schreibers’ long-fingered bat)
-GCA_964145185.1. The order and orientation of contigs along the Y
-chromosome is uncertain between 6.6 Mb and 15.5 Mb.
+**Flags:** —
 
 ![](../species/Miniopterus_schreibersii/Miniopterus_schreibersii_distribution_map.png)
 
-### Species: Mobula birostris
+### Mixophyes fleayi
+
+**Common Name:** Fleay’s barred frog\
+**Biosample:** SAMN39657083\
+**Assembly Accession:** GCA_038048845.1\
+**Taxon:** Amphibians\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Mixophyes_fleayi/Mixophyes_fleayi_distribution_map.png)
+
+### Mobula birostris
 
 **Common Name:** Atlantic manta ray\
 **Biosample:** SAMN32746370\
 **Assembly Accession:** GCA_030028105.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The order and orientation of Chromosome 13 and Chromosome
-28 for both haplotypes is undetermined; on haplotype 1 this is the
-region between 13.5 Mbp - 40 Mbp. Haplotype 1 assembly is 380 Mb bigger
-than the haplotype 2 assembly, but haplotype 2 has 3x fewer gaps
+**Flags:** —
 
 ![](../species/Mobula_birostris/Mobula_birostris_distribution_map.png)
 
-### Species: Molossus molossus
+### Molossus molossus
 
 **Common Name:** Pallas’s mastiff bat\
 **Biosample:** SAMN14734448\
 **Assembly Accession:** GCA_014108415.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Molossus_molossus/Molossus_molossus_distribution_map.png)
 
-### Species: Molossus nigricans
+### Molossus nigricans
 
 **Common Name:** Ebon mastiff bat\
 **Biosample:** SAMN40002246\
 **Assembly Accession:** GCA_039880945.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Molossus_nigricans/Molossus_nigricans_distribution_map.png)
 
-### Species: Monodon monocero
+### Monodon monocero
 
 **Common Name:** narwhal\
 **Biosample:** SAMN10872456\
 **Assembly Accession:** GCA_005190385.3\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Monodon_monocero/Monodon_monocero_distribution_map.png)
 
-### Species: Morphnus guianensis
+### Morphnus guianensis
 
 **Common Name:** crested eagle\
 **Biosample:** SAMN44513986\
 **Assembly Accession:** GCA_045345515.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Morphnus_guianensis/Morphnus_guianensis_distribution_map.png)
 
-### Species: Morus bassanus
+### Morus bassanus
 
 **Common Name:** Northern gannet\
 **Biosample:** SAMN37096299\
 **Assembly Accession:** GCA_031468815.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Tom Gilbert: University of Copenhagen\
+**Collected by:** Jorns Fickel\
+**Biosample comments:** The northern gannet (Morus bassanus) is a seabird, the largest species of the gannet family, Sulidae. It is native to the coasts of the Atlantic Ocean, breeding in Western Europe and Northeastern North America. It is the largest seabird in the northern Atlantic. This sample is from a male care for at theLeibniz Institute for Zoo and Wildlife Research, collected by Jorns Fickel, coordinated by Tom Gilbert, and used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** Germany: Leibniz Institute for Zoo and Wildlife Research, Berlin
 
 ![](../species/Morus_bassanus/Morus_bassanus_distribution_map.png)
 
-### Species: Muntiacus reevesi
+### Muntiacus reevesi
 
 **Common Name:** Reeves’ muntjac\
 **Biosample:** SAMEA110690972\
 **Assembly Accession:** GCA_963930625.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mMunRee1.1 is based on 42x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. X chromosome identified based on
-synteny with Muntiacus reevesi (GCA_020226045.1).
+**Flags:** —
 
 ![](../species/Muntiacus_reevesi/Muntiacus_reevesi_distribution_map.png)
 
-### Species: Mus musculus
+### Mus musculus
 
 **Common Name:** house mouse\
 **Biosample:** SAMEA112251260\
 **Assembly Accession:** GCA_949316315.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mMusMuc1.1 is based on 34x PacBio data and
-OmniC Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds are named by
-synteny based on Mus musculus (house mouse) GCA_001632555.1.
+**Flags:** —
 
 ![](../species/Mus_musculus/Mus_musculus_distribution_map.png)
 
-### Species: Muscardinus avellanarius
+### Muscardinus avellanarius
 
 **Common Name:** common dormouse\
 **Biosample:** SAMEA110180654\
 **Assembly Accession:** GCA_963383645.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mMusAve1.1 is based on 58x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using gEVAL. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Muscardinus_avellanarius/Muscardinus_avellanarius_distribution_map.png)
 
-### Species: Mustela erminea
+### Mustela erminea
 
 **Common Name:** stout\
 **Biosample:** SAMN12611999\
 **Assembly Accession:** GCA_009829155.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Mustela erminea and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WNLZ00000000
+**Flags:** —
 
 ![](../species/Mustela_erminea/Mustela_erminea_distribution_map.png)
 
-### Species: Mustela lutreola
+### Mustela lutreola
 
 **Common Name:** European mink\
 **Biosample:** SAMN35784236\
 **Assembly Accession:** GCA_030435805.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Mustela_lutreola/Mustela_lutreola_distribution_map.png)
 
-### Species: Mustela nivalis vulgaris
+### Mustela nivalis vulgaris
 
 **Common Name:** least weasel\
 **Biosample:** SAMEA113398841\
 **Assembly Accession:** GCA_964662115.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mMusNiv2.hap1.1 is based on 33x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Chromosomes X and Y were identified by
-copy number in the diploid assembly.
+**Flags:** —
 
 ![](../species/Mustela_nivalis_vulgaris/Mustela_nivalis_vulgaris_distribution_map.png)
 
-### Species: Mustelus asterias
+### Mustelus asterias
 
 **Common Name:** starry smooth-hound shark\
 **Biosample:** SAMEA114298637\
 **Assembly Accession:** GCA_964213995.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly sMusAst1.hap1.1 is based on 35x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Chromosome X was identified by HiC and
-read coverage statistics. No Y chromosome could be confidently
-identified and likely remains in the unplaced scaffolds. Chromosome 30
-is likely much larger but shattered, many contigs that likely belong in
-Chromosome 30 were left in the unplaced scaffolds as they could not be
-accurately placed.
+**Flags:** —
 
 ![](../species/Mustelus_asterias/Mustelus_asterias_distribution_map.png)
 
-### Species: Myotis daubentonii
+### Myotis daubentonii
 
 **Common Name:** Daubenton’s bat\
 **Biosample:** SAMEA9921455\
 **Assembly Accession:** GCA_963259705.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mMyoDau2.1 is based on 40x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Myotis_daubentonii/Myotis_daubentonii_distribution_map.png)
 
-### Species: Myotis emarginatus
+### Myotis emarginatus
 
 **Common Name:** Geoffroy’s bat\
 **Biosample:** SAMEA115534660\
 **Assembly Accession:** GCA_965115925.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:** Zoo Sample;
-
-**Map Notes:**\
-**Comments:** The assembly mMyoEma1.hap1.1 is based on 42x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. X chromosome identified based on
-synteny with Myotis nattereri (GCA_964212035.1).
+**Flags:** Zoo/Aquarium sample
 
 ![](../species/Myotis_emarginatus/Myotis_emarginatus_distribution_map.png)
 
-### Species: Myotis myotis
+### Myotis myotis
 
 **Common Name:** greater mouse-eared bat\
 **Biosample:** SAMN14734277\
 **Assembly Accession:** GCA_014108235.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Myotis_myotis/Myotis_myotis_distribution_map.png)
 
-### Species: Myotis nattereri
+### Myotis nattereri
 
 **Common Name:** Natterer’s bat\
 **Biosample:** SAMEA114614248\
 **Assembly Accession:** GCA_964212035.2\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mMyoNat1.hap1.2 is based on 59x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds are named by synteny based on
-Myotis nattereri (Natterer’s bat) GCA_964212035.1. The X and Y
-chromosomes were identified by read coverage. The exact order and
-orientation of the contigs on chromosome Y are unknown.
+**Flags:** —
 
 ![](../species/Myotis_nattereri/Myotis_nattereri_distribution_map.png)
 
-### Species: Myuchelys georgesi
+### Myuchelys georgesi
 
 **Common Name:** Bellinger river turtle\
 **Biosample:** SAMN36918804\
 **Assembly Accession:** GCA_040894355.2\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Myuchelys_georgesi/Myuchelys_georgesi_distribution_map.png)
 
-### Species: Myxine glutinosa
+### Myxine glutinosa
 
 **Common Name:** Atlantic hagfish\
 **Biosample:** SAMEA12790223\
 **Assembly Accession:** GCA_964187855.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly kmMyxGlut1.1 is based on 30x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Myxine_glutinosa/Myxine_glutinosa_distribution_map.png)
 
-### Species: Nannobrachium achirus
+### Nannobrachium achirus
 
 **Common Name:** Lantern fish\
 **Biosample:** SAMEA12815432\
 **Assembly Accession:** GCA_963921795.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fNanAch1.1 is based on 31x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Nannobrachium_achirus/Nannobrachium_achirus_distribution_map.png)
 
-### Species: Nansenia antarctica
+### Nansenia antarctica
 
 **Common Name:** pencil smelt\
 **Biosample:** SAMEA8748805\
 **Assembly Accession:** GCA_963989245.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly fNanAnt1.1 is based on 39x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. Chromosome 5 contains a
-heterozygous inversion between approximately 17.4-24.3Mb
+**Flags:** Missing range raster
 
 ![](../species/Nansenia_antarctica/Nansenia_antarctica_distribution_map.png)
 
-### Species: Narcine bancroftii
+### Narcine bancroftii
 
 **Common Name:** lesser electric ray\
 **Biosample:** SAMN39325148\
 **Assembly Accession:** GCA_036971445.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Narcine_bancroftii/Narcine_bancroftii_distribution_map.png)
 
-### Species: Natator depressus
+### Natator depressus
 
 **Common Name:** Australian flatback sea turtle\
 **Biosample:** SAMN46282745\
 **Assembly Accession:** GCA_965152275.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Natator_depressus/Natator_depressus_distribution_map.png)
 
-### Species: Natrix helvetica
+### Natrix helvetica
 
 **Common Name:** barred grass snake\
 **Biosample:** SAMEA114598156\
 **Assembly Accession:** GCA_964273705.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly rNatHel1.hap1.1 is based on 42x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size.
+**Flags:** —
 
 ![](../species/Natrix_helvetica/Natrix_helvetica_distribution_map.png)
 
-### Species: Neoarius graeffei
+### Neoarius graeffei
 
 **Common Name:** blue salmon catfish\
 **Biosample:** SAMN28453209\
 **Assembly Accession:** GCA_027579695.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Neoarius_graeffei/Neoarius_graeffei_distribution_map.png)
 
-### Species: Neofelis nebulosa
+### Neofelis nebulosa
 
 **Common Name:** clouded leopard\
 **Biosample:** SAMN31801981\
 **Assembly Accession:** GCA_028018385.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** PacBio and Bionano data were generated from a male
-individual, HiC data was generated from a female individual.
-Consequentially, Y chromosome shows no HiC signal
+**Biosample provider:** Smithsonian Conservation Biology Institute\
+**Collected by:** SCBI Veterinary Staff, Klaus Koepfli\
+**Biosample comments:** The clouded leopard (Neofelis nebulosa) is a cat that inhabite dense forests from the foothills of the Himalayas through mainland Southeast Asia into South China (from Wikipedia entry). This sample is from a male at the Smithsonian National Zoo, in Washington DC, collected and procured the Veterinary Staff and Klaus Koepfli, to generate a high-quality reference for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, lead by Olivier Fedrigo and Erich D. Jarvis, with support from Jarvis for a COVID-19 research project.\
+**Location:** USA: Smithsonian National Zoological Park
 
 ![](../species/Neofelis_nebulosa/Neofelis_nebulosa_distribution_map.png)
 
-### Species: Neosynchiropus ocellatus
+### Neosynchiropus ocellatus
 
 **Common Name:** ocellated dragonet\
 **Biosample:** SAMN43082349\
 **Assembly Accession:** GCA_044231665.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Josefin Stiller, University of Copenhagen\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** Denmark: National Aquarium Denmark
 
 ![](../species/Neosynchiropus_ocellatus/Neosynchiropus_ocellatus_distribution_map.png)
 
-### Species: Notolabrus celidotus
+### Notolabrus celidotus
 
 **Common Name:** New Zealand spotty wrasse\
 **Biosample:** SAMN12623201\
 **Assembly Accession:** GCA_009762535.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** Due to size limit cut off, this submission does not
-include a 137 bp scaffold_651_arrow_ctg1, which does not match any
-sequence in the current NCBI database, but was assembled in this
-species. The assembly with that scaffold included can be found in Genome
-Ark as of the time of this submission:
-<https://vgp.github.io/genomeark/Notolabrus_celidotus/>
-
-This assembly represents the principal haplotype of the diploid genome
-Notolabrus celidotus and includes the chromosomes. The alternate
-haplotype sequences are in WGS project WOTM00000000
+**Flags:** —
 
 ![](../species/Notolabrus_celidotus/Notolabrus_celidotus_distribution_map.png)
 
-### Species: Notolepis coatsi
+### Notolepis coatsi
 
 **Common Name:** Antarctic jonasfish\
 **Biosample:** SAMEA8748806\
 **Assembly Accession:** GCA_963971535.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly fNotCoa1.1 is based on 48x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** Missing range raster
 
 ![](../species/Notolepis_coatsi/Notolepis_coatsi_distribution_map.png)
 
-### Species: Notothenia rossii
+### Notothenia rossii
 
 **Common Name:** marbled rockcod\
 **Biosample:** SAMEA12815441\
 **Assembly Accession:** GCA_949606895.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly fNotRos5.1 is based on 24x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** Missing range raster
 
 ![](../species/Notothenia_rossii/Notothenia_rossii_distribution_map.png)
 
-### Species: Numenius arquata
+### Numenius arquata
 
 **Common Name:** Eurasian curlew\
 **Biosample:** SAMEA112693994\
 **Assembly Accession:** GCA_964106895.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bNumArq3.hap1.1 is based on 45x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size.
+**Flags:** —
 
 ![](../species/Numenius_arquata/Numenius_arquata_distribution_map.png)
 
-### Species: Nyctalus leisleri
+### Nyctalus leisleri
 
 **Common Name:** lesser noctule\
 **Biosample:** SAMEA114250308\
 **Assembly Accession:** GCA_964264875.2\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mNycLei1.hap1.2 is based on 46x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds are named by synteny based on
-Nyctalus leisleri (lesser noctule) GCA_964264875.1. The order and
-orientation of contigs along chromosome Y is uncertain between 2.7 Mb
-and 24 Mb.
+**Flags:** —
 
 ![](../species/Nyctalus_leisleri/Nyctalus_leisleri_distribution_map.png)
 
-### Species: Nyctibius grandis
+### Nyctibius grandis
 
 **Common Name:** great potoo\
 **Biosample:** SAMN12622411\
 **Assembly Accession:** GCA_013368605.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Nyctibius grandis and includes the chromosomes. The
-alternate haplotype sequences are in WGS project JABXNW000000000
+**Flags:** —
 
 ![](../species/Nyctibius_grandis/Nyctibius_grandis_distribution_map.png)
 
-### Species: Nycticebus coucang
+### Nycticebus coucang
 
 **Common Name:** sunda slow loris\
 **Biosample:** SAMN28408555\
 **Assembly Accession:** GCA_027406575.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Oliver Ryder, San Diego Zoo Global\
+**Collected by:** San Diego Zoo\
+**Biosample comments:** The slow loris (Nycticebus coucang) belongs to a group of nocturnal strepsirrhine primates that make up the genus Nycticebus. They are found in Southeast Asia and bordering areas, ranging from Bangladesh and Northeast India in the west to the Sulu Archipelago in the Philippines in the east, and from Yunnan province in China in the north to the island of Java in the south. This sample from a male born in the San Diego Zoo, California USA. The sample was procured by Oliver Ryder and used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** USA: San Diego Zoo, San Diego
 
 ![](../species/Nycticebus_coucang/Nycticebus_coucang_distribution_map.png)
 
-### Species: Ochotona princeps
+### Ochotona princeps
 
 **Common Name:** American pika\
 **Biosample:** SAMN35822658\
 **Assembly Accession:** GCA_030435755.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Ochotona_princeps/Ochotona_princeps_distribution_map.png)
 
-### Species: Odontesthes bonariensis
+### Odontesthes bonariensis
 
 **Common Name:** pejerrey\
 **Biosample:** SAMN31802211\
 **Assembly Accession:** GCA_027942865.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** Order and orientation of scaffolds are uncertain on
-chromosome 3 (between 33.20-35.12 Mb), chromosome 11 (between 2.16-4.15
-Mb), and chromosome 22 (between 0-0.52 Mb)\#
+**Flags:** —
 
 ![](../species/Odontesthes_bonariensis/Odontesthes_bonariensis_distribution_map.png)
 
-### Species: Opisthocomus hoazin
+### Opisthocomus hoazin
 
 **Common Name:** hoatzin\
 **Biosample:** SAMN37055462\
 **Assembly Accession:** GCA_030867145.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Opisthocomus_hoazin/Opisthocomus_hoazin_distribution_map.png)
 
-### Species: Orcinus orca
+### Orcinus orca
 
 **Common Name:** killer whale\
 **Biosample:** SAMEA8800229\
 **Assembly Accession:** GCA_937001465.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mOrcOrc1.1 is based on 34x PacBio data
-generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>) and Hi-C data made publicly
-available by DNA Zoo (<https://dnazoo.org>); <PMID:28336562>. The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Hifiasm, retained haplotig separation
-with purge_dups, and Hi-C based scaffolding with YaHS. The mitochondrial
-genome was assembled using MitoHiFi. Finally, the assembly was analysed
-and manually improved using rapid curation. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size. Order and
-orientation of scaffolds in a repetitive region of chromosome 17 (
-33.6Mb) is uncertain.
+**Flags:** —
 
 ![](../species/Orcinus_orca/Orcinus_orca_distribution_map.png)
 
-### Species: Osmerus eperlanus
+### Osmerus eperlanus
 
 **Common Name:** European smelt\
 **Biosample:** SAMEA14448128\
 **Assembly Accession:** GCA_963692335.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fOsmEpe2.1 is based on 46x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. the exact order an
-orientation of scaffolds in the repetitive region on chromosome 4
-(0-1.8M bp) is unknown.
+**Flags:** —
 
 ![](../species/Osmerus_eperlanus/Osmerus_eperlanus_distribution_map.png)
 
-### Species: Osmerus mordax
+### Osmerus mordax
 
 **Common Name:** rainbow smelt\
 **Biosample:** SAMN40867348\
 **Assembly Accession:** GCA_038355195.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Osmerus_mordax/Osmerus_mordax_distribution_map.png)
 
-### Species: Panthera onca
+### Ovis canadensis
+
+**Common Name:** bighorn sheep\
+**Biosample:** SAMN42787568\
+**Assembly Accession:** GCA_042477335.2\
+**Taxon:** Mammals\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Ovis_canadensis/Ovis_canadensis_distribution_map.png)
+
+### Pagrus pagrus
+
+**Common Name:** common seabream\
+**Biosample:** SAMEA110450108\
+**Assembly Accession:** GCA_965226575.1\
+**Taxon:** Fishes\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Pagrus_pagrus/Pagrus_pagrus_distribution_map.png)
+
+### Panthera onca
 
 **Common Name:** jaguar\
 **Biosample:** SAMN44524170\
 **Assembly Accession:** GCA_046562885.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Panthera_onca/Panthera_onca_distribution_map.png)
 
-### Species: Passer domesticus
+### Passer domesticus
 
 **Common Name:** house sparrow\
 **Biosample:** SAMN39255856\
 **Assembly Accession:** GCA_036417665.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Passer_domesticus/Passer_domesticus_distribution_map.png)
 
-### Species: Passerculus sandwichensis
+### Passerculus sandwichensis
 
 **Common Name:** Savannah sparrow\
 **Biosample:** SAMN35784765\
 **Assembly Accession:** GCA_031885435.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Passerculus_sandwichensis/Passerculus_sandwichensis_distribution_map.png)
 
-### Species: Pelecanus crispus
+### Pelecanus crispus
 
 **Common Name:** dalmatian pelican\
 **Biosample:** SAMN35784560\
 **Assembly Accession:** GCA_030463565.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Copenhagen Zoo\
+**Collected by:** Mads Bertelsen\
+**Biosample comments:** The Dalmatian pelican (Pelecanus crispus) is the largest member of the pelican family, and one of the world’s largest freshwater birds, with wingspans rivaling those of the great albatrosses. Their range spans much of Central Eurasia, from the Mediterranean in the West to the Taiwan Strait in the East, and from the Persian Gulf in the South to Siberia in the North (modified from Wikipedia entry). This sample from a female in the Copenhagen Zoo, in Denmark, was procured by Mads Bertelsen, and coordinated by Tom Gilbert and Erich Jarvis to be used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis, with funding support from Gilbert and Jarvis.\
+**Location:** Denmark: Copenhagen Zoo
 
 ![](../species/Pelecanus_crispus/Pelecanus_crispus_distribution_map.png)
 
-### Species: Pelobates fuscus
+### Pelobates fuscus
 
 **Common Name:** common spadefoot toad\
 **Biosample:** SAMN39244120\
 **Assembly Accession:** GCA_036172605.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly is different than others from the VGP, in
-that we are including a more complete primary haplotype that has the
-original assembly before more complete phasing of haplotypes 1 and 2.
-Only the primary haplotype was curated for structural errors and naming
-of chromosomes
+**Flags:** —
 
 ![](../species/Pelobates_fuscus/Pelobates_fuscus_distribution_map.png)
 
-### Species: Pelodytes ibericus
+### Pelodytes ibericus
 
 **Common Name:** Iberian parsley frog\
 **Biosample:** SAMN37110875\
 **Assembly Accession:** GCA_036172795.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly is different than others from the VGP, in
-that we are including a more complete primary haplotype that has the
-original assembly before more complete phasing of haplotypes 1 and 2.
-Only the primary haplotype was curated for structural errors and naming
-of chromosomes
+**Flags:** —
 
 ![](../species/Pelodytes_ibericus/Pelodytes_ibericus_distribution_map.png)
 
-### Species: Pempheris klunzingeri
+### Pempheris klunzingeri
 
 **Common Name:** rough bullseye\
 **Biosample:** SAMN40589649\
 **Assembly Accession:** GCA_042242105.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Pempheris_klunzingeri/Pempheris_klunzingeri_distribution_map.png)
 
-### Species: Peromyscus maniculatus
+### Periophthalmus magnuspinnatus
+
+**Common Name:** Korean giant-fin mudskipper\
+**Biosample:** SAMN12629500\
+**Assembly Accession:** GCA_009829125.3\
+**Taxon:** Fishes\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Periophthalmus_magnuspinnatus/Periophthalmus_magnuspinnatus_distribution_map.png)
+
+### Peromyscus maniculatus
 
 **Common Name:** deer mouse\
 **Biosample:** SAMN29044276\
 **Assembly Accession:** GCA_026229955.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Peromyscus_maniculatus/Peromyscus_maniculatus_distribution_map.png)
 
-### Species: Petromyzon marinus
+### Petromyzon marinus
 
 **Common Name:** sea lamprey\
 **Biosample:** SAMN46926778\
 **Assembly Accession:** GCA_048934315.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Petromyzon_marinus/Petromyzon_marinus_distribution_map.png)
 
-### Species: Phaethon aethereus
+### Phaethon aethereus
 
 **Common Name:** red-billed tropicbird\
 **Biosample:** SAMEA8228673\
 **Assembly Accession:** GCA_964289735.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bPhaAeh10.maternal.1 is based on 29x PacBio
-data and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size.
+**Flags:** —
 
 ![](../species/Phaethon_aethereus/Phaethon_aethereus_distribution_map.png)
 
-### Species: Phaethornis superciliosus
+### Phaethornis superciliosus
 
 **Common Name:** long-tailed hermit\
 **Biosample:** SAMN23532249\
 **Assembly Accession:** GCA_023637945.2\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Phaethornis_superciliosus/Phaethornis_superciliosus_distribution_map.png)
 
-### Species: Phalacrocorax carbo
+### Phalacrocorax carbo
 
 **Common Name:** great cormorant\
 **Biosample:** SAMEA8228692\
 **Assembly Accession:** GCA_963921805.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bPhaCar2.1 is based on 40x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using gEVAL. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. It was not possible to assemble
-the W chromosome in this assembly as although the sequence data is from
-a female the HiC data was from a male.
+**Flags:** —
 
 ![](../species/Phalacrocorax_carbo/Phalacrocorax_carbo_distribution_map.png)
 
-### Species: Phocoena phocoena
+### Phocoena phocoena
 
 **Common Name:** harbor porpoise\
 **Biosample:** SAMEA111380536\
 **Assembly Accession:** GCA_963924675.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mPhoPho1.1 is based on 24x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. Chromosome X was assigned based
-on synteny to GCA_008692025.1
+**Flags:** —
 
 ![](../species/Phocoena_phocoena/Phocoena_phocoena_distribution_map.png)
 
-### Species: Phoenicopterus ruber
+### Phocoena sinus
+
+**Common Name:** vaquita\
+**Biosample:** SAMN12325353\
+**Assembly Accession:** GCA_008692025.1\
+**Taxon:** Mammals\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Phocoena_sinus/Phocoena_sinus_distribution_map.png)
+
+### Phoenicopterus ruber
 
 **Common Name:** American flamingo\
 **Biosample:** SAMN12614931\
 **Assembly Accession:** GCA_009819775.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Phoenicopterus ruber ruber and includes the chromosomes.
-The alternate haplotype sequences are in WGS project WNML00000000
+**Biosample provider:** Copenhagen Zoo, Denmark\
+**Collected by:** Mads Bertelsen\
+**Biosample comments:** The American Flamingo (Phoenicopterus ruber) is found throughout the Caribbean and is a non-migratory bird. It is a highly social bird that breeds in large colonies. Its characteristic pink-orange color is caused by carotenoid pigements in the food (shrimp, plankton, algae, and crustaceans) they eat. This sample was collected by Mads Bertelsen from a female (leg band GZG) that lived at the Copenhagen Zoo in Denmark, and procured by Tom Gilbert to generate a chromosome level reference assembly as part of the G10K-VGP and B10K Projects.\
+**Location:** Denmark: Copenhagen Zoo
 
 ![](../species/Phoenicopterus_ruber/Phoenicopterus_ruber_distribution_map.png)
 
-### Species: Pholis gunnellus
+### Pholis gunnellus
 
 **Common Name:** rock gunnel\
 **Biosample:** SAMEA7522838\
 **Assembly Accession:** GCA_910591455.2\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly fPhoGun1.2 is based on 45x PacBio data, 10X
-Genomics Chromium data, and Arima Hi-C data generated by the Darwin Tree
-of Life Project (<https://www.darwintreeoflife.org/>). The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Hifiasm, retained haplotig separation with
-purge_dups, short-read polishing using FreeBayes-called variants from
-10X Genomics Chromium reads aligned with LongRanger, and Hi-C based
-scaffolding with SALSA2. The mitochondrial genome was assembled using
-MitoHifi. Finally, the assembly was analysed and manually improved using
-gEVAL. Chromosome-scale scaffolds confirmed by the Hi-C data have been
-named in order of size.
+**Flags:** Missing range raster
 
 ![](../species/Pholis_gunnellus/Pholis_gunnellus_distribution_map.png)
 
-### Species: Phoxinus phoxinus
+### Phoxinus phoxinus
 
 **Common Name:** Eurasian minnow\
 **Biosample:** SAMEA11296539\
 **Assembly Accession:** GCA_949152265.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fPhoPho1.1 is based on 30x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Phoxinus_phoxinus/Phoxinus_phoxinus_distribution_map.png)
 
-### Species: Pipistrellus kuhlii
+### Pipistrellus hanaki
+
+**Common Name:** Hanaki’s dwarf bat\
+**Biosample:** SAMEA115799862\
+**Assembly Accession:** GCA_964339955.1\
+**Taxon:** Mammals\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Pipistrellus_hanaki/Pipistrellus_hanaki_distribution_map.png)
+
+### Pipistrellus kuhlii
 
 **Common Name:** Kuhl’s pipistrelle\
 **Biosample:** SAMN14734388\
 **Assembly Accession:** GCA_014108245.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Pipistrellus_kuhlii/Pipistrellus_kuhlii_distribution_map.png)
 
-### Species: Pipistrellus nathusii
+### Pipistrellus nathusii
 
 **Common Name:** Nathusius’s pipistrelle\
 **Biosample:** SAMEA115534661\
 **Assembly Accession:** GCA_964656225.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:** Zoo Sample;
-
-**Map Notes:**\
-**Comments:** The assembly mPipNat1.hap1.1 is based on 51x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. X chromosome identified based on
-synteny with Myotis nattereri (GCA_964212035.1).
+**Flags:** Zoo/Aquarium sample
 
 ![](../species/Pipistrellus_nathusii/Pipistrellus_nathusii_distribution_map.png)
 
-### Species: Pipistrellus pygmaeus
+### Pipistrellus pygmaeus
 
 **Common Name:** soprano pipistrelle\
 **Biosample:** SAMEA9921456\
 **Assembly Accession:** GCA_949987585.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mPipPyg2.1 is based on 36x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. Sex chromosomes assigned
-by coverage statistics.
+**Flags:** —
 
 ![](../species/Pipistrellus_pygmaeus/Pipistrellus_pygmaeus_distribution_map.png)
 
-### Species: Platichthys flesus
+### Platichthys flesus
 
 **Common Name:** European flounder\
 **Biosample:** SAMEA110026475\
 **Assembly Accession:** GCA_949316205.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fPlaFle2.1 is based on 49x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Platichthys_flesus/Platichthys_flesus_distribution_map.png)
 
-### Species: Plecotus auritus
+### Plecotus auritus
 
 **Common Name:** brown big-eared bat\
 **Biosample:** SAMEA110056142\
 **Assembly Accession:** GCA_963455305.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mPleAur1.1 is based on 34x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. Chromosome X was
-assigned based on synteny to GCA_949987585.1
+**Flags:** —
 
 ![](../species/Plecotus_auritus/Plecotus_auritus_distribution_map.png)
 
-### Species: Pleuronectes platessa
+### Pleuronectes platessa
 
 **Common Name:** European plaice\
 **Biosample:** SAMEA13853390\
 **Assembly Accession:** GCA_947347685.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fPlePla1.1 is based on 35x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Pleuronectes_platessa/Pleuronectes_platessa_distribution_map.png)
 
-### Species: Pluvialis apricaria
+### Pluvialis apricaria
 
 **Common Name:** European golden plover\
 **Biosample:** SAMN18353970\
 **Assembly Accession:** GCA_017639485.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Pluvialis_apricaria/Pluvialis_apricaria_distribution_map.png)
 
-### Species: Podarcis cretensis
+### Podarcis bocagei
+
+**Common Name:** Bocage’s wall lizard\
+**Biosample:** SAMEA115336769\
+**Assembly Accession:** GCA_964188305.1\
+**Taxon:** Reptiles\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Podarcis_bocagei/Podarcis_bocagei_distribution_map.png)
+
+### Podarcis cretensis
 
 **Common Name:** Cretan wall lizard\
 **Biosample:** SAMEA12110019\
 **Assembly Accession:** GCA_951804945.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly rPodCre2.1 is based on 27x PacBio data and
-Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of Life
-Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>) as part
-of the European Reference Genome Atlas pilot project
-(<https://www.erga-biodiversity.eu/pilot-project>). The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Hifiasm, retained haplotig separation with purge_dups,
-and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, the primary assembly was analysed and
-manually improved using rapid curation. This alternate haplotype
-assembly combines the haplotigs separated by purge_dups with haplotigs
-separated from the primary assembly during curation. Chromosome Z was
-assigned based on synteny to GCA_014706415.1
+**Flags:** —
 
 ![](../species/Podarcis_cretensis/Podarcis_cretensis_distribution_map.png)
 
-### Species: Podarcis erhardii
+### Podarcis erhardii
 
 **Common Name:** Aegean wall lizard\
 **Biosample:** SAMEA115336771\
 **Assembly Accession:** GCA_964252035.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly rPodErh1.hap1.1 is based on 34x PacBio data
-and Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of
-Life Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>). The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Hifiasm in Hi-C integrated assembly
-mode, and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, each haplotype assembly was analysed
-and manually improved using TreeVal. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size. sex
-chromosomes ZW were identified by ploidy and read coverage
+**Flags:** —
 
 ![](../species/Podarcis_erhardii/Podarcis_erhardii_distribution_map.png)
 
-### Species: Podarcis gaigeae
+### Podarcis filfolensis
+
+**Common Name:** Filfola wall lizard\
+**Biosample:** SAMEA113403362\
+**Assembly Accession:** GCA_964270895.1\
+**Taxon:** Reptiles\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Podarcis_filfolensis/Podarcis_filfolensis_distribution_map.png)
+
+### Podarcis gaigeae
 
 **Common Name:** Skyros wall lizard\
 **Biosample:** SAMEA114217796\
 **Assembly Accession:** GCA_964106915.2\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly rPodGai1.hap1.2 is based on 44x PacBio data
-and Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of
-Life Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>). The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Hifiasm in Hi-C integrated assembly
-mode, and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, each haplotype assembly was analysed
-and manually improved using TreeVal. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Podarcis_gaigeae/Podarcis_gaigeae_distribution_map.png)
 
-### Species: Podarcis liolepis
+### Podarcis liolepis
 
 **Common Name:** Columbretes wall lizard\
 **Biosample:** SAMEA114217798\
 **Assembly Accession:** GCA_965112155.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly rPodLio1.hap1.1 is based on 36x PacBio data
-and Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of
-Life Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>). The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Hifiasm in Hi-C integrated assembly
-mode, and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, each haplotype assembly was analysed
-and manually improved using TreeVal. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Podarcis_liolepis/Podarcis_liolepis_distribution_map.png)
 
-### Species: Podarcis melisellensis
+### Podarcis melisellensis
 
 **Common Name:** Dalmatian wall lizard\
 **Biosample:** SAMEA115336775\
 **Assembly Accession:** GCA_964234715.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly rPodMel1.hap1.1 is based on 41x PacBio data
-and Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of
-Life Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>). The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Hifiasm in Hi-C integrated assembly
-mode, and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, each haplotype assembly was analysed
-and manually improved using TreeVal. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Podarcis_melisellensis/Podarcis_melisellensis_distribution_map.png)
 
-### Species: Podarcis muralis
+### Podarcis muralis
 
 **Common Name:** common wall lizard\
 **Biosample:** SAMEA115336776\
 **Assembly Accession:** GCA_964188315.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly rPodMur119.hap1.1 is based on 46x PacBio data
-and Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of
-Life Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>). The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Hifiasm in Hi-C integrated assembly
-mode, and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, each haplotype assembly was analysed
-and manually improved using TreeVal. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size. Chromosomes
-Z and W were assigned by read coverage statistics
+**Flags:** —
 
 ![](../species/Podarcis_muralis/Podarcis_muralis_distribution_map.png)
 
-### Species: Podarcis pityusensis
+### Podarcis pityusensis
 
 **Common Name:** Ibiza wall lizard\
 **Biosample:** SAMEA114217797\
 **Assembly Accession:** GCA_964106645.2\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly rPodPit1.hap1.2 is based on 23x PacBio data
-and Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of
-Life Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>). The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Hifiasm in Hi-C integrated assembly
-mode, and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, each haplotype assembly was analysed
-and manually improved using TreeVal. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size. Sex
-chromosomes were assigned by synteny to Podarcis raffonei
-(GCA_027172205.1) and by PacBio reads coverage observed in the HiC map.
+**Flags:** —
 
 ![](../species/Podarcis_pityusensis/Podarcis_pityusensis_distribution_map.png)
 
-### Species: Podarcis siculus
+### Podarcis siculus
 
 **Common Name:** Italian wall lizard\
 **Biosample:** SAMEA115336774\
 **Assembly Accession:** GCA_964188175.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly rPodSic1.hap1.1 is based on 45x PacBio data
-and Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of
-Life Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>). The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Hifiasm in Hi-C integrated assembly
-mode, and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, each haplotype assembly was analysed
-and manually improved using TreeVal. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size. Chromosomes
-Z and W were assigned based on read coverage and HiC signal.
+**Flags:** —
 
 ![](../species/Podarcis_siculus/Podarcis_siculus_distribution_map.png)
 
-### Species: Podarcis tiliguerta
+### Podarcis tiliguerta
 
 **Common Name:** Tyrrhenian wall lizard\
 **Biosample:** SAMEA114217799\
 **Assembly Accession:** GCA_965153285.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly rPodTil1.hap1.1 is based on 15x PacBio data
-and Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of
-Life Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>). The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Hifiasm in Hi-C integrated assembly
-mode, and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, each haplotype assembly was analysed
-and manually improved using TreeVal. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size. The Z and W
-chromosomes were identified based on its single-copy status within a
-diploid assembly and synteny analysis with Podarcis siculus
-(GCA_964188175.1)The exact order and orientation of the contigs on
-chromosome 6 (85,700 - 89,500 Kbp) are unknown. The exact order and
-orientation of the contigs on chromosome 7 (75,200 - 81,200 Kbp) are
-unknown. The exact order and orientation of the contigs on chromosome 12
-(8,200 - 11,700 Kbp) are unknown. The exact order and orientation of the
-contigs on chromosome 14 (9,500 - 12,400 Kbp) are unknown. Chromosome 18
-is notably small, measuring only 12,718 Kbp in the assembled genome.
+**Flags:** —
 
 ![](../species/Podarcis_tiliguerta/Podarcis_tiliguerta_distribution_map.png)
 
-### Species: Podarcis vaucheri
+### Podarcis vaucheri
 
 **Common Name:** Andalusian wall lizard\
 **Biosample:** SAMEA115336770\
 **Assembly Accession:** GCA_965113315.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly rPodVau1.hap1.1 is based on 33x PacBio data
-and Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of
-Life Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>). The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Hifiasm in Hi-C integrated assembly
-mode, and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, each haplotype assembly was analysed
-and manually improved using TreeVal. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size. The Z and W
-chromosomes were identified based on their single-copy status within a
-diploid assembly and synteny analysis with Podarcis raffonei
-(GCA_027172205.1)The exact order and orientation of the contigs on
-chromosome 2 (120,743 - 128,000 Kbp) are unknown.The exact order and
-orientation of the contigs on chromosome 6 (7,500 - 15,000 Kbp) are
-unknown.The exact order and orientation of the contigs on chromosome 7
-(97,300 - 99,157 Kbp) are unknown.The exact order and orientation of the
-contigs on chromosome 9 (68,400 - 71,000s Kbp) are unknown.The exact
-order and orientation of the contigs on chromosome 13 (39,800 - 41,300
-Kbp) are unknown.The exact order and orientation of the contigs on
-chromosome W (37,350 - 41,200 Kbp) are unknown.
+**Flags:** —
 
 ![](../species/Podarcis_vaucheri/Podarcis_vaucheri_distribution_map.png)
 
-### Species: Podargus strigoides
+### Podargus strigoides
 
 **Common Name:** tawny frogmouth\
 **Biosample:** SAMN31801959\
 **Assembly Accession:** GCA_028020825.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Podargus_strigoides/Podargus_strigoides_distribution_map.png)
 
-### Species: Podocnemis expansa
+### Podocnemis expansa
 
 **Common Name:** arrau turtle\
 **Biosample:** SAMN44516642\
 **Assembly Accession:** GCA_045364815.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Podocnemis_expansa/Podocnemis_expansa_distribution_map.png)
 
-### Species: Poecile atricapillus
+### Poecile atricapillus
 
 **Common Name:** black-capped chickadee\
 **Biosample:** SAMN35074507\
 **Assembly Accession:** GCA_030490865.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Poecile_atricapillus/Poecile_atricapillus_distribution_map.png)
 
-### Species: Pogoniulus pusillus
+### Pogoniulus pusillus
 
 **Common Name:** red-fronted tinkerbird\
 **Biosample:** SAMN15098508\
 **Assembly Accession:** GCA_015220805.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Pogoniulus_pusillus/Pogoniulus_pusillus_distribution_map.png)
 
-### Species: Pollachius pollachius
+### Pollachius pollachius
 
 **Common Name:** European pollock\
 **Biosample:** SAMEA111562038\
 **Assembly Accession:** GCA_949987615.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fPolPol2.1 is based on 88x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Pollachius_pollachius/Pollachius_pollachius_distribution_map.png)
 
-### Species: Pristiophorus japonicus
+### Polymixia cf. hollisterae
+
+**Common Name:** Bermuda beardfish\
+**Biosample:** SAMN42899157\
+**Assembly Accession:** GCA_048537225.1\
+**Taxon:** Fishes\
+**Priority:** 6\
+**Flags:** Missing range raster
+
+![](../species/Polymixia_cf._hollisterae/Polymixia_cf._hollisterae_distribution_map.png)
+
+### Pristiophorus japonicus
 
 **Common Name:** Japanese sawshark\
 **Biosample:** SAMN44116980\
 **Assembly Accession:** GCA_044704955.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Pristiophorus_japonicus/Pristiophorus_japonicus_distribution_map.png)
 
-### Species: Pristipomoides typus
+### Pristipomoides typus
 
 **Common Name:** sharptooth jobfish\
 **Biosample:** SAMN40589651\
 **Assembly Accession:** GCA_045363895.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Pristipomoides_typus/Pristipomoides_typus_distribution_map.png)
 
-### Species: Pristis pectinata
+### Pristis pectinata
 
 **Common Name:** smalltooth sawfish\
 **Biosample:** SAMN12629505\
 **Assembly Accession:** GCA_009764475.2\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Pristis pectinata and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WOXV00000000.
-Chromosome 36 in assembly sPriPec2.pri was reidentified as chromosome X
-in assembly sPriPec2.1.pri in March 2021.
+**Flags:** —
 
 ![](../species/Pristis_pectinata/Pristis_pectinata_distribution_map.png)
 
-### Species: Protomyctophum bolini
+### Protomyctophum bolini
 
 **Common Name:** Bolin’s lanternfish\
 **Biosample:** SAMEA12815434\
 **Assembly Accession:** GCA_963924005.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fProBol1.1 is based on 40x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. sex chromosomes could not be
-identified
+**Flags:** —
 
 ![](../species/Protomyctophum_bolini/Protomyctophum_bolini_distribution_map.png)
 
-### Species: Protomyctophum parallelum
+### Protomyctophum parallelum
 
 **Common Name:** parallel lanternfish\
 **Biosample:** SAMEA12815440\
 **Assembly Accession:** GCA_964188405.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fProPar1.1 is based on 35x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. A manually phased assembly (based on HiC signal) was generated
-from a jointly curated primary and alt assembly. Both haplotypes are
-assembled to chromosome scale. Finally, the primary assembly was
-analysed and manually improved using TreeVal. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Protomyctophum_parallelum/Protomyctophum_parallelum_distribution_map.png)
 
-### Species: Pseudorca crassidens
+### Pseudorca crassidens
 
 **Common Name:** false killer whale\
 **Biosample:** SAMN41253811\
 **Assembly Accession:** GCA_039906515.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Pseudorca_crassidens/Pseudorca_crassidens_distribution_map.png)
 
-### Species: Pterocles gutturalis
+### Psittacula echo
+
+**Common Name:** Mauritius parakeet\
+**Biosample:** SAMEA12361725\
+**Assembly Accession:** GCA_963264785.1\
+**Taxon:** Birds\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Psittacula_echo/Psittacula_echo_distribution_map.png)
+
+### Pterocles gutturalis
 
 **Common Name:** yellow-throated sandgrouse\
 **Biosample:** SAMN12623217\
 **Assembly Accession:** GCA_009769525.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Pterocles gutturalis and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WNNF00000000
+**Flags:** —
 
 ![](../species/Pterocles_gutturalis/Pterocles_gutturalis_distribution_map.png)
 
-### Species: Pungitius pungitius
+### Pungitius pungitius
 
 **Common Name:** ninespine stickleback\
 **Biosample:** SAMEA11296545\
 **Assembly Accession:** GCA_949316345.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fPunPun2.1 is based on 61x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Pungitius_pungitius/Pungitius_pungitius_distribution_map.png)
 
-### Species: Raja brachyura
+### Raja brachyura
 
 **Common Name:** blonde ray\
 **Biosample:** SAMEA110450105\
 **Assembly Accession:** GCA_963514005.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly sRajBra1.1 is based on 33x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. X chromosome identified based on
-synteny with Carcharodon carcharias (GCA_017639515.1) and Hypanus
-sabinus (GCA_030144855.1).
+**Flags:** —
 
 ![](../species/Raja_brachyura/Raja_brachyura_distribution_map.png)
 
-### Species: Rana temporaria
+### Rana temporaria
 
 **Common Name:** European common frog\
 **Biosample:** SAMEA7521635\
 **Assembly Accession:** GCA_905171775.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly aRanTem1.1 is based on 63x PacBio data, 10X
-Genomics Chromium data, BioNano data, and Arima Hi-C data generated by
-the Darwin Tree of Life Project (<https://www.darwintreeoflife.org/>).
-The assembly process included the following sequence of steps: initial
-PacBio assembly generation with Falcon-unzip, retained haplotig
-separation with purge_dups, 10X based scaffolding with scaff10x, BioNano
-hybrid-scaffolding, Hi-C based scaffolding with SALSA2, Arrow polishing,
-and two rounds of FreeBayes polishing. The mitochondrial assembly was
-produced at The Rockefeller University using mitoVGP. Finally, the
-assembly was analysed and manually improved using gEVAL.
-Chromosome-scale scaffolds confirmed by the Hi-C data have been named
-using a genetic map provided by Dan Jeffries.
+**Flags:** —
 
 ![](../species/Rana_temporaria/Rana_temporaria_distribution_map.png)
 
-### Species: Rattus norvegicus
+### Rattus norvegicus
 
 **Common Name:** Norway rat\
 **Biosample:** SAMN16261960\
 **Assembly Accession:** GCA_015227675.2\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Rattus_norvegicus/Rattus_norvegicus_distribution_map.png)
 
-### Species: Rhamphochromis chilingali
+### Rhamphochromis chilingali
 
 **Common Name:** Chilingali cichlid\
 **Biosample:** SAMEA112818853\
 **Assembly Accession:** GCA_963969265.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly fRhaChi2.1 is based on 64x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** Missing range raster
 
 ![](../species/Rhamphochromis_chilingali/Rhamphochromis_chilingali_distribution_map.png)
 
-### Species: Rhea pennata
+### Rhea pennata
 
 **Common Name:** lesser rhea\
 **Biosample:** SAMN32606345\
 **Assembly Accession:** GCA_028389875.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Oliver Ryder, San Diego Zoo Global\
+**Collected by:** San Diego Zoo\
+**Biosample comments:** Darwin’s rhea or the lesser rhea (Pterocnemia pennata) is a large flightless bird, the smaller of the two extant species of rheas. It is found in the Altiplano and Patagonia in South America (Wikipedia entry). Two alternative scientific names have been used for this species, Pterocnemia pennata and Rhea pennata. This sample is from a male collected in San Diego Zoo, California, coordinated by Oliver Ryder, and used to generate a high-quality reference for the Vertebrate Genomes Project (VGP). Sequencing and genome assembly were conducted in the Vertebrate Genome Lab at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** USA: San Diego Zoo
 
 ![](../species/Rhea_pennata/Rhea_pennata_distribution_map.png)
 
-### Species: Rhineura floridana
+### Rhineura floridana
 
 **Common Name:** Florida worm lizard\
 **Biosample:** SAMN34105704\
 **Assembly Accession:** GCA_030035675.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Rhineura_floridana/Rhineura_floridana_distribution_map.png)
 
-### Species: Rhinogobio nasutus
+### Rhinogobio nasutus
 
 **Common Name:** Rhinogobio nasutus\
 **Biosample:** SAMN45903276\
 **Assembly Accession:** GCA_048301585.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Rhinogobio_nasutus/Rhinogobio_nasutus_distribution_map.png)
 
-### Species: Rhinolophus affinis
+### Rhinolophus affinis
 
 **Common Name:** intermediate horseshoe bat\
 **Biosample:** SAMN33388345\
 **Assembly Accession:** GCA_043728065.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Rhinolophus_affinis/Rhinolophus_affinis_distribution_map.png)
 
-### Species: Rhinolophus ferrumequinum
+### Rhinolophus ferrumequinum
 
 **Common Name:** greater horseshoe bat\
 **Biosample:** SAMN09948510\
 **Assembly Accession:** GCA_004115265.3\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** In May 2019 the mitochondrial sequence (RXPC01000135) was
-added to this 01 version of RXPC00000000. In November 2020 chromosome 1
-was changed to chromosome X based on read mapping and homology evidence
-with other species, and the animal’s gender was corrected to female This
-assembly represents the primary haplotype of the diploid genome
-Rhinolophus ferrumequinum and includes the chromosomes. The alternate
-haplotype sequences are in WGS project RXPD00000000.
+**Flags:** —
 
 ![](../species/Rhinolophus_ferrumequinum/Rhinolophus_ferrumequinum_distribution_map.png)
 
-### Species: Rhinolophus hipposideros
+### Rhinolophus hipposideros
 
 **Common Name:** lesser horseshoe bat\
 **Biosample:** SAMEA113980802\
 **Assembly Accession:** GCA_964194185.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mRhiHip2.hap1.1 is based on 39x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. X chromosome identified based on
-synteny with Eptesicus nilssonii (GCA_951640355.1).
+**Flags:** —
 
 ![](../species/Rhinolophus_hipposideros/Rhinolophus_hipposideros_distribution_map.png)
 
-### Species: Rhinolophus trifoliatus
+### Rhinolophus trifoliatus
 
 **Common Name:** trefoil horseshoe bat\
 **Biosample:** SAMN33421007\
 **Assembly Accession:** GCA_043728145.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Rhinolophus_trifoliatus/Rhinolophus_trifoliatus_distribution_map.png)
 
-### Species: Rhinolophus yonghoiseni
+### Rhinolophus yonghoiseni
 
 **Common Name:** Yong hoi sen’s woolly horseshoe bat\
 **Biosample:** SAMN33413875\
 **Assembly Accession:** GCA_043880425.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Rhinolophus_yonghoiseni/Rhinolophus_yonghoiseni_distribution_map.png)
 
-### Species: Rhinophrynus dorsalis
+### Rhinophrynus dorsalis
 
 **Common Name:** Mexican burrowing toad\
 **Biosample:** SAMN40302865\
 **Assembly Accession:** GCA_037306005.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Rhinophrynus_dorsalis/Rhinophrynus_dorsalis_distribution_map.png)
 
-### Species: Rhinopoma microphyllum
+### Rhinopoma microphyllum
 
 **Common Name:** Greater mouse-tailed bat\
 **Biosample:** SAMN33421188\
 **Assembly Accession:** GCA_043880545.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Rhinopoma_microphyllum/Rhinopoma_microphyllum_distribution_map.png)
 
-### Species: Rhynchonycteris naso
+### Rhynchonycteris naso
 
 **Common Name:** proboscis bat\
 **Biosample:** SAMN39947078\
 **Assembly Accession:** GCA_037038545.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Rhynchonycteris_naso/Rhynchonycteris_naso_distribution_map.png)
 
-### Species: Rhynochetos jubatus
+### Rhynochetos jubatus
 
 **Common Name:** Kagu\
 **Biosample:** SAMN31802033\
 **Assembly Accession:** GCA_027574665.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Zoo/Aquarium sample
 
 ![](../species/Rhynochetos_jubatus/Rhynochetos_jubatus_distribution_map.png)
 
-### Species: Rissa tridactyla
+### Rissa tridactyla
 
 **Common Name:** black-legged kittiwake\
 **Biosample:** SAMN32104255\
 **Assembly Accession:** GCA_028500815.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assemby has the curated paternal haplotype, plus the
-W chromosome from the curated maternal haplotype
+**Flags:** —
 
 ![](../species/Rissa_tridactyla/Rissa_tridactyla_distribution_map.png)
 
-### Species: Rutilus rutilus
+### Rutilus rutilus
 
 **Common Name:** roach minnow\
 **Biosample:** SAMEA11296543\
 **Assembly Accession:** GCA_951802725.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fRutRut2.1 is based on 45x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. Large heterozygous
-inversion on SUPER_9 between 4.9 Mb and 15.9 Mb.
+**Flags:** —
 
 ![](../species/Rutilus_rutilus/Rutilus_rutilus_distribution_map.png)
 
-### Species: Saccopteryx bilineata
+### Saccopteryx bilineata
 
 **Common Name:** greater sac-winged bat\
 **Biosample:** SAMN37288508\
 **Assembly Accession:** GCA_036850765.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Saccopteryx_bilineata/Saccopteryx_bilineata_distribution_map.png)
 
-### Species: Saccopteryx leptura
+### Saccopteryx leptura
 
 **Common Name:** lesser sac-winged bat\
 **Biosample:** SAMN37390139\
 **Assembly Accession:** GCA_036850995.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Saccopteryx_leptura/Saccopteryx_leptura_distribution_map.png)
 
-### Species: Salminus brasiliensis
+### Salminus brasiliensis
 
 **Common Name:** golden dorado\
 **Biosample:** SAMN35075251\
 **Assembly Accession:** GCA_030463535.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Salminus_brasiliensis/Salminus_brasiliensis_distribution_map.png)
 
-### Species: Salvelinus alpinus
+### Salvelinus alpinus
 
 **Common Name:** Arctic char\
 **Biosample:** SAMN36900063\
 **Assembly Accession:** GCA_036784965.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Salvelinus_alpinus/Salvelinus_alpinus_distribution_map.png)
 
-### Species: Sarcoramphus papa
+### Sarcoramphus papa
 
 **Common Name:** king vulture\
 **Biosample:** SAMN40647026\
 **Assembly Accession:** GCA_037962945.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Sarcoramphus_papa/Sarcoramphus_papa_distribution_map.png)
 
-### Species: Sardina pilchardus
+### Sardina pilchardus
 
 **Common Name:** sardine\
 **Biosample:** SAMEA111562172\
 **Assembly Accession:** GCA_963854185.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fSarPil1.1 is based on 33x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. There are large
-haplotype inversions on the following chromosomes: Chromosome 5 from
-4.03-31.1Mb, Chromosome 8 from 6.87-30.93Mb, Chromosome 9 from
-4.98-33.85Mb, Chromosome 15 from 3.26-29.76, Chromosome 17 - a double
-inversion from 17.96-30.93. ALT assembly has been assembled into
-chromosomes as a merged assembly of both haplotypes was used for
-curation.
+**Flags:** —
 
 ![](../species/Sardina_pilchardus/Sardina_pilchardus_distribution_map.png)
 
-### Species: Scardinius erythrophthalmus
+### Scardinius erythrophthalmus
 
 **Common Name:** common rudd\
 **Biosample:** SAMEA11296541\
 **Assembly Accession:** GCA_964197995.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fScaEry2.hap1.1 is based on 69x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size.
+**Flags:** —
 
 ![](../species/Scardinius_erythrophthalmus/Scardinius_erythrophthalmus_distribution_map.png)
 
-### Species: Scatophagus argus
+### Scatophagus argus
 
 **Common Name:** spotted scat\
 **Biosample:** SAMN12623616\
 **Assembly Accession:** GCA_020382885.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Scatophagus_argus/Scatophagus_argus_distribution_map.png)
 
-### Species: Scomber japonicus
+### Scomber japonicus
 
 **Common Name:** Pacific chub mackerel\
 **Biosample:** SAMN32224830\
 **Assembly Accession:** GCA_027409825.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Scomber_japonicus/Scomber_japonicus_distribution_map.png)
 
-### Species: Scomber scombrus
+### Scomber scombrus
 
 **Common Name:** Atlantic mackerel\
 **Biosample:** SAMEA110450232\
 **Assembly Accession:** GCA_963691925.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fScoSco1.1 is based on 29x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Scomber_scombrus/Scomber_scombrus_distribution_map.png)
 
-### Species: Scophthalmus maximus
+### Scophthalmus maximus
 
 **Common Name:** turbot\
 **Biosample:** SAMEA110450106\
 **Assembly Accession:** GCA_963854745.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fScoMax1.1 is based on 41x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Scophthalmus_maximus/Scophthalmus_maximus_distribution_map.png)
 
-### Species: Sebastes fasciatus
+### Sebastes fasciatus
 
 **Common Name:** Acadian redfish\
 **Biosample:** SAMN43039489\
 **Assembly Accession:** GCA_043250625.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Sebastes_fasciatus/Sebastes_fasciatus_distribution_map.png)
 
-### Species: Sebastes umbrosus
+### Sebastes umbrosus
 
 **Common Name:** honeycomb rockfish\
 **Biosample:** SAMN12629503\
 **Assembly Accession:** GCA_015220745.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Missing range raster
 
 ![](../species/Sebastes_umbrosus/Sebastes_umbrosus_distribution_map.png)
 
-### Species: Shinisaurus crocodilurus
+### Shinisaurus crocodilurus
 
 **Common Name:** Chinese crocodile lizard\
 **Biosample:** SAMN19072228\
 **Assembly Accession:** GCA_021292165.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Shinisaurus_crocodilurus/Shinisaurus_crocodilurus_distribution_map.png)
 
-### Species: Sminthopsis crassicaudata
+### Sminthopsis crassicaudata
 
 **Common Name:** fat-tailed dunnart\
 **Biosample:** SAMN47327922\
 **Assembly Accession:** GCA_048593235.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Sminthopsis_crassicaudata/Sminthopsis_crassicaudata_distribution_map.png)
 
-### Species: Solea solea
+### Solea solea
 
 **Common Name:** common sole\
 **Biosample:** SAMEA10984647\
 **Assembly Accession:** GCA_958295425.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fSolSol10.1 is based on 32x PacBio data and
-Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of Life
-Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>) as part
-of the European Reference Genome Atlas pilot project
-(<https://www.erga-biodiversity.eu/pilot-project>). The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Hifiasm, retained haplotig separation with purge_dups,
-and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, the primary assembly was analysed and
-manually improved using rapid curation. This alternate haplotype
-assembly combines the haplotigs separated by purge_dups with haplotigs
-separated from the primary assembly during curation.
+**Flags:** —
 
 ![](../species/Solea_solea/Solea_solea_distribution_map.png)
 
-### Species: Sorex araneus
+### Sorex araneus
 
 **Common Name:** European shrew\
 **Biosample:** SAMN32477717\
 **Assembly Accession:** GCA_027595985.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Sorex_araneus/Sorex_araneus_distribution_map.png)
 
-### Species: Spea bombifrons
+### Spea bombifrons
 
 **Common Name:** plain spadefoot toad\
 **Biosample:** SAMN28408467\
 **Assembly Accession:** GCA_027358695.2\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** In January 2023 56 sequences were suppressed because they
-were found to be contaminants.
+**Flags:** —
 
 ![](../species/Spea_bombifrons/Spea_bombifrons_distribution_map.png)
 
-### Species: Spinachia spinachia
+### Spinachia spinachia
 
 **Common Name:** sea stickleback\
 **Biosample:** SAMN36735485\
 **Assembly Accession:** GCA_048126635.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Zoo Sample;
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** Zoo/Aquarium sample
 
 ![](../species/Spinachia_spinachia/Spinachia_spinachia_distribution_map.png)
 
-### Species: Sprattus sprattus
+### Sprattus sprattus
 
 **Common Name:** European sprat\
 **Biosample:** SAMEA111562173\
 **Assembly Accession:** GCA_963457725.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fSprSpr1.1 is based on 62x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Sprattus_sprattus/Sprattus_sprattus_distribution_map.png)
 
-### Species: Squalius cephalus
+### Squalius cephalus
 
 **Common Name:** European chub\
 **Biosample:** SAMEA11296547\
 **Assembly Accession:** GCA_949319135.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fSquCep2.1 is based on 46x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Squalius_cephalus/Squalius_cephalus_distribution_map.png)
 
-### Species: Stegostoma tigrinum
+### Stegostoma tigrinum
 
 **Common Name:** zebra shark\
 **Biosample:** SAMN35823397\
 **Assembly Accession:** GCA_030684315.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Stegostoma_tigrinum/Stegostoma_tigrinum_distribution_map.png)
 
-### Species: Stenella coeruleoalba
+### Stenella coeruleoalba
 
 **Common Name:** striped dolphin\
 **Biosample:** SAMEA111380539\
 **Assembly Accession:** GCA_951394435.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mSteCoe1.1 is based on 35x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. The order and
-orientation of contigs in the following regions is uncertain: SUPER_6,
-20 Mb to 33 Mb and SUPER_4, 87 Mb to 99 Mb.
+**Flags:** —
 
 ![](../species/Stenella_coeruleoalba/Stenella_coeruleoalba_distribution_map.png)
 
-### Species: Sterna hirundo
+### Sterna hirundo
 
 **Common Name:** common tern\
 **Biosample:** SAMN12369541\
 **Assembly Accession:** GCA_009819605.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Sterna hirundo and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WNMX00000000
+**Flags:** —
 
 ![](../species/Sterna_hirundo/Sterna_hirundo_distribution_map.png)
 
-### Species: Sternotherus odoratus
+### Sternotherus odoratus
 
 **Common Name:** Eastern musk turtle\
 **Biosample:** SAMN36942441\
 **Assembly Accession:** GCA_032164245.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Sternotherus_odoratus/Sternotherus_odoratus_distribution_map.png)
 
-### Species: Streptopelia decaocto
+### Streptopelia decaocto
 
 **Common Name:** Eurasian collared-dove\
 **Biosample:** SAMEA113398962\
 **Assembly Accession:** GCA_964273445.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bStrDea1.hap1.1 is based on 52x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Z chromosome identified based on
-synteny with Nesoenas mayeri (GCA_963082525.1). Karyotyping suggests n =
-38 (<https://doi.org/10.1080/00087114.1956.10797566>) but only
-identified 32 autosomes + Z in HAP1 and 31 autosomes + Z in HAP2.
+**Flags:** —
 
 ![](../species/Streptopelia_decaocto/Streptopelia_decaocto_distribution_map.png)
 
-### Species: Strix aluco
+### Strigops habroptilus
+
+**Common Name:** kakapo\
+**Biosample:** SAMN09948751\
+**Assembly Accession:** GCA_004027225.2\
+**Taxon:** Birds\
+**Priority:** 6\
+**Flags:** —
+
+![](../species/Strigops_habroptilus/Strigops_habroptilus_distribution_map.png)
+
+### Strix aluco
 
 **Common Name:** tawny owl\
 **Biosample:** SAMN37055808\
 **Assembly Accession:** GCA_031877795.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Strix_aluco/Strix_aluco_distribution_map.png)
 
-### Species: Styela clava
+### Styela clava
 
 **Common Name:** leathery sea squirt\
 **Biosample:** SAMEA7536473\
 **Assembly Accession:** GCA_964204865.1\
 **Taxon:** Invertebrates\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly kaStyClav1.hap1.1 is based on 75x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size.
+**Flags:** Missing range raster
 
 ![](../species/Styela_clava/Styela_clava_distribution_map.png)
 
-### Species: Sylvia atricapilla
+### Sylvia atricapilla
 
 **Common Name:** European blackcap\
 **Biosample:** SAMN12369542\
 **Assembly Accession:** GCA_009819655.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Sylvia atricapilla and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WNMZ00000000
+**Flags:** —
 
 ![](../species/Sylvia_atricapilla/Sylvia_atricapilla_distribution_map.png)
 
-### Species: Sylvia borin
+### Sylvia borin
 
 **Common Name:** garden warbler\
 **Biosample:** SAMN12618613\
 **Assembly Accession:** GCA_014839755.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Sylvia borin and includes the chromosomes. The alternate
-haplotype sequences are in WGS project JACEWF000000000
+**Flags:** —
 
 ![](../species/Sylvia_borin/Sylvia_borin_distribution_map.png)
 
-### Species: Symphodus melops
+### Symphodus melops
 
 **Common Name:** corkwing wrasse\
 **Biosample:** SAMEA12219485\
 **Assembly Accession:** GCA_947650265.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fSymMel2.1 is based on 32x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. GOAT synteny (n=24)
-incorrect. Observed karyotype (n=23) matches cytometry results here:
-<https://www.researchgate.net/profile/Guillermo-Thode/publication/237187799_>
-Karyotype_divergence_in_Symphodus_melops_and_Symphodus_roissali_Labridae_Pe
-rciforms_C-banded_and_Ag-NOR_karyotypes/links/0c96051f2307708a8e000000/Kary
-otype-divergence-in-Symphodus-melops-and-Symphodus-roissali-Labridae-Percif
-orms-C-banded-and-Ag-NOR-karyotypes.pdf
+**Flags:** —
 
 ![](../species/Symphodus_melops/Symphodus_melops_distribution_map.png)
 
-### Species: Synchiropus picturatus
+### Synchiropus picturatus
 
 **Common Name:** picturesque dragonet\
 **Biosample:** SAMN43082350\
 **Assembly Accession:** GCA_044231675.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** Josefin Stiller, University of Copenhagen\
+**Collected by:** —\
+**Biosample comments:** —\
+**Location:** Denmark: National Aquarium Denmark
 
 ![](../species/Synchiropus_picturatus/Synchiropus_picturatus_distribution_map.png)
 
-### Species: Tachyglossus aculeatus
+### Tachyglossus aculeatus
 
 **Common Name:** short-beaked echidna\
 **Biosample:** SAMN12634963\
 **Assembly Accession:** GCA_015852505.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Tachyglossus_aculeatus/Tachyglossus_aculeatus_distribution_map.png)
 
-### Species: Tadarida brasiliensis
+### Tadarida brasiliensis
 
 **Common Name:** Brazilian free-tailed bat\
 **Biosample:** SAMN35075070\
 **Assembly Accession:** GCA_030848825.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Tadarida_brasiliensis/Tadarida_brasiliensis_distribution_map.png)
 
-### Species: Talpa europaea
+### Talpa europaea
 
 **Common Name:** European mole\
 **Biosample:** SAMEA112468127\
 **Assembly Accession:** GCA_964194135.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mTalEur1.hap1.1 is based on 30x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Chromosome X was assigned based on
-synteny to GCA_950295315.1
+**Flags:** —
 
 ![](../species/Talpa_europaea/Talpa_europaea_distribution_map.png)
 
-### Species: Tamandua tetradactyla
+### Tamandua tetradactyla
 
 **Common Name:** Southern tamandua\
 **Biosample:** SAMN12612337\
 **Assembly Accession:** GCA_023851605.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** Order and orientation of scaffolds uncertain for
-chromosome 3 from 71.33-78.83 Mb and chromosome 12 from 15.17-21.29 Mb.
+**Flags:** —
 
 ![](../species/Tamandua_tetradactyla/Tamandua_tetradactyla_distribution_map.png)
 
-### Species: Tapirus indicus
+### Tapirus indicus
 
 **Common Name:** Malayan tapir\
 **Biosample:** SAMN37096863\
 **Assembly Accession:** GCA_031878705.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** NA
+**Biosample provider:** —\
+**Collected by:** Cynthia Steiner\
+**Biosample comments:** The Malayan Tapir (Tapirus indicus) is the only living Tapir species outside of the Americas. It is native to Southeast Asia, from the Malay Peninsula to Sumatra. It is endangered since 2008, currently comprising fewer than 2,500 mature individuals (modified from Wikipedia entry). This sample is from a male born in the Philadelphia Zoo, USA, later transferred to the San Diego Zoo, where a blood sample was collected and supplied by Oliver Ryder and Cynthia Steiner to be used to generate a high-quality reference genome for the Vertebrate Genomes Project (VGP) and conservation research. Sequencing and genome assembly were conducted at the Vertebrate Genomes Lab (VGL) at the Rockefeller University, led by Olivier Fedrigo and Erich D. Jarvis.\
+**Location:** USA: San Diego Zoo, San Diego
 
 ![](../species/Tapirus_indicus/Tapirus_indicus_distribution_map.png)
 
-### Species: Tauraco erythrolophus
+### Tauraco erythrolophus
 
 **Common Name:** red-crested turaco\
 **Biosample:** SAMN12621036\
 **Assembly Accession:** GCA_009769465.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Tauraco erythrolophus and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WOXX00000000
+**Biosample provider:** Copenhagen Zoo, Denmark\
+**Collected by:** Mads Bertelsen\
+**Biosample comments:** The Red-crested Turaco (Tauraco erythrolophus) is endemic to western Angola to Congo, Africa, and is the National bird of Angola. It has deep barking call that has been described to sound like a jungle monkey. It is named after its very colorful red crested feathers on its head. This sample was collected by Mads Bertelsen from a female that lived at the Copenhagen Zoo in Denmark and was used to generate a chromosome level reference assembly as part of the G10K-VGP and B10K Projects.\
+**Location:** Denmark: Copenhagen Zoo
 
 ![](../species/Tauraco_erythrolophus/Tauraco_erythrolophus_distribution_map.png)
 
-### Species: Taurulus bubalis
+### Taurulus bubalis
 
 **Common Name:** long-spined sea scorpion\
 **Biosample:** SAMEA7522994\
 **Assembly Accession:** GCA_910589615.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fTauBub2.1 is based on 38x PacBio data, 10X
-Genomics Chromium data, and Arima Hi-C data generated by the Darwin Tree
-of Life Project (<https://www.darwintreeoflife.org/>). The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Hifiasm, retained haplotig separation with
-purge_dups, short-read polishing using FreeBayes-called variants from
-10X Genomics Chromium reads aligned with LongRanger, and Hi-C based
-scaffolding with SALSA2. The mitochondrial genome was assembled using
-MitoHifi. Finally, the assembly was analysed and manually improved using
-gEVAL. Chromosome-scale scaffolds confirmed by the Hi-C data have been
-named in order of size.
+**Flags:** —
 
 ![](../species/Taurulus_bubalis/Taurulus_bubalis_distribution_map.png)
 
-### Species: Tautogolabrus adspersus
+### Tautogolabrus adspersus
 
 **Common Name:** cunner\
 **Biosample:** SAMN22589422\
 **Assembly Accession:** GCA_020745685.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Tautogolabrus_adspersus/Tautogolabrus_adspersus_distribution_map.png)
 
-### Species: Telmatherina bonti
+### Telmatherina bonti
 
 **Common Name:** telmatherina bonti\
 **Biosample:** SAMEA8592627\
 **Assembly Accession:** GCA_933228915.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:** Zoo Sample;
+**Flags:** Zoo/Aquarium sample
 
-**Map Notes:**\
-**Comments:** The assembly fTelBon1.1 is based on 36x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHifi. Finally, the assembly was analysed and manually improved using
-rapid curation. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size.
+**Biosample provider:** —\
+**Collected by:** FABIAN HERDER\
+**Biosample comments:** —\
+**Location:** Bonn \| Zoological Research Museum Alexander Koenig Leibniz Institute for Animal Biodiversity
 
 ![](../species/Telmatherina_bonti/Telmatherina_bonti_distribution_map.png)
 
-### Species: Tetrao urogallus
+### Tetrao urogallus
 
 **Common Name:** Western capercaillie\
 **Biosample:** SAMEA9654429\
 **Assembly Accession:** GCA_951394365.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bTetUro1.1 is based on 23x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size. Chromosome Z identified
-by alignment to GCA_016699485.1
+**Flags:** —
 
 ![](../species/Tetrao_urogallus/Tetrao_urogallus_distribution_map.png)
 
-### Species: Thalia democratica
+### Thalia democratica
 
 **Common Name:** Thalia democratica\
 **Biosample:** SAMEA111439782\
 **Assembly Accession:** GCA_965202585.1\
 **Taxon:** Invertebrates\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly ktThaDemo2.hap1.1 is based on 80x PacBio data
-and Arima2 Hi-C data generated by the Aquatic Symbiosis Genomics Project
-(<https://www.aquaticsymbiosisgenomics.org/>). The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Hifiasm in Hi-C integrated assembly mode, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, each haplotype assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size. A haplotypic inversion was
-observed in the region on chromosome 6 ( 7.3-49.3 Mbp).
+**Flags:** Missing range raster
 
 ![](../species/Thalia_democratica/Thalia_democratica_distribution_map.png)
 
-### Species: Theristicus caerulescens
+### Theristicus caerulescens
 
 **Common Name:** plumbeous ibis\
 **Biosample:** SAMN22550094\
 **Assembly Accession:** GCA_020745775.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Theristicus_caerulescens/Theristicus_caerulescens_distribution_map.png)
 
-### Species: Thomomys bottae
+### Thomomys bottae
 
 **Common Name:** Botta’s pocket gopher\
 **Biosample:** SAMN37300244\
 **Assembly Accession:** GCA_031878675.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Thomomys_bottae/Thomomys_bottae_distribution_map.png)
 
-### Species: Thunnus albacares
+### Thunnus albacares
 
 **Common Name:** yellowfin tuna\
 **Biosample:** SAMEA8654749\
 **Assembly Accession:** GCA_914725855.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fThuAlb1.1 is based on 45x PacBio data, 42x
-10X Genomics Chromium data, and Arima Hi-C data generated at the
-Wellcome Sanger Institute. The assembly process included the following
-sequence of steps: initial PacBio assembly generation with Hifiasm,
-retained haplotig separation with purge_dups, short-read polishing using
-FreeBayes-called variants from 10X Genomics Chromium reads aligned with
-LongRanger, and Hi-C based scaffolding with SALSA2. The mitochondrial
-genome was assembled using MitoHifi. Finally, the assembly was analysed
-and manually improved using gEVAL. Chromosome-scale scaffolds confirmed
-by the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Thunnus_albacares/Thunnus_albacares_distribution_map.png)
 
-### Species: Thunnus maccoyii
+### Thunnus maccoyii
 
 **Common Name:** southern bluefin tuna\
 **Biosample:** SAMEA8654747\
 **Assembly Accession:** GCA_910596095.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fThuMac1.1 is based on 46x PacBio data, 46x
-10X Genomics Chromium data, BioNano data and Arima Hi-C data generated
-at the Wellcome Sanger Institute. The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, short-read
-polishing using FreeBayes-called variants from 10X Genomics Chromium
-reads aligned with LongRanger, and Hi-C based scaffolding with SALSA2.
-The mitochondrial genome was assembled using MitoHifi. Finally, the
-assembly was analysed and manually improved using gEVAL. Finally, the
-assembly was analysed and manually improved using gEVAL.
-Chromosome-scale scaffolds confirmed by the Hi-C data have been named in
-order of size. Chromosome 1 contains a large inversion between sister
-chromatids at approximately 2.7-9.5Mb.
+**Flags:** —
 
 ![](../species/Thunnus_maccoyii/Thunnus_maccoyii_distribution_map.png)
 
-### Species: Tiliqua scincoides
+### Tiliqua scincoides
 
 **Common Name:** blue-tongue skink\
 **Biosample:** SAMN37319749\
 **Assembly Accession:** GCA_035046505.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Tiliqua_scincoides/Tiliqua_scincoides_distribution_map.png)
 
-### Species: Trachurus trachurus
+### Trachurus trachurus
 
 **Common Name:** Atlantic horse mackerel\
 **Biosample:** SAMEA7524396\
 **Assembly Accession:** GCA_905171665.2\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fTraTra1.2 is based on 105x PacBio data, 10X
-Genomics Chromium data, and Arima Hi-C data generated by the Darwin Tree
-of Life Project (<https://www.darwintreeoflife.org/>). The assembly
-process included the following sequence of steps: initial PacBio
-assembly generation with Falcon-unzip, retained haplotig identification
-with purge_dups, 10X based scaffolding with scaff10x, Hi-C based
-scaffolding with SALSA2, Arrow polishing, and two rounds of FreeBayes
-polishing. The mitochondrial assembly was produced at The Rockefeller
-University using mitoVGP. Finally, the assembly was analysed and
-manually improved using gEVAL. Chromosome-scale scaffolds are named by
-synteny with medaka.
+**Flags:** —
 
 ![](../species/Trachurus_trachurus/Trachurus_trachurus_distribution_map.png)
 
-### Species: Trichechus inunguis
+### Trichechus inunguis
 
 **Common Name:** Amazon manatee\
 **Biosample:** SAMN44524440\
 **Assembly Accession:** GCA_046562895.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Trichechus_inunguis/Trichechus_inunguis_distribution_map.png)
 
-### Species: Trididemnum clinides
+### Trididemnum clinides
 
 **Common Name:** Trididemnum clinides\
 **Biosample:** SAMEA9873882\
 **Assembly Accession:** GCA_963675345.1\
 **Taxon:** Invertebrates\
 **Priority:** 6\
-**Flags:** Missing Range;
-
-**Map Notes:**\
-**Comments:** The assembly kaTriClin1.1 is based on 27x PacBio data and
-Arima2 Hi-C data generated by the Aquatic Symbiosis Genomics Project
-(<https://www.aquaticsymbiosisgenomics.org/>). The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Hifiasm, retained haplotig separation with purge_dups,
-and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, the primary assembly was analysed and
-manually improved using rapid curation. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size.
+**Flags:** Missing range raster
 
 ![](../species/Trididemnum_clinides/Trididemnum_clinides_distribution_map.png)
 
-### Species: Triturus cristatus
+### Triturus cristatus
 
 **Common Name:** warty newt\
 **Biosample:** SAMEA112468129\
 **Assembly Accession:** GCA_964204655.1\
 **Taxon:** Amphibians\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly aTriCri1.1 is based on 36x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, and Hi-C based scaffolding with YaHS. The mitochondrial genome
-was assembled using MitoHiFi. Finally, the primary assembly was analysed
-and manually improved using TreeVal. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size. one arm of
-chromosome 1 ( chromosome 1_1) has half-coverage, which might be a very
-heterozygous region.
+**Flags:** —
 
 ![](../species/Triturus_cristatus/Triturus_cristatus_distribution_map.png)
 
-### Species: Trogon surrucura
+### Trogon surrucura
 
 **Common Name:** surucua trogon\
 **Biosample:** SAMN22550082\
 **Assembly Accession:** GCA_020746105.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Trogon_surrucura/Trogon_surrucura_distribution_map.png)
 
-### Species: Tursiops truncatus
+### Tursiops truncatus
 
 **Common Name:** bottlenose dolphin\
 **Biosample:** SAMN12326775\
 **Assembly Accession:** GCA_011762595.2\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This is the trio assembly merged haplotype data. The
-maternal and paternal haplotype sequences are in WGS projects
-JAAOMB000000000 and JAAOMC000000000 respectively.
+**Flags:** —
 
 ![](../species/Tursiops_truncatus/Tursiops_truncatus_distribution_map.png)
 
-### Species: Urocitellus parryii
+### Urocitellus parryii
 
 **Common Name:** Arctic ground squirrel\
 **Biosample:** SAMN44461866\
 **Assembly Accession:** GCA_045843805.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Urocitellus_parryii/Urocitellus_parryii_distribution_map.png)
 
-### Species: Vanellus vanellus
+### Vanellus vanellus
 
 **Common Name:** Northern Lapwing\
 **Biosample:** SAMEA113398832\
 **Assembly Accession:** GCA_965231255.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bVanVan1.hap1.1 is based on 48x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Chromosome Z identified by alignment
-to GCA_017639485.1
+**Flags:** —
 
 ![](../species/Vanellus_vanellus/Vanellus_vanellus_distribution_map.png)
 
-### Species: Vespertilio murinus
+### Vespertilio murinus
 
 **Common Name:** particolored bat\
 **Biosample:** SAMEA112247422\
 **Assembly Accession:** GCA_963924515.1\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mVesMur1.1 is based on 44x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Vespertilio_murinus/Vespertilio_murinus_distribution_map.png)
 
-### Species: Vidua chalybeata
+### Vidua chalybeata
 
 **Common Name:** village indigobird\
 **Biosample:** SAMN12254000\
 **Assembly Accession:** GCA_026979565.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Vidua_chalybeata/Vidua_chalybeata_distribution_map.png)
 
-### Species: Vipera berus
+### Vipera berus
 
 **Common Name:** adder\
 **Biosample:** SAMEA114293681\
 **Assembly Accession:** GCA_964194415.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly rVipBer3.hap1.1 is based on 61x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. Chromosomes Z and W were assigned by
-read coverage statistics and HiC signal
+**Flags:** —
 
 ![](../species/Vipera_berus/Vipera_berus_distribution_map.png)
 
-### Species: Vipera latastei
+### Vipera latastei
 
 **Common Name:** snub-nosed viber\
 **Biosample:** SAMN28408464\
 **Assembly Accession:** GCA_024294585.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Vipera_latastei/Vipera_latastei_distribution_map.png)
 
-### Species: Vipera ursinii
+### Vipera ursinii
 
 **Common Name:** Hungarian meadow viper\
 **Biosample:** SAMEA12832258\
 **Assembly Accession:** GCA_947247035.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:** Zoo Sample;
-
-**Map Notes:**\
-**Comments:** The assembly rVipUrs1.1 is based on 28x PacBio data and
-Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of Life
-Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>) as part
-of the European Reference Genome Atlas pilot project
-(<https://www.erga-biodiversity.eu/pilot-project>). The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Hifiasm, retained haplotig separation with purge_dups,
-and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, the primary assembly was analysed and
-manually improved using rapid curation. This alternate haplotype
-assembly combines the haplotigs separated by purge_dups with haplotigs
-separated from the primary assembly during curation. The order and
-orientation of chromosome W is not determined with full certainty
+**Flags:** Zoo/Aquarium sample
 
 ![](../species/Vipera_ursinii/Vipera_ursinii_distribution_map.png)
 
-### Species: Vulpes vulpes
+### Vulpes vulpes
 
 **Common Name:** red fox\
 **Biosample:** SAMEA113398840\
 **Assembly Accession:** GCA_964106825.2\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly mVulVul1.hap1.2 is based on 28x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. This genome has been assembled using
-PacBio and HiC data and phased. The result is two curated haplotypes.
-Chromosome X was assigned by HiC signal.
+**Flags:** —
 
 ![](../species/Vulpes_vulpes/Vulpes_vulpes_distribution_map.png)
 
-### Species: Willisornis vidua
+### Willisornis vidua
 
 **Common Name:** Xingu scale-backed antbird\
 **Biosample:** SAMN44516465\
 **Assembly Accession:** GCA_045364795.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Willisornis_vidua/Willisornis_vidua_distribution_map.png)
 
-### Species: Zalophus californianus
+### Zalophus californianus
 
 **Common Name:** California sea lion\
 **Biosample:** SAMN12368149\
 **Assembly Accession:** GCA_009762305.2\
 **Taxon:** Mammals\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** This assembly represents the principal haplotype of the
-diploid genome Zalophus californianus and includes the chromosomes. The
-alternate haplotype sequences are in WGS project WPOB00000000
+**Flags:** —
 
 ![](../species/Zalophus_californianus/Zalophus_californianus_distribution_map.png)
 
-### Species: Zeus faber
+### Zeus faber
 
 **Common Name:** John dory\
 **Biosample:** SAMEA111562156\
 **Assembly Accession:** GCA_960531495.1\
 **Taxon:** Fishes\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fZeuFab8.1 is based on 43x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using rapid curation. Chromosome-scale scaffolds confirmed by
-the Hi-C data have been named in order of size.
+**Flags:** —
 
 ![](../species/Zeus_faber/Zeus_faber_distribution_map.png)
 
-### Species: Zonotrichia albicollis
+### Zonotrichia albicollis
 
 **Common Name:** white-throated sparrow\
 **Biosample:** SAMN46390924\
 **Assembly Accession:** GCA_047830755.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Zonotrichia_albicollis/Zonotrichia_albicollis_distribution_map.png)
 
-### Species: Zootoca vivipara
+### Zootoca vivipara
 
 **Common Name:** European common lizard\
 **Biosample:** SAMEA111528662\
 **Assembly Accession:** GCA_963506605.1\
 **Taxon:** Reptiles\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly rZooViv1.1 is based on 34x PacBio data and
-Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm, retained haplotig separation with purge_dups, and Hi-C based
-scaffolding with YaHS. The mitochondrial genome was assembled using
-MitoHiFi. Finally, the primary assembly was analysed and manually
-improved using gEVAL. Chromosome-scale scaffolds confirmed by the Hi-C
-data have been named in order of size.
+**Flags:** —
 
 ![](../species/Zootoca_vivipara/Zootoca_vivipara_distribution_map.png)
 
-### Species: Zosterops lateralis
+### Zosterops lateralis
 
 **Common Name:** silver-eye\
 **Biosample:** SAMEA112953925\
 **Assembly Accession:** GCA_965231275.1\
 **Taxon:** Birds\
 **Priority:** 6\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly bZosLat1.hap1.1 is based on 48x PacBio data
-and Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of
-Life Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>). The
-assembly process included the following sequence of steps: initial
-PacBio assembly generation with Hifiasm in Hi-C integrated assembly
-mode, and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, each haplotype assembly was analysed
-and manually improved using TreeVal. Chromosome-scale scaffolds
-confirmed by the Hi-C data have been named in order of size. Les
-Christidis’ 1990 research on the karyotype of Zosterops lateralis
-reports a diploid chromosome number of 78. This research is detailed in
-the book Animal Cytogenetics: Chordata 3B: Aves, published by Gebruder
-Borntraeger, which examines avian cytogenetics.In our genome assembly,
-we identified a haploid chromosome count of 39 autosomes plus the Z and
-W sex chromosomes. It is possible that some chromosome joins are not
-highlighted by the Hi-C signal or that data for certain joins may be
-missing, but this cannot be concluded from our assembly.The
-microchromosomes were identified through second-shot curation of
-scaffolds smaller than 20 Mbp, combined with homology-based
-identification using known microchromosome genes via
-Microfinder.Chromosomes Z and W were identified by copy number in the
-diploid assembly.Chromosomes Z was identified through synteny analysis
-with Taeniopygia guttata (GCA_003957565.4).The exact order and
-orientation of the contigs on chromosome 23 (1,400 - 7,712 Kbp) are
-unknown.The exact order and orientation of the contigs on chromosome 31
-(1,100 - 5,932 Kbp) are unknown.
+**Flags:** —
 
 ![](../species/Zosterops_lateralis/Zosterops_lateralis_distribution_map.png)
 
-### Species: Coregonus lavaretus
-
-**Common Name:** common whitefish\
-**Biosample:** SAMEA111528661\
-**Assembly Accession:** GCA_964263955.1\
-**Taxon:** Fishes\
-**Priority:** 7\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fCorLav1.hap1.1 is based on 45x PacBio data
-and Arima2 Hi-C data generated by the Darwin Tree of Life Project
-(<https://www.darwintreeoflife.org/>). The assembly process included the
-following sequence of steps: initial PacBio assembly generation with
-Hifiasm in Hi-C integrated assembly mode, and Hi-C based scaffolding
-with YaHS. The mitochondrial genome was assembled using MitoHiFi.
-Finally, each haplotype assembly was analysed and manually improved
-using TreeVal. Chromosome-scale scaffolds confirmed by the Hi-C data
-have been named in order of size. The order and orientation of scaffolds
-on Chromosome 2 from approximately 75.4Mb to the end is unsureChromosome
-35 and Chromosome 38 are very similar, however, evidence from the hic
-maps suggests that they are shattered, collapsed versions of each other.
-
-![](../species/Coregonus_lavaretus/Coregonus_lavaretus_distribution_map.png)
-
-### Species: Macaca fascicularis
+### Macaca fascicularis
 
 **Common Name:** crab-eating macaque\
 **Biosample:** SAMN38317298\
 **Assembly Accession:** GCA_037993035.1\
 **Taxon:** Mammals\
 **Priority:** 7\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
+**Flags:** —
 
 ![](../species/Macaca_fascicularis/Macaca_fascicularis_distribution_map.png)
 
-### Species: Podarcis raffonei
-
-**Common Name:** Aeolian wall lizard\
-**Biosample:** SAMN28455423\
-**Assembly Accession:** GCA_027172205.1\
-**Taxon:** Reptiles\
-**Priority:** 7\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** NA
-
-![](../species/Podarcis_raffonei/Podarcis_raffonei_distribution_map.png)
-
-### Species: Thunnus thynnus
+### Thunnus thynnus
 
 **Common Name:** northern bluefin tuna\
 **Biosample:** SAMEA111406335\
 **Assembly Accession:** GCA_963924715.1\
 **Taxon:** Fishes\
 **Priority:** 7\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The assembly fThuThy2.1 is based on 37x PacBio data and
-Arima2 Hi-C data generated by the Wellcome Sanger Institute Tree of Life
-Programme (<https://www.sanger.ac.uk/programme/tree-of-life/>) as part
-of the European Reference Genome Atlas pilot project
-(<https://www.erga-biodiversity.eu/pilot-project>). The assembly process
-included the following sequence of steps: initial PacBio assembly
-generation with Hifiasm, retained haplotig separation with purge_dups,
-and Hi-C based scaffolding with YaHS. The mitochondrial genome was
-assembled using MitoHiFi. Finally, the primary assembly was analysed and
-manually improved using TreeVal. This alternate haplotype assembly
-combines the haplotigs separated by purge_dups with haplotigs separated
-from the primary assembly during curation.
+**Flags:** —
 
 ![](../species/Thunnus_thynnus/Thunnus_thynnus_distribution_map.png)
-
-### Species: Trichomycterus rosablanca
-
-**Common Name:** Rosablanca cavefish\
-**Biosample:** SAMN32755940\
-**Assembly Accession:** GCA_030014385.1\
-**Taxon:** Fishes\
-**Priority:** 7\
-**Flags:**
-
-**Map Notes:**\
-**Comments:** The following regions are of undetermined order and
-orientation: Chromosome 4 - 9.5-17.5 Mb, Chromosome 9 - 1-4 Mb,
-Chromosome 10 - 6-10 Mb, Chromosome 14 - 17-35 Mb.
-
-![](../species/Trichomycterus_rosablanca/Trichomycterus_rosablanca_distribution_map.png)

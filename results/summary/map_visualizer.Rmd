@@ -22,7 +22,6 @@ library(stringr)
 ```{r}
 df <- read.csv("results/summary/all_species_summary.csv", stringsAsFactors = FALSE)
 dir.create("results/summary/plots", recursive=TRUE, showWarnings=FALSE)
-
 ```
 
 ```{r}
@@ -268,46 +267,68 @@ df_prioritized <- df %>%
          iucn_synonyms, lineage, extended_lineage, english_name,
          accession_number_for_main_haplotype, biosample_accession,
          geo_location, latlon,
-         comments, lat, lon,
+         biosample_provider, biosample_collectedby, biosample_comment,
+         assembly_comments,
+         lat, lon,
          vague_location_flag, missing_sampling_location_flag,
          raster_path_ea, raster_path_goode, centroid_lon, centroid_lat,
          outside_range_flag, missing_range_flag, zoo_flag,
          domesticated_flag, priority) %>%
   arrange(priority, scientific_name) 
 
-write.csv(df_prioritized, "results/summary/all_species_prioritized.csv", row.names = FALSE)
+# write.csv(df_prioritized, "results/summary/all_species_prioritized.csv", row.names = FALSE)
+# table(df_prioritized$priority)
 
-for (i in seq_len(nrow(df_prioritized))) {
-  sp      <- df_prioritized$scientific_name[i]
-  sp_sane <- gsub(" ", "_", sp)
-  sp_dir  <- file.path("results/species", sp_sane)
-  img_path <- file.path(sp_dir, paste0(sp_sane, "_distribution_map.png"))
-  
-  if (file.exists(img_path)) {
-    # dynamic description
-    desc <- paste0(
-      "\n\n### Species: ", sp, "\n\n",
-      "**Common Name:** ", df_prioritized$english_name[i], "  \n",
-      "**Biosample:** ", df_prioritized$biosample_accession[i], "  \n",
-      "**Assembly Accession:** ", df_prioritized$accession_number_for_main_haplotype[i], "  \n",
-      "**Taxon:** ", df_prioritized$lineage[i], "  \n",
-      "**Priority:** ", df_prioritized$priority[i], "  \n",
-      "**Flags:** ",
-        ifelse(isTRUE(df_prioritized$outside_range_flag[i]) & !isTRUE(df_prioritized$zoo_flag[i]), "Outside Range; ", ""),
-        ifelse(isTRUE(df_prioritized$vague_location_flag[i]), "Vague Location; ", ""),
-        ifelse(isTRUE(df_prioritized$zoo_flag[i]), "Zoo Sample; ", ""),
-        ifelse(isTRUE(df_prioritized$domesticated_flag[i]), "Domesticated; ", ""),
-        ifelse(df_prioritized$missing_range_flag[i], "Missing Range; ", ""),
-        ifelse(isTRUE(df_prioritized$missing_sampling_location_flag[i]), "Missing Sampling Location; ", ""),
-      "\n\n**Map Notes:** ", df_prioritized$map_notes[i], "  \n",
-      "**Comments:** ", df_prioritized$comments[i], "\n\n"
-    )
-    
-    # print the species section to the Markdown
-    cat(desc)
-    cat("![](../species/", sp_sane, "/", sp_sane, "_distribution_map.png)\n", sep = "")
-  }
+```
+
+```{r}
+flag_line <- function(row) {
+  bits <- c(
+    if (isTRUE(row$outside_range_flag) && !isTRUE(row$zoo_flag)) "Outside range",
+    if (isTRUE(row$vague_location_flag))                         "Vague location",
+    if (isTRUE(row$missing_sampling_location_flag))              "Missing sampling coords",
+    if (isTRUE(row$missing_range_flag))                          "Missing range raster",
+    if (isTRUE(row$zoo_flag))                                    "Zoo/Aquarium sample",
+    if (isTRUE(row$domesticated_flag))                           "Domesticated"
+  )
+  if (length(bits) == 0) "—" else paste(bits, collapse = " · ")
 }
 
-# table(df_prioritized$priority)
+for (i in seq_len(nrow(df_prioritized))) {
+  row <- df_prioritized[i, ]
+
+  sp      <- row$scientific_name
+  sp_sane <- gsub(" ", "_", sp)
+  sp_dir  <- file.path("results/species", sp_sane)
+  img_abs <- file.path(sp_dir, paste0(sp_sane, "_distribution_map.png"))
+  img_rel <- file.path("..", "species", sp_sane, paste0(sp_sane, "_distribution_map.png"))
+
+  cat("\n\n### ", sp, "\n\n", sep = "")
+  cat("**Common Name:** ", ifelse(is.na(row$english_name), "—", row$english_name), "  \n", sep = "")
+  cat("**Biosample:** ",    ifelse(is.na(row$biosample_accession) || row$biosample_accession == "", "—", row$biosample_accession), "  \n", sep = "")
+  cat("**Assembly Accession:** ", ifelse(is.na(row$accession_number_for_main_haplotype), "—", row$accession_number_for_main_haplotype), "  \n", sep = "")
+  cat("**Taxon:** ",        ifelse(is.na(row$lineage), "—", row$lineage), "  \n", sep = "")
+  cat("**Priority:** ",     ifelse(is.na(row$priority), "—", row$priority), "  \n", sep = "")
+  cat("**Flags:** ",        flag_line(row), "  \n", sep = "")
+
+  if (isTRUE(row$outside_range_flag)) {
+    provider  <- ifelse(is.na(row$biosample_provider)  || row$biosample_provider  == "", "—", row$biosample_provider)
+    collector <- ifelse(is.na(row$biosample_collectedby) || row$biosample_collectedby == "", "—", row$biosample_collectedby)
+    cmt       <- ifelse(is.na(row$biosample_comment) || row$biosample_comment == "", "—", row$biosample_comment)
+        loc        <- ifelse(is.na(row$geo_location) || row$geo_location == "", "—", row$geo_location)
+
+
+    cat("\n**Biosample provider:** ",  provider, "  \n", sep = "")
+    cat("**Collected by:** ",          collector, "  \n", sep = "")
+    cat("**Biosample comments:** ",    cmt, "  \n", sep = "")
+    cat("**Location:** ", loc, "  \n", sep = "")
+  }
+
+  if (file.exists(img_abs)) {
+    cat("\n![](", img_rel, ")\n", sep = "")
+  } else {
+    cat("\n_Map image not found._\n")
+  }
+}
 ```
+
