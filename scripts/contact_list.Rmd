@@ -1,0 +1,34 @@
+```{r}
+library(dplyr)
+knitr::opts_knit$set(root.dir = "/global/scratch/users/minoli/maps")
+```
+```{r}
+map_df <- read_csv("../results/summary/all_species_map.csv", show_col_types = FALSE)
+
+contact_list <- map_df %>%
+  filter(
+    priority %in% c(1, 2, 3, 5),
+    !domesticated_flag,
+    !grepl("^Homo sapiens$", scientific_name, ignore.case = TRUE)
+  ) %>%
+  mutate(
+    contact_tier = case_when(
+      priority %in% c(1, 2) ~ "T1",
+      priority %in% c(3, 5) ~ "T2",
+      TRUE ~ NA_character_
+    ),
+    reason = case_when(
+      priority == 1 ~ "Missing sampling location",
+      priority == 2 ~ "Missing sampling location",
+      priority == 3 ~ "Vague location + outside/missing range",
+      priority == 5 ~ "Vague location inside range",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  arrange(factor(contact_tier, levels = c("T1","T2")),
+          priority, scientific_name)
+
+contact_list
+# write_csv(contact_list, "../results/summary/submitters_to_contact.csv")
+```
+

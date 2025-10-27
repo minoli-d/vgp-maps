@@ -20,18 +20,30 @@ library(svglite)
 ```
 
 ```{r}
-df <- read_csv("results/summary/all_species_prioritized.csv", show_col_types = FALSE)
+df <- read_csv("results/summary/all_species_prioritized.csv", show_col_types = FALSE) %>%
+  rename(
+    sampling_lon = lon,
+    sampling_lat = lat
+  ) %>%
+  mutate(
+    map_notes    = NA)
+
 ```
 
 ```{r}
 add_note <- function(tbl, species, note) {
-  tbl %>% mutate(
-    map_notes = ifelse(
-      scientific_name == species,
-      paste(na.omit(c(map_notes, note)), collapse = "; "),
-      map_notes
+  if (!"map_notes" %in% names(tbl)) tbl <- mutate(tbl, map_notes = NA_character_)
+  tbl %>%
+    mutate(
+      map_notes = if_else(
+        .data$scientific_name == species,
+        # append to the current row’s note only
+        if_else(is.na(.data$map_notes) | .data$map_notes == "",
+                note,
+                paste(.data$map_notes, note, sep = "; ")),
+        .data$map_notes
+      )
     )
-  )
 }
 
 force_centroid <- function(tbl, species, note) {
@@ -48,12 +60,7 @@ set_centroid_coord <- function(df, species, coord_lon, coord_lat, note = NULL) {
       centroid_lon = ifelse(scientific_name == species, coord_lon, centroid_lon),
       centroid_lat = ifelse(scientific_name == species, coord_lat, centroid_lat),
       missing_range_flag = ifelse(scientific_name == species, FALSE, missing_range_flag),
-      map_notes = ifelse(
-        scientific_name == species,
-        paste0(coalesce(map_notes, ""), 
-               if (!is.null(note)) paste0("; ", note) else ""),
-        map_notes
-      )
+      map_notes = ifelse(scientific_name == species, note, map_notes)
     )
 }
 
@@ -63,12 +70,7 @@ set_sampling_coord <- function(df, species, coord_lon, coord_lat, note = NULL) {
       sampling_lon = ifelse(scientific_name == species, coord_lon, sampling_lon),
       sampling_lat = ifelse(scientific_name == species, coord_lat, sampling_lat),
       missing_sampling_location_flag = ifelse(scientific_name == species, FALSE, missing_sampling_location_flag),
-      map_notes = ifelse(
-        scientific_name == species,
-        paste0(coalesce(map_notes, ""), 
-               if (!is.null(note)) paste0("; ", note) else ""),
-        map_notes
-      )
+      map_notes = ifelse(scientific_name == species, note, map_notes)
     )
 }
 
@@ -129,26 +131,28 @@ map_df <- df %>%
       str_detect(map_notes, "Manual sampling") ~ "sampling",
       
       # priorities
-      priority == 2 ~ "centroid",
-      priority == 3 ~ "centroid",
-      priority == 4 ~ "centroid",
-      priority == 5 ~ "sampling",
-      priority == 6 ~ "sampling",
-      priority == 7 ~ "centroid",
+      priority == 1 ~ NA,
+      priority == 2 ~ "centroid",    # missing all sampling info
+      priority == 3 ~ "centroid",    # vague sampling loc    and  outside range
+      priority == 4 ~ "centroid",    # precise sampling loc  and  outside range
+      priority == 5 ~ "sampling",    # vague sampling loc    and  inside range
+      priority == 6 ~ "sampling",    # precise sampling loc  and  inside range
+      priority == 7 ~ NA,
 
       # centroid if outside range
-      outside_range_flag ~ "centroid",
+      # outside_range_flag ~ "centroid",
 
       # try sampling first, if not available then centroid
       !is.na(sampling_lon) & !is.na(sampling_lat) ~ "sampling",
       !is.na(centroid_lon) & !is.na(centroid_lat) ~ "centroid",
 
       # fallback
-      TRUE ~ "none"
+      TRUE ~ NA
     )
   )
-```
 
+# write.csv(map_df, "results/summary/all_species_map.csv")
+```
 
 ```{r fig.width=14, fig.height=7}
 plot_df <- map_df %>%
