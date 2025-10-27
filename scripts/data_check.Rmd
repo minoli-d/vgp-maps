@@ -1,29 +1,168 @@
 ```{r}
-
-r1 <- st_read("/global/scratch/users/minoli/maps/data/shapes/REPTILES_PART1.shp")
-r2 <- st_read("/global/scratch/users/minoli/maps/data/shapes/REPTILES_PART2.shp")
-
-nrow(r1)
-nrow(r2)
-length(unique(r1$sci_name))
-length(unique(r2$sci_name))
+# 
+# r1 <- st_read("/global/scratch/users/minoli/maps/data/shapes/REPTILES_PART1.shp")
+# r2 <- st_read("/global/scratch/users/minoli/maps/data/shapes/REPTILES_PART2.shp")
+# 
+# nrow(r1)
+# nrow(r2)
+# length(unique(r1$sci_name))
+# length(unique(r2$sci_name))
 
 ```
 
 ```{r}
-library(terra)
+library(dplyr)
+knitr::opts_knit$set(root.dir = "/global/scratch/users/minoli/maps")
+dfp <- read.csv("/global/scratch/users/minoli/maps/results/summary/all_species_prioritized.csv", check.names = FALSE)
+
+bad7 <- dfp %>%
+  filter(priority == 7) %>%
+  transmute(
+    iucn_name,
+    domesticated_flag,
+    missing_range_flag,
+    missing_sampling_location_flag,
+    vague_location_flag,
+    zoo_flag,
+    outside_range_flag,
+    has_sampling_num = !(is.na(sampling_lon) | is.na(sampling_lat)),
+    reason = paste(
+      sprintf("dom=%s", domesticated_flag),
+      sprintf("rng=%s", missing_range_flag),
+      sprintf("missLoc=%s", missing_sampling_location_flag),
+      sprintf("vague=%s", vague_location_flag),
+      sprintf("zoo=%s", zoo_flag),
+      sprintf("out=%s", outside_range_flag),
+      sprintf("hasNum=%s", has_sampling_num),
+      sep=" | "
+    )
+  )
+
+bad7
+```
+```{r}
+df %>%
+  filter(priority == 7)
+```
+```{r}
+library(dplyr)
+library(readr)
 library(sf)
+library(terra)
 
-sp <- "Callospermophilus lateralis"
-lon <- -105.5943
-lat <- 40.6956
-rpath <- "/global/scratch/users/minoli/maps/results/species/Callospermophilus_lateralis/range_raster.tif"
+# --- 1) updated outside check (deterministic; never returns NA silently) ---
+outside_check <- function(lon, lat, rpath, buffer_km = 50) {
+  if (is.na(lon) || is.na(lat))              return(list(flag = NA,   reason = "no_numeric_coords"))
+  if (is.na(rpath) || !file.exists(rpath))   return(list(flag = NA,   reason = "missing_raster"))
 
-r <- terra::rast(rpath)
-pt <- sf::st_sfc(sf::st_point(c(lon, lat)), crs = 4326)
-pt_r <- sf::st_transform(pt, crs(r))
-coords <- sf::st_coordinates(pt_r)
-ex <- terra::extract(r, coords)
-outside_range_flag <- is.na(ex$pres) || ex$pres == 0
+  r <- terra::rast(rpath)
+  if (is.na(terra::crs(r)))                  return(list(flag = TRUE, reason = "raster_no_crs"))
+
+  r_mask <- r > 0
+  res_km <- mean(terra::res(r)) / 1000
+  if (!is.finite(res_km) || res_km <= 0)     res_km <- 10  # conservative default
+  n_cells <- max(1, min(ceiling(buffer_km / res_km), floor(min(nrow(r), ncol(r)) / 2)))
+  w <- matrix(1, 2 * n_cells + 1, 2 * n_cells + 1)
+
+  r_dil <- try(terra::focal(r_mask, w = w, fun = max, na.policy = "omit"), silent = TRUE)
+  if (inherits(r_dil, "try-error"))          return(list(flag = TRUE, reason = "focal_failed"))
+
+  pt   <- sf::st_sfc(sf::st_point(c(lon, lat)), crs = 4326)
+  pt_r <- try(sf::st_transform(pt, sf::st_crs(terra::crs(r))), silent = TRUE)
+  if (inherits(pt_r, "try-error"))           return(list(flag = TRUE, reason = "transform_failed"))
+
+  xy <- sf::st_coordinates(pt_r)
+  e  <- terra::ext(r_dil)
+  inside <- xy[1] >= e[1] && xy[1] <= e[2] && xy[2] >= e[3] && xy[2] <= e[4]
+  if (!inside)                               return(list(flag = TRUE, reason = "point_outside_extent"))
+
+  v <- terra::extract(r_dil, matrix(xy, nrow = 1))[, 1]
+  if (is.na(v))                               return(list(flag = TRUE, reason = "nodata_at_point"))
+  if (v == 0)                                 return(list(flag = TRUE, reason = "outside_after_buffer"))
+  list(flag = FALSE, reason = "inside_after_buffer")
+}
+
+
+outside_check_vector <- function(lon, lat, rpath, buffer_km = 50) {
+  if (!is.finite(lon) || !is.finite(lat))  return(list(flag = NA,   reason = "no_numeric_coords"))
+  if (is.na(rpath) || !file.exists(rpath)) return(list(flag = NA,   reason = "missing_raster"))
+
+  r <- terra::rast(rpath)
+
+  # 1) make a binary mask and replace NA with 0 so we always have a defined background
+  mask <- r > 0
+  mask <- terra::ifel(is.na(mask), 0, mask)
+
+  # 2) convert mask to polygons and dissolve to one multipart polygon
+  poly <- try(terra::as.polygons(mask, dissolve = TRUE), silent = TRUE)
+  if (inherits(poly, "try-error")) {
+    return(list(flag = TRUE, reason = "mask_to_polygon_failed"))
+  }
+  # Keep only the >0 area
+  poly <- poly[poly[[1]] == 1, , drop = FALSE]
+  if (nrow(poly) == 0) {
+    return(list(flag = TRUE, reason = "empty_mask_polygon"))  # nothing to match -> treat as outside
+  }
+
+  # 3) project everything to an equal-area CRS for accurate buffering
+  ea_crs <- "EPSG:6933"
+  poly_ea <- try(terra::project(poly, ea_crs), silent = TRUE)
+  if (inherits(poly_ea, "try-error")) {
+    return(list(flag = TRUE, reason = "poly_project_failed"))
+  }
+
+  # 4) buffer by requested distance (meters)
+  buf_m  <- buffer_km * 1000
+  poly_buf <- try(terra::buffer(poly_ea, width = buf_m), silent = TRUE)
+  if (inherits(poly_buf, "try-error")) {
+    return(list(flag = TRUE, reason = "buffer_failed"))
+  }
+
+  # 5) point -> EA and point-in-polygon test
+  pt_wgs <- sf::st_sfc(sf::st_point(c(lon, lat)), crs = 4326)
+  pt_ea  <- try(sf::st_transform(pt_wgs, ea_crs), silent = TRUE)
+  if (inherits(pt_ea, "try-error")) {
+    return(list(flag = TRUE, reason = "point_transform_failed"))
+  }
+
+  poly_sf <- sf::st_as_sf(poly_buf)
+  inside  <- as.logical(sf::st_intersects(pt_ea, poly_sf, sparse = FALSE))
+
+  if (!inside) return(list(flag = TRUE,  reason = "outside_after_buffer"))
+  list(flag = FALSE, reason = "inside_after_buffer")
+}
+```
+
+```{r}
+knitr::opts_knit$set(root.dir = "/global/scratch/users/minoli/maps")
+sp <- "Alca Torda"   # <- change this
+
+# --- 3) load its summary row (paths + coords) ---
+# pick a base path that exists on your system
+sum_df <- read.csv("/global/scratch/users/minoli/maps/results/summary/all_species_summary.csv", check.names = FALSE) %>%
+  filter(scientific_name == sp)
+
+if (nrow(sum_df) == 0) stop(sprintf("Species '%s' not found in summaries.", sp))
+
+lon <- sum_df$lon[[1]]
+lat <- sum_df$lat[[1]]
+rpa <- paste("/global/scratch/users/minoli/maps/", sum_df$raster_path_ea[[1]], sep="")
+
+cat(sprintf("Testing %s\n  lon=%.6f lat=%.6f\n  raster=%s\n", sp, lon, lat, rpa))
+cat
+
+# --- 4) run the check and print result ---
+# res <- outside_check(lon, lat, rpa, buffer_km = 50)
+res <- outside_check_vector(lon, lat, rpa, buffer_km = 50)
+print(res)
+
+# --- 5) OPTIONAL: peek the raw raster value at the point (0=outside, 1=inside) ---
+if (!is.na(rpa) && file.exists(rpa) && !is.na(lon) && !is.na(lat)) {
+  r <- terra::rast(rpa)
+  pt <- sf::st_sfc(sf::st_point(c(lon, lat)), crs = 4326)
+  xy <- sf::st_coordinates(sf::st_transform(pt, sf::st_crs(terra::crs(r))))
+  raw_val <- terra::extract(r, matrix(xy, nrow = 1))[,1]
+  cat("Raw raster value at point:", raw_val, "\n")  # NA / 0 / 1
+}
 ```
 

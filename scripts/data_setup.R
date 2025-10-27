@@ -50,16 +50,24 @@ vague_terms <- c("Sea", "Ocean", "Bay", "Gulf", "Channel", "Coast", "Territory",
 df <- df %>%
   mutate(
     vague_location_flag = case_when(
-      # coordinates exist (not vague)
+      # 1. Has coordinates → definitely not vague
       !is.na(latlon) ~ FALSE,
       
-      # no coords + geo_location is kinda vague
-      (is.na(latlon)) & (geo_location %in% countries |
-                           str_detect(geo_location, str_c(vague_terms, collapse = "|"))) ~ TRUE,
+      # 2. Missing coords, and location is missing entirely → handled below
+      is.na(latlon) & (is.na(geo_location) | geo_location == "") ~ FALSE,
       
-      # geolocation is specific names but no coords
+      # 3. Missing coords, location is just a country name → vague
+      is.na(latlon) & geo_location %in% countries ~ TRUE,
+      
+      # 4. Missing coords, location *contains* vague terms but only 1–2 words (not detailed)
+      is.na(latlon) & 
+        str_detect(geo_location, str_c(vague_terms, collapse = "|")) &
+        str_count(geo_location, "\\w+") <= 3 ~ TRUE,
+      
+      # 5. Otherwise → probably specific enough
       TRUE ~ FALSE
     ),
+    
     missing_sampling_location_flag = ifelse(
       is.na(latlon) & (is.na(geo_location) | geo_location == ""),
       TRUE, FALSE

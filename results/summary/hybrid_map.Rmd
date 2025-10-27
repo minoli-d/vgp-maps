@@ -20,11 +20,28 @@ library(svglite)
 ```
 
 ```{r}
-df <- read_csv("results/summary/all_species_prioritized.csv")
+df <- read_csv("results/summary/all_species_prioritized.csv", show_col_types = FALSE)
 ```
 
-
 ```{r}
+add_note <- function(tbl, species, note) {
+  tbl %>% mutate(
+    map_notes = ifelse(
+      scientific_name == species,
+      paste(na.omit(c(map_notes, note)), collapse = "; "),
+      map_notes
+    )
+  )
+}
+
+force_centroid <- function(tbl, species, note) {
+  add_note(tbl, species, paste0("Manual centroid (", note, ")"))
+}
+
+force_sampling <- function(tbl, species, note) {
+  add_note(tbl, species, paste0("Manual sampling (", note, ")"))
+}
+
 set_centroid_coord <- function(df, species, coord_lon, coord_lat, note = NULL) {
   df %>%
     mutate(
@@ -55,10 +72,11 @@ set_sampling_coord <- function(df, species, coord_lon, coord_lat, note = NULL) {
     )
 }
 
-# species to remove - lab crosses
+# species to remove 
 remove_species <- c(
-  "Branchiostoma floridae",
-  "Branchiostoma belcheri"
+  "Branchiostoma floridae",     # lab cross
+  "Branchiostoma belcheri",     # lab cross
+  "Equus caballus"              # domesticated
 )
 
 map_df <- df %>%
@@ -68,6 +86,8 @@ map_df <- df %>%
     iucn_name == "Gadus morhua"    ~ "Contact submitter: no range or sampling location",
     TRUE ~ NA
   )) %>%
+  
+  # ----------------------- 
   set_centroid_coord("Danio rerio", 
                      coord_lon = 80.14396, coord_lat = 26.46875,
                      note = "Manual centroid (Indian subcontinent)") %>%
@@ -77,9 +97,31 @@ map_df <- df %>%
   set_centroid_coord("Rhamphochromis chilingali", 
                      coord_lon=34.21271, coord_lat=-12.94559,
                      note = "Manual centroid (Lake Chilingali)") %>%
-  set_centroid_coord("Thunnus thynnus",
-                     coord_lon=NA, coord_lat=NA,
-                     note = "Manual sampling (bad input)")   %>%
+  # ----------------------- 
+  set_sampling_coord("Cottoperca gobio", 
+                     coord_lon=-59.19733, coord_lat=-52.66800,
+                     note = "Manual sampling (coords from email)") %>%
+  set_sampling_coord("Notothenia rossii", 
+                     coord_lon=-62.65000, coord_lat=-63.46667,
+                     note = "Manual sampling (coords from email)") %>%
+  # ----------------------- 
+  force_centroid("Phascolarctos cinereus", "wild sample w vague location - contact submitter") %>% 
+  force_centroid("Thunnus thynnus", "sampling loc invalid") %>%
+  force_centroid("Macaca fascicularis", "sampling loc invalid") %>%
+  # ----------------------- 
+  force_sampling("Acridotheres tristis",       "field sample in Tel Aviv") %>%
+  force_sampling("Columba livia",              "field sample in Davis") %>%
+  force_sampling("Gavia stellata",             "field sample in Greenland") %>%
+  force_sampling("Heptranchias perlo",         "field sample in Okinawa") %>%
+  force_sampling("Lynx canadensis",            "field sample in Maine") %>%
+  force_sampling("Macropus eugenii",           "field sample in Waimangu, NZ") %>%
+  force_sampling("Mantella aurantiaca",        "field sample in Madagascar") %>%
+  force_sampling("Molossus alvarezi",          "field sample in Lamanai") %>%
+  force_sampling("Mops condylurus",            "closer to range than centroid; use sampling") %>%
+  force_sampling("Poromitra crassiceps",       "wild pelagic sample") %>%
+  force_sampling("Trichomycterus rosablanca",  "field sample in Santander") %>%
+  # -----------------------
+  
   mutate(
     use_coord = case_when(
       # manual
@@ -92,6 +134,7 @@ map_df <- df %>%
       priority == 4 ~ "centroid",
       priority == 5 ~ "sampling",
       priority == 6 ~ "sampling",
+      priority == 7 ~ "centroid",
 
       # centroid if outside range
       outside_range_flag ~ "centroid",
