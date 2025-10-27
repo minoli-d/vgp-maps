@@ -157,11 +157,12 @@ map_df <- df %>%
 ```{r fig.width=14, fig.height=7}
 plot_df <- map_df %>%
   mutate(
-    plot_lon = ifelse(use_coord == "sampling", lon, centroid_lon),
-    plot_lat = ifelse(use_coord == "sampling", lat, centroid_lat),
+    plot_lon = ifelse(use_coord == "sampling", sampling_lon, centroid_lon),
+    plot_lat = ifelse(use_coord == "sampling", sampling_lat, centroid_lat),
     shape = ifelse(use_coord == "sampling", "sampling", "centroid")
   ) %>%
-  filter(!is.na(plot_lon) & !is.na(plot_lat))
+  filter(!is.na(plot_lon) & !is.na(plot_lat)) %>%
+  mutate(shape = factor(trimws(shape), levels = c("centroid", "sampling"))) 
 
 plot_sf <- st_as_sf(plot_df, coords = c("plot_lon", "plot_lat"), crs = 4326) %>%
   st_transform(crs_goode)
@@ -213,13 +214,14 @@ p_global <- ggplot() +
   geom_sf(data = ocean_goode, fill="white", color=NA) +
   geom_sf(data = world_goode, fill="grey85", color="white", size=0.2) +
   geom_sf(data = goode_without, fill="white", color=NA) +
-  geom_sf(data = goode_outline, fill=NA, color="gray70", size=0.5) +
-  geom_sf(data = plot_sf, aes(color = extended_lineage, shape = shape), size = 2, alpha = 0.8) +
+  geom_sf(data = goode_outline, fill=NA, color="grey85", size=0.5) +
+  geom_sf(data = plot_sf, aes(color = extended_lineage, shape = shape), size = 2, alpha = 0.75) +
   scale_color_manual(values = class_colors, name = "Extended Lineage") +
-  scale_shape_manual(values = c("sampling" = 21, "centroid" = 24),
+  scale_shape_manual(values = c("sampling" = 16, "centroid" = 17),
                      name = "Coord type",
                      labels = c("sampling" = "Sampling Location", 
-                                "centroid" = "Range Centroid")) +
+                                "centroid" = "Range Centroid"),
+                     drop = FALSE) +
   theme_minimal() +
   theme(panel.grid = element_blank(),
         axis.text = element_blank(),
@@ -228,9 +230,13 @@ p_global <- ggplot() +
        x = NULL, y = NULL)
 
 p_global
-# ggsave("/global/scratch/users/minoli/maps/results/summary/plots/hybrid_map.svg", 
+
+# ggsave("/global/scratch/users/minoli/maps/results/summary/plots/hybrid_map.svg",
 #        p_global, width = 14, height = 7)
+
 ```
+
+
 ```{r fig.width=14, fig.height=7}
 jitter_amount <- 0.5
 
@@ -257,9 +263,9 @@ location_europe_j$geometry[location_europe$is_dup] <-
 europe_map <- ggplot() +
   geom_sf(data = world_europe, fill = "grey90", color = "grey80") +
   geom_sf(data = location_europe_j,
-          aes(color = extended_lineage, shape = shape), size = 1) +
+          aes(color = extended_lineage, shape = shape), size = 1.5) +
   scale_color_manual(values = class_colors, name = "Extended Lineage") +
-  scale_shape_manual(values = c("sampling" = 21, "centroid" = 24),
+  scale_shape_manual(values = c("sampling" = 16, "centroid" = 17),
                      name = "Coord type",
                      labels = c("sampling" = "Sampling Location", 
                                 "centroid" = "Range Centroid")) +
@@ -295,9 +301,9 @@ location_na_j$geometry[location_na$is_dup] <-
 na_map <- ggplot() +
   geom_sf(data = world_na, fill = "grey90", color = "grey80") +
   geom_sf(data = location_na_j,
-          aes(color = extended_lineage, shape = shape), size = 1) +
+          aes(color = extended_lineage, shape = shape), size = 1.5) +
   scale_color_manual(values = class_colors, name = "Extended Lineage") +
-  scale_shape_manual(values = c("sampling" = 21, "centroid" = 24),
+  scale_shape_manual(values = c("sampling" = 16, "centroid" = 17),
                      name = "Coord type",
                      labels = c("sampling" = "Sampling Location", 
                                 "centroid" = "Range Centroid")) +
