@@ -53,13 +53,13 @@ submitters_to_contact <- contact_list %>%
     primary_contact, other_contacts
   )
 
-exclude_species <- c("Cottoperca gobio")
+exclude_species <- c("Cottoperca gobio", 
+                     "Pan troglodytes")
 
 submitters_to_contact_final <- submitters_to_contact %>%
   filter(!scientific_name %in% exclude_species)
 
 submitters_to_contact_final
 # write.csv(submitters_to_contact_final, "../results/summary/submitters_to_contact.csv", row.names = FALSE)
-
 ```
 
