@@ -1,9 +1,14 @@
 ```{r}
 library(dplyr)
+library(stringr)
+library(janitor)
+
 knitr::opts_knit$set(root.dir = "/global/scratch/users/minoli/maps")
 ```
+
 ```{r}
 map_df <- read_csv("../results/summary/all_species_map.csv", show_col_types = FALSE)
+vgp_freeze_df <- read_csv("../data/vgp_phase1_freeze.csv", show_col_types = FALSE)
 
 contact_list <- map_df %>%
   filter(
@@ -12,12 +17,12 @@ contact_list <- map_df %>%
     !grepl("^Homo sapiens$", scientific_name, ignore.case = TRUE)
   ) %>%
   mutate(
-    contact_tier = case_when(
-      priority %in% c(1, 2) ~ "T1",
-      priority %in% c(3, 5) ~ "T2",
+    contact_priority = case_when(
+      priority %in% c(1, 2) ~ "1",
+      priority %in% c(3, 5) ~ "2",
       TRUE ~ NA_character_
     ),
-    reason = case_when(
+    contact_reason = case_when(
       priority == 1 ~ "Missing sampling location",
       priority == 2 ~ "Missing sampling location",
       priority == 3 ~ "Vague location + outside/missing range",
@@ -25,10 +30,36 @@ contact_list <- map_df %>%
       TRUE ~ NA_character_
     )
   ) %>%
-  arrange(factor(contact_tier, levels = c("T1","T2")),
+  arrange(factor(contact_priority, levels = c("1","2")),
           priority, scientific_name)
+```
 
-contact_list
-# write_csv(contact_list, "../results/summary/submitters_to_contact.csv")
+```{r}
+vgp_contacts <- vgp_freeze_df %>%
+  janitor::clean_names() %>%
+  dplyr::select(
+    accession_number_for_main_haplotype,
+    primary_contact,
+    other_contacts)
+
+submitters_to_contact <- contact_list %>%
+  left_join(vgp_contacts, by = "accession_number_for_main_haplotype") %>%
+  dplyr::select(
+    scientific_name, english_name,
+    biosample_accession, accession_number_for_main_haplotype,
+    contact_priority, contact_reason,
+    geo_location, sampling_lon, sampling_lat, map_notes,
+    biosample_provider, biosample_collectedby,
+    primary_contact, other_contacts
+  )
+
+exclude_species <- c("Cottoperca gobio")
+
+submitters_to_contact_final <- submitters_to_contact %>%
+  filter(!scientific_name %in% exclude_species)
+
+submitters_to_contact_final
+# write.csv(submitters_to_contact_final, "../results/summary/submitters_to_contact.csv", row.names = FALSE)
+
 ```
 
