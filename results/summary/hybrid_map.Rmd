@@ -238,8 +238,8 @@ p_global <- ggplot() +
 
 p_global
 
-# ggsave("/global/scratch/users/minoli/maps/results/summary/plots/hybrid_map.svg",
-#        p_global, width = 14, height = 7)
+ggsave("/global/scratch/users/minoli/maps/results/summary/plots/hybrid_map.svg",
+       p_global, width = 14, height = 7)
 
 ```
 
