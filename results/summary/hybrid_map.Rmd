@@ -27,17 +27,17 @@ df <- read_csv("results/summary/all_species_prioritized.csv", show_col_types = F
   ) %>%
   mutate(
     map_notes    = NA)
-
 ```
 
 ```{r}
+# helpers
+
 add_note <- function(tbl, species, note) {
   if (!"map_notes" %in% names(tbl)) tbl <- mutate(tbl, map_notes = NA_character_)
   tbl %>%
     mutate(
       map_notes = if_else(
         .data$scientific_name == species,
-        # append to the current row’s note only
         if_else(is.na(.data$map_notes) | .data$map_notes == "",
                 note,
                 paste(.data$map_notes, note, sep = "; ")),
@@ -73,6 +73,9 @@ set_sampling_coord <- function(df, species, coord_lon, coord_lat, note = NULL) {
       map_notes = ifelse(scientific_name == species, note, map_notes)
     )
 }
+```
+
+```{r}
 
 # species to remove 
 remove_species <- c(
@@ -82,10 +85,12 @@ remove_species <- c(
 )
 
 map_df <- df %>%
-  filter(!iucn_name %in% remove_species) %>%
+  filter(!scientific_name %in% remove_species) %>%
+  filter(!domesticated_flag) %>%
+  filter(!grepl("Homo sapiens", scientific_name)) %>%
   mutate(map_notes = case_when(
-    iucn_name == "Asterias rubens" ~ "Contact submitter: no range or sampling location",
-    iucn_name == "Gadus morhua"    ~ "Contact submitter: no range or sampling location",
+    scientific_name == "Asterias rubens" ~ "Contact submitter: no range or sampling location",
+    scientific_name == "Gadus morhua"    ~ "Contact submitter: no range or sampling location",
     TRUE ~ NA
   )) %>%
   

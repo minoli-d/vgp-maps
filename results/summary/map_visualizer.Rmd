@@ -233,8 +233,8 @@ for (i in seq_len(nrow(df))) {
 
 
 df_prioritized <- df %>%
-  filter(!domesticated_flag,
-         !grepl("Homo sapiens", scientific_name, ignore.case = TRUE)) %>%
+  # filter(!domesticated_flag,
+         # !grepl("Homo sapiens", scientific_name)) %>%
   mutate(
     priority = case_when(
       # 1. both sampling & range missing (no vague location)
@@ -276,8 +276,9 @@ df_prioritized <- df %>%
          domesticated_flag, priority) %>%
   arrange(priority, scientific_name) 
 
-write.csv(df_prioritized, "results/summary/all_species_prioritized.csv", row.names = FALSE)
-# table(df_prioritized$priority)
+# write.csv(df_prioritized, "results/summary/all_species_prioritized.csv", row.names = FALSE)
+nrow(df_prioritized)
+
 
 ```
 
