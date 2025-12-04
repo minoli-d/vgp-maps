@@ -135,6 +135,8 @@ map_df <- df %>%
       str_detect(map_notes, "Manual centroid") ~ "centroid",
       str_detect(map_notes, "Manual sampling") ~ "sampling",
       
+      zoo_flag ~ "centroid",
+      
       # priorities
       priority == 1 ~ NA,
       priority == 2 ~ "centroid",    # missing all sampling info
@@ -156,7 +158,7 @@ map_df <- df %>%
     )
   )
 
-# write.csv(map_df, "results/summary/all_species_map.csv")
+write.csv(map_df, "results/summary/all_species_map.csv")
 ```
 
 ```{r fig.width=14, fig.height=7}
@@ -374,8 +376,8 @@ final_map <- plot_grid(
 
 final_map
 
-ggsave("/global/scratch/users/minoli/maps/results/summary/plots/hybrid_map_insets.svg",
-       final_map, width = 14, height = 7)
+# ggsave("/global/scratch/users/minoli/maps/results/summary/plots/hybrid_map_insets.svg",
+#        final_map, width = 14, height = 7)
 
 ```
 
