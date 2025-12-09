@@ -224,7 +224,7 @@ p_global <- ggplot() +
   geom_sf(data = goode_outline, fill=NA, color="grey85", size=0.5) +
   geom_sf(data = plot_sf, aes(color = extended_lineage, shape = shape), size = 2, alpha = 0.75) +
   scale_color_manual(values = class_colors, name = "Extended Lineage") +
-  scale_shape_manual(values = c("sampling" = 16, "centroid" = 17),
+  scale_shape_manual(values = c("sampling" = 1, "centroid" = 2),
                      name = "Coord type",
                      labels = c("sampling" = "Sampling Location", 
                                 "centroid" = "Range Centroid"),
@@ -310,7 +310,7 @@ na_map <- ggplot() +
   geom_sf(data = location_na_j,
           aes(color = extended_lineage, shape = shape), size = 1.5) +
   scale_color_manual(values = class_colors, name = "Extended Lineage") +
-  scale_shape_manual(values = c("sampling" = 16, "centroid" = 17),
+  scale_shape_manual(values = c("sampling" = 1, "centroid" = 2),
                      name = "Coord type",
                      labels = c("sampling" = "Sampling Location", 
                                 "centroid" = "Range Centroid")) +
